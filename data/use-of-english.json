@@ -1,0 +1,391 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "use-of-english",
+  "subjectName": "Use of English",
+  "sourcePolicy": "All questions in this pilot pack are original Ready2Go questions, not official JAMB past questions.",
+  "packVersion": "0.1.0",
+  "status": "internal_pilot",
+  "questionCount": 20,
+  "questions": [
+    {
+      "id": "eng-001",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correct word: Neither of the boys ___ present.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "was",
+        "D": "have been"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Neither” is singular in this sentence, so the singular verb “was” is correct.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-002",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correct option: She has lived here ___ 2020.",
+      "options": {
+        "A": "for",
+        "B": "since",
+        "C": "from",
+        "D": "during"
+      },
+      "correctAnswer": "B",
+      "explanation": "Use “since” with a starting point in time.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-003",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correctly punctuated sentence.",
+      "options": {
+        "A": "Lets eat, children.",
+        "B": "Let’s eat children.",
+        "C": "Let’s eat, children.",
+        "D": "Lets eat children."
+      },
+      "correctAnswer": "C",
+      "explanation": "The apostrophe in “Let’s” represents “let us,” and the comma addresses the children.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-004",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct option: If I ___ you, I would apologise.",
+      "options": {
+        "A": "am",
+        "B": "was",
+        "C": "were",
+        "D": "be"
+      },
+      "correctAnswer": "C",
+      "explanation": "The subjunctive “were” is traditionally used in this hypothetical construction.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-005",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct option: The news ___ encouraging.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "have"
+      },
+      "correctAnswer": "C",
+      "explanation": "“News” takes a singular verb.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-006",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the word nearest in meaning to “brief”.",
+      "options": {
+        "A": "lengthy",
+        "B": "concise",
+        "C": "difficult",
+        "D": "unclear"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Concise” means brief while giving the necessary information.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-007",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the word opposite in meaning to “scarce”.",
+      "options": {
+        "A": "rare",
+        "B": "limited",
+        "C": "abundant",
+        "D": "small"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Abundant” means plentiful, the opposite of scarce.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-008",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word nearest in meaning to “reluctant”.",
+      "options": {
+        "A": "unwilling",
+        "B": "excited",
+        "C": "careless",
+        "D": "certain"
+      },
+      "correctAnswer": "A",
+      "explanation": "A reluctant person is unwilling or hesitant.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-009",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to “hostile”.",
+      "options": {
+        "A": "angry",
+        "B": "friendly",
+        "C": "violent",
+        "D": "distant"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Friendly” is the opposite of hostile.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-010",
+      "subjectId": "use-of-english",
+      "topic": "Sentence completion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "The driver reduced his speed ___ the road was slippery.",
+      "options": {
+        "A": "although",
+        "B": "because",
+        "C": "unless",
+        "D": "despite"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Because” correctly introduces the reason for reducing speed.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-011",
+      "subjectId": "use-of-english",
+      "topic": "Sentence completion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Hardly had the bell rung ___ the students rushed out.",
+      "options": {
+        "A": "than",
+        "B": "when",
+        "C": "then",
+        "D": "while"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard paired construction is “Hardly had … when …”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-012",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct option: Each of the players ___ a medal.",
+      "options": {
+        "A": "receive",
+        "B": "receives",
+        "C": "have received",
+        "D": "were receiving"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Each” is singular, so “receives” is correct.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-013",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct reported speech: Musa said, “I am tired.”",
+      "options": {
+        "A": "Musa said that I am tired.",
+        "B": "Musa said that he was tired.",
+        "C": "Musa says he was tired.",
+        "D": "Musa said he is tiring."
+      },
+      "correctAnswer": "B",
+      "explanation": "In standard backshifted reported speech, “I am” becomes “he was”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-014",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "What does “meticulous” mean?",
+      "options": {
+        "A": "careless",
+        "B": "very careful about details",
+        "C": "very fast",
+        "D": "easily confused"
+      },
+      "correctAnswer": "B",
+      "explanation": "Meticulous means extremely careful and attentive to details.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-015",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correct option: The committee ___ reached its decision.",
+      "options": {
+        "A": "have",
+        "B": "has",
+        "C": "are",
+        "D": "were"
+      },
+      "correctAnswer": "B",
+      "explanation": "When treated as one decision-making body, “committee” takes a singular verb here.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-016",
+      "subjectId": "use-of-english",
+      "topic": "Sentence completion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "No sooner had the match started ___ it began to rain.",
+      "options": {
+        "A": "when",
+        "B": "then",
+        "C": "than",
+        "D": "while"
+      },
+      "correctAnswer": "C",
+      "explanation": "The standard paired construction is “No sooner … than …”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-017",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct option: This is the student ___ won the prize.",
+      "options": {
+        "A": "which",
+        "B": "whose",
+        "C": "whom",
+        "D": "who"
+      },
+      "correctAnswer": "D",
+      "explanation": "“Who” is the subject relative pronoun referring to a person.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-018",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the word nearest in meaning to “diligent”.",
+      "options": {
+        "A": "lazy",
+        "B": "hard-working",
+        "C": "noisy",
+        "D": "impatient"
+      },
+      "correctAnswer": "B",
+      "explanation": "Diligent means careful and persistent in one’s work.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-019",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the correct option: By the time we arrived, the meeting ___.",
+      "options": {
+        "A": "starts",
+        "B": "has started",
+        "C": "had started",
+        "D": "will start"
+      },
+      "correctAnswer": "C",
+      "explanation": "The meeting began before another past event, so past perfect is appropriate.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-020",
+      "subjectId": "use-of-english",
+      "topic": "Sentence completion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Despite ___ late, she completed the assignment.",
+      "options": {
+        "A": "arrive",
+        "B": "arrived",
+        "C": "arriving",
+        "D": "to arrive"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Despite” is followed by a noun or gerund phrase; “arriving” is correct.",
+      "reviewStatus": "internal_pilot"
+    }
+  ]
+}

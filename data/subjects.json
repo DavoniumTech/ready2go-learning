@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "note": "Preliminary subject catalogue based on JAMB-published subject-list material; re-verify against the current official JAMB brochure/syllabus before public launch. This is not course-combination advice.",
+  "categories": [
+    {
+      "id": "science",
+      "name": "Science"
+    },
+    {
+      "id": "humanities-arts",
+      "name": "Humanities & Arts"
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "use-of-english",
+      "name": "Use of English",
+      "category": "compulsory",
+      "compulsory": true,
+      "available": false,
+      "note": "Question pack in preparation"
+    },
+    {
+      "id": "agricultural-science",
+      "name": "Agricultural Science",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "arabic",
+      "name": "Arabic",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "fine-art",
+      "name": "Art (Fine Art)",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "biology",
+      "name": "Biology",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "chemistry",
+      "name": "Chemistry",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "christian-religious-knowledge",
+      "name": "Christian Religious Knowledge",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "commerce",
+      "name": "Commerce",
+      "category": "commerce",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "computer-studies",
+      "name": "Computer Studies",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "category": "commerce",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "french",
+      "name": "French",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "geography",
+      "name": "Geography",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "government",
+      "name": "Government",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "hausa",
+      "name": "Hausa",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "home-economics",
+      "name": "Home Economics",
+      "category": "commerce",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "igbo",
+      "name": "Igbo",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "islamic-studies",
+      "name": "Islamic Studies",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "literature-in-english",
+      "name": "Literature in English",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "category": "science",
+      "compulsory": false,
+      "available": true
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "physical-health-education",
+      "name": "Physical and Health Education",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "physics",
+      "name": "Physics",
+      "category": "science",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "principles-of-accounts",
+      "name": "Principles of Accounts",
+      "category": "commerce",
+      "compulsory": false,
+      "available": false
+    },
+    {
+      "id": "yoruba",
+      "name": "Yoruba",
+      "category": "humanities-arts",
+      "compulsory": false,
+      "available": false
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "mathematics",
+  "subjectName": "Mathematics",
+  "sourcePolicy": "All questions in this pilot pack are original Ready2Go questions, not official JAMB past questions.",
+  "packVersion": "0.1.0",
+  "status": "internal_pilot",
+  "questionCount": 30,
+  "questions": [
+    {
+      "id": "math-001",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "What is 15% of 240?",
+      "options": {
+        "A": "24",
+        "B": "30",
+        "C": "36",
+        "D": "40"
+      },
+      "correctAnswer": "C",
+      "explanation": "15% = 0.15; 0.15 × 240 = 36.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-002",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Evaluate 3/4 + 1/8.",
+      "options": {
+        "A": "4/12",
+        "B": "7/8",
+        "C": "5/8",
+        "D": "1"
+      },
+      "correctAnswer": "B",
+      "explanation": "3/4 = 6/8, so 6/8 + 1/8 = 7/8.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-003",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Express 0.375 as a fraction in its lowest terms.",
+      "options": {
+        "A": "3/8",
+        "B": "3/5",
+        "C": "5/8",
+        "D": "375/100"
+      },
+      "correctAnswer": "A",
+      "explanation": "0.375 = 375/1000 = 3/8 after simplifying.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-004",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "A bag costs ₦8,000 after a 20% discount. What was its original price?",
+      "options": {
+        "A": "₦9,000",
+        "B": "₦9,600",
+        "C": "₦10,000",
+        "D": "₦12,000"
+      },
+      "correctAnswer": "C",
+      "explanation": "The sale price is 80% of the original. ₦8,000 ÷ 0.8 = ₦10,000.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-005",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Simplify the ratio 18:30.",
+      "options": {
+        "A": "3:5",
+        "B": "5:3",
+        "C": "6:10",
+        "D": "9:10"
+      },
+      "correctAnswer": "A",
+      "explanation": "Divide both terms by their greatest common divisor, 6.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-006",
+      "subjectId": "mathematics",
+      "topic": "Arithmetic",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "A trader buys an item for ₦4,500 and sells it for ₦5,400. What is the percentage profit?",
+      "options": {
+        "A": "15%",
+        "B": "18%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "correctAnswer": "C",
+      "explanation": "Profit = ₦900. Percentage profit = 900/4500 × 100 = 20%.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-007",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Solve 3x + 5 = 20.",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "8",
+        "D": "15"
+      },
+      "correctAnswer": "B",
+      "explanation": "Subtract 5: 3x = 15. Divide by 3: x = 5.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-008",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Simplify 4a + 3a − 2a.",
+      "options": {
+        "A": "5a",
+        "B": "9a",
+        "C": "a",
+        "D": "5a²"
+      },
+      "correctAnswer": "A",
+      "explanation": "Combine like terms: (4 + 3 − 2)a = 5a.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-009",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "If y = 2x − 1, find y when x = 4.",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "7",
+        "D": "9"
+      },
+      "correctAnswer": "C",
+      "explanation": "y = 2(4) − 1 = 7.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-010",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Factorise x² − 9.",
+      "options": {
+        "A": "(x − 9)(x + 1)",
+        "B": "(x − 3)(x + 3)",
+        "C": "(x − 3)²",
+        "D": "(x + 9)(x − 1)"
+      },
+      "correctAnswer": "B",
+      "explanation": "This is a difference of squares: x² − 3² = (x − 3)(x + 3).",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-011",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Solve 2(x − 3) = 14.",
+      "options": {
+        "A": "4",
+        "B": "7",
+        "C": "10",
+        "D": "11"
+      },
+      "correctAnswer": "C",
+      "explanation": "Divide by 2: x − 3 = 7, so x = 10.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-012",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "If 5x = 2x + 21, find x.",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correctAnswer": "C",
+      "explanation": "Subtract 2x: 3x = 21, so x = 7.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-013",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Simplify (x³)(x²).",
+      "options": {
+        "A": "x",
+        "B": "x⁵",
+        "C": "x⁶",
+        "D": "2x⁵"
+      },
+      "correctAnswer": "B",
+      "explanation": "When multiplying powers with the same base, add exponents: x³⁺² = x⁵.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-014",
+      "subjectId": "mathematics",
+      "topic": "Algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "challenging",
+      "question": "Solve x² − 5x + 6 = 0.",
+      "options": {
+        "A": "x = 1 or 6",
+        "B": "x = −2 or −3",
+        "C": "x = 2 or 3",
+        "D": "x = −1 or −6"
+      },
+      "correctAnswer": "C",
+      "explanation": "Factorise as (x − 2)(x − 3) = 0, giving x = 2 or x = 3.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-015",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Find the perimeter of a rectangle of length 9 cm and width 4 cm.",
+      "options": {
+        "A": "13 cm",
+        "B": "26 cm",
+        "C": "36 cm",
+        "D": "18 cm"
+      },
+      "correctAnswer": "B",
+      "explanation": "Perimeter = 2(l + w) = 2(9 + 4) = 26 cm.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-016",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Find the area of a triangle with base 10 cm and perpendicular height 6 cm.",
+      "options": {
+        "A": "16 cm²",
+        "B": "30 cm²",
+        "C": "60 cm²",
+        "D": "32 cm²"
+      },
+      "correctAnswer": "B",
+      "explanation": "Area = 1/2 × base × height = 1/2 × 10 × 6 = 30 cm².",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-017",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "The angles of a triangle are 2x, 3x and 4x. Find the largest angle.",
+      "options": {
+        "A": "20°",
+        "B": "40°",
+        "C": "60°",
+        "D": "80°"
+      },
+      "correctAnswer": "D",
+      "explanation": "2x + 3x + 4x = 180°, so x = 20° and the largest angle is 80°.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-018",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "A circle has radius 7 cm. Using π = 22/7, find its circumference.",
+      "options": {
+        "A": "22 cm",
+        "B": "44 cm",
+        "C": "49 cm",
+        "D": "154 cm"
+      },
+      "correctAnswer": "B",
+      "explanation": "Circumference = 2πr = 2 × 22/7 × 7 = 44 cm.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-019",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "A right-angled triangle has shorter sides 6 cm and 8 cm. Find its hypotenuse.",
+      "options": {
+        "A": "10 cm",
+        "B": "12 cm",
+        "C": "14 cm",
+        "D": "15 cm"
+      },
+      "correctAnswer": "A",
+      "explanation": "By Pythagoras, c² = 6² + 8² = 100, so c = 10 cm.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-020",
+      "subjectId": "mathematics",
+      "topic": "Geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Two angles on a straight line are (3x + 10)° and (2x + 20)°. Find x.",
+      "options": {
+        "A": "20",
+        "B": "25",
+        "C": "30",
+        "D": "35"
+      },
+      "correctAnswer": "C",
+      "explanation": "Their sum is 180°: 3x + 10 + 2x + 20 = 180, so 5x = 150 and x = 30.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-021",
+      "subjectId": "mathematics",
+      "topic": "Statistics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Find the mean of 4, 6, 8 and 10.",
+      "options": {
+        "A": "6",
+        "B": "7",
+        "C": "8",
+        "D": "9"
+      },
+      "correctAnswer": "B",
+      "explanation": "Mean = (4 + 6 + 8 + 10) ÷ 4 = 28 ÷ 4 = 7.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-022",
+      "subjectId": "mathematics",
+      "topic": "Statistics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Find the median of 3, 9, 5, 1, 7.",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "9"
+      },
+      "correctAnswer": "B",
+      "explanation": "Arrange the values as 1, 3, 5, 7, 9. The middle value is 5.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-023",
+      "subjectId": "mathematics",
+      "topic": "Statistics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "What is the mode of 2, 4, 4, 5, 6, 4, 7?",
+      "options": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "7"
+      },
+      "correctAnswer": "B",
+      "explanation": "The number 4 appears most frequently.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-024",
+      "subjectId": "mathematics",
+      "topic": "Probability",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "A fair six-sided die is rolled. What is the probability of getting an even number?",
+      "options": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "1/2",
+        "D": "2/3"
+      },
+      "correctAnswer": "C",
+      "explanation": "The even outcomes are 2, 4 and 6: 3 out of 6, or 1/2.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-025",
+      "subjectId": "mathematics",
+      "topic": "Probability",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "A bag contains 3 red and 5 blue balls. One ball is selected at random. What is the probability it is red?",
+      "options": {
+        "A": "3/5",
+        "B": "5/8",
+        "C": "3/8",
+        "D": "1/3"
+      },
+      "correctAnswer": "C",
+      "explanation": "There are 3 red balls out of 8 balls in total, so the probability is 3/8.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-026",
+      "subjectId": "mathematics",
+      "topic": "Indices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Evaluate 2³ × 2².",
+      "options": {
+        "A": "2⁵",
+        "B": "2⁶",
+        "C": "4⁵",
+        "D": "4⁶"
+      },
+      "correctAnswer": "A",
+      "explanation": "Add powers of the same base: 2³ × 2² = 2⁵.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-027",
+      "subjectId": "mathematics",
+      "topic": "Indices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Evaluate √144 + 2².",
+      "options": {
+        "A": "14",
+        "B": "16",
+        "C": "20",
+        "D": "24"
+      },
+      "correctAnswer": "B",
+      "explanation": "√144 = 12 and 2² = 4; total = 16.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-028",
+      "subjectId": "mathematics",
+      "topic": "Sets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "In a class, 18 students like tea, 12 like coffee, and 5 like both. How many like tea or coffee?",
+      "options": {
+        "A": "25",
+        "B": "30",
+        "C": "35",
+        "D": "13"
+      },
+      "correctAnswer": "A",
+      "explanation": "n(T ∪ C) = n(T) + n(C) − n(T ∩ C) = 18 + 12 − 5 = 25.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-029",
+      "subjectId": "mathematics",
+      "topic": "Trigonometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "In a right-angled triangle, the opposite side is 3 and the hypotenuse is 5. What is sin θ?",
+      "options": {
+        "A": "3/5",
+        "B": "4/5",
+        "C": "3/4",
+        "D": "5/3"
+      },
+      "correctAnswer": "A",
+      "explanation": "sin θ = opposite/hypotenuse = 3/5.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "math-030",
+      "subjectId": "mathematics",
+      "topic": "Coordinate geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Find the gradient of the line through (1, 2) and (5, 10).",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gradient = (10 − 2)/(5 − 1) = 8/4 = 2.",
+      "reviewStatus": "internal_pilot"
+    }
+  ]
+}

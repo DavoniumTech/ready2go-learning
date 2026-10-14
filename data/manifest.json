@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.0",
+  "generatedFor": "Ready2Go Learning",
+  "packs": [
+    {
+      "subjectId": "mathematics",
+      "file": "mathematics.json",
+      "version": "0.1.0",
+      "questionCount": 30,
+      "status": "internal_pilot"
+    },
+    {
+      "subjectId": "use-of-english",
+      "file": "use-of-english.json",
+      "version": "0.1.0",
+      "questionCount": 20,
+      "status": "internal_pilot"
+    }
+  ]
+}
