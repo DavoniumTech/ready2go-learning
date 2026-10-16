@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "biology",
   "subjectName": "Biology",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "biol-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "D",
       "explanation": "Producers, such as green plants, form the base of many food chains.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "biology-r2g-001",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which cell structure contains most of the genetic material in a typical plant cell?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Vacuole sap only",
+        "C": "Golgi vesicle only",
+        "D": "Nucleus"
+      },
+      "correctAnswer": "D",
+      "explanation": "The nucleus contains chromosomes carrying DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-002",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which organelle releases much of the usable energy during aerobic respiration?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Chloroplast only",
+        "C": "Mitochondrion",
+        "D": "Ribosome"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mitochondria are a major site of aerobic respiration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-003",
+      "subjectId": "biology",
+      "topic": "Plant physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which pigment absorbs light for photosynthesis?",
+      "options": {
+        "A": "Keratin",
+        "B": "Chlorophyll",
+        "C": "Haemoglobin",
+        "D": "Melanin"
+      },
+      "correctAnswer": "B",
+      "explanation": "Chlorophyll captures light energy in chloroplasts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-004",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A gene is best described as what?",
+      "options": {
+        "A": "A DNA sequence associated with a functional product or inherited characteristic",
+        "B": "A whole organ",
+        "C": "A type of blood vessel",
+        "D": "A food molecule only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Genes are units of heredity encoded in DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-005",
+      "subjectId": "biology",
+      "topic": "Cell division",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which process normally produces two genetically similar daughter cells for growth?",
+      "options": {
+        "A": "Meiosis only",
+        "B": "Fertilisation",
+        "C": "Transpiration",
+        "D": "Mitosis"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mitosis supports growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-006",
+      "subjectId": "biology",
+      "topic": "Transport",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Osmosis is the movement of water across a selectively permeable membrane from what?",
+      "options": {
+        "A": "High pressure to vacuum in every case",
+        "B": "One nucleus to another",
+        "C": "Higher water potential to lower water potential",
+        "D": "Low temperature to high temperature only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Osmosis is water movement down a water-potential gradient.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-007",
+      "subjectId": "biology",
+      "topic": "Human physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which blood component primarily transports oxygen?",
+      "options": {
+        "A": "Neurons",
+        "B": "Red blood cells",
+        "C": "Platelets",
+        "D": "Bile salts"
+      },
+      "correctAnswer": "B",
+      "explanation": "Haemoglobin in red blood cells binds oxygen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-008",
+      "subjectId": "biology",
+      "topic": "Ecology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "An ecosystem includes which components?",
+      "options": {
+        "A": "Living organisms and their physical environment",
+        "B": "Only predators",
+        "C": "Only rocks",
+        "D": "Only one population"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ecosystems include biotic and abiotic components.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-009",
+      "subjectId": "biology",
+      "topic": "Enzymes",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "What is the main role of an enzyme in a biochemical reaction?",
+      "options": {
+        "A": "To become the final product",
+        "B": "To stop all molecular movement",
+        "C": "To change every substrate into water",
+        "D": "To increase the reaction rate without being used up overall"
+      },
+      "correctAnswer": "D",
+      "explanation": "Enzymes act as biological catalysts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-010",
+      "subjectId": "biology",
+      "topic": "Reproduction",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Pollination in flowering plants is the transfer of pollen from what?",
+      "options": {
+        "A": "Ovule to root hair",
+        "B": "Fruit to seed coat",
+        "C": "Anther to stigma",
+        "D": "Root to leaf"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pollination places pollen on a receptive stigma.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-011",
+      "subjectId": "biology",
+      "topic": "Evolution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Natural selection tends to favour inherited traits that do what?",
+      "options": {
+        "A": "Appear only after an organism dies",
+        "B": "Improve reproductive success in a particular environment",
+        "C": "Are always largest",
+        "D": "Never vary"
+      },
+      "correctAnswer": "B",
+      "explanation": "Traits that improve success can become more common over generations.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-012",
+      "subjectId": "biology",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which nutrient is the main readily available energy source in human nutrition?",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Vitamin C",
+        "C": "Water",
+        "D": "Mineral salts only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Carbohydrates are commonly metabolised for energy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-013",
+      "subjectId": "biology",
+      "topic": "Excretion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which organ removes urea from blood to form urine?",
+      "options": {
+        "A": "Lung only",
+        "B": "Stomach",
+        "C": "Pancreas only",
+        "D": "Kidney"
+      },
+      "correctAnswer": "D",
+      "explanation": "Kidneys filter blood and excrete urea in urine.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-014",
+      "subjectId": "biology",
+      "topic": "Microbiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which organism is commonly used to make yoghurt by fermentation?",
+      "options": {
+        "A": "Tapeworm",
+        "B": "Moss",
+        "C": "Lactic acid bacteria",
+        "D": "Malaria parasite"
+      },
+      "correctAnswer": "C",
+      "explanation": "Lactic acid bacteria ferment lactose to lactic acid.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-015",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "An allele is what?",
+      "options": {
+        "A": "A digestive enzyme",
+        "B": "An alternative form of a gene",
+        "C": "A type of organ",
+        "D": "A complete ecosystem"
+      },
+      "correctAnswer": "B",
+      "explanation": "Alleles are different versions of the same gene.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-016",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of cell biology, a candidate is asked: Which cell structure contains most of the genetic material in a typical plant cell?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Vacuole sap only",
+        "C": "Golgi vesicle only",
+        "D": "Nucleus"
+      },
+      "correctAnswer": "D",
+      "explanation": "The nucleus contains chromosomes carrying DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-017",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of cell biology, a candidate is asked: Which organelle releases much of the usable energy during aerobic respiration?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Chloroplast only",
+        "C": "Mitochondrion",
+        "D": "Ribosome"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mitochondria are a major site of aerobic respiration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-018",
+      "subjectId": "biology",
+      "topic": "Plant physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of plant physiology, a candidate is asked: Which pigment absorbs light for photosynthesis?",
+      "options": {
+        "A": "Keratin",
+        "B": "Chlorophyll",
+        "C": "Haemoglobin",
+        "D": "Melanin"
+      },
+      "correctAnswer": "B",
+      "explanation": "Chlorophyll captures light energy in chloroplasts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-019",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of genetics, a candidate is asked: A gene is best described as what?",
+      "options": {
+        "A": "A DNA sequence associated with a functional product or inherited characteristic",
+        "B": "A whole organ",
+        "C": "A type of blood vessel",
+        "D": "A food molecule only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Genes are units of heredity encoded in DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-020",
+      "subjectId": "biology",
+      "topic": "Cell division",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of cell division, a candidate is asked: Which process normally produces two genetically similar daughter cells for growth?",
+      "options": {
+        "A": "Meiosis only",
+        "B": "Fertilisation",
+        "C": "Transpiration",
+        "D": "Mitosis"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mitosis supports growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-021",
+      "subjectId": "biology",
+      "topic": "Transport",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of transport, a candidate is asked: Osmosis is the movement of water across a selectively permeable membrane from what?",
+      "options": {
+        "A": "High pressure to vacuum in every case",
+        "B": "One nucleus to another",
+        "C": "Higher water potential to lower water potential",
+        "D": "Low temperature to high temperature only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Osmosis is water movement down a water-potential gradient.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-022",
+      "subjectId": "biology",
+      "topic": "Human physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of human physiology, a candidate is asked: Which blood component primarily transports oxygen?",
+      "options": {
+        "A": "Neurons",
+        "B": "Red blood cells",
+        "C": "Platelets",
+        "D": "Bile salts"
+      },
+      "correctAnswer": "B",
+      "explanation": "Haemoglobin in red blood cells binds oxygen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-023",
+      "subjectId": "biology",
+      "topic": "Ecology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of ecology, a candidate is asked: An ecosystem includes which components?",
+      "options": {
+        "A": "Living organisms and their physical environment",
+        "B": "Only predators",
+        "C": "Only rocks",
+        "D": "Only one population"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ecosystems include biotic and abiotic components.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-024",
+      "subjectId": "biology",
+      "topic": "Enzymes",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of enzymes, a candidate is asked: What is the main role of an enzyme in a biochemical reaction?",
+      "options": {
+        "A": "To become the final product",
+        "B": "To stop all molecular movement",
+        "C": "To change every substrate into water",
+        "D": "To increase the reaction rate without being used up overall"
+      },
+      "correctAnswer": "D",
+      "explanation": "Enzymes act as biological catalysts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-025",
+      "subjectId": "biology",
+      "topic": "Reproduction",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of reproduction, a candidate is asked: Pollination in flowering plants is the transfer of pollen from what?",
+      "options": {
+        "A": "Ovule to root hair",
+        "B": "Fruit to seed coat",
+        "C": "Anther to stigma",
+        "D": "Root to leaf"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pollination places pollen on a receptive stigma.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-026",
+      "subjectId": "biology",
+      "topic": "Evolution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of evolution, a candidate is asked: Natural selection tends to favour inherited traits that do what?",
+      "options": {
+        "A": "Appear only after an organism dies",
+        "B": "Improve reproductive success in a particular environment",
+        "C": "Are always largest",
+        "D": "Never vary"
+      },
+      "correctAnswer": "B",
+      "explanation": "Traits that improve success can become more common over generations.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-027",
+      "subjectId": "biology",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of nutrition, a candidate is asked: Which nutrient is the main readily available energy source in human nutrition?",
+      "options": {
+        "A": "Carbohydrate",
+        "B": "Vitamin C",
+        "C": "Water",
+        "D": "Mineral salts only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Carbohydrates are commonly metabolised for energy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-028",
+      "subjectId": "biology",
+      "topic": "Excretion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of excretion, a candidate is asked: Which organ removes urea from blood to form urine?",
+      "options": {
+        "A": "Lung only",
+        "B": "Stomach",
+        "C": "Pancreas only",
+        "D": "Kidney"
+      },
+      "correctAnswer": "D",
+      "explanation": "Kidneys filter blood and excrete urea in urine.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-029",
+      "subjectId": "biology",
+      "topic": "Microbiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of microbiology, a candidate is asked: Which organism is commonly used to make yoghurt by fermentation?",
+      "options": {
+        "A": "Tapeworm",
+        "B": "Moss",
+        "C": "Lactic acid bacteria",
+        "D": "Malaria parasite"
+      },
+      "correctAnswer": "C",
+      "explanation": "Lactic acid bacteria ferment lactose to lactic acid.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-030",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of genetics, a candidate is asked: An allele is what?",
+      "options": {
+        "A": "A digestive enzyme",
+        "B": "An alternative form of a gene",
+        "C": "A type of organ",
+        "D": "A complete ecosystem"
+      },
+      "correctAnswer": "B",
+      "explanation": "Alleles are different versions of the same gene.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-031",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about cell biology: Which cell structure contains most of the genetic material in a typical plant cell?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Vacuole sap only",
+        "C": "Golgi vesicle only",
+        "D": "Nucleus"
+      },
+      "correctAnswer": "D",
+      "explanation": "The nucleus contains chromosomes carrying DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-032",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about cell biology: Which organelle releases much of the usable energy during aerobic respiration?",
+      "options": {
+        "A": "Cell wall",
+        "B": "Chloroplast only",
+        "C": "Mitochondrion",
+        "D": "Ribosome"
+      },
+      "correctAnswer": "C",
+      "explanation": "Mitochondria are a major site of aerobic respiration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-033",
+      "subjectId": "biology",
+      "topic": "Plant physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about plant physiology: Which pigment absorbs light for photosynthesis?",
+      "options": {
+        "A": "Keratin",
+        "B": "Chlorophyll",
+        "C": "Haemoglobin",
+        "D": "Melanin"
+      },
+      "correctAnswer": "B",
+      "explanation": "Chlorophyll captures light energy in chloroplasts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-034",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about genetics: A gene is best described as what?",
+      "options": {
+        "A": "A DNA sequence associated with a functional product or inherited characteristic",
+        "B": "A whole organ",
+        "C": "A type of blood vessel",
+        "D": "A food molecule only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Genes are units of heredity encoded in DNA.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "biology-r2g-035",
+      "subjectId": "biology",
+      "topic": "Cell division",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about cell division: Which process normally produces two genetically similar daughter cells for growth?",
+      "options": {
+        "A": "Meiosis only",
+        "B": "Fertilisation",
+        "C": "Transpiration",
+        "D": "Mitosis"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mitosis supports growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

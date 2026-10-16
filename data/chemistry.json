@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "chemistry",
   "subjectName": "Chemistry",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "chem-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "B",
       "explanation": "Moles = mass ÷ molar mass = 18 ÷ 18 = 1 mol.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chemistry-r2g-001",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The atomic number of an element equals the number of what in its nucleus?",
+      "options": {
+        "A": "Neutrons plus electrons",
+        "B": "Shells",
+        "C": "Chemical bonds",
+        "D": "Protons"
+      },
+      "correctAnswer": "D",
+      "explanation": "Atomic number is defined by proton number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-002",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Isotopes of an element have the same number of protons but different numbers of what?",
+      "options": {
+        "A": "Atomic numbers",
+        "B": "Element symbols",
+        "C": "Neutrons",
+        "D": "Protons"
+      },
+      "correctAnswer": "C",
+      "explanation": "Isotopes differ in neutron number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-003",
+      "subjectId": "chemistry",
+      "topic": "Chemical bonding",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A covalent bond forms when atoms do what?",
+      "options": {
+        "A": "Lose all protons",
+        "B": "Share electron pairs",
+        "C": "Share neutrons",
+        "D": "Exchange nuclei"
+      },
+      "correctAnswer": "B",
+      "explanation": "Covalent bonding involves shared electron pairs.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-004",
+      "subjectId": "chemistry",
+      "topic": "Acids and bases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A solution with pH 2 is best classified as what at room temperature?",
+      "options": {
+        "A": "Acidic",
+        "B": "Neutral",
+        "C": "Alkaline",
+        "D": "A pure metal"
+      },
+      "correctAnswer": "A",
+      "explanation": "A pH below 7 is acidic.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-005",
+      "subjectId": "chemistry",
+      "topic": "Rates of reaction",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A catalyst increases reaction rate mainly by doing what?",
+      "options": {
+        "A": "Increasing the mass of products",
+        "B": "Being permanently consumed",
+        "C": "Changing the identity of all atoms",
+        "D": "Providing an alternative pathway with lower activation energy"
+      },
+      "correctAnswer": "D",
+      "explanation": "Catalysts lower the activation-energy barrier.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-006",
+      "subjectId": "chemistry",
+      "topic": "Redox",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Oxidation is commonly defined in electron terms as what?",
+      "options": {
+        "A": "Gain of neutrons",
+        "B": "Loss of protons from every nucleus",
+        "C": "Loss of electrons",
+        "D": "Gain of electrons"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oxidation involves electron loss.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-007",
+      "subjectId": "chemistry",
+      "topic": "Periodic table",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Elements in the same main-group column often have similar chemical properties because they have similar what?",
+      "options": {
+        "A": "Nuclear sizes only",
+        "B": "Outer-shell electron arrangements",
+        "C": "Atomic masses in every case",
+        "D": "Numbers of isotopes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Valence electron patterns strongly influence chemical behaviour.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-008",
+      "subjectId": "chemistry",
+      "topic": "Mole concept",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "One mole contains approximately how many specified entities?",
+      "options": {
+        "A": "6.02 × 10²³",
+        "B": "3.00 × 10⁸",
+        "C": "9.81",
+        "D": "100"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Avogadro constant is approximately 6.02 × 10²³ mol⁻¹.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-009",
+      "subjectId": "chemistry",
+      "topic": "Chemical reactions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Neutralisation between an acid and a base commonly produces what?",
+      "options": {
+        "A": "Only oxygen",
+        "B": "Only a metal",
+        "C": "Only carbon",
+        "D": "Salt and water"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acid-base neutralisation generally forms salt and water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-010",
+      "subjectId": "chemistry",
+      "topic": "States of matter",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which change of state converts a liquid to a gas throughout the liquid at its boiling point?",
+      "options": {
+        "A": "Deposition",
+        "B": "Condensation",
+        "C": "Boiling",
+        "D": "Freezing"
+      },
+      "correctAnswer": "C",
+      "explanation": "Boiling occurs when vapour pressure equals external pressure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-011",
+      "subjectId": "chemistry",
+      "topic": "Mixtures",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which method is best for separating an insoluble solid from a liquid?",
+      "options": {
+        "A": "Sublimation of the liquid",
+        "B": "Filtration",
+        "C": "Fractional distillation",
+        "D": "Chromatography only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Filtration retains insoluble solid in a filter.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-012",
+      "subjectId": "chemistry",
+      "topic": "Gas laws",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "At constant temperature, pressure of a fixed amount of gas is inversely proportional to volume under which idealised law?",
+      "options": {
+        "A": "Boyle’s law",
+        "B": "Charles’s law",
+        "C": "Faraday’s law",
+        "D": "Hess’s law"
+      },
+      "correctAnswer": "A",
+      "explanation": "Boyle’s law relates pressure and volume inversely at constant temperature.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-013",
+      "subjectId": "chemistry",
+      "topic": "Electrochemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Oxidation occurs at which electrode in an electrochemical cell?",
+      "options": {
+        "A": "Cathode",
+        "B": "Salt bridge only",
+        "C": "Voltmeter",
+        "D": "Anode"
+      },
+      "correctAnswer": "D",
+      "explanation": "Oxidation is defined at the anode.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-014",
+      "subjectId": "chemistry",
+      "topic": "Organic chemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The functional group of alcohols is which?",
+      "options": {
+        "A": "Carbonyl oxygen only",
+        "B": "Nitrate ion",
+        "C": "Hydroxyl group (–OH)",
+        "D": "Amino group only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Alcohols contain a hydroxyl group attached to carbon.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-015",
+      "subjectId": "chemistry",
+      "topic": "Chemical calculations",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Molar concentration is typically expressed as what?",
+      "options": {
+        "A": "Atoms per kilogram of solvent only",
+        "B": "Moles of solute per cubic decimetre of solution",
+        "C": "Grams per second",
+        "D": "Litres per mole of gas only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Molar concentration is amount of substance divided by solution volume.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-016",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of atomic structure, a candidate is asked: The atomic number of an element equals the number of what in its nucleus?",
+      "options": {
+        "A": "Neutrons plus electrons",
+        "B": "Shells",
+        "C": "Chemical bonds",
+        "D": "Protons"
+      },
+      "correctAnswer": "D",
+      "explanation": "Atomic number is defined by proton number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-017",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of atomic structure, a candidate is asked: Isotopes of an element have the same number of protons but different numbers of what?",
+      "options": {
+        "A": "Atomic numbers",
+        "B": "Element symbols",
+        "C": "Neutrons",
+        "D": "Protons"
+      },
+      "correctAnswer": "C",
+      "explanation": "Isotopes differ in neutron number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-018",
+      "subjectId": "chemistry",
+      "topic": "Chemical bonding",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of chemical bonding, a candidate is asked: A covalent bond forms when atoms do what?",
+      "options": {
+        "A": "Lose all protons",
+        "B": "Share electron pairs",
+        "C": "Share neutrons",
+        "D": "Exchange nuclei"
+      },
+      "correctAnswer": "B",
+      "explanation": "Covalent bonding involves shared electron pairs.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-019",
+      "subjectId": "chemistry",
+      "topic": "Acids and bases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of acids and bases, a candidate is asked: A solution with pH 2 is best classified as what at room temperature?",
+      "options": {
+        "A": "Acidic",
+        "B": "Neutral",
+        "C": "Alkaline",
+        "D": "A pure metal"
+      },
+      "correctAnswer": "A",
+      "explanation": "A pH below 7 is acidic.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-020",
+      "subjectId": "chemistry",
+      "topic": "Rates of reaction",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of rates of reaction, a candidate is asked: A catalyst increases reaction rate mainly by doing what?",
+      "options": {
+        "A": "Increasing the mass of products",
+        "B": "Being permanently consumed",
+        "C": "Changing the identity of all atoms",
+        "D": "Providing an alternative pathway with lower activation energy"
+      },
+      "correctAnswer": "D",
+      "explanation": "Catalysts lower the activation-energy barrier.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-021",
+      "subjectId": "chemistry",
+      "topic": "Redox",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of redox, a candidate is asked: Oxidation is commonly defined in electron terms as what?",
+      "options": {
+        "A": "Gain of neutrons",
+        "B": "Loss of protons from every nucleus",
+        "C": "Loss of electrons",
+        "D": "Gain of electrons"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oxidation involves electron loss.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-022",
+      "subjectId": "chemistry",
+      "topic": "Periodic table",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of periodic table, a candidate is asked: Elements in the same main-group column often have similar chemical properties because they have similar what?",
+      "options": {
+        "A": "Nuclear sizes only",
+        "B": "Outer-shell electron arrangements",
+        "C": "Atomic masses in every case",
+        "D": "Numbers of isotopes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Valence electron patterns strongly influence chemical behaviour.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-023",
+      "subjectId": "chemistry",
+      "topic": "Mole concept",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of mole concept, a candidate is asked: One mole contains approximately how many specified entities?",
+      "options": {
+        "A": "6.02 × 10²³",
+        "B": "3.00 × 10⁸",
+        "C": "9.81",
+        "D": "100"
+      },
+      "correctAnswer": "A",
+      "explanation": "The Avogadro constant is approximately 6.02 × 10²³ mol⁻¹.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-024",
+      "subjectId": "chemistry",
+      "topic": "Chemical reactions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of chemical reactions, a candidate is asked: Neutralisation between an acid and a base commonly produces what?",
+      "options": {
+        "A": "Only oxygen",
+        "B": "Only a metal",
+        "C": "Only carbon",
+        "D": "Salt and water"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acid-base neutralisation generally forms salt and water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-025",
+      "subjectId": "chemistry",
+      "topic": "States of matter",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of states of matter, a candidate is asked: Which change of state converts a liquid to a gas throughout the liquid at its boiling point?",
+      "options": {
+        "A": "Deposition",
+        "B": "Condensation",
+        "C": "Boiling",
+        "D": "Freezing"
+      },
+      "correctAnswer": "C",
+      "explanation": "Boiling occurs when vapour pressure equals external pressure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-026",
+      "subjectId": "chemistry",
+      "topic": "Mixtures",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of mixtures, a candidate is asked: Which method is best for separating an insoluble solid from a liquid?",
+      "options": {
+        "A": "Sublimation of the liquid",
+        "B": "Filtration",
+        "C": "Fractional distillation",
+        "D": "Chromatography only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Filtration retains insoluble solid in a filter.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-027",
+      "subjectId": "chemistry",
+      "topic": "Gas laws",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of gas laws, a candidate is asked: At constant temperature, pressure of a fixed amount of gas is inversely proportional to volume under which idealised law?",
+      "options": {
+        "A": "Boyle’s law",
+        "B": "Charles’s law",
+        "C": "Faraday’s law",
+        "D": "Hess’s law"
+      },
+      "correctAnswer": "A",
+      "explanation": "Boyle’s law relates pressure and volume inversely at constant temperature.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-028",
+      "subjectId": "chemistry",
+      "topic": "Electrochemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of electrochemistry, a candidate is asked: Oxidation occurs at which electrode in an electrochemical cell?",
+      "options": {
+        "A": "Cathode",
+        "B": "Salt bridge only",
+        "C": "Voltmeter",
+        "D": "Anode"
+      },
+      "correctAnswer": "D",
+      "explanation": "Oxidation is defined at the anode.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-029",
+      "subjectId": "chemistry",
+      "topic": "Organic chemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of organic chemistry, a candidate is asked: The functional group of alcohols is which?",
+      "options": {
+        "A": "Carbonyl oxygen only",
+        "B": "Nitrate ion",
+        "C": "Hydroxyl group (–OH)",
+        "D": "Amino group only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Alcohols contain a hydroxyl group attached to carbon.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-030",
+      "subjectId": "chemistry",
+      "topic": "Chemical calculations",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of chemical calculations, a candidate is asked: Molar concentration is typically expressed as what?",
+      "options": {
+        "A": "Atoms per kilogram of solvent only",
+        "B": "Moles of solute per cubic decimetre of solution",
+        "C": "Grams per second",
+        "D": "Litres per mole of gas only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Molar concentration is amount of substance divided by solution volume.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-031",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about atomic structure: The atomic number of an element equals the number of what in its nucleus?",
+      "options": {
+        "A": "Neutrons plus electrons",
+        "B": "Shells",
+        "C": "Chemical bonds",
+        "D": "Protons"
+      },
+      "correctAnswer": "D",
+      "explanation": "Atomic number is defined by proton number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-032",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about atomic structure: Isotopes of an element have the same number of protons but different numbers of what?",
+      "options": {
+        "A": "Atomic numbers",
+        "B": "Element symbols",
+        "C": "Neutrons",
+        "D": "Protons"
+      },
+      "correctAnswer": "C",
+      "explanation": "Isotopes differ in neutron number.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-033",
+      "subjectId": "chemistry",
+      "topic": "Chemical bonding",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about chemical bonding: A covalent bond forms when atoms do what?",
+      "options": {
+        "A": "Lose all protons",
+        "B": "Share electron pairs",
+        "C": "Share neutrons",
+        "D": "Exchange nuclei"
+      },
+      "correctAnswer": "B",
+      "explanation": "Covalent bonding involves shared electron pairs.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-034",
+      "subjectId": "chemistry",
+      "topic": "Acids and bases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about acids and bases: A solution with pH 2 is best classified as what at room temperature?",
+      "options": {
+        "A": "Acidic",
+        "B": "Neutral",
+        "C": "Alkaline",
+        "D": "A pure metal"
+      },
+      "correctAnswer": "A",
+      "explanation": "A pH below 7 is acidic.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chemistry-r2g-035",
+      "subjectId": "chemistry",
+      "topic": "Rates of reaction",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about rates of reaction: A catalyst increases reaction rate mainly by doing what?",
+      "options": {
+        "A": "Increasing the mass of products",
+        "B": "Being permanently consumed",
+        "C": "Changing the identity of all atoms",
+        "D": "Providing an alternative pathway with lower activation energy"
+      },
+      "correctAnswer": "D",
+      "explanation": "Catalysts lower the activation-energy barrier.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

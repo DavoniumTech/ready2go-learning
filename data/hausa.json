@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "hausa",
+  "subjectName": "Hausa",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "hausa-r2g-001",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does “Na gode” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "I am lost",
+        "C": "Welcome home only",
+        "D": "Thank you"
+      },
+      "correctAnswer": "D",
+      "explanation": "Na gode is a common Hausa expression for thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-002",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Ina kwana?” is commonly used to ask what?",
+      "options": {
+        "A": "Where is the river?",
+        "B": "Who owns this book?",
+        "C": "How was the night / good morning?",
+        "D": "What is your price?"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-003",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Sannu” is often used as what?",
+      "options": {
+        "A": "A court order",
+        "B": "A greeting or expression of goodwill",
+        "C": "A tax receipt",
+        "D": "A type of crop"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sannu is a common greeting or polite expression.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-004",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which Hausa word means “water”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Gida",
+        "C": "Littafi",
+        "D": "Rana"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ruwa means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-005",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “house”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Abinci",
+        "C": "Makaranta",
+        "D": "Gida"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gida means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-006",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “book”?",
+      "options": {
+        "A": "Rana",
+        "B": "Mota",
+        "C": "Littafi",
+        "D": "Kofa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Littafi means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-007",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “school”?",
+      "options": {
+        "A": "Takalmi",
+        "B": "Makaranta",
+        "C": "Gida",
+        "D": "Ruwa"
+      },
+      "correctAnswer": "B",
+      "explanation": "Makaranta means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-008",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Rana” commonly means what?",
+      "options": {
+        "A": "Sun / day",
+        "B": "Book",
+        "C": "Water",
+        "D": "Chair"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rana can mean sun or day depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-009",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Abinci” means what?",
+      "options": {
+        "A": "Door",
+        "B": "Student",
+        "C": "River",
+        "D": "Food"
+      },
+      "correctAnswer": "D",
+      "explanation": "Abinci means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-010",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which phrase means “good morning” in common Hausa usage?",
+      "options": {
+        "A": "Na gode",
+        "B": "Babu komai",
+        "C": "Ina kwana",
+        "D": "Sai anjima"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a common morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-011",
+      "subjectId": "hausa",
+      "topic": "Hausa courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Babu komai” is commonly used to mean what in response to thanks?",
+      "options": {
+        "A": "The weather is hot",
+        "B": "You are welcome / it is nothing",
+        "C": "Good night",
+        "D": "Where are you going?"
+      },
+      "correctAnswer": "B",
+      "explanation": "Babu komai can mean you are welcome or it is nothing.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-012",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “person”?",
+      "options": {
+        "A": "Mutum",
+        "B": "Ruwa",
+        "C": "Kofa",
+        "D": "Takalmi"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mutum means person.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-013",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Yaro” generally means what?",
+      "options": {
+        "A": "Market",
+        "B": "Water",
+        "C": "Book",
+        "D": "Boy / child"
+      },
+      "correctAnswer": "D",
+      "explanation": "Yaro commonly refers to a boy or child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-014",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Kofa” means what?",
+      "options": {
+        "A": "Food",
+        "B": "School",
+        "C": "Door",
+        "D": "Sun"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kofa means door.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-015",
+      "subjectId": "hausa",
+      "topic": "Hausa courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Sai anjima” is generally used to mean what?",
+      "options": {
+        "A": "I do not know",
+        "B": "See you later",
+        "C": "Thank you very much",
+        "D": "Good morning"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sai anjima is a farewell meaning see you later.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-016",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of hausa vocabulary, a candidate is asked: What does “Na gode” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "I am lost",
+        "C": "Welcome home only",
+        "D": "Thank you"
+      },
+      "correctAnswer": "D",
+      "explanation": "Na gode is a common Hausa expression for thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-017",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of hausa greetings, a candidate is asked: “Ina kwana?” is commonly used to ask what?",
+      "options": {
+        "A": "Where is the river?",
+        "B": "Who owns this book?",
+        "C": "How was the night / good morning?",
+        "D": "What is your price?"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-018",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hausa greetings, a candidate is asked: “Sannu” is often used as what?",
+      "options": {
+        "A": "A court order",
+        "B": "A greeting or expression of goodwill",
+        "C": "A tax receipt",
+        "D": "A type of crop"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sannu is a common greeting or polite expression.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-019",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which Hausa word means “water”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Gida",
+        "C": "Littafi",
+        "D": "Rana"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ruwa means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-020",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which word means “house”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Abinci",
+        "C": "Makaranta",
+        "D": "Gida"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gida means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-021",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which word means “book”?",
+      "options": {
+        "A": "Rana",
+        "B": "Mota",
+        "C": "Littafi",
+        "D": "Kofa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Littafi means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-022",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which word means “school”?",
+      "options": {
+        "A": "Takalmi",
+        "B": "Makaranta",
+        "C": "Gida",
+        "D": "Ruwa"
+      },
+      "correctAnswer": "B",
+      "explanation": "Makaranta means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-023",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of hausa vocabulary, a candidate is asked: “Rana” commonly means what?",
+      "options": {
+        "A": "Sun / day",
+        "B": "Book",
+        "C": "Water",
+        "D": "Chair"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rana can mean sun or day depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-024",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hausa vocabulary, a candidate is asked: “Abinci” means what?",
+      "options": {
+        "A": "Door",
+        "B": "Student",
+        "C": "River",
+        "D": "Food"
+      },
+      "correctAnswer": "D",
+      "explanation": "Abinci means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-025",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which phrase means “good morning” in common Hausa usage?",
+      "options": {
+        "A": "Na gode",
+        "B": "Babu komai",
+        "C": "Ina kwana",
+        "D": "Sai anjima"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a common morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-026",
+      "subjectId": "hausa",
+      "topic": "Hausa courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of hausa courtesy, a candidate is asked: “Babu komai” is commonly used to mean what in response to thanks?",
+      "options": {
+        "A": "The weather is hot",
+        "B": "You are welcome / it is nothing",
+        "C": "Good night",
+        "D": "Where are you going?"
+      },
+      "correctAnswer": "B",
+      "explanation": "Babu komai can mean you are welcome or it is nothing.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-027",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hausa vocabulary, a candidate is asked: Which word means “person”?",
+      "options": {
+        "A": "Mutum",
+        "B": "Ruwa",
+        "C": "Kofa",
+        "D": "Takalmi"
+      },
+      "correctAnswer": "A",
+      "explanation": "Mutum means person.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-028",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of hausa vocabulary, a candidate is asked: “Yaro” generally means what?",
+      "options": {
+        "A": "Market",
+        "B": "Water",
+        "C": "Book",
+        "D": "Boy / child"
+      },
+      "correctAnswer": "D",
+      "explanation": "Yaro commonly refers to a boy or child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-029",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of hausa vocabulary, a candidate is asked: “Kofa” means what?",
+      "options": {
+        "A": "Food",
+        "B": "School",
+        "C": "Door",
+        "D": "Sun"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kofa means door.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-030",
+      "subjectId": "hausa",
+      "topic": "Hausa courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hausa courtesy, a candidate is asked: “Sai anjima” is generally used to mean what?",
+      "options": {
+        "A": "I do not know",
+        "B": "See you later",
+        "C": "Thank you very much",
+        "D": "Good morning"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sai anjima is a farewell meaning see you later.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-031",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: What does “Na gode” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "I am lost",
+        "C": "Welcome home only",
+        "D": "Thank you"
+      },
+      "correctAnswer": "D",
+      "explanation": "Na gode is a common Hausa expression for thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-032",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about hausa greetings: “Ina kwana?” is commonly used to ask what?",
+      "options": {
+        "A": "Where is the river?",
+        "B": "Who owns this book?",
+        "C": "How was the night / good morning?",
+        "D": "What is your price?"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-033",
+      "subjectId": "hausa",
+      "topic": "Hausa greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about hausa greetings: “Sannu” is often used as what?",
+      "options": {
+        "A": "A court order",
+        "B": "A greeting or expression of goodwill",
+        "C": "A tax receipt",
+        "D": "A type of crop"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sannu is a common greeting or polite expression.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-034",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: Which Hausa word means “water”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Gida",
+        "C": "Littafi",
+        "D": "Rana"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ruwa means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-035",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: Which word means “house”?",
+      "options": {
+        "A": "Ruwa",
+        "B": "Abinci",
+        "C": "Makaranta",
+        "D": "Gida"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gida means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-036",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: Which word means “book”?",
+      "options": {
+        "A": "Rana",
+        "B": "Mota",
+        "C": "Littafi",
+        "D": "Kofa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Littafi means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-037",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: Which word means “school”?",
+      "options": {
+        "A": "Takalmi",
+        "B": "Makaranta",
+        "C": "Gida",
+        "D": "Ruwa"
+      },
+      "correctAnswer": "B",
+      "explanation": "Makaranta means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-038",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: “Rana” commonly means what?",
+      "options": {
+        "A": "Sun / day",
+        "B": "Book",
+        "C": "Water",
+        "D": "Chair"
+      },
+      "correctAnswer": "A",
+      "explanation": "Rana can mean sun or day depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-039",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: “Abinci” means what?",
+      "options": {
+        "A": "Door",
+        "B": "Student",
+        "C": "River",
+        "D": "Food"
+      },
+      "correctAnswer": "D",
+      "explanation": "Abinci means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "hausa-r2g-040",
+      "subjectId": "hausa",
+      "topic": "Hausa vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about hausa vocabulary: Which phrase means “good morning” in common Hausa usage?",
+      "options": {
+        "A": "Na gode",
+        "B": "Babu komai",
+        "C": "Ina kwana",
+        "D": "Sai anjima"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ina kwana is a common morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

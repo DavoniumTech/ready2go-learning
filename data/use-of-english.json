@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "use-of-english",
   "subjectName": "Use of English",
-  "sourcePolicy": "All questions in this pack are Ready2Go original practice items, not official JAMB past questions. New items require human subject-matter review before public release.",
-  "packVersion": "0.2.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
   "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "eng-001",
@@ -469,18 +471,19 @@
       "topic": "Antonyms",
       "type": "multiple_choice",
       "sourceType": "ready2go_original",
-      "sourceLabel": "Ready2Go Original · draft for review",
+      "sourceLabel": "Ready2Go Original · draft for human review",
       "difficulty": "easy",
-      "question": "Choose the word opposite in meaning to “scarce”.",
+      "question": "Choose the word opposite in meaning to “expand”.",
       "options": {
-        "A": "Rare",
-        "B": "Limited",
-        "C": "Abundant",
-        "D": "Insufficient"
+        "A": "Enlarge",
+        "B": "Extend",
+        "C": "Contract",
+        "D": "Increase"
       },
       "correctAnswer": "C",
-      "explanation": "“Abundant” means plentiful and is the opposite of “scarce”.",
-      "reviewStatus": "needs_human_review"
+      "explanation": "“Contract” means to become smaller or draw together, the opposite of “expand”.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft revised to avoid duplicate wording; requires qualified subject and answer-key review."
     },
     {
       "id": "eng-026",

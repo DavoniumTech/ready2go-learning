@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "computer-studies",
+  "subjectName": "Computer Studies",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "computer-studies-r2g-001",
+      "subjectId": "computer-studies",
+      "topic": "Computer hardware",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which component executes instructions and coordinates many computer operations?",
+      "options": {
+        "A": "Monitor",
+        "B": "Keyboard",
+        "C": "Printer",
+        "D": "CPU"
+      },
+      "correctAnswer": "D",
+      "explanation": "The central processing unit executes instructions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-002",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "RAM is best described as what?",
+      "options": {
+        "A": "A display device",
+        "B": "A power cable",
+        "C": "Volatile working memory",
+        "D": "Permanent optical storage only"
+      },
+      "correctAnswer": "C",
+      "explanation": "RAM normally loses its contents when power is removed.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-003",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "ROM traditionally stores which kind of information?",
+      "options": {
+        "A": "Audio output only",
+        "B": "Non-volatile firmware or fixed instructions",
+        "C": "Only live mouse movement",
+        "D": "Printed pages"
+      },
+      "correctAnswer": "B",
+      "explanation": "ROM retains stored information without power.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-004",
+      "subjectId": "computer-studies",
+      "topic": "Operating systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "An operating system primarily manages what?",
+      "options": {
+        "A": "Hardware resources and software processes",
+        "B": "Only a document’s font",
+        "C": "Only the internet bill",
+        "D": "Only a printer’s paper tray"
+      },
+      "correctAnswer": "A",
+      "explanation": "Operating systems manage memory, processes, devices and files.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-005",
+      "subjectId": "computer-studies",
+      "topic": "Cybersecurity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Phishing is an attempt to do what?",
+      "options": {
+        "A": "Increase screen resolution",
+        "B": "Cool a processor",
+        "C": "Compress a spreadsheet",
+        "D": "Trick people into revealing information or installing malicious content"
+      },
+      "correctAnswer": "D",
+      "explanation": "Phishing uses deceptive messages or sites to steal information.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-006",
+      "subjectId": "computer-studies",
+      "topic": "Algorithms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "An algorithm is what?",
+      "options": {
+        "A": "A storage cable",
+        "B": "An unstructured guess",
+        "C": "A finite, ordered set of steps for solving a problem",
+        "D": "A monitor type"
+      },
+      "correctAnswer": "C",
+      "explanation": "Algorithms describe steps to solve a problem.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-007",
+      "subjectId": "computer-studies",
+      "topic": "Number systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The binary number system uses which digits?",
+      "options": {
+        "A": "A through F only",
+        "B": "0 and 1",
+        "C": "0 through 9 only",
+        "D": "1 through 8"
+      },
+      "correctAnswer": "B",
+      "explanation": "Binary is base two and uses 0 and 1.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-008",
+      "subjectId": "computer-studies",
+      "topic": "Input devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which is an input device?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Monitor",
+        "C": "Speaker",
+        "D": "Projector"
+      },
+      "correctAnswer": "A",
+      "explanation": "A keyboard sends user input to the computer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-009",
+      "subjectId": "computer-studies",
+      "topic": "Output devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which device is primarily used to display visual output?",
+      "options": {
+        "A": "Mouse",
+        "B": "Microphone",
+        "C": "Scanner",
+        "D": "Monitor"
+      },
+      "correctAnswer": "D",
+      "explanation": "A monitor presents visual output.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-010",
+      "subjectId": "computer-studies",
+      "topic": "Databases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A database is organised data that can be what?",
+      "options": {
+        "A": "Never changed",
+        "B": "Used only without computers",
+        "C": "Stored, queried and managed systematically",
+        "D": "Only painted on a wall"
+      },
+      "correctAnswer": "C",
+      "explanation": "Databases support structured storage and retrieval.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-011",
+      "subjectId": "computer-studies",
+      "topic": "Networks",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A LAN typically covers what?",
+      "options": {
+        "A": "A single printed page",
+        "B": "A limited local area such as a building or campus",
+        "C": "The entire planet in every case",
+        "D": "Only one CPU register"
+      },
+      "correctAnswer": "B",
+      "explanation": "A local area network connects nearby devices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-012",
+      "subjectId": "computer-studies",
+      "topic": "Internet safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "HTTPS helps protect web traffic by using what?",
+      "options": {
+        "A": "TLS encryption and authenticated connections",
+        "B": "Only larger fonts",
+        "C": "A louder speaker",
+        "D": "A paper password list"
+      },
+      "correctAnswer": "A",
+      "explanation": "HTTPS secures HTTP connections using TLS.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-013",
+      "subjectId": "computer-studies",
+      "topic": "Files",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A file extension often helps identify what?",
+      "options": {
+        "A": "The physical weight of the computer",
+        "B": "The user’s age",
+        "C": "The room temperature",
+        "D": "The file type or associated format"
+      },
+      "correctAnswer": "D",
+      "explanation": "Extensions commonly indicate file formats.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-014",
+      "subjectId": "computer-studies",
+      "topic": "Spreadsheets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "In a spreadsheet, a cell is identified by what?",
+      "options": {
+        "A": "A file’s total size",
+        "B": "The monitor serial number",
+        "C": "Column letter and row number",
+        "D": "Only a paragraph name"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cell addresses combine column and row labels.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-015",
+      "subjectId": "computer-studies",
+      "topic": "Data privacy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which is a good password practice?",
+      "options": {
+        "A": "Use a birth date only",
+        "B": "Use a unique, long password and a password manager",
+        "C": "Reuse one short password everywhere",
+        "D": "Post passwords publicly"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unique long passwords reduce credential-reuse risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-016",
+      "subjectId": "computer-studies",
+      "topic": "Computer hardware",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of computer hardware, a candidate is asked: Which component executes instructions and coordinates many computer operations?",
+      "options": {
+        "A": "Monitor",
+        "B": "Keyboard",
+        "C": "Printer",
+        "D": "CPU"
+      },
+      "correctAnswer": "D",
+      "explanation": "The central processing unit executes instructions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-017",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of memory, a candidate is asked: RAM is best described as what?",
+      "options": {
+        "A": "A display device",
+        "B": "A power cable",
+        "C": "Volatile working memory",
+        "D": "Permanent optical storage only"
+      },
+      "correctAnswer": "C",
+      "explanation": "RAM normally loses its contents when power is removed.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-018",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of memory, a candidate is asked: ROM traditionally stores which kind of information?",
+      "options": {
+        "A": "Audio output only",
+        "B": "Non-volatile firmware or fixed instructions",
+        "C": "Only live mouse movement",
+        "D": "Printed pages"
+      },
+      "correctAnswer": "B",
+      "explanation": "ROM retains stored information without power.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-019",
+      "subjectId": "computer-studies",
+      "topic": "Operating systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of operating systems, a candidate is asked: An operating system primarily manages what?",
+      "options": {
+        "A": "Hardware resources and software processes",
+        "B": "Only a document’s font",
+        "C": "Only the internet bill",
+        "D": "Only a printer’s paper tray"
+      },
+      "correctAnswer": "A",
+      "explanation": "Operating systems manage memory, processes, devices and files.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-020",
+      "subjectId": "computer-studies",
+      "topic": "Cybersecurity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of cybersecurity, a candidate is asked: Phishing is an attempt to do what?",
+      "options": {
+        "A": "Increase screen resolution",
+        "B": "Cool a processor",
+        "C": "Compress a spreadsheet",
+        "D": "Trick people into revealing information or installing malicious content"
+      },
+      "correctAnswer": "D",
+      "explanation": "Phishing uses deceptive messages or sites to steal information.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-021",
+      "subjectId": "computer-studies",
+      "topic": "Algorithms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of algorithms, a candidate is asked: An algorithm is what?",
+      "options": {
+        "A": "A storage cable",
+        "B": "An unstructured guess",
+        "C": "A finite, ordered set of steps for solving a problem",
+        "D": "A monitor type"
+      },
+      "correctAnswer": "C",
+      "explanation": "Algorithms describe steps to solve a problem.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-022",
+      "subjectId": "computer-studies",
+      "topic": "Number systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of number systems, a candidate is asked: The binary number system uses which digits?",
+      "options": {
+        "A": "A through F only",
+        "B": "0 and 1",
+        "C": "0 through 9 only",
+        "D": "1 through 8"
+      },
+      "correctAnswer": "B",
+      "explanation": "Binary is base two and uses 0 and 1.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-023",
+      "subjectId": "computer-studies",
+      "topic": "Input devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of input devices, a candidate is asked: Which is an input device?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Monitor",
+        "C": "Speaker",
+        "D": "Projector"
+      },
+      "correctAnswer": "A",
+      "explanation": "A keyboard sends user input to the computer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-024",
+      "subjectId": "computer-studies",
+      "topic": "Output devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of output devices, a candidate is asked: Which device is primarily used to display visual output?",
+      "options": {
+        "A": "Mouse",
+        "B": "Microphone",
+        "C": "Scanner",
+        "D": "Monitor"
+      },
+      "correctAnswer": "D",
+      "explanation": "A monitor presents visual output.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-025",
+      "subjectId": "computer-studies",
+      "topic": "Databases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of databases, a candidate is asked: A database is organised data that can be what?",
+      "options": {
+        "A": "Never changed",
+        "B": "Used only without computers",
+        "C": "Stored, queried and managed systematically",
+        "D": "Only painted on a wall"
+      },
+      "correctAnswer": "C",
+      "explanation": "Databases support structured storage and retrieval.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-026",
+      "subjectId": "computer-studies",
+      "topic": "Networks",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of networks, a candidate is asked: A LAN typically covers what?",
+      "options": {
+        "A": "A single printed page",
+        "B": "A limited local area such as a building or campus",
+        "C": "The entire planet in every case",
+        "D": "Only one CPU register"
+      },
+      "correctAnswer": "B",
+      "explanation": "A local area network connects nearby devices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-027",
+      "subjectId": "computer-studies",
+      "topic": "Internet safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of internet safety, a candidate is asked: HTTPS helps protect web traffic by using what?",
+      "options": {
+        "A": "TLS encryption and authenticated connections",
+        "B": "Only larger fonts",
+        "C": "A louder speaker",
+        "D": "A paper password list"
+      },
+      "correctAnswer": "A",
+      "explanation": "HTTPS secures HTTP connections using TLS.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-028",
+      "subjectId": "computer-studies",
+      "topic": "Files",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of files, a candidate is asked: A file extension often helps identify what?",
+      "options": {
+        "A": "The physical weight of the computer",
+        "B": "The user’s age",
+        "C": "The room temperature",
+        "D": "The file type or associated format"
+      },
+      "correctAnswer": "D",
+      "explanation": "Extensions commonly indicate file formats.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-029",
+      "subjectId": "computer-studies",
+      "topic": "Spreadsheets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of spreadsheets, a candidate is asked: In a spreadsheet, a cell is identified by what?",
+      "options": {
+        "A": "A file’s total size",
+        "B": "The monitor serial number",
+        "C": "Column letter and row number",
+        "D": "Only a paragraph name"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cell addresses combine column and row labels.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-030",
+      "subjectId": "computer-studies",
+      "topic": "Data privacy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of data privacy, a candidate is asked: Which is a good password practice?",
+      "options": {
+        "A": "Use a birth date only",
+        "B": "Use a unique, long password and a password manager",
+        "C": "Reuse one short password everywhere",
+        "D": "Post passwords publicly"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unique long passwords reduce credential-reuse risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-031",
+      "subjectId": "computer-studies",
+      "topic": "Computer hardware",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about computer hardware: Which component executes instructions and coordinates many computer operations?",
+      "options": {
+        "A": "Monitor",
+        "B": "Keyboard",
+        "C": "Printer",
+        "D": "CPU"
+      },
+      "correctAnswer": "D",
+      "explanation": "The central processing unit executes instructions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-032",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about memory: RAM is best described as what?",
+      "options": {
+        "A": "A display device",
+        "B": "A power cable",
+        "C": "Volatile working memory",
+        "D": "Permanent optical storage only"
+      },
+      "correctAnswer": "C",
+      "explanation": "RAM normally loses its contents when power is removed.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-033",
+      "subjectId": "computer-studies",
+      "topic": "Memory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about memory: ROM traditionally stores which kind of information?",
+      "options": {
+        "A": "Audio output only",
+        "B": "Non-volatile firmware or fixed instructions",
+        "C": "Only live mouse movement",
+        "D": "Printed pages"
+      },
+      "correctAnswer": "B",
+      "explanation": "ROM retains stored information without power.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-034",
+      "subjectId": "computer-studies",
+      "topic": "Operating systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about operating systems: An operating system primarily manages what?",
+      "options": {
+        "A": "Hardware resources and software processes",
+        "B": "Only a document’s font",
+        "C": "Only the internet bill",
+        "D": "Only a printer’s paper tray"
+      },
+      "correctAnswer": "A",
+      "explanation": "Operating systems manage memory, processes, devices and files.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-035",
+      "subjectId": "computer-studies",
+      "topic": "Cybersecurity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about cybersecurity: Phishing is an attempt to do what?",
+      "options": {
+        "A": "Increase screen resolution",
+        "B": "Cool a processor",
+        "C": "Compress a spreadsheet",
+        "D": "Trick people into revealing information or installing malicious content"
+      },
+      "correctAnswer": "D",
+      "explanation": "Phishing uses deceptive messages or sites to steal information.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-036",
+      "subjectId": "computer-studies",
+      "topic": "Algorithms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about algorithms: An algorithm is what?",
+      "options": {
+        "A": "A storage cable",
+        "B": "An unstructured guess",
+        "C": "A finite, ordered set of steps for solving a problem",
+        "D": "A monitor type"
+      },
+      "correctAnswer": "C",
+      "explanation": "Algorithms describe steps to solve a problem.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-037",
+      "subjectId": "computer-studies",
+      "topic": "Number systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about number systems: The binary number system uses which digits?",
+      "options": {
+        "A": "A through F only",
+        "B": "0 and 1",
+        "C": "0 through 9 only",
+        "D": "1 through 8"
+      },
+      "correctAnswer": "B",
+      "explanation": "Binary is base two and uses 0 and 1.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-038",
+      "subjectId": "computer-studies",
+      "topic": "Input devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about input devices: Which is an input device?",
+      "options": {
+        "A": "Keyboard",
+        "B": "Monitor",
+        "C": "Speaker",
+        "D": "Projector"
+      },
+      "correctAnswer": "A",
+      "explanation": "A keyboard sends user input to the computer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-039",
+      "subjectId": "computer-studies",
+      "topic": "Output devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about output devices: Which device is primarily used to display visual output?",
+      "options": {
+        "A": "Mouse",
+        "B": "Microphone",
+        "C": "Scanner",
+        "D": "Monitor"
+      },
+      "correctAnswer": "D",
+      "explanation": "A monitor presents visual output.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "computer-studies-r2g-040",
+      "subjectId": "computer-studies",
+      "topic": "Databases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about databases: A database is organised data that can be what?",
+      "options": {
+        "A": "Never changed",
+        "B": "Used only without computers",
+        "C": "Stored, queried and managed systematically",
+        "D": "Only painted on a wall"
+      },
+      "correctAnswer": "C",
+      "explanation": "Databases support structured storage and retrieval.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

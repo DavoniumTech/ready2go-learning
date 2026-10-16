@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "physics",
   "subjectName": "Physics",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "phys-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "C",
       "explanation": "From V = IR, V = 2 × 6 = 12 V.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "physics-r2g-001",
+      "subjectId": "physics",
+      "topic": "Measurements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The SI unit of force is which?",
+      "options": {
+        "A": "Joule",
+        "B": "Watt",
+        "C": "Pascal",
+        "D": "Newton"
+      },
+      "correctAnswer": "D",
+      "explanation": "Force is measured in newtons.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-002",
+      "subjectId": "physics",
+      "topic": "Mechanics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Newton’s second law relates resultant force to what?",
+      "options": {
+        "A": "Charge and resistance only",
+        "B": "Wavelength and frequency only",
+        "C": "Mass and acceleration",
+        "D": "Temperature and pressure only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Resultant force equals mass multiplied by acceleration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-003",
+      "subjectId": "physics",
+      "topic": "Electricity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Ohm’s law relates voltage, current and what?",
+      "options": {
+        "A": "Wavelength",
+        "B": "Resistance",
+        "C": "Mass",
+        "D": "Density"
+      },
+      "correctAnswer": "B",
+      "explanation": "For an ohmic conductor at constant conditions, V = IR.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-004",
+      "subjectId": "physics",
+      "topic": "Power",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Electrical power is calculated as which product?",
+      "options": {
+        "A": "Voltage multiplied by current",
+        "B": "Mass multiplied by volume",
+        "C": "Distance divided by area",
+        "D": "Force divided by temperature"
+      },
+      "correctAnswer": "A",
+      "explanation": "Electrical power P equals V times I.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-005",
+      "subjectId": "physics",
+      "topic": "Waves",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Frequency is the number of complete oscillations per what?",
+      "options": {
+        "A": "Metre",
+        "B": "Kilogram",
+        "C": "Coulomb",
+        "D": "Second"
+      },
+      "correctAnswer": "D",
+      "explanation": "Frequency is measured in hertz, or cycles per second.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-006",
+      "subjectId": "physics",
+      "topic": "Motion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Average speed is calculated as what?",
+      "options": {
+        "A": "Force divided by volume",
+        "B": "Mass divided by temperature",
+        "C": "Total distance divided by total time",
+        "D": "Displacement multiplied by time"
+      },
+      "correctAnswer": "C",
+      "explanation": "Average speed is distance travelled per unit time.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-007",
+      "subjectId": "physics",
+      "topic": "Optics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Refraction occurs when a wave changes direction because it changes what?",
+      "options": {
+        "A": "Its mass by definition",
+        "B": "Speed on entering a different medium",
+        "C": "Its charge only",
+        "D": "Its source permanently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Refraction results from a wave speed change between media.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-008",
+      "subjectId": "physics",
+      "topic": "Density",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Density is mass divided by what?",
+      "options": {
+        "A": "Volume",
+        "B": "Time",
+        "C": "Temperature",
+        "D": "Current"
+      },
+      "correctAnswer": "A",
+      "explanation": "Density is mass per unit volume.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-009",
+      "subjectId": "physics",
+      "topic": "Momentum",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Linear momentum equals what?",
+      "options": {
+        "A": "Force divided by time",
+        "B": "Energy multiplied by temperature",
+        "C": "Power divided by area",
+        "D": "Mass multiplied by velocity"
+      },
+      "correctAnswer": "D",
+      "explanation": "Momentum is the product of mass and velocity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-010",
+      "subjectId": "physics",
+      "topic": "Circuits",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "In a simple series circuit, the current is what through each component?",
+      "options": {
+        "A": "Different by definition at every point",
+        "B": "Equal to resistance in ohms",
+        "C": "The same",
+        "D": "Always zero"
+      },
+      "correctAnswer": "C",
+      "explanation": "The same current passes through series components.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-011",
+      "subjectId": "physics",
+      "topic": "Energy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The principle of conservation of energy states that energy cannot be created or destroyed but can do what?",
+      "options": {
+        "A": "Exist only in living things",
+        "B": "Change form or be transferred",
+        "C": "Become nothing in every collision",
+        "D": "Only increase without transfer"
+      },
+      "correctAnswer": "B",
+      "explanation": "Energy is conserved in an isolated system.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-012",
+      "subjectId": "physics",
+      "topic": "Heat",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Heat transfer through direct molecular interaction is called what?",
+      "options": {
+        "A": "Conduction",
+        "B": "Reflection",
+        "C": "Refraction",
+        "D": "Ionisation"
+      },
+      "correctAnswer": "A",
+      "explanation": "Conduction transfers thermal energy through microscopic interactions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-013",
+      "subjectId": "physics",
+      "topic": "Magnetism",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Like magnetic poles do what?",
+      "options": {
+        "A": "Always attract",
+        "B": "Destroy gravity",
+        "C": "Become electric current automatically",
+        "D": "Repel each other"
+      },
+      "correctAnswer": "D",
+      "explanation": "Like poles repel and unlike poles attract.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-014",
+      "subjectId": "physics",
+      "topic": "Radioactivity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The half-life of a radioactive isotope is the time taken for what?",
+      "options": {
+        "A": "All atoms to gain electrons",
+        "B": "Temperature to fall by half",
+        "C": "Half the unstable nuclei in a sample to decay",
+        "D": "The sample to become twice as heavy"
+      },
+      "correctAnswer": "C",
+      "explanation": "Half-life describes exponential radioactive decay.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-015",
+      "subjectId": "physics",
+      "topic": "Pressure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Pressure is force divided by what?",
+      "options": {
+        "A": "Time squared",
+        "B": "Area",
+        "C": "Volume",
+        "D": "Velocity"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pressure is force per unit area.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-016",
+      "subjectId": "physics",
+      "topic": "Measurements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of measurements, a candidate is asked: The SI unit of force is which?",
+      "options": {
+        "A": "Joule",
+        "B": "Watt",
+        "C": "Pascal",
+        "D": "Newton"
+      },
+      "correctAnswer": "D",
+      "explanation": "Force is measured in newtons.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-017",
+      "subjectId": "physics",
+      "topic": "Mechanics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of mechanics, a candidate is asked: Newton’s second law relates resultant force to what?",
+      "options": {
+        "A": "Charge and resistance only",
+        "B": "Wavelength and frequency only",
+        "C": "Mass and acceleration",
+        "D": "Temperature and pressure only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Resultant force equals mass multiplied by acceleration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-018",
+      "subjectId": "physics",
+      "topic": "Electricity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of electricity, a candidate is asked: Ohm’s law relates voltage, current and what?",
+      "options": {
+        "A": "Wavelength",
+        "B": "Resistance",
+        "C": "Mass",
+        "D": "Density"
+      },
+      "correctAnswer": "B",
+      "explanation": "For an ohmic conductor at constant conditions, V = IR.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-019",
+      "subjectId": "physics",
+      "topic": "Power",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of power, a candidate is asked: Electrical power is calculated as which product?",
+      "options": {
+        "A": "Voltage multiplied by current",
+        "B": "Mass multiplied by volume",
+        "C": "Distance divided by area",
+        "D": "Force divided by temperature"
+      },
+      "correctAnswer": "A",
+      "explanation": "Electrical power P equals V times I.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-020",
+      "subjectId": "physics",
+      "topic": "Waves",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of waves, a candidate is asked: Frequency is the number of complete oscillations per what?",
+      "options": {
+        "A": "Metre",
+        "B": "Kilogram",
+        "C": "Coulomb",
+        "D": "Second"
+      },
+      "correctAnswer": "D",
+      "explanation": "Frequency is measured in hertz, or cycles per second.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-021",
+      "subjectId": "physics",
+      "topic": "Motion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of motion, a candidate is asked: Average speed is calculated as what?",
+      "options": {
+        "A": "Force divided by volume",
+        "B": "Mass divided by temperature",
+        "C": "Total distance divided by total time",
+        "D": "Displacement multiplied by time"
+      },
+      "correctAnswer": "C",
+      "explanation": "Average speed is distance travelled per unit time.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-022",
+      "subjectId": "physics",
+      "topic": "Optics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of optics, a candidate is asked: Refraction occurs when a wave changes direction because it changes what?",
+      "options": {
+        "A": "Its mass by definition",
+        "B": "Speed on entering a different medium",
+        "C": "Its charge only",
+        "D": "Its source permanently"
+      },
+      "correctAnswer": "B",
+      "explanation": "Refraction results from a wave speed change between media.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-023",
+      "subjectId": "physics",
+      "topic": "Density",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of density, a candidate is asked: Density is mass divided by what?",
+      "options": {
+        "A": "Volume",
+        "B": "Time",
+        "C": "Temperature",
+        "D": "Current"
+      },
+      "correctAnswer": "A",
+      "explanation": "Density is mass per unit volume.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-024",
+      "subjectId": "physics",
+      "topic": "Momentum",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of momentum, a candidate is asked: Linear momentum equals what?",
+      "options": {
+        "A": "Force divided by time",
+        "B": "Energy multiplied by temperature",
+        "C": "Power divided by area",
+        "D": "Mass multiplied by velocity"
+      },
+      "correctAnswer": "D",
+      "explanation": "Momentum is the product of mass and velocity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-025",
+      "subjectId": "physics",
+      "topic": "Circuits",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of circuits, a candidate is asked: In a simple series circuit, the current is what through each component?",
+      "options": {
+        "A": "Different by definition at every point",
+        "B": "Equal to resistance in ohms",
+        "C": "The same",
+        "D": "Always zero"
+      },
+      "correctAnswer": "C",
+      "explanation": "The same current passes through series components.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-026",
+      "subjectId": "physics",
+      "topic": "Energy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of energy, a candidate is asked: The principle of conservation of energy states that energy cannot be created or destroyed but can do what?",
+      "options": {
+        "A": "Exist only in living things",
+        "B": "Change form or be transferred",
+        "C": "Become nothing in every collision",
+        "D": "Only increase without transfer"
+      },
+      "correctAnswer": "B",
+      "explanation": "Energy is conserved in an isolated system.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-027",
+      "subjectId": "physics",
+      "topic": "Heat",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of heat, a candidate is asked: Heat transfer through direct molecular interaction is called what?",
+      "options": {
+        "A": "Conduction",
+        "B": "Reflection",
+        "C": "Refraction",
+        "D": "Ionisation"
+      },
+      "correctAnswer": "A",
+      "explanation": "Conduction transfers thermal energy through microscopic interactions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-028",
+      "subjectId": "physics",
+      "topic": "Magnetism",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of magnetism, a candidate is asked: Like magnetic poles do what?",
+      "options": {
+        "A": "Always attract",
+        "B": "Destroy gravity",
+        "C": "Become electric current automatically",
+        "D": "Repel each other"
+      },
+      "correctAnswer": "D",
+      "explanation": "Like poles repel and unlike poles attract.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-029",
+      "subjectId": "physics",
+      "topic": "Radioactivity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of radioactivity, a candidate is asked: The half-life of a radioactive isotope is the time taken for what?",
+      "options": {
+        "A": "All atoms to gain electrons",
+        "B": "Temperature to fall by half",
+        "C": "Half the unstable nuclei in a sample to decay",
+        "D": "The sample to become twice as heavy"
+      },
+      "correctAnswer": "C",
+      "explanation": "Half-life describes exponential radioactive decay.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-030",
+      "subjectId": "physics",
+      "topic": "Pressure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of pressure, a candidate is asked: Pressure is force divided by what?",
+      "options": {
+        "A": "Time squared",
+        "B": "Area",
+        "C": "Volume",
+        "D": "Velocity"
+      },
+      "correctAnswer": "B",
+      "explanation": "Pressure is force per unit area.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-031",
+      "subjectId": "physics",
+      "topic": "Measurements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about measurements: The SI unit of force is which?",
+      "options": {
+        "A": "Joule",
+        "B": "Watt",
+        "C": "Pascal",
+        "D": "Newton"
+      },
+      "correctAnswer": "D",
+      "explanation": "Force is measured in newtons.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-032",
+      "subjectId": "physics",
+      "topic": "Mechanics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about mechanics: Newton’s second law relates resultant force to what?",
+      "options": {
+        "A": "Charge and resistance only",
+        "B": "Wavelength and frequency only",
+        "C": "Mass and acceleration",
+        "D": "Temperature and pressure only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Resultant force equals mass multiplied by acceleration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-033",
+      "subjectId": "physics",
+      "topic": "Electricity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about electricity: Ohm’s law relates voltage, current and what?",
+      "options": {
+        "A": "Wavelength",
+        "B": "Resistance",
+        "C": "Mass",
+        "D": "Density"
+      },
+      "correctAnswer": "B",
+      "explanation": "For an ohmic conductor at constant conditions, V = IR.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-034",
+      "subjectId": "physics",
+      "topic": "Power",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about power: Electrical power is calculated as which product?",
+      "options": {
+        "A": "Voltage multiplied by current",
+        "B": "Mass multiplied by volume",
+        "C": "Distance divided by area",
+        "D": "Force divided by temperature"
+      },
+      "correctAnswer": "A",
+      "explanation": "Electrical power P equals V times I.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physics-r2g-035",
+      "subjectId": "physics",
+      "topic": "Waves",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about waves: Frequency is the number of complete oscillations per what?",
+      "options": {
+        "A": "Metre",
+        "B": "Kilogram",
+        "C": "Coulomb",
+        "D": "Second"
+      },
+      "correctAnswer": "D",
+      "explanation": "Frequency is measured in hertz, or cycles per second.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

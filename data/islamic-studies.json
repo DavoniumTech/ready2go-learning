@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "islamic-studies",
+  "subjectName": "Islamic Studies",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "islamic-studies-r2g-001",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "How many pillars of Islam are commonly taught?",
+      "options": {
+        "A": "Three",
+        "B": "Seven",
+        "C": "Twelve",
+        "D": "Five"
+      },
+      "correctAnswer": "D",
+      "explanation": "The five pillars are the testimony of faith, prayer, zakat, fasting and hajj.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-002",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which pillar involves the obligatory daily prayers?",
+      "options": {
+        "A": "Hajj",
+        "B": "Sawm only",
+        "C": "Salah",
+        "D": "Zakat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Salah is the prescribed prayer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-003",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Zakat is best described as what?",
+      "options": {
+        "A": "The sunset prayer only",
+        "B": "Obligatory almsgiving under defined conditions",
+        "C": "The pilgrimage to Makkah",
+        "D": "The declaration of faith only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Zakat is an obligatory form of charity for eligible Muslims.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-004",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Sawm during Ramadan refers to what?",
+      "options": {
+        "A": "Fasting",
+        "B": "Pilgrimage",
+        "C": "Trade",
+        "D": "Marriage contract"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sawm includes fasting during Ramadan.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-005",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Hajj is a pilgrimage to which city?",
+      "options": {
+        "A": "Madinah only",
+        "B": "Cairo",
+        "C": "Jerusalem only",
+        "D": "Makkah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Hajj is performed in and around Makkah.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-006",
+      "subjectId": "islamic-studies",
+      "topic": "Qur’an",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The Qur’an is regarded by Muslims as what?",
+      "options": {
+        "A": "A book of Greek philosophy only",
+        "B": "A modern census",
+        "C": "The revealed scripture of Islam",
+        "D": "A collection of Roman laws"
+      },
+      "correctAnswer": "C",
+      "explanation": "Muslims regard the Qur’an as God’s revelation to Prophet Muhammad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-007",
+      "subjectId": "islamic-studies",
+      "topic": "Early Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The Hijrah traditionally refers to the migration from Makkah to where?",
+      "options": {
+        "A": "Jerusalem only",
+        "B": "Madinah",
+        "C": "Cairo",
+        "D": "Damascus only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Hijrah to Madinah marks a foundational event in Islamic history.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-008",
+      "subjectId": "islamic-studies",
+      "topic": "Purification",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Wudu is a form of what?",
+      "options": {
+        "A": "Ritual ablution",
+        "B": "Annual pilgrimage",
+        "C": "Commercial tax",
+        "D": "Marriage ceremony"
+      },
+      "correctAnswer": "A",
+      "explanation": "Wudu is the prescribed ablution before certain acts of worship.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-009",
+      "subjectId": "islamic-studies",
+      "topic": "Belief",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Tawhid refers to what central Islamic belief?",
+      "options": {
+        "A": "The number of daily prayers",
+        "B": "The lunar calendar only",
+        "C": "The rules of trade only",
+        "D": "The oneness of God"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tawhid affirms God’s oneness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-010",
+      "subjectId": "islamic-studies",
+      "topic": "Ramadan",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The Ramadan fast generally begins at what time of day?",
+      "options": {
+        "A": "Noon",
+        "B": "Sunset",
+        "C": "Dawn",
+        "D": "Midnight every night only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daily fasting begins at dawn and ends at sunset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-011",
+      "subjectId": "islamic-studies",
+      "topic": "Revelation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "According to Islamic tradition, the first revelation came to Prophet Muhammad in which place?",
+      "options": {
+        "A": "The Nile valley",
+        "B": "Cave of Hira",
+        "C": "Mount Sinai",
+        "D": "The Kaaba courtyard only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The first revelation is traditionally associated with the Cave of Hira.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-012",
+      "subjectId": "islamic-studies",
+      "topic": "Prophets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which prophet is associated in Islamic tradition with building the Kaaba with his son Isma’il?",
+      "options": {
+        "A": "Ibrahim",
+        "B": "Yunus",
+        "C": "Dawud only",
+        "D": "Zakariyya"
+      },
+      "correctAnswer": "A",
+      "explanation": "Islamic tradition associates Ibrahim and Isma’il with raising the foundations of the Kaaba.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-013",
+      "subjectId": "islamic-studies",
+      "topic": "Mosque etiquette",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A mosque primarily serves as a place for what?",
+      "options": {
+        "A": "Manufacturing farm tools",
+        "B": "Storing every household’s taxes",
+        "C": "Running a market only",
+        "D": "Worship and community religious activities"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mosques are places of worship and community learning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-014",
+      "subjectId": "islamic-studies",
+      "topic": "Islamic ethics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Honesty in trade is an example of which value?",
+      "options": {
+        "A": "Wastefulness",
+        "B": "Negligence",
+        "C": "Integrity",
+        "D": "Deception"
+      },
+      "correctAnswer": "C",
+      "explanation": "Islamic ethical teachings emphasise truthful and fair dealings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-015",
+      "subjectId": "islamic-studies",
+      "topic": "Lunar calendar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The Islamic calendar is primarily based on which cycle?",
+      "options": {
+        "A": "The Gregorian leap day only",
+        "B": "Lunar months",
+        "C": "Solar weeks only",
+        "D": "Tides alone"
+      },
+      "correctAnswer": "B",
+      "explanation": "Islamic months are based on the lunar cycle.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-016",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of pillars of islam, a candidate is asked: How many pillars of Islam are commonly taught?",
+      "options": {
+        "A": "Three",
+        "B": "Seven",
+        "C": "Twelve",
+        "D": "Five"
+      },
+      "correctAnswer": "D",
+      "explanation": "The five pillars are the testimony of faith, prayer, zakat, fasting and hajj.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-017",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of pillars of islam, a candidate is asked: Which pillar involves the obligatory daily prayers?",
+      "options": {
+        "A": "Hajj",
+        "B": "Sawm only",
+        "C": "Salah",
+        "D": "Zakat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Salah is the prescribed prayer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-018",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of pillars of islam, a candidate is asked: Zakat is best described as what?",
+      "options": {
+        "A": "The sunset prayer only",
+        "B": "Obligatory almsgiving under defined conditions",
+        "C": "The pilgrimage to Makkah",
+        "D": "The declaration of faith only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Zakat is an obligatory form of charity for eligible Muslims.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-019",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of pillars of islam, a candidate is asked: Sawm during Ramadan refers to what?",
+      "options": {
+        "A": "Fasting",
+        "B": "Pilgrimage",
+        "C": "Trade",
+        "D": "Marriage contract"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sawm includes fasting during Ramadan.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-020",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of pillars of islam, a candidate is asked: Hajj is a pilgrimage to which city?",
+      "options": {
+        "A": "Madinah only",
+        "B": "Cairo",
+        "C": "Jerusalem only",
+        "D": "Makkah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Hajj is performed in and around Makkah.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-021",
+      "subjectId": "islamic-studies",
+      "topic": "Qur’an",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of qur’an, a candidate is asked: The Qur’an is regarded by Muslims as what?",
+      "options": {
+        "A": "A book of Greek philosophy only",
+        "B": "A modern census",
+        "C": "The revealed scripture of Islam",
+        "D": "A collection of Roman laws"
+      },
+      "correctAnswer": "C",
+      "explanation": "Muslims regard the Qur’an as God’s revelation to Prophet Muhammad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-022",
+      "subjectId": "islamic-studies",
+      "topic": "Early Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of early islam, a candidate is asked: The Hijrah traditionally refers to the migration from Makkah to where?",
+      "options": {
+        "A": "Jerusalem only",
+        "B": "Madinah",
+        "C": "Cairo",
+        "D": "Damascus only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Hijrah to Madinah marks a foundational event in Islamic history.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-023",
+      "subjectId": "islamic-studies",
+      "topic": "Purification",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of purification, a candidate is asked: Wudu is a form of what?",
+      "options": {
+        "A": "Ritual ablution",
+        "B": "Annual pilgrimage",
+        "C": "Commercial tax",
+        "D": "Marriage ceremony"
+      },
+      "correctAnswer": "A",
+      "explanation": "Wudu is the prescribed ablution before certain acts of worship.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-024",
+      "subjectId": "islamic-studies",
+      "topic": "Belief",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of belief, a candidate is asked: Tawhid refers to what central Islamic belief?",
+      "options": {
+        "A": "The number of daily prayers",
+        "B": "The lunar calendar only",
+        "C": "The rules of trade only",
+        "D": "The oneness of God"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tawhid affirms God’s oneness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-025",
+      "subjectId": "islamic-studies",
+      "topic": "Ramadan",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of ramadan, a candidate is asked: The Ramadan fast generally begins at what time of day?",
+      "options": {
+        "A": "Noon",
+        "B": "Sunset",
+        "C": "Dawn",
+        "D": "Midnight every night only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daily fasting begins at dawn and ends at sunset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-026",
+      "subjectId": "islamic-studies",
+      "topic": "Revelation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of revelation, a candidate is asked: According to Islamic tradition, the first revelation came to Prophet Muhammad in which place?",
+      "options": {
+        "A": "The Nile valley",
+        "B": "Cave of Hira",
+        "C": "Mount Sinai",
+        "D": "The Kaaba courtyard only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The first revelation is traditionally associated with the Cave of Hira.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-027",
+      "subjectId": "islamic-studies",
+      "topic": "Prophets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of prophets, a candidate is asked: Which prophet is associated in Islamic tradition with building the Kaaba with his son Isma’il?",
+      "options": {
+        "A": "Ibrahim",
+        "B": "Yunus",
+        "C": "Dawud only",
+        "D": "Zakariyya"
+      },
+      "correctAnswer": "A",
+      "explanation": "Islamic tradition associates Ibrahim and Isma’il with raising the foundations of the Kaaba.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-028",
+      "subjectId": "islamic-studies",
+      "topic": "Mosque etiquette",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of mosque etiquette, a candidate is asked: A mosque primarily serves as a place for what?",
+      "options": {
+        "A": "Manufacturing farm tools",
+        "B": "Storing every household’s taxes",
+        "C": "Running a market only",
+        "D": "Worship and community religious activities"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mosques are places of worship and community learning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-029",
+      "subjectId": "islamic-studies",
+      "topic": "Islamic ethics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of islamic ethics, a candidate is asked: Honesty in trade is an example of which value?",
+      "options": {
+        "A": "Wastefulness",
+        "B": "Negligence",
+        "C": "Integrity",
+        "D": "Deception"
+      },
+      "correctAnswer": "C",
+      "explanation": "Islamic ethical teachings emphasise truthful and fair dealings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-030",
+      "subjectId": "islamic-studies",
+      "topic": "Lunar calendar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of lunar calendar, a candidate is asked: The Islamic calendar is primarily based on which cycle?",
+      "options": {
+        "A": "The Gregorian leap day only",
+        "B": "Lunar months",
+        "C": "Solar weeks only",
+        "D": "Tides alone"
+      },
+      "correctAnswer": "B",
+      "explanation": "Islamic months are based on the lunar cycle.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-031",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about pillars of islam: How many pillars of Islam are commonly taught?",
+      "options": {
+        "A": "Three",
+        "B": "Seven",
+        "C": "Twelve",
+        "D": "Five"
+      },
+      "correctAnswer": "D",
+      "explanation": "The five pillars are the testimony of faith, prayer, zakat, fasting and hajj.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-032",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about pillars of islam: Which pillar involves the obligatory daily prayers?",
+      "options": {
+        "A": "Hajj",
+        "B": "Sawm only",
+        "C": "Salah",
+        "D": "Zakat"
+      },
+      "correctAnswer": "C",
+      "explanation": "Salah is the prescribed prayer.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-033",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about pillars of islam: Zakat is best described as what?",
+      "options": {
+        "A": "The sunset prayer only",
+        "B": "Obligatory almsgiving under defined conditions",
+        "C": "The pilgrimage to Makkah",
+        "D": "The declaration of faith only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Zakat is an obligatory form of charity for eligible Muslims.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-034",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about pillars of islam: Sawm during Ramadan refers to what?",
+      "options": {
+        "A": "Fasting",
+        "B": "Pilgrimage",
+        "C": "Trade",
+        "D": "Marriage contract"
+      },
+      "correctAnswer": "A",
+      "explanation": "Sawm includes fasting during Ramadan.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-035",
+      "subjectId": "islamic-studies",
+      "topic": "Pillars of Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about pillars of islam: Hajj is a pilgrimage to which city?",
+      "options": {
+        "A": "Madinah only",
+        "B": "Cairo",
+        "C": "Jerusalem only",
+        "D": "Makkah"
+      },
+      "correctAnswer": "D",
+      "explanation": "Hajj is performed in and around Makkah.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-036",
+      "subjectId": "islamic-studies",
+      "topic": "Qur’an",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about qur’an: The Qur’an is regarded by Muslims as what?",
+      "options": {
+        "A": "A book of Greek philosophy only",
+        "B": "A modern census",
+        "C": "The revealed scripture of Islam",
+        "D": "A collection of Roman laws"
+      },
+      "correctAnswer": "C",
+      "explanation": "Muslims regard the Qur’an as God’s revelation to Prophet Muhammad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-037",
+      "subjectId": "islamic-studies",
+      "topic": "Early Islam",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about early islam: The Hijrah traditionally refers to the migration from Makkah to where?",
+      "options": {
+        "A": "Jerusalem only",
+        "B": "Madinah",
+        "C": "Cairo",
+        "D": "Damascus only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Hijrah to Madinah marks a foundational event in Islamic history.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-038",
+      "subjectId": "islamic-studies",
+      "topic": "Purification",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about purification: Wudu is a form of what?",
+      "options": {
+        "A": "Ritual ablution",
+        "B": "Annual pilgrimage",
+        "C": "Commercial tax",
+        "D": "Marriage ceremony"
+      },
+      "correctAnswer": "A",
+      "explanation": "Wudu is the prescribed ablution before certain acts of worship.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-039",
+      "subjectId": "islamic-studies",
+      "topic": "Belief",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about belief: Tawhid refers to what central Islamic belief?",
+      "options": {
+        "A": "The number of daily prayers",
+        "B": "The lunar calendar only",
+        "C": "The rules of trade only",
+        "D": "The oneness of God"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tawhid affirms God’s oneness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "islamic-studies-r2g-040",
+      "subjectId": "islamic-studies",
+      "topic": "Ramadan",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about ramadan: The Ramadan fast generally begins at what time of day?",
+      "options": {
+        "A": "Noon",
+        "B": "Sunset",
+        "C": "Dawn",
+        "D": "Midnight every night only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daily fasting begins at dawn and ends at sunset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

@@ -1,46 +1,44 @@
-# Ready2Go Learning — v0.3.0 production starter
+# Ready2Go Learning v0.4.0
 
-Ready2Go Learning is an installable, offline-first UTME preparation app by Davonium Technologies. This release upgrades the uploaded prototype without using React, Vite or a frontend build system. It preserves the R2G logo and the violet/coral visual identity, and adds a more structured onboarding and content pipeline.
+Ready2Go Learning is an installable, offline-first UTME preparation PWA from Davonium Technologies. It uses vanilla HTML, CSS and JavaScript modules. The updated interface has first-visit guided onboarding, separate learning pages, responsive navigation, animated study artwork, light/dark modes, a dismissible install reminder after 60 seconds, editable four-subject plans, CBT-style practice and a Nigerian university guide.
 
-## Included in this starter
+## Current test-release contents
+- 25 UTME subject options drawn from JAMB's 2026 Training Manual subject list.
+- 1,020 Ready2Go Original draft question records: 40 in each of 24 non-Mathematics packs and 60 in Mathematics.
+- 328 institution entries from the NUC Nigerian University System directory as checked on 16 October 2026 (77 federal, 69 state and 182 private entries).
+- Source-linked admission guidance. The 2026 score table contains national minimum benchmarks only, not every programme-specific course cut-off.
+- Offline app-shell cache and local practice history after content has been cached on the device.
 
-- Responsive PWA shell with light/dark modes, app icon, install-help banner and mobile sidebar scrim that closes on navigation/outside tap/Escape.
-- Google/email Firebase Authentication UI using the existing `ready2go-learning` Firebase web configuration. Do not rotate or replace it casually; verify Authentication → Authorized domains for the exact HTTPS host.
-- First-visit study-plan onboarding, with Science / Humanities & Arts / Commerce, a state/FCT selector, institution-type selector, curated institution starter directory, programme-name catalogue and editable subjects.
-- Official JAMB IBASS course eligibility and syllabus links, plus an explicit policy not to guess cut-off marks or definitive subject combinations.
-- CBT-style practice flow, question count 10/20/40/all, topic and difficulty filters, no duplicate IDs within a session, scoring, explanations, local session history and export.
-- 145 original questions across 11 local packs: Mathematics (60), Use of English (40), and nine additional subjects with five each. 95 items are explicitly marked `needs_human_review`; every question needs subject-matter and rights review before public release. Additional packs are marked draft/review-needed where applicable; none is labelled as a JAMB 2020 item.
-- IndexedDB storage and service-worker app-shell caching; optional on-demand pack delivery through a configurable Cloudflare Worker.
-- Draft Privacy, Terms, Content & Corrections and Teacher Partner pages.
+## Important content and launch notes
+All 1,020 question records need human subject-matter and answer-key review. They are not official JAMB past questions. This release does not contain the complete official 2020 JAMB question archive or the full text of *The Lekki Headmaster*. No pack is approved for R2 remote publication yet. Do not change draft status to published until content, provenance and use rights have been reviewed.
 
-## This is a production *starter*, not a certified final product
+The institution list is a directory baseline, not a proof that every programme is offered at every institution. Confirm the intended course and UTME subject combination in the official JAMB IBASS checker. The cut-off table must not be interpreted as course-specific admission advice.
 
-The uploaded prototype has not been deployed or modified in your Cloudflare/Firebase accounts by this package. It must first be extracted, reviewed, pushed, and configured as explained in `docs/DEPLOYMENT-RUNBOOK.md`.
+## Official references
+- [JAMB 2026 Training Manual](https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf)
+- [JAMB e-Syllabus](https://ibass.jamb.gov.ng/e-syllabus)
+- [JAMB IBASS Eligibility Checker](https://eligibility.jamb.gov.ng/)
+- [NUC Nigerian University System directory](https://enuc.nuc.edu.ng/nus)
 
-Not included or not activated yet: complete/synchronised account-profile loading across devices, account deletion workflow, offline sync conflict resolution, payment and premium entitlement, payment webhooks, real teacher commission creation/payouts, monitoring/alerts, analytics, full official course/programme data, and a licensed JAMB 2020 question bank. These are separate work items that need implementation and testing.
-
-### Questions and rights
-
-The 145 bundled items are Ready2Go originals: 50 inherited prototype questions tagged `internal_pilot` and 95 new draft questions tagged `needs_human_review`. All 145 require documented subject-matter verification before public release. The 2020 source archive records which packs need verification; it does not contain reproduced JAMB papers. The full text of *The Lekki Headmaster* is not included. We must get appropriate rights or use content with a valid legal basis, and accurately label every source.
-
-### Admission guidance
-
-The institution directory is a curated starter list for the 36 states and FCT, not a complete list of all universities, approved programmes, colleges or polytechnics. It is not proof that a specific course is available at a university. Use the official [JAMB IBASS Eligibility Checker](https://eligibility.jamb.gov.ng/) for exact entry mode, institution, course, O'Level requirements and UTME subject combination. Cut-off data is intentionally empty until a source, programme, institution, admission year and verification date are recorded. The [NUC Nigerian University System directory](https://enuc.nuc.edu.ng/nus) is a starting point for the institution catalogue.
-
-### Cloud delivery
-
-Set `js/content-config.js` to your Worker origin only after deploying `r2-content/worker.js` and uploading the `public/` directory to the existing private bucket `ready2go-question-packs`. Do not put an R2 API key, Cloudflare token, Firebase service-account key or payment secret in browser JS or GitHub.
-
-### Local test
-
-Serve the extracted folder over HTTP rather than opening `index.html` from `file://`:
+## Testing
+Serve the repository over HTTP, not by opening `index.html` with `file://`:
 
 ```bat
 py -m http.server 8000
 ```
 
-Open `http://localhost:8000`. PWA install and Google sign-in require a valid web origin; the Google sign-in hostname must be listed under Firebase Authentication → Settings → Authorized domains.
+Open `http://localhost:8000`. Google sign-in requires the deployment hostname to be listed in Firebase Authentication → Settings → Authorized domains. Browser-controlled native PWA installation may not be available on every browser; Ready2Go shows install instructions when a direct native prompt cannot be used.
 
-### Production gate
+This is a production-oriented test release candidate, not a guarantee of completed browser/device, subject-matter, legal or security certification. Review the release audit and deployment quickstart in the complete bundle before public launch.
 
-Before public advertising, review all 145 questions (50 `internal_pilot` and 95 `needs_human_review`), manually test onboarding and navigation on Android/desktop/tablet/iOS, test offline mode after a successful first visit, test authentication and cloud sync in a separate test session, complete legal review, validate all data sources, and confirm Cloudflare/Firebase spending alerts.
+
+## v0.4.1 mobile and learning refinements
+
+- Installation reminder delay is 60 seconds and remains dismissible; the browser controls actual installation.
+- New learners see the account entry screen before onboarding; study-plan completion is required before navigating to learning pages.
+- Mobile CBT uses a compact, scrollable question navigator and sticky previous/next controls.
+- Added 80- and 100-question request options; the engine only selects existing unique questions and reports the actual available count.
+- Added subject/topic accuracy summaries from saved question-level attempts.
+- Replaced hero student photo placements with lightweight CSS-drawn study illustrations.
+- Removed the teacher-partner navigation entry from the student app.
+- Content remains draft: current packs contain 40 questions each except Mathematics (60); they are not official JAMB papers and require expert review.

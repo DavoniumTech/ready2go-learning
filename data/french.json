@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "french",
+  "subjectName": "French",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "french-r2g-001",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does “bonjour” usually mean?",
+      "options": {
+        "A": "Goodbye forever",
+        "B": "Please sit",
+        "C": "I am tired",
+        "D": "Hello / good day"
+      },
+      "correctAnswer": "D",
+      "explanation": "Bonjour is a common daytime greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-002",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Merci” means what in English?",
+      "options": {
+        "A": "School",
+        "B": "Please open",
+        "C": "Thank you",
+        "D": "Good morning"
+      },
+      "correctAnswer": "C",
+      "explanation": "Merci means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-003",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which French phrase means “goodbye”?",
+      "options": {
+        "A": "Merci",
+        "B": "Au revoir",
+        "C": "Bonjour",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "B",
+      "explanation": "Au revoir is a common farewell.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-004",
+      "subjectId": "french",
+      "topic": "French phrases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Je m’appelle Amina” means what?",
+      "options": {
+        "A": "My name is Amina",
+        "B": "I am going to school",
+        "C": "I like reading",
+        "D": "Where is Amina?"
+      },
+      "correctAnswer": "A",
+      "explanation": "Je m’appelle introduces a person’s name.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-005",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “please”?",
+      "options": {
+        "A": "Merci",
+        "B": "Non",
+        "C": "Livre",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "D",
+      "explanation": "S’il vous plaît is a polite request phrase.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-006",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Oui” means what?",
+      "options": {
+        "A": "Maybe tomorrow",
+        "B": "Thank you",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oui means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-007",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Non” means what?",
+      "options": {
+        "A": "Welcome",
+        "B": "No",
+        "C": "Yes",
+        "D": "Good evening"
+      },
+      "correctAnswer": "B",
+      "explanation": "Non means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-008",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “book”?",
+      "options": {
+        "A": "Livre",
+        "B": "Table",
+        "C": "Porte",
+        "D": "Chien"
+      },
+      "correctAnswer": "A",
+      "explanation": "Livre means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-009",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “school”?",
+      "options": {
+        "A": "Maison",
+        "B": "Eau",
+        "C": "Pain",
+        "D": "École"
+      },
+      "correctAnswer": "D",
+      "explanation": "École means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-010",
+      "subjectId": "french",
+      "topic": "French grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which pronoun means “I” in French?",
+      "options": {
+        "A": "Vous",
+        "B": "Ils",
+        "C": "Je",
+        "D": "Nous"
+      },
+      "correctAnswer": "C",
+      "explanation": "Je is the first-person singular subject pronoun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-011",
+      "subjectId": "french",
+      "topic": "French grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The usual plural of “un livre” is what?",
+      "options": {
+        "A": "Le livree",
+        "B": "Des livres",
+        "C": "Une livre",
+        "D": "Du livre"
+      },
+      "correctAnswer": "B",
+      "explanation": "French commonly adds -s in spelling, though it is often silent.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-012",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Eau” means what?",
+      "options": {
+        "A": "Water",
+        "B": "Fire",
+        "C": "Bread",
+        "D": "Window"
+      },
+      "correctAnswer": "A",
+      "explanation": "Eau means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-013",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Maison” means what?",
+      "options": {
+        "A": "Market",
+        "B": "Teacher",
+        "C": "Sun",
+        "D": "House"
+      },
+      "correctAnswer": "D",
+      "explanation": "Maison means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-014",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Merci beaucoup” means what?",
+      "options": {
+        "A": "I am well",
+        "B": "Open the door",
+        "C": "Thank you very much",
+        "D": "See you tomorrow"
+      },
+      "correctAnswer": "C",
+      "explanation": "Beaucoup intensifies merci.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-015",
+      "subjectId": "french",
+      "topic": "French greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Bonsoir” is generally used to say what?",
+      "options": {
+        "A": "Goodbye forever",
+        "B": "Good evening",
+        "C": "Good morning",
+        "D": "Thank you"
+      },
+      "correctAnswer": "B",
+      "explanation": "Bonsoir is an evening greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-016",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of french vocabulary, a candidate is asked: What does “bonjour” usually mean?",
+      "options": {
+        "A": "Goodbye forever",
+        "B": "Please sit",
+        "C": "I am tired",
+        "D": "Hello / good day"
+      },
+      "correctAnswer": "D",
+      "explanation": "Bonjour is a common daytime greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-017",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of french vocabulary, a candidate is asked: “Merci” means what in English?",
+      "options": {
+        "A": "School",
+        "B": "Please open",
+        "C": "Thank you",
+        "D": "Good morning"
+      },
+      "correctAnswer": "C",
+      "explanation": "Merci means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-018",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of french vocabulary, a candidate is asked: Which French phrase means “goodbye”?",
+      "options": {
+        "A": "Merci",
+        "B": "Au revoir",
+        "C": "Bonjour",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "B",
+      "explanation": "Au revoir is a common farewell.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-019",
+      "subjectId": "french",
+      "topic": "French phrases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of french phrases, a candidate is asked: “Je m’appelle Amina” means what?",
+      "options": {
+        "A": "My name is Amina",
+        "B": "I am going to school",
+        "C": "I like reading",
+        "D": "Where is Amina?"
+      },
+      "correctAnswer": "A",
+      "explanation": "Je m’appelle introduces a person’s name.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-020",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of french vocabulary, a candidate is asked: Which word means “please”?",
+      "options": {
+        "A": "Merci",
+        "B": "Non",
+        "C": "Livre",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "D",
+      "explanation": "S’il vous plaît is a polite request phrase.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-021",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of french vocabulary, a candidate is asked: “Oui” means what?",
+      "options": {
+        "A": "Maybe tomorrow",
+        "B": "Thank you",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oui means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-022",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of french vocabulary, a candidate is asked: “Non” means what?",
+      "options": {
+        "A": "Welcome",
+        "B": "No",
+        "C": "Yes",
+        "D": "Good evening"
+      },
+      "correctAnswer": "B",
+      "explanation": "Non means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-023",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of french vocabulary, a candidate is asked: Which word means “book”?",
+      "options": {
+        "A": "Livre",
+        "B": "Table",
+        "C": "Porte",
+        "D": "Chien"
+      },
+      "correctAnswer": "A",
+      "explanation": "Livre means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-024",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of french vocabulary, a candidate is asked: Which word means “school”?",
+      "options": {
+        "A": "Maison",
+        "B": "Eau",
+        "C": "Pain",
+        "D": "École"
+      },
+      "correctAnswer": "D",
+      "explanation": "École means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-025",
+      "subjectId": "french",
+      "topic": "French grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of french grammar, a candidate is asked: Which pronoun means “I” in French?",
+      "options": {
+        "A": "Vous",
+        "B": "Ils",
+        "C": "Je",
+        "D": "Nous"
+      },
+      "correctAnswer": "C",
+      "explanation": "Je is the first-person singular subject pronoun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-026",
+      "subjectId": "french",
+      "topic": "French grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of french grammar, a candidate is asked: The usual plural of “un livre” is what?",
+      "options": {
+        "A": "Le livree",
+        "B": "Des livres",
+        "C": "Une livre",
+        "D": "Du livre"
+      },
+      "correctAnswer": "B",
+      "explanation": "French commonly adds -s in spelling, though it is often silent.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-027",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of french vocabulary, a candidate is asked: “Eau” means what?",
+      "options": {
+        "A": "Water",
+        "B": "Fire",
+        "C": "Bread",
+        "D": "Window"
+      },
+      "correctAnswer": "A",
+      "explanation": "Eau means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-028",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of french vocabulary, a candidate is asked: “Maison” means what?",
+      "options": {
+        "A": "Market",
+        "B": "Teacher",
+        "C": "Sun",
+        "D": "House"
+      },
+      "correctAnswer": "D",
+      "explanation": "Maison means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-029",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of french vocabulary, a candidate is asked: “Merci beaucoup” means what?",
+      "options": {
+        "A": "I am well",
+        "B": "Open the door",
+        "C": "Thank you very much",
+        "D": "See you tomorrow"
+      },
+      "correctAnswer": "C",
+      "explanation": "Beaucoup intensifies merci.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-030",
+      "subjectId": "french",
+      "topic": "French greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of french greetings, a candidate is asked: “Bonsoir” is generally used to say what?",
+      "options": {
+        "A": "Goodbye forever",
+        "B": "Good evening",
+        "C": "Good morning",
+        "D": "Thank you"
+      },
+      "correctAnswer": "B",
+      "explanation": "Bonsoir is an evening greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-031",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about french vocabulary: What does “bonjour” usually mean?",
+      "options": {
+        "A": "Goodbye forever",
+        "B": "Please sit",
+        "C": "I am tired",
+        "D": "Hello / good day"
+      },
+      "correctAnswer": "D",
+      "explanation": "Bonjour is a common daytime greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-032",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about french vocabulary: “Merci” means what in English?",
+      "options": {
+        "A": "School",
+        "B": "Please open",
+        "C": "Thank you",
+        "D": "Good morning"
+      },
+      "correctAnswer": "C",
+      "explanation": "Merci means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-033",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about french vocabulary: Which French phrase means “goodbye”?",
+      "options": {
+        "A": "Merci",
+        "B": "Au revoir",
+        "C": "Bonjour",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "B",
+      "explanation": "Au revoir is a common farewell.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-034",
+      "subjectId": "french",
+      "topic": "French phrases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about french phrases: “Je m’appelle Amina” means what?",
+      "options": {
+        "A": "My name is Amina",
+        "B": "I am going to school",
+        "C": "I like reading",
+        "D": "Where is Amina?"
+      },
+      "correctAnswer": "A",
+      "explanation": "Je m’appelle introduces a person’s name.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-035",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about french vocabulary: Which word means “please”?",
+      "options": {
+        "A": "Merci",
+        "B": "Non",
+        "C": "Livre",
+        "D": "S’il vous plaît"
+      },
+      "correctAnswer": "D",
+      "explanation": "S’il vous plaît is a polite request phrase.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-036",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about french vocabulary: “Oui” means what?",
+      "options": {
+        "A": "Maybe tomorrow",
+        "B": "Thank you",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oui means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-037",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about french vocabulary: “Non” means what?",
+      "options": {
+        "A": "Welcome",
+        "B": "No",
+        "C": "Yes",
+        "D": "Good evening"
+      },
+      "correctAnswer": "B",
+      "explanation": "Non means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-038",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about french vocabulary: Which word means “book”?",
+      "options": {
+        "A": "Livre",
+        "B": "Table",
+        "C": "Porte",
+        "D": "Chien"
+      },
+      "correctAnswer": "A",
+      "explanation": "Livre means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-039",
+      "subjectId": "french",
+      "topic": "French vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about french vocabulary: Which word means “school”?",
+      "options": {
+        "A": "Maison",
+        "B": "Eau",
+        "C": "Pain",
+        "D": "École"
+      },
+      "correctAnswer": "D",
+      "explanation": "École means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "french-r2g-040",
+      "subjectId": "french",
+      "topic": "French grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about french grammar: Which pronoun means “I” in French?",
+      "options": {
+        "A": "Vous",
+        "B": "Ils",
+        "C": "Je",
+        "D": "Nous"
+      },
+      "correctAnswer": "C",
+      "explanation": "Je is the first-person singular subject pronoun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

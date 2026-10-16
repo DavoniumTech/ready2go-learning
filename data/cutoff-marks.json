@@ -1,7 +1,57 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "generatedAt": "2026-10-16",
-  "records": [],
-  "policy": "No cut-off marks are prefilled. Add a record only with an official source, institution, programme, admission year, source URL, and date verified. Never present a general departmental or university cut-off as a guarantee of admission.",
+  "admissionYear": 2026,
+  "records": [
+    {
+      "id": "2026-universities-national-minimum",
+      "admissionYear": 2026,
+      "institutionType": "University",
+      "value": 150,
+      "unit": "UTME score out of 400",
+      "recordType": "JAMB national minimum admissible score",
+      "sourceName": "JAMB 2026 Policy Meeting",
+      "sourceUrl": "https://www.jamb.gov.ng/",
+      "verifiedAt": "2026-10-16",
+      "note": "National minimum benchmark, not a course-specific or institution-specific departmental cut-off. An institution may prescribe a higher score."
+    },
+    {
+      "id": "2026-colleges-of-nursing-national-minimum",
+      "admissionYear": 2026,
+      "institutionType": "College of Nursing",
+      "value": 150,
+      "unit": "UTME score out of 400",
+      "recordType": "JAMB national minimum admissible score",
+      "sourceName": "JAMB 2026 Policy Meeting",
+      "sourceUrl": "https://www.jamb.gov.ng/",
+      "verifiedAt": "2026-10-16",
+      "note": "National minimum benchmark, not a guarantee of admission. Programme-specific requirements still apply."
+    },
+    {
+      "id": "2026-polytechnic-monotechnic-national-minimum",
+      "admissionYear": 2026,
+      "institutionType": "Polytechnic / Monotechnic",
+      "value": 100,
+      "unit": "UTME score out of 400",
+      "recordType": "JAMB national minimum admissible score",
+      "sourceName": "JAMB 2026 Policy Meeting",
+      "sourceUrl": "https://www.jamb.gov.ng/",
+      "verifiedAt": "2026-10-16",
+      "note": "National minimum benchmark; institutions may prescribe higher requirements."
+    },
+    {
+      "id": "2026-colleges-of-agriculture-ieis-national-minimum",
+      "admissionYear": 2026,
+      "institutionType": "College of Agriculture / Innovation Enterprise Institution",
+      "value": 100,
+      "unit": "UTME score out of 400",
+      "recordType": "JAMB national minimum admissible score",
+      "sourceName": "JAMB 2026 Policy Meeting",
+      "sourceUrl": "https://www.jamb.gov.ng/",
+      "verifiedAt": "2026-10-16",
+      "note": "National minimum benchmark. Verify the relevant institution and programme directly."
+    }
+  ],
+  "policy": "These figures are the JAMB 2026 minimum admissible score benchmarks, not a list of each university course cut-off. Institution/programme cut-off scores can be higher. Do not infer specific course eligibility from these national floors.",
   "verificationUrl": "https://eligibility.jamb.gov.ng/"
 }

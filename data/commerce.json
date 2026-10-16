@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "commerce",
   "subjectName": "Commerce",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "comm-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "A",
       "explanation": "A receipt records that goods or payment have been received.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "commerce-r2g-001",
+      "subjectId": "commerce",
+      "topic": "Trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What is the main role of a wholesaler in a distribution channel?",
+      "options": {
+        "A": "Manufacturing every product",
+        "B": "Setting national laws",
+        "C": "Auditing all government accounts",
+        "D": "Buying in bulk and reselling in smaller quantities to retailers"
+      },
+      "correctAnswer": "D",
+      "explanation": "Wholesalers buy in bulk and supply retailers or other businesses.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-002",
+      "subjectId": "commerce",
+      "topic": "Retail trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A retailer usually sells goods to whom?",
+      "options": {
+        "A": "Only central banks",
+        "B": "Foreign governments only",
+        "C": "Final consumers",
+        "D": "Only manufacturers"
+      },
+      "correctAnswer": "C",
+      "explanation": "Retailers sell goods to final consumers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-003",
+      "subjectId": "commerce",
+      "topic": "Business finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Gross profit is generally sales revenue less what?",
+      "options": {
+        "A": "Total population",
+        "B": "Cost of goods sold",
+        "C": "All personal assets",
+        "D": "Shareholders only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gross profit is sales minus cost of goods sold.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-004",
+      "subjectId": "commerce",
+      "topic": "Insurance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The principle of indemnity aims to do what?",
+      "options": {
+        "A": "Restore the insured to a similar financial position after a covered loss",
+        "B": "Guarantee profit from every claim",
+        "C": "Allow multiple profit-making claims",
+        "D": "Remove all business risk"
+      },
+      "correctAnswer": "A",
+      "explanation": "Indemnity compensates covered loss rather than creating a profit.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-005",
+      "subjectId": "commerce",
+      "topic": "Storage",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "What is the principal commercial use of warehousing?",
+      "options": {
+        "A": "Collecting income tax",
+        "B": "Manufacturing electricity",
+        "C": "Recruiting civil servants",
+        "D": "Storing goods until they are needed for sale or use"
+      },
+      "correctAnswer": "D",
+      "explanation": "Warehouses help balance supply timing and demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-006",
+      "subjectId": "commerce",
+      "topic": "Marketing",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Branding helps a business mainly by doing what?",
+      "options": {
+        "A": "Replacing quality control",
+        "B": "Eliminating consumer choice",
+        "C": "Identifying and distinguishing its products",
+        "D": "Removing all competition by law"
+      },
+      "correctAnswer": "C",
+      "explanation": "Branding builds product identity and differentiation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-007",
+      "subjectId": "commerce",
+      "topic": "Entrepreneurship",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "An entrepreneur is a person who primarily does what?",
+      "options": {
+        "A": "Guarantees government spending",
+        "B": "Organises a venture and bears business risk",
+        "C": "Only consumes goods",
+        "D": "Sets every interest rate"
+      },
+      "correctAnswer": "B",
+      "explanation": "Entrepreneurs organise resources and assume business risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-008",
+      "subjectId": "commerce",
+      "topic": "Documents",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "An invoice usually records which information?",
+      "options": {
+        "A": "Goods or services supplied and the amount payable",
+        "B": "Only a worker’s medical history",
+        "C": "A country’s population census",
+        "D": "A court sentence only"
+      },
+      "correctAnswer": "A",
+      "explanation": "An invoice documents a sale and amount due.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-009",
+      "subjectId": "commerce",
+      "topic": "Banking",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which service allows customers to make electronic payments between accounts?",
+      "options": {
+        "A": "Warehousing",
+        "B": "Packaging",
+        "C": "Stocktaking only",
+        "D": "Electronic funds transfer"
+      },
+      "correctAnswer": "D",
+      "explanation": "Electronic transfers move funds between accounts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-010",
+      "subjectId": "commerce",
+      "topic": "Advertising",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The main purpose of advertising is to do what?",
+      "options": {
+        "A": "Guarantee unlimited demand",
+        "B": "Remove the need for product quality",
+        "C": "Inform or persuade an intended audience about an offer",
+        "D": "Replace every salesperson by law"
+      },
+      "correctAnswer": "C",
+      "explanation": "Advertising communicates product information and may persuade customers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-011",
+      "subjectId": "commerce",
+      "topic": "Business records",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Stocktaking is the process of doing what?",
+      "options": {
+        "A": "Inspecting a school timetable",
+        "B": "Counting and checking inventory",
+        "C": "Calculating rainfall",
+        "D": "Registering voters"
+      },
+      "correctAnswer": "B",
+      "explanation": "Stocktaking checks actual inventory against records.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-012",
+      "subjectId": "commerce",
+      "topic": "Consumer protection",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A genuine product warranty mainly states what?",
+      "options": {
+        "A": "Conditions under which the seller or maker will remedy certain faults",
+        "B": "The product will never fail under any conditions",
+        "C": "The buyer must pay twice",
+        "D": "No receipt is ever needed"
+      },
+      "correctAnswer": "A",
+      "explanation": "A warranty states defined promises and remedy conditions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-013",
+      "subjectId": "commerce",
+      "topic": "Transport",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which transport mode is often suitable for moving large bulk goods over long inland distances at low unit cost?",
+      "options": {
+        "A": "Motorcycle courier",
+        "B": "Bicycle",
+        "C": "Hand delivery only",
+        "D": "Rail"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rail can move heavy bulk cargo efficiently over land.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-014",
+      "subjectId": "commerce",
+      "topic": "E-commerce",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "E-commerce is commercial activity conducted through what?",
+      "options": {
+        "A": "Paper ledgers only",
+        "B": "Radio without transactions",
+        "C": "Electronic networks such as the internet",
+        "D": "Only physical open markets"
+      },
+      "correctAnswer": "C",
+      "explanation": "E-commerce includes online buying and selling.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-015",
+      "subjectId": "commerce",
+      "topic": "Consumer demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Market research helps a business understand what?",
+      "options": {
+        "A": "The exact weather in every country",
+        "B": "Customer needs and market conditions",
+        "C": "Only the owner’s favourite colour",
+        "D": "Future events with certainty"
+      },
+      "correctAnswer": "B",
+      "explanation": "Market research informs product and marketing decisions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-016",
+      "subjectId": "commerce",
+      "topic": "Trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of trade, a candidate is asked: What is the main role of a wholesaler in a distribution channel?",
+      "options": {
+        "A": "Manufacturing every product",
+        "B": "Setting national laws",
+        "C": "Auditing all government accounts",
+        "D": "Buying in bulk and reselling in smaller quantities to retailers"
+      },
+      "correctAnswer": "D",
+      "explanation": "Wholesalers buy in bulk and supply retailers or other businesses.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-017",
+      "subjectId": "commerce",
+      "topic": "Retail trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of retail trade, a candidate is asked: A retailer usually sells goods to whom?",
+      "options": {
+        "A": "Only central banks",
+        "B": "Foreign governments only",
+        "C": "Final consumers",
+        "D": "Only manufacturers"
+      },
+      "correctAnswer": "C",
+      "explanation": "Retailers sell goods to final consumers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-018",
+      "subjectId": "commerce",
+      "topic": "Business finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of business finance, a candidate is asked: Gross profit is generally sales revenue less what?",
+      "options": {
+        "A": "Total population",
+        "B": "Cost of goods sold",
+        "C": "All personal assets",
+        "D": "Shareholders only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gross profit is sales minus cost of goods sold.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-019",
+      "subjectId": "commerce",
+      "topic": "Insurance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of insurance, a candidate is asked: The principle of indemnity aims to do what?",
+      "options": {
+        "A": "Restore the insured to a similar financial position after a covered loss",
+        "B": "Guarantee profit from every claim",
+        "C": "Allow multiple profit-making claims",
+        "D": "Remove all business risk"
+      },
+      "correctAnswer": "A",
+      "explanation": "Indemnity compensates covered loss rather than creating a profit.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-020",
+      "subjectId": "commerce",
+      "topic": "Storage",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of storage, a candidate is asked: What is the principal commercial use of warehousing?",
+      "options": {
+        "A": "Collecting income tax",
+        "B": "Manufacturing electricity",
+        "C": "Recruiting civil servants",
+        "D": "Storing goods until they are needed for sale or use"
+      },
+      "correctAnswer": "D",
+      "explanation": "Warehouses help balance supply timing and demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-021",
+      "subjectId": "commerce",
+      "topic": "Marketing",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of marketing, a candidate is asked: Branding helps a business mainly by doing what?",
+      "options": {
+        "A": "Replacing quality control",
+        "B": "Eliminating consumer choice",
+        "C": "Identifying and distinguishing its products",
+        "D": "Removing all competition by law"
+      },
+      "correctAnswer": "C",
+      "explanation": "Branding builds product identity and differentiation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-022",
+      "subjectId": "commerce",
+      "topic": "Entrepreneurship",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of entrepreneurship, a candidate is asked: An entrepreneur is a person who primarily does what?",
+      "options": {
+        "A": "Guarantees government spending",
+        "B": "Organises a venture and bears business risk",
+        "C": "Only consumes goods",
+        "D": "Sets every interest rate"
+      },
+      "correctAnswer": "B",
+      "explanation": "Entrepreneurs organise resources and assume business risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-023",
+      "subjectId": "commerce",
+      "topic": "Documents",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of documents, a candidate is asked: An invoice usually records which information?",
+      "options": {
+        "A": "Goods or services supplied and the amount payable",
+        "B": "Only a worker’s medical history",
+        "C": "A country’s population census",
+        "D": "A court sentence only"
+      },
+      "correctAnswer": "A",
+      "explanation": "An invoice documents a sale and amount due.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-024",
+      "subjectId": "commerce",
+      "topic": "Banking",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of banking, a candidate is asked: Which service allows customers to make electronic payments between accounts?",
+      "options": {
+        "A": "Warehousing",
+        "B": "Packaging",
+        "C": "Stocktaking only",
+        "D": "Electronic funds transfer"
+      },
+      "correctAnswer": "D",
+      "explanation": "Electronic transfers move funds between accounts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-025",
+      "subjectId": "commerce",
+      "topic": "Advertising",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of advertising, a candidate is asked: The main purpose of advertising is to do what?",
+      "options": {
+        "A": "Guarantee unlimited demand",
+        "B": "Remove the need for product quality",
+        "C": "Inform or persuade an intended audience about an offer",
+        "D": "Replace every salesperson by law"
+      },
+      "correctAnswer": "C",
+      "explanation": "Advertising communicates product information and may persuade customers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-026",
+      "subjectId": "commerce",
+      "topic": "Business records",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of business records, a candidate is asked: Stocktaking is the process of doing what?",
+      "options": {
+        "A": "Inspecting a school timetable",
+        "B": "Counting and checking inventory",
+        "C": "Calculating rainfall",
+        "D": "Registering voters"
+      },
+      "correctAnswer": "B",
+      "explanation": "Stocktaking checks actual inventory against records.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-027",
+      "subjectId": "commerce",
+      "topic": "Consumer protection",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of consumer protection, a candidate is asked: A genuine product warranty mainly states what?",
+      "options": {
+        "A": "Conditions under which the seller or maker will remedy certain faults",
+        "B": "The product will never fail under any conditions",
+        "C": "The buyer must pay twice",
+        "D": "No receipt is ever needed"
+      },
+      "correctAnswer": "A",
+      "explanation": "A warranty states defined promises and remedy conditions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-028",
+      "subjectId": "commerce",
+      "topic": "Transport",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of transport, a candidate is asked: Which transport mode is often suitable for moving large bulk goods over long inland distances at low unit cost?",
+      "options": {
+        "A": "Motorcycle courier",
+        "B": "Bicycle",
+        "C": "Hand delivery only",
+        "D": "Rail"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rail can move heavy bulk cargo efficiently over land.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-029",
+      "subjectId": "commerce",
+      "topic": "E-commerce",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of e-commerce, a candidate is asked: E-commerce is commercial activity conducted through what?",
+      "options": {
+        "A": "Paper ledgers only",
+        "B": "Radio without transactions",
+        "C": "Electronic networks such as the internet",
+        "D": "Only physical open markets"
+      },
+      "correctAnswer": "C",
+      "explanation": "E-commerce includes online buying and selling.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-030",
+      "subjectId": "commerce",
+      "topic": "Consumer demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of consumer demand, a candidate is asked: Market research helps a business understand what?",
+      "options": {
+        "A": "The exact weather in every country",
+        "B": "Customer needs and market conditions",
+        "C": "Only the owner’s favourite colour",
+        "D": "Future events with certainty"
+      },
+      "correctAnswer": "B",
+      "explanation": "Market research informs product and marketing decisions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-031",
+      "subjectId": "commerce",
+      "topic": "Trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about trade: What is the main role of a wholesaler in a distribution channel?",
+      "options": {
+        "A": "Manufacturing every product",
+        "B": "Setting national laws",
+        "C": "Auditing all government accounts",
+        "D": "Buying in bulk and reselling in smaller quantities to retailers"
+      },
+      "correctAnswer": "D",
+      "explanation": "Wholesalers buy in bulk and supply retailers or other businesses.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-032",
+      "subjectId": "commerce",
+      "topic": "Retail trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about retail trade: A retailer usually sells goods to whom?",
+      "options": {
+        "A": "Only central banks",
+        "B": "Foreign governments only",
+        "C": "Final consumers",
+        "D": "Only manufacturers"
+      },
+      "correctAnswer": "C",
+      "explanation": "Retailers sell goods to final consumers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-033",
+      "subjectId": "commerce",
+      "topic": "Business finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about business finance: Gross profit is generally sales revenue less what?",
+      "options": {
+        "A": "Total population",
+        "B": "Cost of goods sold",
+        "C": "All personal assets",
+        "D": "Shareholders only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Gross profit is sales minus cost of goods sold.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-034",
+      "subjectId": "commerce",
+      "topic": "Insurance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about insurance: The principle of indemnity aims to do what?",
+      "options": {
+        "A": "Restore the insured to a similar financial position after a covered loss",
+        "B": "Guarantee profit from every claim",
+        "C": "Allow multiple profit-making claims",
+        "D": "Remove all business risk"
+      },
+      "correctAnswer": "A",
+      "explanation": "Indemnity compensates covered loss rather than creating a profit.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "commerce-r2g-035",
+      "subjectId": "commerce",
+      "topic": "Storage",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about storage: What is the principal commercial use of warehousing?",
+      "options": {
+        "A": "Collecting income tax",
+        "B": "Manufacturing electricity",
+        "C": "Recruiting civil servants",
+        "D": "Storing goods until they are needed for sale or use"
+      },
+      "correctAnswer": "D",
+      "explanation": "Warehouses help balance supply timing and demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "music",
+  "subjectName": "Music",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "music-r2g-001",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Pitch describes how high or low a sound is perceived to be. What is it called?",
+      "options": {
+        "A": "Tempo",
+        "B": "Texture",
+        "C": "Volume only",
+        "D": "Pitch"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pitch relates to perceived highness or lowness of sound.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-002",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The organisation of sounds and silences in time is called what?",
+      "options": {
+        "A": "Perspective",
+        "B": "Depreciation",
+        "C": "Rhythm",
+        "D": "Colour"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rhythm organises durations and accents in time.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-003",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A sequence of notes perceived as a musical line is called what?",
+      "options": {
+        "A": "Timbre only",
+        "B": "Melody",
+        "C": "Tempo only",
+        "D": "Rest only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Melody is a succession of pitches forming a musical line.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-004",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Tempo indicates what?",
+      "options": {
+        "A": "The speed of the beat",
+        "B": "The instrument’s weight",
+        "C": "The song’s price",
+        "D": "The singer’s height"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tempo is the pace of music.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-005",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Dynamics in music refer to changes in what?",
+      "options": {
+        "A": "Language translation",
+        "B": "Instrument colour only",
+        "C": "Stage lighting only",
+        "D": "Loudness or softness"
+      },
+      "correctAnswer": "D",
+      "explanation": "Dynamics indicate relative sound intensity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-006",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The five horizontal lines used in standard Western notation form what?",
+      "options": {
+        "A": "A compass rose",
+        "B": "A ledger",
+        "C": "A staff",
+        "D": "A stanza"
+      },
+      "correctAnswer": "C",
+      "explanation": "Musical notes are placed on a staff.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-007",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which clef is commonly used for higher-pitched parts?",
+      "options": {
+        "A": "No clef ever",
+        "B": "Treble clef",
+        "C": "Bass drum clef",
+        "D": "Map clef"
+      },
+      "correctAnswer": "B",
+      "explanation": "Treble clef commonly notates higher pitches.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-008",
+      "subjectId": "music",
+      "topic": "Harmony",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Harmony generally involves what?",
+      "options": {
+        "A": "Notes sounding together in chords or related combinations",
+        "B": "Only one note at a time",
+        "C": "A silent stage",
+        "D": "The speed of walking"
+      },
+      "correctAnswer": "A",
+      "explanation": "Harmony concerns simultaneous pitches and their relationships.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-009",
+      "subjectId": "music",
+      "topic": "Timbre",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Timbre helps distinguish instruments even when they play the same pitch and loudness. It refers to what?",
+      "options": {
+        "A": "Tempo",
+        "B": "Meter only",
+        "C": "The key signature alone",
+        "D": "Tone colour"
+      },
+      "correctAnswer": "D",
+      "explanation": "Timbre is the quality that differentiates sound sources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-010",
+      "subjectId": "music",
+      "topic": "Music notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A symbol indicating silence for a specific duration is called what?",
+      "options": {
+        "A": "Sharp only",
+        "B": "Clef only",
+        "C": "Rest",
+        "D": "Barline only"
+      },
+      "correctAnswer": "C",
+      "explanation": "A rest represents a period of silence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-011",
+      "subjectId": "music",
+      "topic": "Instruments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which family includes violin, viola and cello?",
+      "options": {
+        "A": "Electronic keyboards only",
+        "B": "String instruments",
+        "C": "Brass only",
+        "D": "Woodwind only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The violin family consists of bowed string instruments.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-012",
+      "subjectId": "music",
+      "topic": "Rhythm",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The grouping of beats into recurring patterns is called what?",
+      "options": {
+        "A": "Metre",
+        "B": "Timbre",
+        "C": "Pitch range only",
+        "D": "Dynamics"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metre organises beats into recurring strong and weak patterns.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-013",
+      "subjectId": "music",
+      "topic": "Performance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A conductor primarily helps an ensemble coordinate what?",
+      "options": {
+        "A": "The audience’s tickets",
+        "B": "The venue’s electricity bill",
+        "C": "Instrument manufacturing",
+        "D": "Tempo, entries and interpretation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Conductors coordinate timing and ensemble interpretation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-014",
+      "subjectId": "music",
+      "topic": "African music",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A talking drum can vary its sound partly by changing what?",
+      "options": {
+        "A": "The colour of a note",
+        "B": "The length of a football field",
+        "C": "Tension on its drumheads",
+        "D": "The written alphabet"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pressure on the drumhead alters pitch, enabling speech-like patterns.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-015",
+      "subjectId": "music",
+      "topic": "Music history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A composer is a person who primarily does what?",
+      "options": {
+        "A": "Only reviews ticket prices",
+        "B": "Creates music",
+        "C": "Only sells instruments",
+        "D": "Only builds concert halls"
+      },
+      "correctAnswer": "B",
+      "explanation": "Composers write or create musical works.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-016",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of musical elements, a candidate is asked: Pitch describes how high or low a sound is perceived to be. What is it called?",
+      "options": {
+        "A": "Tempo",
+        "B": "Texture",
+        "C": "Volume only",
+        "D": "Pitch"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pitch relates to perceived highness or lowness of sound.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-017",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of musical elements, a candidate is asked: The organisation of sounds and silences in time is called what?",
+      "options": {
+        "A": "Perspective",
+        "B": "Depreciation",
+        "C": "Rhythm",
+        "D": "Colour"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rhythm organises durations and accents in time.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-018",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of musical elements, a candidate is asked: A sequence of notes perceived as a musical line is called what?",
+      "options": {
+        "A": "Timbre only",
+        "B": "Melody",
+        "C": "Tempo only",
+        "D": "Rest only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Melody is a succession of pitches forming a musical line.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-019",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of musical elements, a candidate is asked: Tempo indicates what?",
+      "options": {
+        "A": "The speed of the beat",
+        "B": "The instrument’s weight",
+        "C": "The song’s price",
+        "D": "The singer’s height"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tempo is the pace of music.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-020",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of musical elements, a candidate is asked: Dynamics in music refer to changes in what?",
+      "options": {
+        "A": "Language translation",
+        "B": "Instrument colour only",
+        "C": "Stage lighting only",
+        "D": "Loudness or softness"
+      },
+      "correctAnswer": "D",
+      "explanation": "Dynamics indicate relative sound intensity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-021",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of notation, a candidate is asked: The five horizontal lines used in standard Western notation form what?",
+      "options": {
+        "A": "A compass rose",
+        "B": "A ledger",
+        "C": "A staff",
+        "D": "A stanza"
+      },
+      "correctAnswer": "C",
+      "explanation": "Musical notes are placed on a staff.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-022",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of notation, a candidate is asked: Which clef is commonly used for higher-pitched parts?",
+      "options": {
+        "A": "No clef ever",
+        "B": "Treble clef",
+        "C": "Bass drum clef",
+        "D": "Map clef"
+      },
+      "correctAnswer": "B",
+      "explanation": "Treble clef commonly notates higher pitches.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-023",
+      "subjectId": "music",
+      "topic": "Harmony",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of harmony, a candidate is asked: Harmony generally involves what?",
+      "options": {
+        "A": "Notes sounding together in chords or related combinations",
+        "B": "Only one note at a time",
+        "C": "A silent stage",
+        "D": "The speed of walking"
+      },
+      "correctAnswer": "A",
+      "explanation": "Harmony concerns simultaneous pitches and their relationships.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-024",
+      "subjectId": "music",
+      "topic": "Timbre",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of timbre, a candidate is asked: Timbre helps distinguish instruments even when they play the same pitch and loudness. It refers to what?",
+      "options": {
+        "A": "Tempo",
+        "B": "Meter only",
+        "C": "The key signature alone",
+        "D": "Tone colour"
+      },
+      "correctAnswer": "D",
+      "explanation": "Timbre is the quality that differentiates sound sources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-025",
+      "subjectId": "music",
+      "topic": "Music notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of music notation, a candidate is asked: A symbol indicating silence for a specific duration is called what?",
+      "options": {
+        "A": "Sharp only",
+        "B": "Clef only",
+        "C": "Rest",
+        "D": "Barline only"
+      },
+      "correctAnswer": "C",
+      "explanation": "A rest represents a period of silence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-026",
+      "subjectId": "music",
+      "topic": "Instruments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of instruments, a candidate is asked: Which family includes violin, viola and cello?",
+      "options": {
+        "A": "Electronic keyboards only",
+        "B": "String instruments",
+        "C": "Brass only",
+        "D": "Woodwind only"
+      },
+      "correctAnswer": "B",
+      "explanation": "The violin family consists of bowed string instruments.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-027",
+      "subjectId": "music",
+      "topic": "Rhythm",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of rhythm, a candidate is asked: The grouping of beats into recurring patterns is called what?",
+      "options": {
+        "A": "Metre",
+        "B": "Timbre",
+        "C": "Pitch range only",
+        "D": "Dynamics"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metre organises beats into recurring strong and weak patterns.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-028",
+      "subjectId": "music",
+      "topic": "Performance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of performance, a candidate is asked: A conductor primarily helps an ensemble coordinate what?",
+      "options": {
+        "A": "The audience’s tickets",
+        "B": "The venue’s electricity bill",
+        "C": "Instrument manufacturing",
+        "D": "Tempo, entries and interpretation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Conductors coordinate timing and ensemble interpretation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-029",
+      "subjectId": "music",
+      "topic": "African music",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of african music, a candidate is asked: A talking drum can vary its sound partly by changing what?",
+      "options": {
+        "A": "The colour of a note",
+        "B": "The length of a football field",
+        "C": "Tension on its drumheads",
+        "D": "The written alphabet"
+      },
+      "correctAnswer": "C",
+      "explanation": "Pressure on the drumhead alters pitch, enabling speech-like patterns.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-030",
+      "subjectId": "music",
+      "topic": "Music history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of music history, a candidate is asked: A composer is a person who primarily does what?",
+      "options": {
+        "A": "Only reviews ticket prices",
+        "B": "Creates music",
+        "C": "Only sells instruments",
+        "D": "Only builds concert halls"
+      },
+      "correctAnswer": "B",
+      "explanation": "Composers write or create musical works.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-031",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about musical elements: Pitch describes how high or low a sound is perceived to be. What is it called?",
+      "options": {
+        "A": "Tempo",
+        "B": "Texture",
+        "C": "Volume only",
+        "D": "Pitch"
+      },
+      "correctAnswer": "D",
+      "explanation": "Pitch relates to perceived highness or lowness of sound.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-032",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about musical elements: The organisation of sounds and silences in time is called what?",
+      "options": {
+        "A": "Perspective",
+        "B": "Depreciation",
+        "C": "Rhythm",
+        "D": "Colour"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rhythm organises durations and accents in time.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-033",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about musical elements: A sequence of notes perceived as a musical line is called what?",
+      "options": {
+        "A": "Timbre only",
+        "B": "Melody",
+        "C": "Tempo only",
+        "D": "Rest only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Melody is a succession of pitches forming a musical line.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-034",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about musical elements: Tempo indicates what?",
+      "options": {
+        "A": "The speed of the beat",
+        "B": "The instrument’s weight",
+        "C": "The song’s price",
+        "D": "The singer’s height"
+      },
+      "correctAnswer": "A",
+      "explanation": "Tempo is the pace of music.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-035",
+      "subjectId": "music",
+      "topic": "Musical elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about musical elements: Dynamics in music refer to changes in what?",
+      "options": {
+        "A": "Language translation",
+        "B": "Instrument colour only",
+        "C": "Stage lighting only",
+        "D": "Loudness or softness"
+      },
+      "correctAnswer": "D",
+      "explanation": "Dynamics indicate relative sound intensity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-036",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about notation: The five horizontal lines used in standard Western notation form what?",
+      "options": {
+        "A": "A compass rose",
+        "B": "A ledger",
+        "C": "A staff",
+        "D": "A stanza"
+      },
+      "correctAnswer": "C",
+      "explanation": "Musical notes are placed on a staff.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-037",
+      "subjectId": "music",
+      "topic": "Notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about notation: Which clef is commonly used for higher-pitched parts?",
+      "options": {
+        "A": "No clef ever",
+        "B": "Treble clef",
+        "C": "Bass drum clef",
+        "D": "Map clef"
+      },
+      "correctAnswer": "B",
+      "explanation": "Treble clef commonly notates higher pitches.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-038",
+      "subjectId": "music",
+      "topic": "Harmony",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about harmony: Harmony generally involves what?",
+      "options": {
+        "A": "Notes sounding together in chords or related combinations",
+        "B": "Only one note at a time",
+        "C": "A silent stage",
+        "D": "The speed of walking"
+      },
+      "correctAnswer": "A",
+      "explanation": "Harmony concerns simultaneous pitches and their relationships.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-039",
+      "subjectId": "music",
+      "topic": "Timbre",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about timbre: Timbre helps distinguish instruments even when they play the same pitch and loudness. It refers to what?",
+      "options": {
+        "A": "Tempo",
+        "B": "Meter only",
+        "C": "The key signature alone",
+        "D": "Tone colour"
+      },
+      "correctAnswer": "D",
+      "explanation": "Timbre is the quality that differentiates sound sources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "music-r2g-040",
+      "subjectId": "music",
+      "topic": "Music notation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about music notation: A symbol indicating silence for a specific duration is called what?",
+      "options": {
+        "A": "Sharp only",
+        "B": "Clef only",
+        "C": "Rest",
+        "D": "Barline only"
+      },
+      "correctAnswer": "C",
+      "explanation": "A rest represents a period of silence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

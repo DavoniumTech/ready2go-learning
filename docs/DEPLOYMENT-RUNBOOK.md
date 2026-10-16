@@ -1,3 +1,11 @@
+# Deployment runbook — v0.4.0
+
+Use the root `DEPLOYMENT-QUICKSTART.md` in the complete release bundle for the current, checked deployment commands. Do not use prior v0.3 instructions below if they disagree with the root quickstart.
+
+The provided Windows CMD helpers are `deploy-frontend.cmd` and `deploy-cloudflare.cmd`. The Firebase backend has `firebase-backend/deploy-functions.sh`, which must be run inside Google Cloud Shell. Firestore rules are intentionally not deployed automatically.
+
+The content Worker URL is `https://ready2go-content.dawudaminu4321.workers.dev`; bucket `ready2go-question-packs` stays private. Draft question packs intentionally return 404 from the Worker until the manifest, pack, and all questions are approved.
+
 # Ready2Go Learning v0.3.0 — deployment runbook
 
 This runbook is written to preserve the existing GitHub repository, Firebase project and Cloudflare resources. Verify names and paths before each push/deploy.

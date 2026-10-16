@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "fine-art",
+  "subjectName": "Art",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "fine-art-r2g-001",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which three colours are traditionally called primary colours in basic paint mixing?",
+      "options": {
+        "A": "Green, orange and violet",
+        "B": "Black, white and grey",
+        "C": "Pink, brown and gold",
+        "D": "Red, yellow and blue"
+      },
+      "correctAnswer": "D",
+      "explanation": "The traditional RYB model uses red, yellow and blue as primary pigments.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-002",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Mixing blue and yellow pigment traditionally produces which colour?",
+      "options": {
+        "A": "Red",
+        "B": "Black",
+        "C": "Green",
+        "D": "Purple"
+      },
+      "correctAnswer": "C",
+      "explanation": "Blue and yellow pigments commonly mix to green.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-003",
+      "subjectId": "fine-art",
+      "topic": "Perspective",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Linear perspective is used to create what illusion in a flat image?",
+      "options": {
+        "A": "Movement of real objects",
+        "B": "Depth and distance",
+        "C": "Sound",
+        "D": "Temperature"
+      },
+      "correctAnswer": "B",
+      "explanation": "Perspective uses converging lines and scale to suggest depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-004",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which art element describes how light or dark a colour appears?",
+      "options": {
+        "A": "Value",
+        "B": "Rhythm",
+        "C": "Volume of sound",
+        "D": "Tempo"
+      },
+      "correctAnswer": "A",
+      "explanation": "Value refers to relative lightness or darkness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-005",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Texture in visual art describes what?",
+      "options": {
+        "A": "The price of a frame",
+        "B": "The age of the artist only",
+        "C": "A work’s sound level",
+        "D": "Actual or implied surface quality"
+      },
+      "correctAnswer": "D",
+      "explanation": "Texture may be physical or visually implied.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-006",
+      "subjectId": "fine-art",
+      "topic": "Sculpture",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A sculpture is primarily a work in which form?",
+      "options": {
+        "A": "A two-line poem",
+        "B": "A musical scale",
+        "C": "Three-dimensional form",
+        "D": "Only a spoken form"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sculpture occupies three-dimensional space.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-007",
+      "subjectId": "fine-art",
+      "topic": "Composition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The arrangement of visual elements in an artwork is called what?",
+      "options": {
+        "A": "Inflation",
+        "B": "Composition",
+        "C": "Fermentation",
+        "D": "Conjugation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Composition is the organisation of elements in a work.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-008",
+      "subjectId": "fine-art",
+      "topic": "Pigments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A pigment gives paint what?",
+      "options": {
+        "A": "Colour",
+        "B": "Electric charge only",
+        "C": "A musical pitch",
+        "D": "A written sentence"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pigments selectively absorb and reflect light, producing colour.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-009",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Colours opposite each other on a colour wheel are called what?",
+      "options": {
+        "A": "Analogous instruments",
+        "B": "Monochrome sounds",
+        "C": "Neutral verbs",
+        "D": "Complementary colours"
+      },
+      "correctAnswer": "D",
+      "explanation": "Complementary colours sit opposite each other on a colour wheel.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-010",
+      "subjectId": "fine-art",
+      "topic": "Drawing",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A mark that moves through space and has length but little width is what?",
+      "options": {
+        "A": "Tone only",
+        "B": "Perspective grid only",
+        "C": "Line",
+        "D": "Texture"
+      },
+      "correctAnswer": "C",
+      "explanation": "Line is a basic visual element.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-011",
+      "subjectId": "fine-art",
+      "topic": "Design principles",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Visual harmony is created when elements do what?",
+      "options": {
+        "A": "Must all be the same size",
+        "B": "Work together in a coherent arrangement",
+        "C": "Contradict all visual relationships",
+        "D": "Use no structure at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Harmony creates a sense of unity among visual elements.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-012",
+      "subjectId": "fine-art",
+      "topic": "Proportion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Proportion concerns the relative size of what?",
+      "options": {
+        "A": "Parts of an artwork or objects",
+        "B": "The humidity of a room",
+        "C": "The cost of a brush only",
+        "D": "The length of a song"
+      },
+      "correctAnswer": "A",
+      "explanation": "Proportion describes size relationships between parts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-013",
+      "subjectId": "fine-art",
+      "topic": "Printmaking",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which process transfers an image from a prepared surface to another surface?",
+      "options": {
+        "A": "Pottery firing only",
+        "B": "Charcoal blending only",
+        "C": "Dance notation",
+        "D": "Printmaking"
+      },
+      "correctAnswer": "D",
+      "explanation": "Printmaking produces impressions from a plate, block or screen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-014",
+      "subjectId": "fine-art",
+      "topic": "Art history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A mural is typically made on which surface?",
+      "options": {
+        "A": "A musical instrument",
+        "B": "A computer processor only",
+        "C": "A wall or ceiling",
+        "D": "A sheet of water"
+      },
+      "correctAnswer": "C",
+      "explanation": "Murals are artworks made directly on walls or ceilings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-015",
+      "subjectId": "fine-art",
+      "topic": "Art media",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Watercolour paint is generally thinned with what?",
+      "options": {
+        "A": "Metal filings",
+        "B": "Water",
+        "C": "Petrol",
+        "D": "Cooking oil only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water is the principal solvent for watercolour paint.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-016",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of colour theory, a candidate is asked: Which three colours are traditionally called primary colours in basic paint mixing?",
+      "options": {
+        "A": "Green, orange and violet",
+        "B": "Black, white and grey",
+        "C": "Pink, brown and gold",
+        "D": "Red, yellow and blue"
+      },
+      "correctAnswer": "D",
+      "explanation": "The traditional RYB model uses red, yellow and blue as primary pigments.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-017",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of colour theory, a candidate is asked: Mixing blue and yellow pigment traditionally produces which colour?",
+      "options": {
+        "A": "Red",
+        "B": "Black",
+        "C": "Green",
+        "D": "Purple"
+      },
+      "correctAnswer": "C",
+      "explanation": "Blue and yellow pigments commonly mix to green.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-018",
+      "subjectId": "fine-art",
+      "topic": "Perspective",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of perspective, a candidate is asked: Linear perspective is used to create what illusion in a flat image?",
+      "options": {
+        "A": "Movement of real objects",
+        "B": "Depth and distance",
+        "C": "Sound",
+        "D": "Temperature"
+      },
+      "correctAnswer": "B",
+      "explanation": "Perspective uses converging lines and scale to suggest depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-019",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of art elements, a candidate is asked: Which art element describes how light or dark a colour appears?",
+      "options": {
+        "A": "Value",
+        "B": "Rhythm",
+        "C": "Volume of sound",
+        "D": "Tempo"
+      },
+      "correctAnswer": "A",
+      "explanation": "Value refers to relative lightness or darkness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-020",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of art elements, a candidate is asked: Texture in visual art describes what?",
+      "options": {
+        "A": "The price of a frame",
+        "B": "The age of the artist only",
+        "C": "A work’s sound level",
+        "D": "Actual or implied surface quality"
+      },
+      "correctAnswer": "D",
+      "explanation": "Texture may be physical or visually implied.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-021",
+      "subjectId": "fine-art",
+      "topic": "Sculpture",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of sculpture, a candidate is asked: A sculpture is primarily a work in which form?",
+      "options": {
+        "A": "A two-line poem",
+        "B": "A musical scale",
+        "C": "Three-dimensional form",
+        "D": "Only a spoken form"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sculpture occupies three-dimensional space.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-022",
+      "subjectId": "fine-art",
+      "topic": "Composition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of composition, a candidate is asked: The arrangement of visual elements in an artwork is called what?",
+      "options": {
+        "A": "Inflation",
+        "B": "Composition",
+        "C": "Fermentation",
+        "D": "Conjugation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Composition is the organisation of elements in a work.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-023",
+      "subjectId": "fine-art",
+      "topic": "Pigments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of pigments, a candidate is asked: A pigment gives paint what?",
+      "options": {
+        "A": "Colour",
+        "B": "Electric charge only",
+        "C": "A musical pitch",
+        "D": "A written sentence"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pigments selectively absorb and reflect light, producing colour.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-024",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of colour theory, a candidate is asked: Colours opposite each other on a colour wheel are called what?",
+      "options": {
+        "A": "Analogous instruments",
+        "B": "Monochrome sounds",
+        "C": "Neutral verbs",
+        "D": "Complementary colours"
+      },
+      "correctAnswer": "D",
+      "explanation": "Complementary colours sit opposite each other on a colour wheel.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-025",
+      "subjectId": "fine-art",
+      "topic": "Drawing",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of drawing, a candidate is asked: A mark that moves through space and has length but little width is what?",
+      "options": {
+        "A": "Tone only",
+        "B": "Perspective grid only",
+        "C": "Line",
+        "D": "Texture"
+      },
+      "correctAnswer": "C",
+      "explanation": "Line is a basic visual element.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-026",
+      "subjectId": "fine-art",
+      "topic": "Design principles",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of design principles, a candidate is asked: Visual harmony is created when elements do what?",
+      "options": {
+        "A": "Must all be the same size",
+        "B": "Work together in a coherent arrangement",
+        "C": "Contradict all visual relationships",
+        "D": "Use no structure at all"
+      },
+      "correctAnswer": "B",
+      "explanation": "Harmony creates a sense of unity among visual elements.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-027",
+      "subjectId": "fine-art",
+      "topic": "Proportion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of proportion, a candidate is asked: Proportion concerns the relative size of what?",
+      "options": {
+        "A": "Parts of an artwork or objects",
+        "B": "The humidity of a room",
+        "C": "The cost of a brush only",
+        "D": "The length of a song"
+      },
+      "correctAnswer": "A",
+      "explanation": "Proportion describes size relationships between parts.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-028",
+      "subjectId": "fine-art",
+      "topic": "Printmaking",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of printmaking, a candidate is asked: Which process transfers an image from a prepared surface to another surface?",
+      "options": {
+        "A": "Pottery firing only",
+        "B": "Charcoal blending only",
+        "C": "Dance notation",
+        "D": "Printmaking"
+      },
+      "correctAnswer": "D",
+      "explanation": "Printmaking produces impressions from a plate, block or screen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-029",
+      "subjectId": "fine-art",
+      "topic": "Art history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of art history, a candidate is asked: A mural is typically made on which surface?",
+      "options": {
+        "A": "A musical instrument",
+        "B": "A computer processor only",
+        "C": "A wall or ceiling",
+        "D": "A sheet of water"
+      },
+      "correctAnswer": "C",
+      "explanation": "Murals are artworks made directly on walls or ceilings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-030",
+      "subjectId": "fine-art",
+      "topic": "Art media",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of art media, a candidate is asked: Watercolour paint is generally thinned with what?",
+      "options": {
+        "A": "Metal filings",
+        "B": "Water",
+        "C": "Petrol",
+        "D": "Cooking oil only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water is the principal solvent for watercolour paint.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-031",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about colour theory: Which three colours are traditionally called primary colours in basic paint mixing?",
+      "options": {
+        "A": "Green, orange and violet",
+        "B": "Black, white and grey",
+        "C": "Pink, brown and gold",
+        "D": "Red, yellow and blue"
+      },
+      "correctAnswer": "D",
+      "explanation": "The traditional RYB model uses red, yellow and blue as primary pigments.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-032",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about colour theory: Mixing blue and yellow pigment traditionally produces which colour?",
+      "options": {
+        "A": "Red",
+        "B": "Black",
+        "C": "Green",
+        "D": "Purple"
+      },
+      "correctAnswer": "C",
+      "explanation": "Blue and yellow pigments commonly mix to green.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-033",
+      "subjectId": "fine-art",
+      "topic": "Perspective",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about perspective: Linear perspective is used to create what illusion in a flat image?",
+      "options": {
+        "A": "Movement of real objects",
+        "B": "Depth and distance",
+        "C": "Sound",
+        "D": "Temperature"
+      },
+      "correctAnswer": "B",
+      "explanation": "Perspective uses converging lines and scale to suggest depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-034",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about art elements: Which art element describes how light or dark a colour appears?",
+      "options": {
+        "A": "Value",
+        "B": "Rhythm",
+        "C": "Volume of sound",
+        "D": "Tempo"
+      },
+      "correctAnswer": "A",
+      "explanation": "Value refers to relative lightness or darkness.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-035",
+      "subjectId": "fine-art",
+      "topic": "Art elements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about art elements: Texture in visual art describes what?",
+      "options": {
+        "A": "The price of a frame",
+        "B": "The age of the artist only",
+        "C": "A work’s sound level",
+        "D": "Actual or implied surface quality"
+      },
+      "correctAnswer": "D",
+      "explanation": "Texture may be physical or visually implied.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-036",
+      "subjectId": "fine-art",
+      "topic": "Sculpture",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about sculpture: A sculpture is primarily a work in which form?",
+      "options": {
+        "A": "A two-line poem",
+        "B": "A musical scale",
+        "C": "Three-dimensional form",
+        "D": "Only a spoken form"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sculpture occupies three-dimensional space.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-037",
+      "subjectId": "fine-art",
+      "topic": "Composition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about composition: The arrangement of visual elements in an artwork is called what?",
+      "options": {
+        "A": "Inflation",
+        "B": "Composition",
+        "C": "Fermentation",
+        "D": "Conjugation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Composition is the organisation of elements in a work.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-038",
+      "subjectId": "fine-art",
+      "topic": "Pigments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about pigments: A pigment gives paint what?",
+      "options": {
+        "A": "Colour",
+        "B": "Electric charge only",
+        "C": "A musical pitch",
+        "D": "A written sentence"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pigments selectively absorb and reflect light, producing colour.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-039",
+      "subjectId": "fine-art",
+      "topic": "Colour theory",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about colour theory: Colours opposite each other on a colour wheel are called what?",
+      "options": {
+        "A": "Analogous instruments",
+        "B": "Monochrome sounds",
+        "C": "Neutral verbs",
+        "D": "Complementary colours"
+      },
+      "correctAnswer": "D",
+      "explanation": "Complementary colours sit opposite each other on a colour wheel.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "fine-art-r2g-040",
+      "subjectId": "fine-art",
+      "topic": "Drawing",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about drawing: A mark that moves through space and has length but little width is what?",
+      "options": {
+        "A": "Tone only",
+        "B": "Perspective grid only",
+        "C": "Line",
+        "D": "Texture"
+      },
+      "correctAnswer": "C",
+      "explanation": "Line is a basic visual element.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "mathematics",
   "subjectName": "Mathematics",
-  "sourcePolicy": "All questions in this pack are Ready2Go original practice items, not official JAMB past questions. New items require human subject-matter review before public release.",
-  "packVersion": "0.2.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
   "questionCount": 60,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "math-001",
@@ -659,18 +661,19 @@
       "topic": "Factorisation",
       "type": "multiple_choice",
       "sourceType": "ready2go_original",
-      "sourceLabel": "Ready2Go Original · draft for review",
+      "sourceLabel": "Ready2Go Original · draft for human review",
       "difficulty": "easy",
-      "question": "Factorise x² − 9.",
+      "question": "Factorise x² + 5x + 6.",
       "options": {
-        "A": "(x − 9)(x + 1)",
-        "B": "(x − 3)(x + 3)",
-        "C": "(x − 3)²",
-        "D": "(x + 9)(x − 1)"
+        "A": "(x + 2)(x + 3)",
+        "B": "(x − 2)(x − 3)",
+        "C": "(x + 1)(x + 6)",
+        "D": "(x − 1)(x − 6)"
       },
-      "correctAnswer": "B",
-      "explanation": "x² − 9 is a difference of squares: (x − 3)(x + 3).",
-      "reviewStatus": "needs_human_review"
+      "correctAnswer": "A",
+      "explanation": "The two numbers that multiply to 6 and add to 5 are 2 and 3, so x² + 5x + 6 = (x + 2)(x + 3).",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft revised to avoid duplicate wording; requires qualified subject and answer-key review."
     },
     {
       "id": "math-036",
@@ -982,18 +985,19 @@
       "topic": "Quadratic equations",
       "type": "multiple_choice",
       "sourceType": "ready2go_original",
-      "sourceLabel": "Ready2Go Original · draft for review",
+      "sourceLabel": "Ready2Go Original · draft for human review",
       "difficulty": "medium",
-      "question": "Solve x² − 5x + 6 = 0.",
+      "question": "Solve x² − 7x + 12 = 0.",
       "options": {
-        "A": "x = 1 or 6",
-        "B": "x = 2 or 3",
-        "C": "x = −2 or −3",
-        "D": "x = 0 or 5"
+        "A": "x = 2 or 6",
+        "B": "x = −3 or −4",
+        "C": "x = 3 or 4",
+        "D": "x = 1 or 12"
       },
-      "correctAnswer": "B",
-      "explanation": "Factorise as (x − 2)(x − 3) = 0, so x = 2 or x = 3.",
-      "reviewStatus": "needs_human_review"
+      "correctAnswer": "C",
+      "explanation": "Factorise x² − 7x + 12 as (x − 3)(x − 4) = 0; hence x = 3 or x = 4.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft revised to avoid duplicate wording; requires qualified subject and answer-key review."
     },
     {
       "id": "math-053",

@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "principles-of-accounts",
-  "subjectName": "Principles of Accounts",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "subjectName": "Principles of Account",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "prin-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "A",
       "explanation": "Depreciation allocates an asset’s depreciable amount across its useful life.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "principles-of-accounts-r2g-001",
+      "subjectId": "principles-of-accounts",
+      "topic": "Accounting equation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The basic accounting equation is which?",
+      "options": {
+        "A": "Assets = Revenue − Expenses only",
+        "B": "Capital = Cash + Sales",
+        "C": "Profit = Assets + Drawings",
+        "D": "Assets = Liabilities + Capital"
+      },
+      "correctAnswer": "D",
+      "explanation": "Assets are financed by liabilities and owners’ equity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-002",
+      "subjectId": "principles-of-accounts",
+      "topic": "Assets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which is an example of a current asset?",
+      "options": {
+        "A": "Owner’s capital",
+        "B": "Accumulated depreciation only",
+        "C": "Inventory held for sale",
+        "D": "A five-year bank loan payable"
+      },
+      "correctAnswer": "C",
+      "explanation": "Inventory is normally a current asset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-003",
+      "subjectId": "principles-of-accounts",
+      "topic": "Liabilities",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A liability represents what?",
+      "options": {
+        "A": "Only cash held in a till",
+        "B": "An obligation owed to another party",
+        "C": "An amount owed to the business by a customer",
+        "D": "The owner’s personal preference"
+      },
+      "correctAnswer": "B",
+      "explanation": "Liabilities are present obligations arising from past events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-004",
+      "subjectId": "principles-of-accounts",
+      "topic": "Double entry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "In double-entry bookkeeping, every transaction affects at least how many accounts?",
+      "options": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "Five always",
+        "D": "Ten always"
+      },
+      "correctAnswer": "A",
+      "explanation": "Each transaction has equal debit and credit effects.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-005",
+      "subjectId": "principles-of-accounts",
+      "topic": "Trial balance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A trial balance checks whether what?",
+      "options": {
+        "A": "Every transaction is fraud-free",
+        "B": "Cash and profit are identical",
+        "C": "All assets are physical",
+        "D": "Total debit balances equal total credit balances"
+      },
+      "correctAnswer": "D",
+      "explanation": "A trial balance tests arithmetic equality, not every type of error.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-006",
+      "subjectId": "principles-of-accounts",
+      "topic": "Ledger",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The ledger is used primarily to do what?",
+      "options": {
+        "A": "Store physical inventory only",
+        "B": "Estimate rainfall",
+        "C": "Group transactions by account",
+        "D": "Print invoices only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ledger accounts classify and summarise transactions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-007",
+      "subjectId": "principles-of-accounts",
+      "topic": "Depreciation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Depreciation allocates the cost of a tangible fixed asset over what?",
+      "options": {
+        "A": "A customer’s credit period only",
+        "B": "Its useful life",
+        "C": "One day only",
+        "D": "The owner’s lifespan"
+      },
+      "correctAnswer": "B",
+      "explanation": "Depreciation systematically allocates depreciable cost across useful life.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-008",
+      "subjectId": "principles-of-accounts",
+      "topic": "Cash book",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A cash book records transactions involving what?",
+      "options": {
+        "A": "Cash and bank receipts and payments",
+        "B": "Only non-financial employee opinions",
+        "C": "Only credit sales in the ledger",
+        "D": "Only stock quantities without value"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cash books record cash and bank movements.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-009",
+      "subjectId": "principles-of-accounts",
+      "topic": "Capital",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Owner’s capital is generally what?",
+      "options": {
+        "A": "Every customer’s debt",
+        "B": "A supplier’s invoice",
+        "C": "A tax payment only",
+        "D": "The owner’s residual interest in the business"
+      },
+      "correctAnswer": "D",
+      "explanation": "Capital represents owner equity in the business.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-010",
+      "subjectId": "principles-of-accounts",
+      "topic": "Financial statements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A statement of financial position reports what at a point in time?",
+      "options": {
+        "A": "Only employee attendance",
+        "B": "Only cash receipts for a day",
+        "C": "Assets, liabilities and equity",
+        "D": "Only sales during a week"
+      },
+      "correctAnswer": "C",
+      "explanation": "It presents the entity’s financial position at a reporting date.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-011",
+      "subjectId": "principles-of-accounts",
+      "topic": "Bank reconciliation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A bank reconciliation explains differences between what?",
+      "options": {
+        "A": "Capital and population",
+        "B": "The cash book bank balance and bank statement balance",
+        "C": "Two employees’ salaries only",
+        "D": "Inventory and cost of sales"
+      },
+      "correctAnswer": "B",
+      "explanation": "Timing differences and errors can cause these balances to differ.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-012",
+      "subjectId": "principles-of-accounts",
+      "topic": "Profit and loss",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Net profit is generally revenue less what?",
+      "options": {
+        "A": "Expenses",
+        "B": "Only drawings",
+        "C": "All liabilities plus assets",
+        "D": "Share capital only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Profit reflects revenue less applicable expenses.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-013",
+      "subjectId": "principles-of-accounts",
+      "topic": "Drawings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Drawings occur when the owner does what?",
+      "options": {
+        "A": "Sells goods to a customer",
+        "B": "Borrows from a bank for the business",
+        "C": "Pays a supplier invoice",
+        "D": "Withdraws business cash or goods for personal use"
+      },
+      "correctAnswer": "D",
+      "explanation": "Drawings reduce owner’s equity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-014",
+      "subjectId": "principles-of-accounts",
+      "topic": "Source documents",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A receipt is evidence that what happened?",
+      "options": {
+        "A": "A product was designed",
+        "B": "An employee passed an exam",
+        "C": "Payment was received",
+        "D": "A court issued a judgment"
+      },
+      "correctAnswer": "C",
+      "explanation": "Receipts document acknowledgment of payment.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-015",
+      "subjectId": "principles-of-accounts",
+      "topic": "Inventory valuation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Cost of goods sold is associated most directly with what?",
+      "options": {
+        "A": "Buildings bought for permanent use",
+        "B": "Inventory sold during the period",
+        "C": "All future purchases never received",
+        "D": "Owner’s drawings only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cost of goods sold reflects the cost of inventory sold.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-016",
+      "subjectId": "principles-of-accounts",
+      "topic": "Accounting equation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of accounting equation, a candidate is asked: The basic accounting equation is which?",
+      "options": {
+        "A": "Assets = Revenue − Expenses only",
+        "B": "Capital = Cash + Sales",
+        "C": "Profit = Assets + Drawings",
+        "D": "Assets = Liabilities + Capital"
+      },
+      "correctAnswer": "D",
+      "explanation": "Assets are financed by liabilities and owners’ equity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-017",
+      "subjectId": "principles-of-accounts",
+      "topic": "Assets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of assets, a candidate is asked: Which is an example of a current asset?",
+      "options": {
+        "A": "Owner’s capital",
+        "B": "Accumulated depreciation only",
+        "C": "Inventory held for sale",
+        "D": "A five-year bank loan payable"
+      },
+      "correctAnswer": "C",
+      "explanation": "Inventory is normally a current asset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-018",
+      "subjectId": "principles-of-accounts",
+      "topic": "Liabilities",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of liabilities, a candidate is asked: A liability represents what?",
+      "options": {
+        "A": "Only cash held in a till",
+        "B": "An obligation owed to another party",
+        "C": "An amount owed to the business by a customer",
+        "D": "The owner’s personal preference"
+      },
+      "correctAnswer": "B",
+      "explanation": "Liabilities are present obligations arising from past events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-019",
+      "subjectId": "principles-of-accounts",
+      "topic": "Double entry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of double entry, a candidate is asked: In double-entry bookkeeping, every transaction affects at least how many accounts?",
+      "options": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "Five always",
+        "D": "Ten always"
+      },
+      "correctAnswer": "A",
+      "explanation": "Each transaction has equal debit and credit effects.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-020",
+      "subjectId": "principles-of-accounts",
+      "topic": "Trial balance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of trial balance, a candidate is asked: A trial balance checks whether what?",
+      "options": {
+        "A": "Every transaction is fraud-free",
+        "B": "Cash and profit are identical",
+        "C": "All assets are physical",
+        "D": "Total debit balances equal total credit balances"
+      },
+      "correctAnswer": "D",
+      "explanation": "A trial balance tests arithmetic equality, not every type of error.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-021",
+      "subjectId": "principles-of-accounts",
+      "topic": "Ledger",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of ledger, a candidate is asked: The ledger is used primarily to do what?",
+      "options": {
+        "A": "Store physical inventory only",
+        "B": "Estimate rainfall",
+        "C": "Group transactions by account",
+        "D": "Print invoices only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ledger accounts classify and summarise transactions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-022",
+      "subjectId": "principles-of-accounts",
+      "topic": "Depreciation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of depreciation, a candidate is asked: Depreciation allocates the cost of a tangible fixed asset over what?",
+      "options": {
+        "A": "A customer’s credit period only",
+        "B": "Its useful life",
+        "C": "One day only",
+        "D": "The owner’s lifespan"
+      },
+      "correctAnswer": "B",
+      "explanation": "Depreciation systematically allocates depreciable cost across useful life.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-023",
+      "subjectId": "principles-of-accounts",
+      "topic": "Cash book",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of cash book, a candidate is asked: A cash book records transactions involving what?",
+      "options": {
+        "A": "Cash and bank receipts and payments",
+        "B": "Only non-financial employee opinions",
+        "C": "Only credit sales in the ledger",
+        "D": "Only stock quantities without value"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cash books record cash and bank movements.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-024",
+      "subjectId": "principles-of-accounts",
+      "topic": "Capital",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of capital, a candidate is asked: Owner’s capital is generally what?",
+      "options": {
+        "A": "Every customer’s debt",
+        "B": "A supplier’s invoice",
+        "C": "A tax payment only",
+        "D": "The owner’s residual interest in the business"
+      },
+      "correctAnswer": "D",
+      "explanation": "Capital represents owner equity in the business.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-025",
+      "subjectId": "principles-of-accounts",
+      "topic": "Financial statements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of financial statements, a candidate is asked: A statement of financial position reports what at a point in time?",
+      "options": {
+        "A": "Only employee attendance",
+        "B": "Only cash receipts for a day",
+        "C": "Assets, liabilities and equity",
+        "D": "Only sales during a week"
+      },
+      "correctAnswer": "C",
+      "explanation": "It presents the entity’s financial position at a reporting date.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-026",
+      "subjectId": "principles-of-accounts",
+      "topic": "Bank reconciliation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of bank reconciliation, a candidate is asked: A bank reconciliation explains differences between what?",
+      "options": {
+        "A": "Capital and population",
+        "B": "The cash book bank balance and bank statement balance",
+        "C": "Two employees’ salaries only",
+        "D": "Inventory and cost of sales"
+      },
+      "correctAnswer": "B",
+      "explanation": "Timing differences and errors can cause these balances to differ.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-027",
+      "subjectId": "principles-of-accounts",
+      "topic": "Profit and loss",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of profit and loss, a candidate is asked: Net profit is generally revenue less what?",
+      "options": {
+        "A": "Expenses",
+        "B": "Only drawings",
+        "C": "All liabilities plus assets",
+        "D": "Share capital only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Profit reflects revenue less applicable expenses.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-028",
+      "subjectId": "principles-of-accounts",
+      "topic": "Drawings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of drawings, a candidate is asked: Drawings occur when the owner does what?",
+      "options": {
+        "A": "Sells goods to a customer",
+        "B": "Borrows from a bank for the business",
+        "C": "Pays a supplier invoice",
+        "D": "Withdraws business cash or goods for personal use"
+      },
+      "correctAnswer": "D",
+      "explanation": "Drawings reduce owner’s equity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-029",
+      "subjectId": "principles-of-accounts",
+      "topic": "Source documents",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of source documents, a candidate is asked: A receipt is evidence that what happened?",
+      "options": {
+        "A": "A product was designed",
+        "B": "An employee passed an exam",
+        "C": "Payment was received",
+        "D": "A court issued a judgment"
+      },
+      "correctAnswer": "C",
+      "explanation": "Receipts document acknowledgment of payment.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-030",
+      "subjectId": "principles-of-accounts",
+      "topic": "Inventory valuation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of inventory valuation, a candidate is asked: Cost of goods sold is associated most directly with what?",
+      "options": {
+        "A": "Buildings bought for permanent use",
+        "B": "Inventory sold during the period",
+        "C": "All future purchases never received",
+        "D": "Owner’s drawings only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cost of goods sold reflects the cost of inventory sold.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-031",
+      "subjectId": "principles-of-accounts",
+      "topic": "Accounting equation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about accounting equation: The basic accounting equation is which?",
+      "options": {
+        "A": "Assets = Revenue − Expenses only",
+        "B": "Capital = Cash + Sales",
+        "C": "Profit = Assets + Drawings",
+        "D": "Assets = Liabilities + Capital"
+      },
+      "correctAnswer": "D",
+      "explanation": "Assets are financed by liabilities and owners’ equity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-032",
+      "subjectId": "principles-of-accounts",
+      "topic": "Assets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about assets: Which is an example of a current asset?",
+      "options": {
+        "A": "Owner’s capital",
+        "B": "Accumulated depreciation only",
+        "C": "Inventory held for sale",
+        "D": "A five-year bank loan payable"
+      },
+      "correctAnswer": "C",
+      "explanation": "Inventory is normally a current asset.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-033",
+      "subjectId": "principles-of-accounts",
+      "topic": "Liabilities",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about liabilities: A liability represents what?",
+      "options": {
+        "A": "Only cash held in a till",
+        "B": "An obligation owed to another party",
+        "C": "An amount owed to the business by a customer",
+        "D": "The owner’s personal preference"
+      },
+      "correctAnswer": "B",
+      "explanation": "Liabilities are present obligations arising from past events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-034",
+      "subjectId": "principles-of-accounts",
+      "topic": "Double entry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about double entry: In double-entry bookkeeping, every transaction affects at least how many accounts?",
+      "options": {
+        "A": "Two",
+        "B": "Zero",
+        "C": "Five always",
+        "D": "Ten always"
+      },
+      "correctAnswer": "A",
+      "explanation": "Each transaction has equal debit and credit effects.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "principles-of-accounts-r2g-035",
+      "subjectId": "principles-of-accounts",
+      "topic": "Trial balance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about trial balance: A trial balance checks whether what?",
+      "options": {
+        "A": "Every transaction is fraud-free",
+        "B": "Cash and profit are identical",
+        "C": "All assets are physical",
+        "D": "Total debit balances equal total credit balances"
+      },
+      "correctAnswer": "D",
+      "explanation": "A trial balance tests arithmetic equality, not every type of error.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

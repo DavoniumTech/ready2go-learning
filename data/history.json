@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "history",
+  "subjectName": "History",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "history-r2g-001",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Mansa Musa was a famous ruler of which empire?",
+      "options": {
+        "A": "Oyo Empire",
+        "B": "Benin Republic",
+        "C": "Songhai only",
+        "D": "Mali Empire"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mansa Musa ruled the Mali Empire in the fourteenth century.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-002",
+      "subjectId": "history",
+      "topic": "Colonial history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The Berlin Conference of 1884–1885 is associated with what?",
+      "options": {
+        "A": "The founding of ECOWAS",
+        "B": "The end of World War II",
+        "C": "European rules for the partition of Africa",
+        "D": "Nigeria’s independence in 1960"
+      },
+      "correctAnswer": "C",
+      "explanation": "The conference formalised European imperial rules for Africa.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-003",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Nigeria’s amalgamation of Northern and Southern Protectorates occurred in which year?",
+      "options": {
+        "A": "1999",
+        "B": "1914",
+        "C": "1884",
+        "D": "1960"
+      },
+      "correctAnswer": "B",
+      "explanation": "The territories were amalgamated in 1914.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-004",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Nigeria became independent from Britain in which year?",
+      "options": {
+        "A": "1960",
+        "B": "1914",
+        "C": "1979",
+        "D": "1999"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nigeria’s independence date is 1 October 1960.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-005",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Jaja of Opobo is associated with which historical activity?",
+      "options": {
+        "A": "Founding the Mali Empire",
+        "B": "Leading the Sokoto Caliphate",
+        "C": "Discovering penicillin",
+        "D": "Palm-oil trade and resistance to British control"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jaja was a merchant and ruler in the Niger Delta palm-oil trade.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-006",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The Sokoto Caliphate was established after the jihad led by whom?",
+      "options": {
+        "A": "Shaka Zulu",
+        "B": "Samori Ture only",
+        "C": "Usman dan Fodio",
+        "D": "Mansa Musa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Usman dan Fodio led the early nineteenth-century jihad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-007",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The ancient Benin Kingdom was especially known for which art form?",
+      "options": {
+        "A": "Inca quipu",
+        "B": "Bronze and brass castings",
+        "C": "Roman mosaics",
+        "D": "Chinese porcelain only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Benin is renowned for its sophisticated metal casting traditions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-008",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The Oyo Empire was historically associated with which people?",
+      "options": {
+        "A": "Yoruba",
+        "B": "Kanuri only",
+        "C": "Tiv only",
+        "D": "Efik only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Oyo was a major Yoruba state.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-009",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The transatlantic slave trade forcibly moved many enslaved Africans primarily to what region?",
+      "options": {
+        "A": "Antarctica",
+        "B": "The Arctic",
+        "C": "Central Asia only",
+        "D": "The Americas"
+      },
+      "correctAnswer": "D",
+      "explanation": "Enslaved Africans were transported across the Atlantic to the Americas.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-010",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which organisation became a major nationalist party in Nigeria in the 1940s?",
+      "options": {
+        "A": "African Union",
+        "B": "League of Nations",
+        "C": "National Council of Nigeria and the Cameroons (NCNC)",
+        "D": "United Nations"
+      },
+      "correctAnswer": "C",
+      "explanation": "The NCNC was a significant Nigerian nationalist organisation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-011",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The First World War ended in which year?",
+      "options": {
+        "A": "1945",
+        "B": "1918",
+        "C": "1914",
+        "D": "1939"
+      },
+      "correctAnswer": "B",
+      "explanation": "The armistice ending major fighting took effect in November 1918.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-012",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The Second World War ended in which year?",
+      "options": {
+        "A": "1945",
+        "B": "1918",
+        "C": "1930",
+        "D": "1960"
+      },
+      "correctAnswer": "A",
+      "explanation": "World War II ended in 1945.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-013",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Who was Nigeria’s first prime minister after independence?",
+      "options": {
+        "A": "Nnamdi Azikiwe",
+        "B": "Olusegun Obasanjo",
+        "C": "Yakubu Gowon",
+        "D": "Abubakar Tafawa Balewa"
+      },
+      "correctAnswer": "D",
+      "explanation": "Balewa served as prime minister at independence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-014",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Who was Nigeria’s first president under the First Republic?",
+      "options": {
+        "A": "Ahmadu Bello",
+        "B": "Murtala Muhammed",
+        "C": "Nnamdi Azikiwe",
+        "D": "Abubakar Tafawa Balewa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Azikiwe became the first president of the First Republic.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-015",
+      "subjectId": "history",
+      "topic": "Historical methods",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A primary historical source is one that was created how?",
+      "options": {
+        "A": "Only after a modern textbook was published",
+        "B": "During or close to the period being studied",
+        "C": "Only centuries later by a fictional author",
+        "D": "Without any link to the past"
+      },
+      "correctAnswer": "B",
+      "explanation": "Primary sources originate from the period or participants being studied.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-016",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of west african history, a candidate is asked: Mansa Musa was a famous ruler of which empire?",
+      "options": {
+        "A": "Oyo Empire",
+        "B": "Benin Republic",
+        "C": "Songhai only",
+        "D": "Mali Empire"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mansa Musa ruled the Mali Empire in the fourteenth century.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-017",
+      "subjectId": "history",
+      "topic": "Colonial history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of colonial history, a candidate is asked: The Berlin Conference of 1884–1885 is associated with what?",
+      "options": {
+        "A": "The founding of ECOWAS",
+        "B": "The end of World War II",
+        "C": "European rules for the partition of Africa",
+        "D": "Nigeria’s independence in 1960"
+      },
+      "correctAnswer": "C",
+      "explanation": "The conference formalised European imperial rules for Africa.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-018",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of nigerian history, a candidate is asked: Nigeria’s amalgamation of Northern and Southern Protectorates occurred in which year?",
+      "options": {
+        "A": "1999",
+        "B": "1914",
+        "C": "1884",
+        "D": "1960"
+      },
+      "correctAnswer": "B",
+      "explanation": "The territories were amalgamated in 1914.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-019",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nigerian history, a candidate is asked: Nigeria became independent from Britain in which year?",
+      "options": {
+        "A": "1960",
+        "B": "1914",
+        "C": "1979",
+        "D": "1999"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nigeria’s independence date is 1 October 1960.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-020",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of nigerian history, a candidate is asked: Jaja of Opobo is associated with which historical activity?",
+      "options": {
+        "A": "Founding the Mali Empire",
+        "B": "Leading the Sokoto Caliphate",
+        "C": "Discovering penicillin",
+        "D": "Palm-oil trade and resistance to British control"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jaja was a merchant and ruler in the Niger Delta palm-oil trade.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-021",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of west african history, a candidate is asked: The Sokoto Caliphate was established after the jihad led by whom?",
+      "options": {
+        "A": "Shaka Zulu",
+        "B": "Samori Ture only",
+        "C": "Usman dan Fodio",
+        "D": "Mansa Musa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Usman dan Fodio led the early nineteenth-century jihad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-022",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nigerian history, a candidate is asked: The ancient Benin Kingdom was especially known for which art form?",
+      "options": {
+        "A": "Inca quipu",
+        "B": "Bronze and brass castings",
+        "C": "Roman mosaics",
+        "D": "Chinese porcelain only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Benin is renowned for its sophisticated metal casting traditions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-023",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of nigerian history, a candidate is asked: The Oyo Empire was historically associated with which people?",
+      "options": {
+        "A": "Yoruba",
+        "B": "Kanuri only",
+        "C": "Tiv only",
+        "D": "Efik only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Oyo was a major Yoruba state.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-024",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of world history, a candidate is asked: The transatlantic slave trade forcibly moved many enslaved Africans primarily to what region?",
+      "options": {
+        "A": "Antarctica",
+        "B": "The Arctic",
+        "C": "Central Asia only",
+        "D": "The Americas"
+      },
+      "correctAnswer": "D",
+      "explanation": "Enslaved Africans were transported across the Atlantic to the Americas.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-025",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nigerian history, a candidate is asked: Which organisation became a major nationalist party in Nigeria in the 1940s?",
+      "options": {
+        "A": "African Union",
+        "B": "League of Nations",
+        "C": "National Council of Nigeria and the Cameroons (NCNC)",
+        "D": "United Nations"
+      },
+      "correctAnswer": "C",
+      "explanation": "The NCNC was a significant Nigerian nationalist organisation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-026",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of world history, a candidate is asked: The First World War ended in which year?",
+      "options": {
+        "A": "1945",
+        "B": "1918",
+        "C": "1914",
+        "D": "1939"
+      },
+      "correctAnswer": "B",
+      "explanation": "The armistice ending major fighting took effect in November 1918.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-027",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of world history, a candidate is asked: The Second World War ended in which year?",
+      "options": {
+        "A": "1945",
+        "B": "1918",
+        "C": "1930",
+        "D": "1960"
+      },
+      "correctAnswer": "A",
+      "explanation": "World War II ended in 1945.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-028",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nigerian history, a candidate is asked: Who was Nigeria’s first prime minister after independence?",
+      "options": {
+        "A": "Nnamdi Azikiwe",
+        "B": "Olusegun Obasanjo",
+        "C": "Yakubu Gowon",
+        "D": "Abubakar Tafawa Balewa"
+      },
+      "correctAnswer": "D",
+      "explanation": "Balewa served as prime minister at independence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-029",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of nigerian history, a candidate is asked: Who was Nigeria’s first president under the First Republic?",
+      "options": {
+        "A": "Ahmadu Bello",
+        "B": "Murtala Muhammed",
+        "C": "Nnamdi Azikiwe",
+        "D": "Abubakar Tafawa Balewa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Azikiwe became the first president of the First Republic.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-030",
+      "subjectId": "history",
+      "topic": "Historical methods",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of historical methods, a candidate is asked: A primary historical source is one that was created how?",
+      "options": {
+        "A": "Only after a modern textbook was published",
+        "B": "During or close to the period being studied",
+        "C": "Only centuries later by a fictional author",
+        "D": "Without any link to the past"
+      },
+      "correctAnswer": "B",
+      "explanation": "Primary sources originate from the period or participants being studied.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-031",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about west african history: Mansa Musa was a famous ruler of which empire?",
+      "options": {
+        "A": "Oyo Empire",
+        "B": "Benin Republic",
+        "C": "Songhai only",
+        "D": "Mali Empire"
+      },
+      "correctAnswer": "D",
+      "explanation": "Mansa Musa ruled the Mali Empire in the fourteenth century.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-032",
+      "subjectId": "history",
+      "topic": "Colonial history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about colonial history: The Berlin Conference of 1884–1885 is associated with what?",
+      "options": {
+        "A": "The founding of ECOWAS",
+        "B": "The end of World War II",
+        "C": "European rules for the partition of Africa",
+        "D": "Nigeria’s independence in 1960"
+      },
+      "correctAnswer": "C",
+      "explanation": "The conference formalised European imperial rules for Africa.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-033",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about nigerian history: Nigeria’s amalgamation of Northern and Southern Protectorates occurred in which year?",
+      "options": {
+        "A": "1999",
+        "B": "1914",
+        "C": "1884",
+        "D": "1960"
+      },
+      "correctAnswer": "B",
+      "explanation": "The territories were amalgamated in 1914.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-034",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nigerian history: Nigeria became independent from Britain in which year?",
+      "options": {
+        "A": "1960",
+        "B": "1914",
+        "C": "1979",
+        "D": "1999"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nigeria’s independence date is 1 October 1960.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-035",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about nigerian history: Jaja of Opobo is associated with which historical activity?",
+      "options": {
+        "A": "Founding the Mali Empire",
+        "B": "Leading the Sokoto Caliphate",
+        "C": "Discovering penicillin",
+        "D": "Palm-oil trade and resistance to British control"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jaja was a merchant and ruler in the Niger Delta palm-oil trade.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-036",
+      "subjectId": "history",
+      "topic": "West African history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about west african history: The Sokoto Caliphate was established after the jihad led by whom?",
+      "options": {
+        "A": "Shaka Zulu",
+        "B": "Samori Ture only",
+        "C": "Usman dan Fodio",
+        "D": "Mansa Musa"
+      },
+      "correctAnswer": "C",
+      "explanation": "Usman dan Fodio led the early nineteenth-century jihad.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-037",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nigerian history: The ancient Benin Kingdom was especially known for which art form?",
+      "options": {
+        "A": "Inca quipu",
+        "B": "Bronze and brass castings",
+        "C": "Roman mosaics",
+        "D": "Chinese porcelain only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Benin is renowned for its sophisticated metal casting traditions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-038",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about nigerian history: The Oyo Empire was historically associated with which people?",
+      "options": {
+        "A": "Yoruba",
+        "B": "Kanuri only",
+        "C": "Tiv only",
+        "D": "Efik only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Oyo was a major Yoruba state.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-039",
+      "subjectId": "history",
+      "topic": "World history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about world history: The transatlantic slave trade forcibly moved many enslaved Africans primarily to what region?",
+      "options": {
+        "A": "Antarctica",
+        "B": "The Arctic",
+        "C": "Central Asia only",
+        "D": "The Americas"
+      },
+      "correctAnswer": "D",
+      "explanation": "Enslaved Africans were transported across the Atlantic to the Americas.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "history-r2g-040",
+      "subjectId": "history",
+      "topic": "Nigerian history",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nigerian history: Which organisation became a major nationalist party in Nigeria in the 1940s?",
+      "options": {
+        "A": "African Union",
+        "B": "League of Nations",
+        "C": "National Council of Nigeria and the Cameroons (NCNC)",
+        "D": "United Nations"
+      },
+      "correctAnswer": "C",
+      "explanation": "The NCNC was a significant Nigerian nationalist organisation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "home-economics",
+  "subjectName": "Home Economics",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "home-economics-r2g-001",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A balanced diet provides what?",
+      "options": {
+        "A": "Only carbohydrates",
+        "B": "No water",
+        "C": "Only protein supplements",
+        "D": "Appropriate amounts of energy and essential nutrients"
+      },
+      "correctAnswer": "D",
+      "explanation": "A balanced diet contains adequate nutrients in suitable proportions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-002",
+      "subjectId": "home-economics",
+      "topic": "Food hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Why should hands be washed before preparing food?",
+      "options": {
+        "A": "To make food expire faster",
+        "B": "To remove all nutrients",
+        "C": "To reduce transfer of harmful microorganisms",
+        "D": "To increase food temperature"
+      },
+      "correctAnswer": "C",
+      "explanation": "Handwashing helps prevent food contamination.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-003",
+      "subjectId": "home-economics",
+      "topic": "Food preservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which method preserves food by removing much of its water?",
+      "options": {
+        "A": "Keeping it uncovered in rain",
+        "B": "Drying",
+        "C": "Adding dust",
+        "D": "Leaving it warm and wet"
+      },
+      "correctAnswer": "B",
+      "explanation": "Drying reduces available moisture for many spoilage organisms.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-004",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which nutrient is needed for growth and repair of body tissues?",
+      "options": {
+        "A": "Protein",
+        "B": "Water only",
+        "C": "Dietary fibre only",
+        "D": "Salt only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Protein supplies amino acids for growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-005",
+      "subjectId": "home-economics",
+      "topic": "Textiles",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Cotton fibre is obtained from which source?",
+      "options": {
+        "A": "Sheep fleece",
+        "B": "Silkworm cocoons",
+        "C": "Mineral ore",
+        "D": "Cotton plant seed hairs"
+      },
+      "correctAnswer": "D",
+      "explanation": "Cotton is a natural plant fibre.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-006",
+      "subjectId": "home-economics",
+      "topic": "Meal planning",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A useful meal plan should consider which factors?",
+      "options": {
+        "A": "The owner’s shoe size",
+        "B": "Only television programmes",
+        "C": "Nutritional needs, budget and available foods",
+        "D": "Only the colour of plates"
+      },
+      "correctAnswer": "C",
+      "explanation": "Planning balances nutrition, cost, preferences and availability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-007",
+      "subjectId": "home-economics",
+      "topic": "Kitchen safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A pan handle should ideally be turned where?",
+      "options": {
+        "A": "Directly over another burner’s flame",
+        "B": "Inward from the edge of the cooker",
+        "C": "Out over a walkway",
+        "D": "Toward a small child"
+      },
+      "correctAnswer": "B",
+      "explanation": "Inward handles reduce accidental knocks and spills.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-008",
+      "subjectId": "home-economics",
+      "topic": "Family resource management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Budgeting helps a household do what?",
+      "options": {
+        "A": "Plan income and expenditure",
+        "B": "Create unlimited income",
+        "C": "Avoid recording expenses",
+        "D": "Remove all needs"
+      },
+      "correctAnswer": "A",
+      "explanation": "A budget helps prioritise spending within available resources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-009",
+      "subjectId": "home-economics",
+      "topic": "Adolescent health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Adolescence is a period commonly marked by what?",
+      "options": {
+        "A": "No bodily changes",
+        "B": "The end of all learning",
+        "C": "Permanent absence of hormones",
+        "D": "Rapid physical and psychosocial development"
+      },
+      "correctAnswer": "D",
+      "explanation": "Adolescence involves developmental changes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-010",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which nutrient is the most concentrated source of energy per gram among these options?",
+      "options": {
+        "A": "Vitamin C",
+        "B": "Mineral salts",
+        "C": "Fat",
+        "D": "Water"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fat yields about 9 kcal per gram, more than protein or carbohydrate.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-011",
+      "subjectId": "home-economics",
+      "topic": "Carbohydrates",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which food is a common carbohydrate source?",
+      "options": {
+        "A": "Vitamin tablet",
+        "B": "Rice",
+        "C": "Cooking salt",
+        "D": "Plain water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rice is rich in starch, a carbohydrate.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-012",
+      "subjectId": "home-economics",
+      "topic": "First aid",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "For a minor thermal burn, the immediate first-aid step is generally to do what?",
+      "options": {
+        "A": "Cool the area with cool running water",
+        "B": "Apply butter immediately",
+        "C": "Break blisters",
+        "D": "Cover with dry soil"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cooling with running water helps limit tissue damage.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-013",
+      "subjectId": "home-economics",
+      "topic": "Clothing care",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Why should garment-care labels be checked before washing?",
+      "options": {
+        "A": "They show the wearer’s blood group",
+        "B": "They indicate market inflation",
+        "C": "They are always decorative only",
+        "D": "They give instructions for safe cleaning and care"
+      },
+      "correctAnswer": "D",
+      "explanation": "Care labels indicate suitable washing, drying and ironing practices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-014",
+      "subjectId": "home-economics",
+      "topic": "Food storage",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Perishable foods should be kept cold mainly to do what?",
+      "options": {
+        "A": "Remove all water instantly",
+        "B": "Increase contamination",
+        "C": "Slow growth of many harmful and spoilage microorganisms",
+        "D": "Make all bacteria reproduce faster"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cold storage slows microbial growth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-015",
+      "subjectId": "home-economics",
+      "topic": "Consumer education",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Comparing unit prices helps shoppers do what?",
+      "options": {
+        "A": "Guarantee all goods are safe",
+        "B": "Compare value across different package sizes",
+        "C": "Know the exact future of a product",
+        "D": "Avoid checking quality"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unit pricing supports like-for-like price comparison.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-016",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nutrition, a candidate is asked: A balanced diet provides what?",
+      "options": {
+        "A": "Only carbohydrates",
+        "B": "No water",
+        "C": "Only protein supplements",
+        "D": "Appropriate amounts of energy and essential nutrients"
+      },
+      "correctAnswer": "D",
+      "explanation": "A balanced diet contains adequate nutrients in suitable proportions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-017",
+      "subjectId": "home-economics",
+      "topic": "Food hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of food hygiene, a candidate is asked: Why should hands be washed before preparing food?",
+      "options": {
+        "A": "To make food expire faster",
+        "B": "To remove all nutrients",
+        "C": "To reduce transfer of harmful microorganisms",
+        "D": "To increase food temperature"
+      },
+      "correctAnswer": "C",
+      "explanation": "Handwashing helps prevent food contamination.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-018",
+      "subjectId": "home-economics",
+      "topic": "Food preservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of food preservation, a candidate is asked: Which method preserves food by removing much of its water?",
+      "options": {
+        "A": "Keeping it uncovered in rain",
+        "B": "Drying",
+        "C": "Adding dust",
+        "D": "Leaving it warm and wet"
+      },
+      "correctAnswer": "B",
+      "explanation": "Drying reduces available moisture for many spoilage organisms.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-019",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nutrition, a candidate is asked: Which nutrient is needed for growth and repair of body tissues?",
+      "options": {
+        "A": "Protein",
+        "B": "Water only",
+        "C": "Dietary fibre only",
+        "D": "Salt only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Protein supplies amino acids for growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-020",
+      "subjectId": "home-economics",
+      "topic": "Textiles",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of textiles, a candidate is asked: Cotton fibre is obtained from which source?",
+      "options": {
+        "A": "Sheep fleece",
+        "B": "Silkworm cocoons",
+        "C": "Mineral ore",
+        "D": "Cotton plant seed hairs"
+      },
+      "correctAnswer": "D",
+      "explanation": "Cotton is a natural plant fibre.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-021",
+      "subjectId": "home-economics",
+      "topic": "Meal planning",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of meal planning, a candidate is asked: A useful meal plan should consider which factors?",
+      "options": {
+        "A": "The owner’s shoe size",
+        "B": "Only television programmes",
+        "C": "Nutritional needs, budget and available foods",
+        "D": "Only the colour of plates"
+      },
+      "correctAnswer": "C",
+      "explanation": "Planning balances nutrition, cost, preferences and availability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-022",
+      "subjectId": "home-economics",
+      "topic": "Kitchen safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of kitchen safety, a candidate is asked: A pan handle should ideally be turned where?",
+      "options": {
+        "A": "Directly over another burner’s flame",
+        "B": "Inward from the edge of the cooker",
+        "C": "Out over a walkway",
+        "D": "Toward a small child"
+      },
+      "correctAnswer": "B",
+      "explanation": "Inward handles reduce accidental knocks and spills.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-023",
+      "subjectId": "home-economics",
+      "topic": "Family resource management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of family resource management, a candidate is asked: Budgeting helps a household do what?",
+      "options": {
+        "A": "Plan income and expenditure",
+        "B": "Create unlimited income",
+        "C": "Avoid recording expenses",
+        "D": "Remove all needs"
+      },
+      "correctAnswer": "A",
+      "explanation": "A budget helps prioritise spending within available resources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-024",
+      "subjectId": "home-economics",
+      "topic": "Adolescent health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of adolescent health, a candidate is asked: Adolescence is a period commonly marked by what?",
+      "options": {
+        "A": "No bodily changes",
+        "B": "The end of all learning",
+        "C": "Permanent absence of hormones",
+        "D": "Rapid physical and psychosocial development"
+      },
+      "correctAnswer": "D",
+      "explanation": "Adolescence involves developmental changes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-025",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of nutrition, a candidate is asked: Which nutrient is the most concentrated source of energy per gram among these options?",
+      "options": {
+        "A": "Vitamin C",
+        "B": "Mineral salts",
+        "C": "Fat",
+        "D": "Water"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fat yields about 9 kcal per gram, more than protein or carbohydrate.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-026",
+      "subjectId": "home-economics",
+      "topic": "Carbohydrates",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of carbohydrates, a candidate is asked: Which food is a common carbohydrate source?",
+      "options": {
+        "A": "Vitamin tablet",
+        "B": "Rice",
+        "C": "Cooking salt",
+        "D": "Plain water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rice is rich in starch, a carbohydrate.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-027",
+      "subjectId": "home-economics",
+      "topic": "First aid",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of first aid, a candidate is asked: For a minor thermal burn, the immediate first-aid step is generally to do what?",
+      "options": {
+        "A": "Cool the area with cool running water",
+        "B": "Apply butter immediately",
+        "C": "Break blisters",
+        "D": "Cover with dry soil"
+      },
+      "correctAnswer": "A",
+      "explanation": "Cooling with running water helps limit tissue damage.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-028",
+      "subjectId": "home-economics",
+      "topic": "Clothing care",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of clothing care, a candidate is asked: Why should garment-care labels be checked before washing?",
+      "options": {
+        "A": "They show the wearer’s blood group",
+        "B": "They indicate market inflation",
+        "C": "They are always decorative only",
+        "D": "They give instructions for safe cleaning and care"
+      },
+      "correctAnswer": "D",
+      "explanation": "Care labels indicate suitable washing, drying and ironing practices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-029",
+      "subjectId": "home-economics",
+      "topic": "Food storage",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of food storage, a candidate is asked: Perishable foods should be kept cold mainly to do what?",
+      "options": {
+        "A": "Remove all water instantly",
+        "B": "Increase contamination",
+        "C": "Slow growth of many harmful and spoilage microorganisms",
+        "D": "Make all bacteria reproduce faster"
+      },
+      "correctAnswer": "C",
+      "explanation": "Cold storage slows microbial growth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-030",
+      "subjectId": "home-economics",
+      "topic": "Consumer education",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of consumer education, a candidate is asked: Comparing unit prices helps shoppers do what?",
+      "options": {
+        "A": "Guarantee all goods are safe",
+        "B": "Compare value across different package sizes",
+        "C": "Know the exact future of a product",
+        "D": "Avoid checking quality"
+      },
+      "correctAnswer": "B",
+      "explanation": "Unit pricing supports like-for-like price comparison.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-031",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nutrition: A balanced diet provides what?",
+      "options": {
+        "A": "Only carbohydrates",
+        "B": "No water",
+        "C": "Only protein supplements",
+        "D": "Appropriate amounts of energy and essential nutrients"
+      },
+      "correctAnswer": "D",
+      "explanation": "A balanced diet contains adequate nutrients in suitable proportions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-032",
+      "subjectId": "home-economics",
+      "topic": "Food hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about food hygiene: Why should hands be washed before preparing food?",
+      "options": {
+        "A": "To make food expire faster",
+        "B": "To remove all nutrients",
+        "C": "To reduce transfer of harmful microorganisms",
+        "D": "To increase food temperature"
+      },
+      "correctAnswer": "C",
+      "explanation": "Handwashing helps prevent food contamination.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-033",
+      "subjectId": "home-economics",
+      "topic": "Food preservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about food preservation: Which method preserves food by removing much of its water?",
+      "options": {
+        "A": "Keeping it uncovered in rain",
+        "B": "Drying",
+        "C": "Adding dust",
+        "D": "Leaving it warm and wet"
+      },
+      "correctAnswer": "B",
+      "explanation": "Drying reduces available moisture for many spoilage organisms.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-034",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nutrition: Which nutrient is needed for growth and repair of body tissues?",
+      "options": {
+        "A": "Protein",
+        "B": "Water only",
+        "C": "Dietary fibre only",
+        "D": "Salt only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Protein supplies amino acids for growth and repair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-035",
+      "subjectId": "home-economics",
+      "topic": "Textiles",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about textiles: Cotton fibre is obtained from which source?",
+      "options": {
+        "A": "Sheep fleece",
+        "B": "Silkworm cocoons",
+        "C": "Mineral ore",
+        "D": "Cotton plant seed hairs"
+      },
+      "correctAnswer": "D",
+      "explanation": "Cotton is a natural plant fibre.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-036",
+      "subjectId": "home-economics",
+      "topic": "Meal planning",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about meal planning: A useful meal plan should consider which factors?",
+      "options": {
+        "A": "The owner’s shoe size",
+        "B": "Only television programmes",
+        "C": "Nutritional needs, budget and available foods",
+        "D": "Only the colour of plates"
+      },
+      "correctAnswer": "C",
+      "explanation": "Planning balances nutrition, cost, preferences and availability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-037",
+      "subjectId": "home-economics",
+      "topic": "Kitchen safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about kitchen safety: A pan handle should ideally be turned where?",
+      "options": {
+        "A": "Directly over another burner’s flame",
+        "B": "Inward from the edge of the cooker",
+        "C": "Out over a walkway",
+        "D": "Toward a small child"
+      },
+      "correctAnswer": "B",
+      "explanation": "Inward handles reduce accidental knocks and spills.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-038",
+      "subjectId": "home-economics",
+      "topic": "Family resource management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about family resource management: Budgeting helps a household do what?",
+      "options": {
+        "A": "Plan income and expenditure",
+        "B": "Create unlimited income",
+        "C": "Avoid recording expenses",
+        "D": "Remove all needs"
+      },
+      "correctAnswer": "A",
+      "explanation": "A budget helps prioritise spending within available resources.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-039",
+      "subjectId": "home-economics",
+      "topic": "Adolescent health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about adolescent health: Adolescence is a period commonly marked by what?",
+      "options": {
+        "A": "No bodily changes",
+        "B": "The end of all learning",
+        "C": "Permanent absence of hormones",
+        "D": "Rapid physical and psychosocial development"
+      },
+      "correctAnswer": "D",
+      "explanation": "Adolescence involves developmental changes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "home-economics-r2g-040",
+      "subjectId": "home-economics",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about nutrition: Which nutrient is the most concentrated source of energy per gram among these options?",
+      "options": {
+        "A": "Vitamin C",
+        "B": "Mineral salts",
+        "C": "Fat",
+        "D": "Water"
+      },
+      "correctAnswer": "C",
+      "explanation": "Fat yields about 9 kcal per gram, more than protein or carbohydrate.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

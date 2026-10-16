@@ -1,9 +1,16 @@
 {
-  "schemaVersion": 1,
-  "generatedAt": "2026-10-16",
-  "scope": "Curated starter directory. Not a complete inventory of all Nigerian tertiary institutions, and not proof that a specific course is currently available.",
+  "schemaVersion": 2,
+  "title": "Nigerian Universities Directory",
   "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-  "eligibilityUrl": "https://eligibility.jamb.gov.ng/",
+  "sourceName": "National Universities Commission — Nigerian University System",
+  "sourceRetrievedAt": "2026-10-16",
+  "sourceCountsAsDisplayed": {
+    "federalUniversities": 77,
+    "stateUniversities": 69,
+    "privateUniversities": 182,
+    "total": 328
+  },
+  "dataNotice": "This catalogue contains 328 university entries recorded from the NUC Nigerian University System directory as retrieved on 2026-10-16. The source directory is maintained externally and may change; confirm the exact name, current accreditation/status, programme availability, and UTME eligibility using JAMB IBASS and the institution official website. The catalogue is not a guarantee that every institution offers every course.",
   "states": [
     "Abia",
     "Adamawa",
@@ -45,700 +52,2986 @@
   ],
   "institutions": [
     {
-      "id": "inst-001",
-      "name": "Michael Okpara University of Agriculture, Umudike",
-      "state": "Abia",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-002",
       "name": "Abia State University, Uturu",
       "state": "Abia",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abia-state-university-uturu"
     },
     {
-      "id": "inst-003",
-      "name": "Modibbo Adama University, Yola",
-      "state": "Adamawa",
+      "name": "Amadeus University, Amizi, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "amadeus-university-amizi-abia-state"
+    },
+    {
+      "name": "Clifford University, Owerrinta, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "clifford-university-owerrinta-abia-state"
+    },
+    {
+      "name": "Gregory University, Uturu, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "gregory-university-uturu-abia-state"
+    },
+    {
+      "name": "Lux Mundi University, Umuahia, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lux-mundi-university-umuahia-abia-state"
+    },
+    {
+      "name": "Michael Okpara University of Agriculture, Umudike",
+      "state": "Abia",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "michael-okpara-university-of-agriculture-umudike"
     },
     {
-      "id": "inst-004",
+      "name": "Nigerian British University, Asa, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nigerian-british-university-asa-abia-state"
+    },
+    {
+      "name": "Spiritan University, Nneochi, Abia State",
+      "state": "Abia",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "spiritan-university-nneochi-abia-state"
+    },
+    {
       "name": "Adamawa State University, Mubi",
       "state": "Adamawa",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "adamawa-state-university-mubi"
     },
     {
-      "id": "inst-005",
-      "name": "University of Uyo",
-      "state": "Akwa Ibom",
+      "name": "American University of Nigeria, Yola, Adamawa State",
+      "state": "Adamawa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "american-university-of-nigeria-yola-adamawa-state"
+    },
+    {
+      "name": "Federal University of Agriculture, Mubi",
+      "state": "Adamawa",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-mubi"
     },
     {
-      "id": "inst-006",
-      "name": "Akwa Ibom State University",
+      "name": "Modibbo Adama University, Yola",
+      "state": "Adamawa",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "modibbo-adama-university-yola"
+    },
+    {
+      "name": "Akwa Ibom State University, Ikot Akpaden",
       "state": "Akwa Ibom",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "akwa-ibom-state-university-ikot-akpaden"
     },
     {
-      "id": "inst-007",
+      "name": "Federal University of Agriculture and Technology, Obio-Akpa",
+      "state": "Akwa Ibom",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-and-technology-obio-akpa"
+    },
+    {
+      "name": "Federal University of Technology, Ikot Abasi, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-ikot-abasi-akwa-ibom-state"
+    },
+    {
+      "name": "Obong University, Obong Ntak, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "obong-university-obong-ntak-akwa-ibom-state"
+    },
+    {
+      "name": "Ritman University, Ikot Ekpene, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ritman-university-ikot-ekpene-akwa-ibom-state"
+    },
+    {
+      "name": "Southern Atlantic University, Uyo, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "southern-atlantic-university-uyo-akwa-ibom-state"
+    },
+    {
+      "name": "Topfaith University, Mkpatak, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "topfaith-university-mkpatak-akwa-ibom-state"
+    },
+    {
+      "name": "University of Maritime Studies, Oron, Akwa Ibom State",
+      "state": "Akwa Ibom",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-maritime-studies-oron-akwa-ibom-state"
+    },
+    {
+      "name": "University of Uyo, Uyo",
+      "state": "Akwa Ibom",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-uyo-uyo"
+    },
+    {
+      "name": "Chukwuemeka Odumegwu Ojukwu University, Uli",
+      "state": "Anambra",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "chukwuemeka-odumegwu-ojukwu-university-uli"
+    },
+    {
+      "name": "Legacy University, Okija, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "legacy-university-okija-anambra-state"
+    },
+    {
+      "name": "Madonna University, Okija, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "madonna-university-okija-anambra-state"
+    },
+    {
       "name": "Nnamdi Azikiwe University, Awka",
       "state": "Anambra",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nnamdi-azikiwe-university-awka"
     },
     {
-      "id": "inst-008",
-      "name": "Chukwuemeka Odumegwu Ojukwu University",
+      "name": "Paul University, Awka, Anambra State",
       "state": "Anambra",
-      "ownership": "State",
-      "institutionType": "university",
+      "ownership": "Private",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "paul-university-awka-anambra-state"
     },
     {
-      "id": "inst-009",
-      "name": "Abubakar Tafawa Balewa University",
+      "name": "Peter University, Achina-Onneh, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "peter-university-achina-onneh-anambra-state"
+    },
+    {
+      "name": "Shanahan University, Onitsha, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "shanahan-university-onitsha-anambra-state"
+    },
+    {
+      "name": "Tansian University, Umunya, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "tansian-university-umunya-anambra-state"
+    },
+    {
+      "name": "Transatlantic University of Medicine and Health Sciences, Umuchukwu",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "transatlantic-university-of-medicine-and-health-sciences-umuchukwu"
+    },
+    {
+      "name": "University on the Niger, Umunya, Anambra State",
+      "state": "Anambra",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-on-the-niger-umunya-anambra-state"
+    },
+    {
+      "name": "Abubakar Tafawa Balewa University, Bauchi",
       "state": "Bauchi",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abubakar-tafawa-balewa-university-bauchi"
     },
     {
-      "id": "inst-010",
-      "name": "Sa’adu Zungur University",
+      "name": "Federal University of Health Sciences, Azare, Bauchi State",
+      "state": "Bauchi",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-sciences-azare-bauchi-state"
+    },
+    {
+      "name": "Sa’adu Zungur University, Gadau",
       "state": "Bauchi",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "saadu-zungur-university-gadau"
     },
     {
-      "id": "inst-011",
-      "name": "Federal University, Otuoke",
-      "state": "Bayelsa",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-012",
-      "name": "Niger Delta University",
+      "name": "Bayelsa Medical University, Yenagoa",
       "state": "Bayelsa",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bayelsa-medical-university-yenagoa"
     },
     {
-      "id": "inst-013",
-      "name": "Joseph Sarwuan Tarka University, Makurdi",
-      "state": "Benue",
+      "name": "Federal University of Agriculture, Bassam-Bari, Bayelsa",
+      "state": "Bayelsa",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-bassam-bari-bayelsa"
     },
     {
-      "id": "inst-014",
-      "name": "Benue State University",
+      "name": "Federal University, Otuoke, Bayelsa",
+      "state": "Bayelsa",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-otuoke-bayelsa"
+    },
+    {
+      "name": "Hensard University, Toru-Orua, Bayelsa State",
+      "state": "Bayelsa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "hensard-university-toru-orua-bayelsa-state"
+    },
+    {
+      "name": "Niger-Delta University, Yenagoa",
+      "state": "Bayelsa",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "niger-delta-university-yenagoa"
+    },
+    {
+      "name": "University of Africa, Toru-Orua",
+      "state": "Bayelsa",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-africa-toru-orua"
+    },
+    {
+      "name": "Benue State University of Agriculture, Science and Technology, Ihugh, Benue State",
       "state": "Benue",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "benue-state-university-of-agriculture-science-and-technology-ihugh-benue-state"
     },
     {
-      "id": "inst-015",
-      "name": "University of Maiduguri",
+      "name": "Federal University of Health Sciences, Otukpo, Benue State",
+      "state": "Benue",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-sciences-otukpo-benue-state"
+    },
+    {
+      "name": "Joseph Sarwuan Tarka University, Makurdi, Benue State",
+      "state": "Benue",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "joseph-sarwuan-tarka-university-makurdi-benue-state"
+    },
+    {
+      "name": "Rev. Fr. Moses Orshio Adasu University, Makurdi",
+      "state": "Benue",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "rev-fr-moses-orshio-adasu-university-makurdi"
+    },
+    {
+      "name": "University of Mkar, Mkar, Benue State",
+      "state": "Benue",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-mkar-mkar-benue-state"
+    },
+    {
+      "name": "Al-Ansar University, Maiduguri, Borno State",
       "state": "Borno",
-      "ownership": "Federal",
-      "institutionType": "university",
+      "ownership": "Private",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-ansar-university-maiduguri-borno-state"
     },
     {
-      "id": "inst-016",
       "name": "Borno State University",
       "state": "Borno",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "borno-state-university"
     },
     {
-      "id": "inst-017",
-      "name": "University of Calabar",
-      "state": "Cross River",
+      "name": "Nigerian Army University, Biu",
+      "state": "Borno",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nigerian-army-university-biu"
     },
     {
-      "id": "inst-018",
-      "name": "Cross River University of Technology",
+      "name": "University of Maiduguri, Maiduguri",
+      "state": "Borno",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-maiduguri-maiduguri"
+    },
+    {
+      "name": "Arthur Jarvis University, Akpabuyo, Cross River State",
+      "state": "Cross River",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "arthur-jarvis-university-akpabuyo-cross-river-state"
+    },
+    {
+      "name": "British Canadian University, Obudu, Cross River State",
+      "state": "Cross River",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "british-canadian-university-obudu-cross-river-state"
+    },
+    {
+      "name": "Cross River University of Education and Entrepreneurship, Akampa, Cross River State",
       "state": "Cross River",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "cross-river-university-of-education-and-entrepreneurship-akampa-cross-river-state"
     },
     {
-      "id": "inst-019",
-      "name": "Federal University of Petroleum Resources, Effurun",
+      "name": "Cross River University of Technology, Calabar",
+      "state": "Cross River",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "cross-river-university-of-technology-calabar"
+    },
+    {
+      "name": "Havilla University, Nde-Ikom, Cross River State",
+      "state": "Cross River",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "havilla-university-nde-ikom-cross-river-state"
+    },
+    {
+      "name": "Pearl University, Calabar",
+      "state": "Cross River",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "pearl-university-calabar"
+    },
+    {
+      "name": "The Duke Medical University, Calabar, Cross River State",
+      "state": "Cross River",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "the-duke-medical-university-calabar-cross-river-state"
+    },
+    {
+      "name": "University of Calabar, Calabar",
+      "state": "Cross River",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-calabar-calabar"
+    },
+    {
+      "name": "Admiralty University, Ibusa, Delta State",
       "state": "Delta",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "admiralty-university-ibusa-delta-state"
     },
     {
-      "id": "inst-020",
       "name": "Delta State University, Abraka",
       "state": "Delta",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "delta-state-university-abraka"
     },
     {
-      "id": "inst-021",
-      "name": "Alex Ekwueme Federal University, Ndufu-Alike",
+      "name": "Dennis Osadebey University, Asaba, Delta State",
+      "state": "Delta",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "dennis-osadebey-university-asaba-delta-state"
+    },
+    {
+      "name": "Edwin Clark University, Kiagbodo, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "edwin-clark-university-kiagbodo-delta-state"
+    },
+    {
+      "name": "Federal University of Health Sciences, Kwale, Delta State",
+      "state": "Delta",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-sciences-kwale-delta-state"
+    },
+    {
+      "name": "Federal University of Petroleum Resources, Effurun",
+      "state": "Delta",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-petroleum-resources-effurun"
+    },
+    {
+      "name": "Godday Erewa University, Sapele",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "godday-erewa-university-sapele"
+    },
+    {
+      "name": "Margaret Lawrence University, Galilee, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "margaret-lawrence-university-galilee-delta-state"
+    },
+    {
+      "name": "Michael & Cecilia Ibru University, Owhode, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "michael-cecilia-ibru-university-owhode-delta-state"
+    },
+    {
+      "name": "Nigeria Maritime University, Okerenkoko, Delta State",
+      "state": "Delta",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nigeria-maritime-university-okerenkoko-delta-state"
+    },
+    {
+      "name": "Novena University, Ogume, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "novena-university-ogume-delta-state"
+    },
+    {
+      "name": "Sports University, Idumuje-Ugboko, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "sports-university-idumuje-ugboko-delta-state"
+    },
+    {
+      "name": "University of Delta, Agbor, Delta State",
+      "state": "Delta",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-delta-agbor-delta-state"
+    },
+    {
+      "name": "University of Science and Technology, Ozoro, Delta State",
+      "state": "Delta",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-science-and-technology-ozoro-delta-state"
+    },
+    {
+      "name": "Western Delta University, Oghara, Delta State",
+      "state": "Delta",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "western-delta-university-oghara-delta-state"
+    },
+    {
+      "name": "Alex Ekwueme Federal University, Ndufu Alike, Ebonyi State",
       "state": "Ebonyi",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "alex-ekwueme-federal-university-ndufu-alike-ebonyi-state"
     },
     {
-      "id": "inst-022",
-      "name": "Ebonyi State University",
+      "name": "Ebonyi State University of Aeronautics and Aerospace Engineering, Ezza, Ebonyi State",
       "state": "Ebonyi",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ebonyi-state-university-of-aeronautics-and-aerospace-engineering-ezza-ebonyi-state"
     },
     {
-      "id": "inst-023",
-      "name": "University of Benin",
-      "state": "Edo",
+      "name": "Ebonyi State University of ICT, Science and Technology, Oferekpe, Ebonyi State",
+      "state": "Ebonyi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ebonyi-state-university-of-ict-science-and-technology-oferekpe-ebonyi-state"
+    },
+    {
+      "name": "Ebonyi State University, Abakaliki",
+      "state": "Ebonyi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ebonyi-state-university-abakaliki"
+    },
+    {
+      "name": "Euston University, Abakaliki",
+      "state": "Ebonyi",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "euston-university-abakaliki"
+    },
+    {
+      "name": "Evangel University, Akaeze, Ebonyi State",
+      "state": "Ebonyi",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "evangel-university-akaeze-ebonyi-state"
+    },
+    {
+      "name": "King David Umahi University of Medical Sciences, Uburu, Ebonyi State",
+      "state": "Ebonyi",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "king-david-umahi-university-of-medical-sciences-uburu-ebonyi-state"
     },
     {
-      "id": "inst-024",
-      "name": "Ambrose Alli University",
+      "name": "Adeche Momoh University, Igarra, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "adeche-momoh-university-igarra-edo-state"
+    },
+    {
+      "name": "Ambrose Alli University, Ekpoma, Edo State",
       "state": "Edo",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ambrose-alli-university-ekpoma-edo-state"
     },
     {
-      "id": "inst-025",
-      "name": "Federal University, Oye-Ekiti",
-      "state": "Ekiti",
+      "name": "Benson Idahosa University, Benin City, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "benson-idahosa-university-benin-city-edo-state"
+    },
+    {
+      "name": "Edo University, Iyamho",
+      "state": "Edo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "edo-university-iyamho"
+    },
+    {
+      "name": "Glorious Vision University, Ogwa, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "glorious-vision-university-ogwa-edo-state"
+    },
+    {
+      "name": "Igbinedion University, Okada, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "igbinedion-university-okada-edo-state"
+    },
+    {
+      "name": "Lighthouse University, Evbuobanosa, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lighthouse-university-evbuobanosa-edo-state"
+    },
+    {
+      "name": "Mudiame University, Irrua, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "mudiame-university-irrua-edo-state"
+    },
+    {
+      "name": "Tonnie Iredia University of Communication, Benin City, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "tonnie-iredia-university-of-communication-benin-city-edo-state"
+    },
+    {
+      "name": "University of Benin, Benin City",
+      "state": "Edo",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-benin-benin-city"
     },
     {
-      "id": "inst-026",
-      "name": "Ekiti State University",
+      "name": "Wellspring University, Evbuobanosa, Edo State",
+      "state": "Edo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "wellspring-university-evbuobanosa-edo-state"
+    },
+    {
+      "name": "Afe Babalola University, Ado-Ekiti",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "afe-babalola-university-ado-ekiti"
+    },
+    {
+      "name": "Bamidele Olumilua University of Education, Science and Technology, Ikere-Ekiti",
       "state": "Ekiti",
       "ownership": "State",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bamidele-olumilua-university-of-education-science-and-technology-ikere-ekiti"
     },
     {
-      "id": "inst-027",
+      "name": "Ekiti State University, Ado-Ekiti",
+      "state": "Ekiti",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ekiti-state-university-ado-ekiti"
+    },
+    {
+      "name": "Federal University of Technology and Environmental Studies, Iyin-Ekiti, Ekiti State",
+      "state": "Ekiti",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-and-environmental-studies-iyin-ekiti-ekiti-state"
+    },
+    {
+      "name": "Federal University, Oye-Ekiti, Ekiti State",
+      "state": "Ekiti",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-oye-ekiti-ekiti-state"
+    },
+    {
+      "name": "High-Flyers University, Ikere-Ekiti",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "high-flyers-university-ikere-ekiti"
+    },
+    {
+      "name": "Hillside University of Science and Technology, Okemesi-Ekiti",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "hillside-university-of-science-and-technology-okemesi-ekiti"
+    },
+    {
+      "name": "Venite University, Iloro-Ekiti",
+      "state": "Ekiti",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "venite-university-iloro-ekiti"
+    },
+    {
+      "name": "Caritas University, Enugu, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "caritas-university-enugu-enugu-state"
+    },
+    {
+      "name": "Coal City University, Enugu, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "coal-city-university-enugu-enugu-state"
+    },
+    {
+      "name": "Enugu State University of Medical and Applied Sciences, Igbo-Eno, Enugu State",
+      "state": "Enugu",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "enugu-state-university-of-medical-and-applied-sciences-igbo-eno-enugu-state"
+    },
+    {
+      "name": "Enugu State University of Science and Technology, Enugu",
+      "state": "Enugu",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "enugu-state-university-of-science-and-technology-enugu"
+    },
+    {
+      "name": "Federal University of Allied Health Sciences, Enugu",
+      "state": "Enugu",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-allied-health-sciences-enugu"
+    },
+    {
+      "name": "Godfrey Okoye University, Ugwuomu-Nike, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "godfrey-okoye-university-ugwuomu-nike-enugu-state"
+    },
+    {
+      "name": "Kevin Eze University, Mgbowo, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kevin-eze-university-mgbowo-enugu-state"
+    },
+    {
+      "name": "Maduka University, Ekwegbe, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "maduka-university-ekwegbe-enugu-state"
+    },
+    {
+      "name": "Peaceland University, Enugu, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "peaceland-university-enugu-enugu-state"
+    },
+    {
+      "name": "Renaissance University, Enugu, Enugu State",
+      "state": "Enugu",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "renaissance-university-enugu-enugu-state"
+    },
+    {
       "name": "University of Nigeria, Nsukka",
       "state": "Enugu",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-nigeria-nsukka"
     },
     {
-      "id": "inst-028",
-      "name": "Enugu State University of Science and Technology",
-      "state": "Enugu",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-029",
-      "name": "Federal University, Kashere",
-      "state": "Gombe",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-030",
-      "name": "Gombe State University",
-      "state": "Gombe",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-031",
-      "name": "Federal University of Technology, Owerri",
-      "state": "Imo",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-032",
-      "name": "Imo State University",
-      "state": "Imo",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-033",
-      "name": "Federal University, Dutse",
-      "state": "Jigawa",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-034",
-      "name": "Sule Lamido University",
-      "state": "Jigawa",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-035",
-      "name": "Ahmadu Bello University, Zaria",
-      "state": "Kaduna",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-036",
-      "name": "Kaduna State University",
-      "state": "Kaduna",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-037",
-      "name": "Bayero University, Kano",
-      "state": "Kano",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-038",
-      "name": "Northwest University, Kano",
-      "state": "Kano",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-039",
-      "name": "Aliko Dangote University of Science and Technology, Wudil",
-      "state": "Kano",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-040",
-      "name": "Federal University, Dutsin-Ma",
-      "state": "Katsina",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-041",
-      "name": "Umaru Musa Yar’adua University",
-      "state": "Katsina",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-042",
-      "name": "Federal University, Birnin Kebbi",
-      "state": "Kebbi",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-043",
-      "name": "Kebbi State University of Science and Technology, Aliero",
-      "state": "Kebbi",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-044",
-      "name": "Federal University, Lokoja",
-      "state": "Kogi",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-045",
-      "name": "Prince Abubakar Audu University, Anyigba",
-      "state": "Kogi",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-046",
-      "name": "University of Ilorin",
-      "state": "Kwara",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-047",
-      "name": "Kwara State University, Malete",
-      "state": "Kwara",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-048",
-      "name": "University of Lagos",
-      "state": "Lagos",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-049",
-      "name": "Lagos State University",
-      "state": "Lagos",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-050",
-      "name": "Federal University, Lafia",
-      "state": "Nasarawa",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-051",
-      "name": "Nasarawa State University, Keffi",
-      "state": "Nasarawa",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-052",
-      "name": "Federal University of Technology, Minna",
-      "state": "Niger",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-053",
-      "name": "Ibrahim Badamasi Babangida University, Lapai",
-      "state": "Niger",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-054",
-      "name": "Federal University of Agriculture, Abeokuta",
-      "state": "Ogun",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-055",
-      "name": "Olabisi Onabanjo University",
-      "state": "Ogun",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-056",
-      "name": "Federal University of Technology, Akure",
-      "state": "Ondo",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-057",
-      "name": "Adekunle Ajasin University",
-      "state": "Ondo",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-058",
-      "name": "Obafemi Awolowo University, Ile-Ife",
-      "state": "Osun",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-059",
-      "name": "Osun State University",
-      "state": "Osun",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-060",
-      "name": "University of Ibadan",
-      "state": "Oyo",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-061",
-      "name": "Ladoke Akintola University of Technology",
-      "state": "Oyo",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-062",
-      "name": "University of Jos",
-      "state": "Plateau",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-063",
-      "name": "Plateau State University, Bokkos",
-      "state": "Plateau",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-064",
-      "name": "University of Port Harcourt",
-      "state": "Rivers",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-065",
-      "name": "Rivers State University",
-      "state": "Rivers",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-066",
-      "name": "Usmanu Danfodiyo University, Sokoto",
-      "state": "Sokoto",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-067",
-      "name": "Sokoto State University",
-      "state": "Sokoto",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-068",
-      "name": "Federal University, Wukari",
-      "state": "Taraba",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-069",
-      "name": "Taraba State University",
-      "state": "Taraba",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-070",
-      "name": "Federal University, Gashua",
-      "state": "Yobe",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-071",
-      "name": "Yobe State University",
-      "state": "Yobe",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-072",
-      "name": "Federal University, Gusau",
-      "state": "Zamfara",
-      "ownership": "Federal",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-073",
-      "name": "Zamfara State University",
-      "state": "Zamfara",
-      "ownership": "State",
-      "institutionType": "university",
-      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
-    },
-    {
-      "id": "inst-074",
-      "name": "University of Abuja",
+      "name": "African Aviation and Aerospace University, Abuja, FCT",
       "state": "Federal Capital Territory (FCT)",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "african-aviation-and-aerospace-university-abuja-fct"
     },
     {
-      "id": "inst-075",
+      "name": "African School of Economics, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "african-school-of-economics-abuja-fct"
+    },
+    {
+      "name": "African University of Science and Technology, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "african-university-of-science-and-technology-abuja-fct"
+    },
+    {
+      "name": "Al-Muhibbah Open University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-muhibbah-open-university-abuja-fct"
+    },
+    {
+      "name": "Amaj University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "amaj-university-abuja-fct"
+    },
+    {
+      "name": "Baze University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "baze-university-abuja-fct"
+    },
+    {
+      "name": "Canadian University of Nigeria, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "canadian-university-of-nigeria-abuja-fct"
+    },
+    {
+      "name": "City University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "city-university-abuja-fct"
+    },
+    {
+      "name": "Cosmopolitan University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "cosmopolitan-university-abuja-fct"
+    },
+    {
+      "name": "Eranova University, Mabushi, Abuja",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "eranova-university-mabushi-abuja"
+    },
+    {
+      "name": "European University of Nigeria, Duboyi, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "european-university-of-nigeria-duboyi-abuja-fct"
+    },
+    {
+      "name": "Leadership University, Abuja",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "leadership-university-abuja"
+    },
+    {
+      "name": "Miva Open University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "miva-open-university-abuja-fct"
+    },
+    {
       "name": "National Open University of Nigeria, Abuja",
       "state": "Federal Capital Territory (FCT)",
       "ownership": "Federal",
-      "institutionType": "university",
+      "institutionType": "University",
       "sourceUrl": "https://enuc.nuc.edu.ng/nus",
-      "verificationStatus": "curated_seed_needs_current_ibass_programme_check"
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "national-open-university-of-nigeria-abuja"
+    },
+    {
+      "name": "National University of Science and Technology, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "national-university-of-science-and-technology-abuja-fct"
+    },
+    {
+      "name": "Nile University of Nigeria, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nile-university-of-nigeria-abuja-fct"
+    },
+    {
+      "name": "Philomath University, Kuje, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "philomath-university-kuje-abuja-fct"
+    },
+    {
+      "name": "Prime University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "prime-university-abuja-fct"
+    },
+    {
+      "name": "Ummah University of Nigeria, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ummah-university-of-nigeria-abuja-fct"
+    },
+    {
+      "name": "University of Abuja, Abuja",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-abuja-abuja"
+    },
+    {
+      "name": "Veritas University, Abuja, FCT",
+      "state": "Federal Capital Territory (FCT)",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "veritas-university-abuja-fct"
+    },
+    {
+      "name": "Federal University, Kashere, Gombe State",
+      "state": "Gombe",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-kashere-gombe-state"
+    },
+    {
+      "name": "Gombe State University, Gombe",
+      "state": "Gombe",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "gombe-state-university-gombe"
+    },
+    {
+      "name": "Jewel University, Gombe, Gombe State",
+      "state": "Gombe",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "jewel-university-gombe-gombe-state"
+    },
+    {
+      "name": "North Eastern University, Gombe",
+      "state": "Gombe",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "north-eastern-university-gombe"
+    },
+    {
+      "name": "Alvan Ikoku Federal University of Education, Owerri, Imo State",
+      "state": "Imo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "alvan-ikoku-federal-university-of-education-owerri-imo-state"
+    },
+    {
+      "name": "Azione Verde University, Amaigbo, Imo State",
+      "state": "Imo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "azione-verde-university-amaigbo-imo-state"
+    },
+    {
+      "name": "Bridget University, Mbaise, Imo State",
+      "state": "Imo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bridget-university-mbaise-imo-state"
+    },
+    {
+      "name": "Claretian University of Nigeria, Nekede, Imo State",
+      "state": "Imo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "claretian-university-of-nigeria-nekede-imo-state"
+    },
+    {
+      "name": "Federal University of Technology, Owerri",
+      "state": "Imo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-owerri"
+    },
+    {
+      "name": "Hezekiah University, Umudi, Imo State",
+      "state": "Imo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "hezekiah-university-umudi-imo-state"
+    },
+    {
+      "name": "Imo State University, Owerri",
+      "state": "Imo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "imo-state-university-owerri"
+    },
+    {
+      "name": "Kingsley Ozumba Mbadiwe University, Imo State",
+      "state": "Imo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kingsley-ozumba-mbadiwe-university-imo-state"
+    },
+    {
+      "name": "Maria Assumpta University, Owerri, Imo State",
+      "state": "Imo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "maria-assumpta-university-owerri-imo-state"
+    },
+    {
+      "name": "University of Agriculture and Environmental Sciences, Umuagwo, Imo State",
+      "state": "Imo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-agriculture-and-environmental-sciences-umuagwo-imo-state"
+    },
+    {
+      "name": "University of Innovation, Science and Technology, Omuma, Imo State",
+      "state": "Imo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-innovation-science-and-technology-omuma-imo-state"
+    },
+    {
+      "name": "Federal University of Technology, Babura, Jigawa State",
+      "state": "Jigawa",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-babura-jigawa-state"
+    },
+    {
+      "name": "Federal University, Dutse, Jigawa State",
+      "state": "Jigawa",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-dutse-jigawa-state"
+    },
+    {
+      "name": "Jigawa State University of Allied and Medical Science",
+      "state": "Jigawa",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "jigawa-state-university-of-allied-and-medical-science"
+    },
+    {
+      "name": "Sule Lamido University, Kafin Hausa",
+      "state": "Jigawa",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "sule-lamido-university-kafin-hausa"
+    },
+    {
+      "name": "Ahmadu Bello University, Zaria",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ahmadu-bello-university-zaria"
+    },
+    {
+      "name": "Air Force Institute of Technology, Kaduna",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "air-force-institute-of-technology-kaduna"
+    },
+    {
+      "name": "College of Petroleum and Energy Studies, Kaduna, Kaduna State",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "college-of-petroleum-and-energy-studies-kaduna-kaduna-state"
+    },
+    {
+      "name": "Federal University of Applied Sciences, Kachia, Kaduna State",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-applied-sciences-kachia-kaduna-state"
+    },
+    {
+      "name": "Federal University of Education, Zaria, Kaduna State",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-education-zaria-kaduna-state"
+    },
+    {
+      "name": "Franco British International University, Kaduna, Kaduna State",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "franco-british-international-university-kaduna-kaduna-state"
+    },
+    {
+      "name": "Greenfield University, Kasarami-Kaduna, Kaduna State",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "greenfield-university-kasarami-kaduna-kaduna-state"
+    },
+    {
+      "name": "Kaduna State University, Kaduna",
+      "state": "Kaduna",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kaduna-state-university-kaduna"
+    },
+    {
+      "name": "Nigerian Defence Academy, Kaduna",
+      "state": "Kaduna",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nigerian-defence-academy-kaduna"
+    },
+    {
+      "name": "Omega University, Kaduna",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "omega-university-kaduna"
+    },
+    {
+      "name": "Tazkiyah University, Kaduna",
+      "state": "Kaduna",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "tazkiyah-university-kaduna"
+    },
+    {
+      "name": "Al-Istiqama University, Sumaila, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-istiqama-university-sumaila-kano-state"
+    },
+    {
+      "name": "Aliko Dangote University of Science and Technology, Wudil",
+      "state": "Kano",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "aliko-dangote-university-of-science-and-technology-wudil"
+    },
+    {
+      "name": "Azman University, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "azman-university-kano-kano-state"
+    },
+    {
+      "name": "Baba-Ahmed University, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "baba-ahmed-university-kano-kano-state"
+    },
+    {
+      "name": "Bayero University, Kano",
+      "state": "Kano",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bayero-university-kano"
+    },
+    {
+      "name": "Capital City University, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "capital-city-university-kano-kano-state"
+    },
+    {
+      "name": "Elrazi University of Medical Sciences, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "elrazi-university-of-medical-sciences-kano-kano-state"
+    },
+    {
+      "name": "Federal University of Science and Technology, Kabo, Kano State",
+      "state": "Kano",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-science-and-technology-kabo-kano-state"
+    },
+    {
+      "name": "Khalifa Isiyaku Rabiu University, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "khalifa-isiyaku-rabiu-university-kano-kano-state"
+    },
+    {
+      "name": "Maryam Abacha American University of Nigeria, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "maryam-abacha-american-university-of-nigeria-kano-kano-state"
+    },
+    {
+      "name": "Northwest University, Kano",
+      "state": "Kano",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "northwest-university-kano"
+    },
+    {
+      "name": "Skyline University, Nigeria, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "skyline-university-nigeria-kano-kano-state"
+    },
+    {
+      "name": "The Nigeria Police Academy, Wudil, Kano State",
+      "state": "Kano",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "the-nigeria-police-academy-wudil-kano-state"
+    },
+    {
+      "name": "Yusuf Maitama Sule Federal University of Education, Kano, Kano State",
+      "state": "Kano",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "yusuf-maitama-sule-federal-university-of-education-kano-kano-state"
+    },
+    {
+      "name": "Al-Qalam University, Katsina, Katsina State",
+      "state": "Katsina",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-qalam-university-katsina-katsina-state"
+    },
+    {
+      "name": "Federal University of Health Sciences, Funtua, Katsina State",
+      "state": "Katsina",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-sciences-funtua-katsina-state"
+    },
+    {
+      "name": "Federal University of Transportation, Daura, Katsina State",
+      "state": "Katsina",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-transportation-daura-katsina-state"
+    },
+    {
+      "name": "Federal University, Dutsin-Ma, Katsina State",
+      "state": "Katsina",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-dutsin-ma-katsina-state"
+    },
+    {
+      "name": "Umaru Musa Yar’Adua University, Katsina",
+      "state": "Katsina",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "umaru-musa-yaradua-university-katsina"
+    },
+    {
+      "name": "Federal University of Agriculture, Zuru, Kebbi State",
+      "state": "Kebbi",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-zuru-kebbi-state"
+    },
+    {
+      "name": "Federal University, Birnin-Kebbi, Kebbi State",
+      "state": "Kebbi",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-birnin-kebbi-kebbi-state"
+    },
+    {
+      "name": "Kebbi State University of Science and Technology, Aliero",
+      "state": "Kebbi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kebbi-state-university-of-science-and-technology-aliero"
+    },
+    {
+      "name": "Rayhaan University, Birnin Kebbi, Kebbi State",
+      "state": "Kebbi",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "rayhaan-university-birnin-kebbi-kebbi-state"
+    },
+    {
+      "name": "Al-Bayan University, Ankpa, Kogi State",
+      "state": "Kogi",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-bayan-university-ankpa-kogi-state"
+    },
+    {
+      "name": "Confluence University of Science and Technology, Osara, Kogi State",
+      "state": "Kogi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "confluence-university-of-science-and-technology-osara-kogi-state"
+    },
+    {
+      "name": "Federal University, Lokoja, Kogi State",
+      "state": "Kogi",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-lokoja-kogi-state"
+    },
+    {
+      "name": "Kogi State University, Kabba, Kogi State",
+      "state": "Kogi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kogi-state-university-kabba-kogi-state"
+    },
+    {
+      "name": "Prince Abubakar Audu University, Anyigba",
+      "state": "Kogi",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "prince-abubakar-audu-university-anyigba"
+    },
+    {
+      "name": "Salem University, Lokoja, Kogi State",
+      "state": "Kogi",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "salem-university-lokoja-kogi-state"
+    },
+    {
+      "name": "Abdulrasaq Abubakar Toyin University, Oke-Agba, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abdulrasaq-abubakar-toyin-university-oke-agba-kwara-state"
+    },
+    {
+      "name": "Ahman Pategi University, Patigi, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ahman-pategi-university-patigi-kwara-state"
+    },
+    {
+      "name": "Al-Hikmah University, Ilorin, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "al-hikmah-university-ilorin-kwara-state"
+    },
+    {
+      "name": "Jimoh Babalola University, Ilorin, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "jimoh-babalola-university-ilorin-kwara-state"
+    },
+    {
+      "name": "Kwara State University of Education, Ilorin, Kwara State",
+      "state": "Kwara",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kwara-state-university-of-education-ilorin-kwara-state"
+    },
+    {
+      "name": "Kwara State University, Ilorin",
+      "state": "Kwara",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kwara-state-university-ilorin"
+    },
+    {
+      "name": "Landmark University, Omu-Aran, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "landmark-university-omu-aran-kwara-state"
+    },
+    {
+      "name": "Lens University, Ilemona, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lens-university-ilemona-kwara-state"
+    },
+    {
+      "name": "Muhammad Kamalud-Deen University, Ilorin, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "muhammad-kamalud-deen-university-ilorin-kwara-state"
+    },
+    {
+      "name": "Ojaja University, Eiyenkorin, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ojaja-university-eiyenkorin-kwara-state"
+    },
+    {
+      "name": "Summit University, Offa, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "summit-university-offa-kwara-state"
+    },
+    {
+      "name": "Thomas Adewumi University, Oko-Irese, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "thomas-adewumi-university-oko-irese-kwara-state"
+    },
+    {
+      "name": "University of Ilorin, Ilorin",
+      "state": "Kwara",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-ilorin-ilorin"
+    },
+    {
+      "name": "University of Offa, Offa, Kwara State",
+      "state": "Kwara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-offa-offa-kwara-state"
+    },
+    {
+      "name": "Anchor University, Ayobo, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "anchor-university-ayobo-lagos-state"
+    },
+    {
+      "name": "Augustine University, Ilara, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "augustine-university-ilara-lagos-state"
+    },
+    {
+      "name": "Caleb University, Imota, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "caleb-university-imota-lagos-state"
+    },
+    {
+      "name": "Eko University of Medical Sciences, Ijanikin, Lagos",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "eko-university-of-medical-sciences-ijanikin-lagos"
+    },
+    {
+      "name": "Federal University of Science and Technology, Epe, Lagos",
+      "state": "Lagos",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-science-and-technology-epe-lagos"
+    },
+    {
+      "name": "Isaac Balami University of Aeronautics and Management, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "isaac-balami-university-of-aeronautics-and-management-lagos-state"
+    },
+    {
+      "name": "James Hope University, Lekki, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "james-hope-university-lekki-lagos-state"
+    },
+    {
+      "name": "Lagos State University, Ojo, Lagos",
+      "state": "Lagos",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lagos-state-university-ojo-lagos"
+    },
+    {
+      "name": "Lagos University of Education, Oto/Ijanikin, Lagos State",
+      "state": "Lagos",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lagos-university-of-education-oto-ijanikin-lagos-state"
+    },
+    {
+      "name": "Lagos University of Science and Technology, Ikorodu, Lagos State",
+      "state": "Lagos",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lagos-university-of-science-and-technology-ikorodu-lagos-state"
+    },
+    {
+      "name": "Maranatha University, Lekki, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "maranatha-university-lekki-lagos-state"
+    },
+    {
+      "name": "Nigerian University of Technology and Management, Apapa, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nigerian-university-of-technology-and-management-apapa-lagos-state"
+    },
+    {
+      "name": "Pan-Atlantic University, Lekki, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "pan-atlantic-university-lekki-lagos-state"
+    },
+    {
+      "name": "Regnum Medical University, Anthony, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "regnum-medical-university-anthony-lagos-state"
+    },
+    {
+      "name": "Unique Open University, Ojo, Lagos State",
+      "state": "Lagos",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "unique-open-university-ojo-lagos-state"
+    },
+    {
+      "name": "University of Lagos, Lagos",
+      "state": "Lagos",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-lagos-lagos"
+    },
+    {
+      "name": "Ave-Maria University, Piyanko, Nasarawa State",
+      "state": "Nasarawa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ave-maria-university-piyanko-nasarawa-state"
+    },
+    {
+      "name": "Bingham University, New-Karu, Nasarawa State",
+      "state": "Nasarawa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bingham-university-new-karu-nasarawa-state"
+    },
+    {
+      "name": "Federal University, Lafia, Nasarawa State",
+      "state": "Nasarawa",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-lafia-nasarawa-state"
+    },
+    {
+      "name": "Mewar University, Masaka, Nasarawa State",
+      "state": "Nasarawa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "mewar-university-masaka-nasarawa-state"
+    },
+    {
+      "name": "Nasarawa State University, Keffi",
+      "state": "Nasarawa",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "nasarawa-state-university-keffi"
+    },
+    {
+      "name": "Phoenix University, Agwada, Nasarawa State",
+      "state": "Nasarawa",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "phoenix-university-agwada-nasarawa-state"
+    },
+    {
+      "name": "Abdulkadir Kure University, Minna, Niger State",
+      "state": "Niger",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abdulkadir-kure-university-minna-niger-state"
+    },
+    {
+      "name": "Abdulsalami Abubakar University of Agriculture and Climate Action, Mokwa, Niger State",
+      "state": "Niger",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abdulsalami-abubakar-university-of-agriculture-and-climate-action-mokwa-niger-state"
+    },
+    {
+      "name": "Edusoko University, Bida, Niger State",
+      "state": "Niger",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "edusoko-university-bida-niger-state"
+    },
+    {
+      "name": "El-Amin University, Niger State",
+      "state": "Niger",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "el-amin-university-niger-state"
+    },
+    {
+      "name": "Federal University of Education, Kontagora, Niger State",
+      "state": "Niger",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-education-kontagora-niger-state"
+    },
+    {
+      "name": "Federal University of Technology, Minna",
+      "state": "Niger",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-minna"
+    },
+    {
+      "name": "Ibrahim Badamasi Babangida University, Lapai, Niger State",
+      "state": "Niger",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ibrahim-badamasi-babangida-university-lapai-niger-state"
+    },
+    {
+      "name": "JEFAP University, Suleja, Niger State",
+      "state": "Niger",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "jefap-university-suleja-niger-state"
+    },
+    {
+      "name": "Newgate University, Minna, Niger State",
+      "state": "Niger",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "newgate-university-minna-niger-state"
+    },
+    {
+      "name": "Sani Bello University, Kontagora, Niger State",
+      "state": "Niger",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "sani-bello-university-kontagora-niger-state"
+    },
+    {
+      "name": "Abdulfattah Durojaiye University, Abeokuta, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "abdulfattah-durojaiye-university-abeokuta-ogun-state"
+    },
+    {
+      "name": "Aletheia University, Ago-Iwoye, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "aletheia-university-ago-iwoye-ogun-state"
+    },
+    {
+      "name": "American Open University, Abeokuta, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "american-open-university-abeokuta-ogun-state"
+    },
+    {
+      "name": "Babcock University, Ilishan-Remo, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "babcock-university-ilishan-remo-ogun-state"
+    },
+    {
+      "name": "Bells University of Technology, Ota, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bells-university-of-technology-ota-ogun-state"
+    },
+    {
+      "name": "Bowen University, Iwo, Osun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "bowen-university-iwo-osun-state"
+    },
+    {
+      "name": "Chrisland University, Owode, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "chrisland-university-owode-ogun-state"
+    },
+    {
+      "name": "Christopher University, Mowe, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "christopher-university-mowe-ogun-state"
+    },
+    {
+      "name": "Covenant University, Ota, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "covenant-university-ota-ogun-state"
+    },
+    {
+      "name": "Crawford University, Igbesa, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "crawford-university-igbesa-ogun-state"
+    },
+    {
+      "name": "Crescent University, Abeokuta, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "crescent-university-abeokuta-ogun-state"
+    },
+    {
+      "name": "Federal University of Agriculture, Abeokuta",
+      "state": "Ogun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-abeokuta"
+    },
+    {
+      "name": "Federal University of Medicine and Medical Sciences, Abeokuta, Ogun State",
+      "state": "Ogun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-medicine-and-medical-sciences-abeokuta-ogun-state"
+    },
+    {
+      "name": "Gerar University of Medical Sciences, Imope-Ijebu, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "gerar-university-of-medical-sciences-imope-ijebu-ogun-state"
+    },
+    {
+      "name": "Hallmark University, Ijebu-Itele, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "hallmark-university-ijebu-itele-ogun-state"
+    },
+    {
+      "name": "McPherson University, Seriki Sotayo, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "mcpherson-university-seriki-sotayo-ogun-state"
+    },
+    {
+      "name": "Monarch University, Iyesi-Ota, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "monarch-university-iyesi-ota-ogun-state"
+    },
+    {
+      "name": "Moshood Abiola University of Science and Technology, Abeokuta",
+      "state": "Ogun",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "moshood-abiola-university-of-science-and-technology-abeokuta"
+    },
+    {
+      "name": "Mountain Top University, Makogi/Oba, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "mountain-top-university-makogi-oba-ogun-state"
+    },
+    {
+      "name": "New City University, Ayetoro, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "new-city-university-ayetoro-ogun-state"
+    },
+    {
+      "name": "Olabisi Onabanjo University, Ago-Iwoye",
+      "state": "Ogun",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "olabisi-onabanjo-university-ago-iwoye"
+    },
+    {
+      "name": "Redeemer’s University, Mowe, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "redeemers-university-mowe-ogun-state"
+    },
+    {
+      "name": "Southwestern University, Okun-Owa, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "southwestern-university-okun-owa-ogun-state"
+    },
+    {
+      "name": "Tai Solarin Federal University of Education, Ijagun, Ogun State",
+      "state": "Ogun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "tai-solarin-federal-university-of-education-ijagun-ogun-state"
+    },
+    {
+      "name": "Trinity University, Laloko, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "trinity-university-laloko-ogun-state"
+    },
+    {
+      "name": "Vision University, Ikogbo, Ogun State",
+      "state": "Ogun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "vision-university-ikogbo-ogun-state"
+    },
+    {
+      "name": "Achievers University, Owo, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "achievers-university-owo-ondo-state"
+    },
+    {
+      "name": "Adekunle Ajasin University, Akungba-Akoko",
+      "state": "Ondo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "adekunle-ajasin-university-akungba-akoko"
+    },
+    {
+      "name": "Adeyemi Federal University of Education, Akure, Ondo State",
+      "state": "Ondo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "adeyemi-federal-university-of-education-akure-ondo-state"
+    },
+    {
+      "name": "Elizade University, Ilara-Mokin, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "elizade-university-ilara-mokin-ondo-state"
+    },
+    {
+      "name": "Federal University of Technology, Akure",
+      "state": "Ondo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-technology-akure"
+    },
+    {
+      "name": "Millennium Crest University, Ikare-Akoko, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "millennium-crest-university-ikare-akoko-ondo-state"
+    },
+    {
+      "name": "Olusegun Agagu University of Science and Technology, Okitipupa, Ondo State",
+      "state": "Ondo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "olusegun-agagu-university-of-science-and-technology-okitipupa-ondo-state"
+    },
+    {
+      "name": "Ondo State University of Medical Sciences",
+      "state": "Ondo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ondo-state-university-of-medical-sciences"
+    },
+    {
+      "name": "Sam Maris University, Supare, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "sam-maris-university-supare-ondo-state"
+    },
+    {
+      "name": "University of Fortune, Igbotako, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-fortune-igbotako-ondo-state"
+    },
+    {
+      "name": "Wesley University of Science and Technology, Ondo State",
+      "state": "Ondo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "wesley-university-of-science-and-technology-ondo-state"
+    },
+    {
+      "name": "Adeleke University, Ede, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "adeleke-university-ede-osun-state"
+    },
+    {
+      "name": "Federal University of Agriculture and Developmental Studies, Iragbiji, Osun State",
+      "state": "Osun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-and-developmental-studies-iragbiji-osun-state"
+    },
+    {
+      "name": "Federal University of Health Sciences, Ila Orangun, Osun State",
+      "state": "Osun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-sciences-ila-orangun-osun-state"
+    },
+    {
+      "name": "Fountain University, Oshogbo, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "fountain-university-oshogbo-osun-state"
+    },
+    {
+      "name": "Joseph Ayo Babalola University, Ikeji-Arakeji, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "joseph-ayo-babalola-university-ikeji-arakeji-osun-state"
+    },
+    {
+      "name": "Kings University, Ode-Omu, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kings-university-ode-omu-osun-state"
+    },
+    {
+      "name": "Mercy Medical University, Iwara, Iwo, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "mercy-medical-university-iwara-iwo-osun-state"
+    },
+    {
+      "name": "Minaret University, Ikirun, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "minaret-university-ikirun-osun-state"
+    },
+    {
+      "name": "Obafemi Awolowo University, Ile-Ife",
+      "state": "Osun",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "obafemi-awolowo-university-ile-ife"
+    },
+    {
+      "name": "Oduduwa University, Ipetumodu, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "oduduwa-university-ipetumodu-osun-state"
+    },
+    {
+      "name": "Osun State University, Osogbo",
+      "state": "Osun",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "osun-state-university-osogbo"
+    },
+    {
+      "id": "owolabi-university",
+      "name": "Owolabi University, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16"
+    },
+    {
+      "name": "University of Ilesa, Osun State",
+      "state": "Osun",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-ilesa-osun-state"
+    },
+    {
+      "name": "Westland University, Iwo, Osun State",
+      "state": "Osun",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "westland-university-iwo-osun-state"
+    },
+    {
+      "name": "Ajayi Crowther University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ajayi-crowther-university-ibadan-oyo-state"
+    },
+    {
+      "name": "Atiba University, Oyo, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "atiba-university-oyo-oyo-state"
+    },
+    {
+      "name": "Dominican University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "dominican-university-ibadan-oyo-state"
+    },
+    {
+      "name": "Dominion University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "dominion-university-ibadan-oyo-state"
+    },
+    {
+      "name": "Emmanuel Alayande University of Education, Oyo, Oyo State",
+      "state": "Oyo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "emmanuel-alayande-university-of-education-oyo-oyo-state"
+    },
+    {
+      "name": "Federal University of Agriculture and Technology, Okeho, Oyo State",
+      "state": "Oyo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-agriculture-and-technology-okeho-oyo-state"
+    },
+    {
+      "name": "First Technical University, Ibadan",
+      "state": "Oyo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "first-technical-university-ibadan"
+    },
+    {
+      "name": "Kola Daisi University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kola-daisi-university-ibadan-oyo-state"
+    },
+    {
+      "name": "Ladoke Akintola University of Technology, Ogbomoso",
+      "state": "Oyo",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ladoke-akintola-university-of-technology-ogbomoso"
+    },
+    {
+      "name": "Lead City University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "lead-city-university-ibadan-oyo-state"
+    },
+    {
+      "name": "Precious Cornerstone University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "precious-cornerstone-university-ibadan-oyo-state"
+    },
+    {
+      "name": "University of Ibadan, Ibadan",
+      "state": "Oyo",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-ibadan-ibadan"
+    },
+    {
+      "name": "West Midland Open University, Ibadan, Oyo State",
+      "state": "Oyo",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "west-midland-open-university-ibadan-oyo-state"
+    },
+    {
+      "name": "ANAN University, Kwall, Plateau State",
+      "state": "Plateau",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "anan-university-kwall-plateau-state"
+    },
+    {
+      "name": "Federal University of Education, Pankshin, Plateau State",
+      "state": "Plateau",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-education-pankshin-plateau-state"
+    },
+    {
+      "name": "Karl-Kumm University, Vom, Plateau State",
+      "state": "Plateau",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "karl-kumm-university-vom-plateau-state"
+    },
+    {
+      "name": "Plateau State University, Bokkos",
+      "state": "Plateau",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "plateau-state-university-bokkos"
+    },
+    {
+      "name": "University of Jos, Jos",
+      "state": "Plateau",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-jos-jos"
+    },
+    {
+      "name": "Federal University of Environment and Technology, Tai Town, Ogoniland, Rivers State",
+      "state": "Rivers",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-environment-and-technology-tai-town-ogoniland-rivers-state"
+    },
+    {
+      "name": "Ignatius Ajuru University of Education, Rumuolumeni, Rivers State",
+      "state": "Rivers",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "ignatius-ajuru-university-of-education-rumuolumeni-rivers-state"
+    },
+    {
+      "name": "PAMO University of Medical Sciences, Port Harcourt, Rivers State",
+      "state": "Rivers",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "pamo-university-of-medical-sciences-port-harcourt-rivers-state"
+    },
+    {
+      "name": "Rhema University, Obeama-Asa, Rivers State",
+      "state": "Rivers",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "rhema-university-obeama-asa-rivers-state"
+    },
+    {
+      "name": "Rivers State University of Science and Technology, Port Harcourt",
+      "state": "Rivers",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "rivers-state-university-of-science-and-technology-port-harcourt"
+    },
+    {
+      "name": "University of Port Harcourt, Port Harcourt",
+      "state": "Rivers",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "university-of-port-harcourt-port-harcourt"
+    },
+    {
+      "name": "Wigwe University, Isiokpo, Rivers State",
+      "state": "Rivers",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "wigwe-university-isiokpo-rivers-state"
+    },
+    {
+      "name": "Iconic Open University, Sokoto, Sokoto State",
+      "state": "Sokoto",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "iconic-open-university-sokoto-sokoto-state"
+    },
+    {
+      "name": "Northwest University, Sokoto, Sokoto State",
+      "state": "Sokoto",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "northwest-university-sokoto-sokoto-state"
+    },
+    {
+      "name": "Saisa University of Medical Sciences and Technology, Sokoto, Sokoto State",
+      "state": "Sokoto",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "saisa-university-of-medical-sciences-and-technology-sokoto-sokoto-state"
+    },
+    {
+      "name": "Shehu Shagari University of Education, Sokoto, Sokoto State",
+      "state": "Sokoto",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "shehu-shagari-university-of-education-sokoto-sokoto-state"
+    },
+    {
+      "name": "Sokoto State University, Sokoto",
+      "state": "Sokoto",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "sokoto-state-university-sokoto"
+    },
+    {
+      "name": "Usmanu Danfodiyo University, Sokoto",
+      "state": "Sokoto",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "usmanu-danfodiyo-university-sokoto"
+    },
+    {
+      "name": "Federal University, Wukari, Taraba State",
+      "state": "Taraba",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-wukari-taraba-state"
+    },
+    {
+      "name": "Greenland University, Jalingo, Taraba State",
+      "state": "Taraba",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "greenland-university-jalingo-taraba-state"
+    },
+    {
+      "name": "Kwararafa University, Wukari, Taraba State",
+      "state": "Taraba",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "kwararafa-university-wukari-taraba-state"
+    },
+    {
+      "name": "Taraba State University of Tropical Agriculture, Science, Technology and Climate Action, Gembu",
+      "state": "Taraba",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "taraba-state-university-of-tropical-agriculture-science-technology-and-climate-action-gembu"
+    },
+    {
+      "name": "Taraba State University, Jalingo",
+      "state": "Taraba",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "taraba-state-university-jalingo"
+    },
+    {
+      "name": "Federal University, Gashua, Yobe State",
+      "state": "Yobe",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-gashua-yobe-state"
+    },
+    {
+      "name": "Yobe State University, Damaturu",
+      "state": "Yobe",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "yobe-state-university-damaturu"
+    },
+    {
+      "name": "Federal University of Health Science and Technology, Tsafe, Zamfara State",
+      "state": "Zamfara",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-of-health-science-and-technology-tsafe-zamfara-state"
+    },
+    {
+      "name": "Federal University, Gusau, Zamfara State",
+      "state": "Zamfara",
+      "ownership": "Federal",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "federal-university-gusau-zamfara-state"
+    },
+    {
+      "name": "Huda University, Gusau, Zamfara State",
+      "state": "Zamfara",
+      "ownership": "Private",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "huda-university-gusau-zamfara-state"
+    },
+    {
+      "name": "Zamfara State University, Talata-Mafara",
+      "state": "Zamfara",
+      "ownership": "State",
+      "institutionType": "University",
+      "sourceUrl": "https://enuc.nuc.edu.ng/nus",
+      "sourceVerifiedAt": "2026-10-16",
+      "id": "zamfara-state-university-talata-mafara"
     }
   ],
   "additionalChoices": [
     {
       "id": "other-university",
-      "name": "Other university (including private / not listed)",
-      "institutionType": "university",
-      "ownership": "Other"
+      "name": "Other university (enter name manually)",
+      "ownership": "Other",
+      "state": "",
+      "institutionType": "University"
     },
     {
-      "id": "college-polytechnic",
-      "name": "College / Polytechnic / other tertiary institution",
-      "institutionType": "other",
-      "ownership": "Other"
+      "id": "polytechnic-or-monotechnic",
+      "name": "Polytechnic / Monotechnic (enter name manually)",
+      "ownership": "Other",
+      "state": "",
+      "institutionType": "Polytechnic / Monotechnic"
     },
     {
-      "id": "undecided-institution",
-      "name": "I have not chosen an institution yet",
-      "institutionType": "undecided",
-      "ownership": "Other"
+      "id": "college-of-education",
+      "name": "College of Education (enter name manually)",
+      "ownership": "Other",
+      "state": "",
+      "institutionType": "College of Education"
+    },
+    {
+      "id": "other-tertiary",
+      "name": "Other tertiary institution (enter name manually)",
+      "ownership": "Other",
+      "state": "",
+      "institutionType": "Other tertiary"
     }
-  ],
-  "dataNotice": "Directory seed was prepared from NUC public directory material on 2026-10-16. Confirm current names, approval status, programme availability and subject combinations in JAMB IBASS before displaying a requirement as verified."
+  ]
 }

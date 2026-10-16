@@ -1,6 +1,8 @@
 {
-  "schemaVersion": 1,
-  "note": "Subject picker seeded from the options visible in JAMB IBASS Eligibility Checker on 2026-10-16. Re-check live IBASS before launch or registration; the chooser is not a substitute for eligibility verification.",
+  "schemaVersion": 2,
+  "note": "Subject choices transcribed from JAMB 2026 Training Manual subject list. Current IBASS eligibility checker may display fewer options in its current programme workflow; confirm the exact subject combination for the selected programme in IBASS. Locally bundled questions are original Ready2Go drafts and need human subject-matter review.",
+  "sourceUrl": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
+  "checkedAt": "2026-10-16",
   "categories": [
     {
       "id": "science",
@@ -22,7 +24,8 @@
       "category": "compulsory",
       "compulsory": true,
       "available": true,
-      "note": "Original pilot questions; review and verification required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "agricultural-science",
@@ -30,21 +33,26 @@
       "category": "science",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "arabic",
       "name": "Arabic",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "fine-art",
       "name": "Art",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "biology",
@@ -52,7 +60,8 @@
       "category": "science",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "chemistry",
@@ -60,14 +69,17 @@
       "category": "science",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "christian-religious-knowledge",
       "name": "Christian Religious Studies",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "commerce",
@@ -75,7 +87,8 @@
       "category": "commerce",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "economics",
@@ -83,14 +96,17 @@
       "category": "commerce",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "french",
       "name": "French",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "geography",
@@ -98,7 +114,8 @@
       "category": "humanities-arts",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "government",
@@ -106,49 +123,62 @@
       "category": "humanities-arts",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "hausa",
-      "name": "Hausa Language",
+      "name": "Hausa",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "history",
       "name": "History",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "home-economics",
       "name": "Home Economics",
       "category": "commerce",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "igbo",
-      "name": "Igbo Language",
+      "name": "Igbo",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "islamic-studies",
-      "name": "Islamic Religious Studies",
+      "name": "Islamic Studies",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "literature-in-english",
       "name": "Literature in English",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "mathematics",
@@ -156,14 +186,17 @@
       "category": "science",
       "compulsory": false,
       "available": true,
-      "note": "Original pilot questions; review and verification required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "60 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "music",
       "name": "Music",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "physics",
@@ -171,22 +204,44 @@
       "category": "science",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "principles-of-accounts",
-      "name": "Principles of Accounts",
+      "name": "Principles of Account",
       "category": "commerce",
       "compulsory": false,
       "available": true,
-      "note": "Original draft question pack; human review required before public launch."
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     },
     {
       "id": "yoruba",
-      "name": "Yoruba Language",
+      "name": "Yoruba",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+    },
+    {
+      "id": "computer-studies",
+      "name": "Computer Studies",
+      "category": "science",
+      "compulsory": false,
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+    },
+    {
+      "id": "physical-health-education",
+      "name": "Physical and Health Education",
+      "category": "science",
+      "compulsory": false,
+      "available": true,
+      "contentStatus": "draft-needs-human-review",
+      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
     }
   ]
 }

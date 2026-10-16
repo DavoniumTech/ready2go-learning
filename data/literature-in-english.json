@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "literature-in-english",
+  "subjectName": "Literature in English",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "literature-in-english-r2g-001",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The ordered sequence of events in a story is called what?",
+      "options": {
+        "A": "Setting",
+        "B": "Metre only",
+        "C": "Biography",
+        "D": "Plot"
+      },
+      "correctAnswer": "D",
+      "explanation": "Plot is the sequence and causal organisation of events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-002",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The time and place in which a story occurs form its what?",
+      "options": {
+        "A": "Alliteration",
+        "B": "Footnote",
+        "C": "Setting",
+        "D": "Rhyme scheme"
+      },
+      "correctAnswer": "C",
+      "explanation": "Setting establishes where and when events occur.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-003",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Her smile was like sunshine” is an example of what?",
+      "options": {
+        "A": "Onomatopoeia",
+        "B": "Simile",
+        "C": "Oxymoron",
+        "D": "Euphemism only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A simile makes a comparison using like or as.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-004",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A metaphor makes what type of comparison?",
+      "options": {
+        "A": "An implied comparison without using like or as",
+        "B": "A direct factual list only",
+        "C": "A repeated consonant sound only",
+        "D": "A question with no answer"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metaphor describes one thing in terms of another.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-005",
+      "subjectId": "literature-in-english",
+      "topic": "Sound devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The repetition of initial consonant sounds in nearby words is called what?",
+      "options": {
+        "A": "Hyperbole",
+        "B": "Soliloquy",
+        "C": "Flashback",
+        "D": "Alliteration"
+      },
+      "correctAnswer": "D",
+      "explanation": "Alliteration repeats initial consonant sounds.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-006",
+      "subjectId": "literature-in-english",
+      "topic": "Characterisation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The central character around whom a story is built is often called what?",
+      "options": {
+        "A": "Publisher",
+        "B": "Narrator’s footnote",
+        "C": "Protagonist",
+        "D": "Stage direction"
+      },
+      "correctAnswer": "C",
+      "explanation": "The protagonist is the main character or central agent.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-007",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A contrast between expectation and reality is often called what?",
+      "options": {
+        "A": "Prologue",
+        "B": "Irony",
+        "C": "Assonance only",
+        "D": "Metre"
+      },
+      "correctAnswer": "B",
+      "explanation": "Irony involves a meaningful contrast between expectation and outcome or meaning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-008",
+      "subjectId": "literature-in-english",
+      "topic": "Literary analysis",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The central idea explored in a literary work is its what?",
+      "options": {
+        "A": "Theme",
+        "B": "Title font",
+        "C": "Page number",
+        "D": "Publisher address"
+      },
+      "correctAnswer": "A",
+      "explanation": "Theme is a central idea or concern.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-009",
+      "subjectId": "literature-in-english",
+      "topic": "Tone",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Tone refers to the author’s or speaker’s what toward the subject?",
+      "options": {
+        "A": "Physical height",
+        "B": "Publication year only",
+        "C": "Number of chapters",
+        "D": "Attitude"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tone conveys attitude through diction and style.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-010",
+      "subjectId": "literature-in-english",
+      "topic": "Drama",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A play is primarily written to be what?",
+      "options": {
+        "A": "Measured with a ruler",
+        "B": "Prepared as a bank statement",
+        "C": "Performed before an audience",
+        "D": "Used only as a map"
+      },
+      "correctAnswer": "C",
+      "explanation": "Drama is typically intended for performance.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-011",
+      "subjectId": "literature-in-english",
+      "topic": "Poetry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A group of lines forming a unit in a poem is called what?",
+      "options": {
+        "A": "Index",
+        "B": "Stanza",
+        "C": "Chapter",
+        "D": "Scene change only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A stanza is a grouped unit of poetic lines.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-012",
+      "subjectId": "literature-in-english",
+      "topic": "Imagery",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Imagery mainly appeals to what?",
+      "options": {
+        "A": "The senses and sensory imagination",
+        "B": "Only arithmetic",
+        "C": "The legal system",
+        "D": "Only the book cover"
+      },
+      "correctAnswer": "A",
+      "explanation": "Imagery evokes sensory experience.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-013",
+      "subjectId": "literature-in-english",
+      "topic": "Narrative",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A narrator who uses “I” and participates in events uses which point of view?",
+      "options": {
+        "A": "Third-person omniscient only",
+        "B": "Second-person plural only",
+        "C": "No point of view",
+        "D": "First person"
+      },
+      "correctAnswer": "D",
+      "explanation": "First-person narration uses I or we.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-014",
+      "subjectId": "literature-in-english",
+      "topic": "Prose",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A short fictional prose narrative is commonly called what?",
+      "options": {
+        "A": "Sonnet",
+        "B": "Stage curtain",
+        "C": "Short story",
+        "D": "Epic simile only"
+      },
+      "correctAnswer": "C",
+      "explanation": "A short story is a brief prose fiction.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-015",
+      "subjectId": "literature-in-english",
+      "topic": "Poetry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The pattern of end rhymes in a poem is known as what?",
+      "options": {
+        "A": "Cast list",
+        "B": "Rhyme scheme",
+        "C": "Plot twist",
+        "D": "Setting"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rhyme scheme describes the pattern of rhyming line endings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-016",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of literary terms, a candidate is asked: The ordered sequence of events in a story is called what?",
+      "options": {
+        "A": "Setting",
+        "B": "Metre only",
+        "C": "Biography",
+        "D": "Plot"
+      },
+      "correctAnswer": "D",
+      "explanation": "Plot is the sequence and causal organisation of events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-017",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of literary terms, a candidate is asked: The time and place in which a story occurs form its what?",
+      "options": {
+        "A": "Alliteration",
+        "B": "Footnote",
+        "C": "Setting",
+        "D": "Rhyme scheme"
+      },
+      "correctAnswer": "C",
+      "explanation": "Setting establishes where and when events occur.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-018",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of figures of speech, a candidate is asked: “Her smile was like sunshine” is an example of what?",
+      "options": {
+        "A": "Onomatopoeia",
+        "B": "Simile",
+        "C": "Oxymoron",
+        "D": "Euphemism only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A simile makes a comparison using like or as.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-019",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of figures of speech, a candidate is asked: A metaphor makes what type of comparison?",
+      "options": {
+        "A": "An implied comparison without using like or as",
+        "B": "A direct factual list only",
+        "C": "A repeated consonant sound only",
+        "D": "A question with no answer"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metaphor describes one thing in terms of another.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-020",
+      "subjectId": "literature-in-english",
+      "topic": "Sound devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of sound devices, a candidate is asked: The repetition of initial consonant sounds in nearby words is called what?",
+      "options": {
+        "A": "Hyperbole",
+        "B": "Soliloquy",
+        "C": "Flashback",
+        "D": "Alliteration"
+      },
+      "correctAnswer": "D",
+      "explanation": "Alliteration repeats initial consonant sounds.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-021",
+      "subjectId": "literature-in-english",
+      "topic": "Characterisation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of characterisation, a candidate is asked: The central character around whom a story is built is often called what?",
+      "options": {
+        "A": "Publisher",
+        "B": "Narrator’s footnote",
+        "C": "Protagonist",
+        "D": "Stage direction"
+      },
+      "correctAnswer": "C",
+      "explanation": "The protagonist is the main character or central agent.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-022",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of literary terms, a candidate is asked: A contrast between expectation and reality is often called what?",
+      "options": {
+        "A": "Prologue",
+        "B": "Irony",
+        "C": "Assonance only",
+        "D": "Metre"
+      },
+      "correctAnswer": "B",
+      "explanation": "Irony involves a meaningful contrast between expectation and outcome or meaning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-023",
+      "subjectId": "literature-in-english",
+      "topic": "Literary analysis",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of literary analysis, a candidate is asked: The central idea explored in a literary work is its what?",
+      "options": {
+        "A": "Theme",
+        "B": "Title font",
+        "C": "Page number",
+        "D": "Publisher address"
+      },
+      "correctAnswer": "A",
+      "explanation": "Theme is a central idea or concern.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-024",
+      "subjectId": "literature-in-english",
+      "topic": "Tone",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of tone, a candidate is asked: Tone refers to the author’s or speaker’s what toward the subject?",
+      "options": {
+        "A": "Physical height",
+        "B": "Publication year only",
+        "C": "Number of chapters",
+        "D": "Attitude"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tone conveys attitude through diction and style.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-025",
+      "subjectId": "literature-in-english",
+      "topic": "Drama",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of drama, a candidate is asked: A play is primarily written to be what?",
+      "options": {
+        "A": "Measured with a ruler",
+        "B": "Prepared as a bank statement",
+        "C": "Performed before an audience",
+        "D": "Used only as a map"
+      },
+      "correctAnswer": "C",
+      "explanation": "Drama is typically intended for performance.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-026",
+      "subjectId": "literature-in-english",
+      "topic": "Poetry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of poetry, a candidate is asked: A group of lines forming a unit in a poem is called what?",
+      "options": {
+        "A": "Index",
+        "B": "Stanza",
+        "C": "Chapter",
+        "D": "Scene change only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A stanza is a grouped unit of poetic lines.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-027",
+      "subjectId": "literature-in-english",
+      "topic": "Imagery",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of imagery, a candidate is asked: Imagery mainly appeals to what?",
+      "options": {
+        "A": "The senses and sensory imagination",
+        "B": "Only arithmetic",
+        "C": "The legal system",
+        "D": "Only the book cover"
+      },
+      "correctAnswer": "A",
+      "explanation": "Imagery evokes sensory experience.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-028",
+      "subjectId": "literature-in-english",
+      "topic": "Narrative",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of narrative, a candidate is asked: A narrator who uses “I” and participates in events uses which point of view?",
+      "options": {
+        "A": "Third-person omniscient only",
+        "B": "Second-person plural only",
+        "C": "No point of view",
+        "D": "First person"
+      },
+      "correctAnswer": "D",
+      "explanation": "First-person narration uses I or we.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-029",
+      "subjectId": "literature-in-english",
+      "topic": "Prose",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of prose, a candidate is asked: A short fictional prose narrative is commonly called what?",
+      "options": {
+        "A": "Sonnet",
+        "B": "Stage curtain",
+        "C": "Short story",
+        "D": "Epic simile only"
+      },
+      "correctAnswer": "C",
+      "explanation": "A short story is a brief prose fiction.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-030",
+      "subjectId": "literature-in-english",
+      "topic": "Poetry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of poetry, a candidate is asked: The pattern of end rhymes in a poem is known as what?",
+      "options": {
+        "A": "Cast list",
+        "B": "Rhyme scheme",
+        "C": "Plot twist",
+        "D": "Setting"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rhyme scheme describes the pattern of rhyming line endings.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-031",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about literary terms: The ordered sequence of events in a story is called what?",
+      "options": {
+        "A": "Setting",
+        "B": "Metre only",
+        "C": "Biography",
+        "D": "Plot"
+      },
+      "correctAnswer": "D",
+      "explanation": "Plot is the sequence and causal organisation of events.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-032",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about literary terms: The time and place in which a story occurs form its what?",
+      "options": {
+        "A": "Alliteration",
+        "B": "Footnote",
+        "C": "Setting",
+        "D": "Rhyme scheme"
+      },
+      "correctAnswer": "C",
+      "explanation": "Setting establishes where and when events occur.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-033",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about figures of speech: “Her smile was like sunshine” is an example of what?",
+      "options": {
+        "A": "Onomatopoeia",
+        "B": "Simile",
+        "C": "Oxymoron",
+        "D": "Euphemism only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A simile makes a comparison using like or as.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-034",
+      "subjectId": "literature-in-english",
+      "topic": "Figures of speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about figures of speech: A metaphor makes what type of comparison?",
+      "options": {
+        "A": "An implied comparison without using like or as",
+        "B": "A direct factual list only",
+        "C": "A repeated consonant sound only",
+        "D": "A question with no answer"
+      },
+      "correctAnswer": "A",
+      "explanation": "Metaphor describes one thing in terms of another.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-035",
+      "subjectId": "literature-in-english",
+      "topic": "Sound devices",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about sound devices: The repetition of initial consonant sounds in nearby words is called what?",
+      "options": {
+        "A": "Hyperbole",
+        "B": "Soliloquy",
+        "C": "Flashback",
+        "D": "Alliteration"
+      },
+      "correctAnswer": "D",
+      "explanation": "Alliteration repeats initial consonant sounds.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-036",
+      "subjectId": "literature-in-english",
+      "topic": "Characterisation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about characterisation: The central character around whom a story is built is often called what?",
+      "options": {
+        "A": "Publisher",
+        "B": "Narrator’s footnote",
+        "C": "Protagonist",
+        "D": "Stage direction"
+      },
+      "correctAnswer": "C",
+      "explanation": "The protagonist is the main character or central agent.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-037",
+      "subjectId": "literature-in-english",
+      "topic": "Literary terms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about literary terms: A contrast between expectation and reality is often called what?",
+      "options": {
+        "A": "Prologue",
+        "B": "Irony",
+        "C": "Assonance only",
+        "D": "Metre"
+      },
+      "correctAnswer": "B",
+      "explanation": "Irony involves a meaningful contrast between expectation and outcome or meaning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-038",
+      "subjectId": "literature-in-english",
+      "topic": "Literary analysis",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about literary analysis: The central idea explored in a literary work is its what?",
+      "options": {
+        "A": "Theme",
+        "B": "Title font",
+        "C": "Page number",
+        "D": "Publisher address"
+      },
+      "correctAnswer": "A",
+      "explanation": "Theme is a central idea or concern.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-039",
+      "subjectId": "literature-in-english",
+      "topic": "Tone",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about tone: Tone refers to the author’s or speaker’s what toward the subject?",
+      "options": {
+        "A": "Physical height",
+        "B": "Publication year only",
+        "C": "Number of chapters",
+        "D": "Attitude"
+      },
+      "correctAnswer": "D",
+      "explanation": "Tone conveys attitude through diction and style.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "literature-in-english-r2g-040",
+      "subjectId": "literature-in-english",
+      "topic": "Drama",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about drama: A play is primarily written to be what?",
+      "options": {
+        "A": "Measured with a ruler",
+        "B": "Prepared as a bank statement",
+        "C": "Performed before an audience",
+        "D": "Used only as a map"
+      },
+      "correctAnswer": "C",
+      "explanation": "Drama is typically intended for performance.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

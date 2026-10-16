@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "geography",
   "subjectName": "Geography",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "geog-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "B",
       "explanation": "Population density is population per unit of land area.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "geography-r2g-001",
+      "subjectId": "geography",
+      "topic": "Earth movements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The Earth’s revolution around the Sun takes approximately how long?",
+      "options": {
+        "A": "One day",
+        "B": "One month",
+        "C": "One hour",
+        "D": "One year"
+      },
+      "correctAnswer": "D",
+      "explanation": "Earth completes one revolution in about 365¼ days.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-002",
+      "subjectId": "geography",
+      "topic": "Coordinates",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Latitude measures angular distance north or south of which line?",
+      "options": {
+        "A": "The International Date Line",
+        "B": "The Tropic of Capricorn only",
+        "C": "The Equator",
+        "D": "The Prime Meridian"
+      },
+      "correctAnswer": "C",
+      "explanation": "Latitude is measured from the Equator.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-003",
+      "subjectId": "geography",
+      "topic": "Geomorphology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which process wears away and transports surface material?",
+      "options": {
+        "A": "Magnetism",
+        "B": "Erosion",
+        "C": "Condensation",
+        "D": "Conduction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Erosion removes and transports soil or rock by agents such as water and wind.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-004",
+      "subjectId": "geography",
+      "topic": "Weather",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which instrument measures rainfall?",
+      "options": {
+        "A": "Rain gauge",
+        "B": "Barometer",
+        "C": "Anemometer",
+        "D": "Wind vane"
+      },
+      "correctAnswer": "A",
+      "explanation": "A rain gauge records precipitation depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-005",
+      "subjectId": "geography",
+      "topic": "Rivers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A delta commonly forms where a river does what?",
+      "options": {
+        "A": "Begins to evaporate underground",
+        "B": "Crosses the Equator only",
+        "C": "Turns entirely into groundwater",
+        "D": "Deposits sediment near its mouth"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sediment can accumulate where a river enters still water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-006",
+      "subjectId": "geography",
+      "topic": "Maps",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Contour lines on a topographic map join points of equal what?",
+      "options": {
+        "A": "Rainfall",
+        "B": "Population",
+        "C": "Elevation",
+        "D": "Temperature"
+      },
+      "correctAnswer": "C",
+      "explanation": "Contours represent equal height above a reference level.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-007",
+      "subjectId": "geography",
+      "topic": "Climate",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Climate describes the usual pattern of weather over what?",
+      "options": {
+        "A": "One isolated thunderstorm",
+        "B": "A long period",
+        "C": "A single second",
+        "D": "Only one afternoon"
+      },
+      "correctAnswer": "B",
+      "explanation": "Climate is assessed from long-term weather statistics.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-008",
+      "subjectId": "geography",
+      "topic": "Vegetation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Tropical rainforests generally support which characteristic?",
+      "options": {
+        "A": "Dense vegetation with high biodiversity",
+        "B": "Permanent polar ice",
+        "C": "Only short grasses in all areas",
+        "D": "No decomposers"
+      },
+      "correctAnswer": "A",
+      "explanation": "Warm wet conditions support dense, diverse vegetation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-009",
+      "subjectId": "geography",
+      "topic": "Longitude",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Longitude measures angular distance east or west of which line?",
+      "options": {
+        "A": "Equator",
+        "B": "Tropic of Cancer",
+        "C": "Arctic Circle",
+        "D": "Prime Meridian"
+      },
+      "correctAnswer": "D",
+      "explanation": "Longitude is measured east or west from the Prime Meridian.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-010",
+      "subjectId": "geography",
+      "topic": "Plate tectonics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Most earthquakes occur near which features?",
+      "options": {
+        "A": "All river deltas only",
+        "B": "Areas with no crustal stress",
+        "C": "Active faults and tectonic plate boundaries",
+        "D": "The centre of every desert only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Stress release along faults produces many earthquakes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-011",
+      "subjectId": "geography",
+      "topic": "Map scale",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A map scale relates map distance to what?",
+      "options": {
+        "A": "Latitude to longitude only",
+        "B": "Corresponding ground distance",
+        "C": "Altitude to temperature",
+        "D": "Population to rainfall"
+      },
+      "correctAnswer": "B",
+      "explanation": "Scale expresses the relationship between map and real distances.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-012",
+      "subjectId": "geography",
+      "topic": "Settlement",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A settlement located where routes meet often grows because of what?",
+      "options": {
+        "A": "Accessibility and exchange opportunities",
+        "B": "Permanent lack of transport",
+        "C": "No water supply",
+        "D": "Total absence of services"
+      },
+      "correctAnswer": "A",
+      "explanation": "Junctions support movement, trade and services.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-013",
+      "subjectId": "geography",
+      "topic": "Population",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Population density is commonly calculated as population divided by what?",
+      "options": {
+        "A": "Annual rainfall",
+        "B": "Birth rate",
+        "C": "Number of rivers",
+        "D": "Land area"
+      },
+      "correctAnswer": "D",
+      "explanation": "Density expresses people per unit area.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-014",
+      "subjectId": "geography",
+      "topic": "Weather instruments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which instrument records atmospheric pressure?",
+      "options": {
+        "A": "Rain gauge",
+        "B": "Hygrometer only",
+        "C": "Barometer",
+        "D": "Thermometer"
+      },
+      "correctAnswer": "C",
+      "explanation": "A barometer measures air pressure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-015",
+      "subjectId": "geography",
+      "topic": "Soils",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Leaching is the removal of soluble substances from soil by what?",
+      "options": {
+        "A": "Solar radiation alone",
+        "B": "Percolating water",
+        "C": "Wind alone",
+        "D": "Earthquakes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water moving through soil can carry dissolved minerals downward.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-016",
+      "subjectId": "geography",
+      "topic": "Earth movements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of earth movements, a candidate is asked: The Earth’s revolution around the Sun takes approximately how long?",
+      "options": {
+        "A": "One day",
+        "B": "One month",
+        "C": "One hour",
+        "D": "One year"
+      },
+      "correctAnswer": "D",
+      "explanation": "Earth completes one revolution in about 365¼ days.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-017",
+      "subjectId": "geography",
+      "topic": "Coordinates",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of coordinates, a candidate is asked: Latitude measures angular distance north or south of which line?",
+      "options": {
+        "A": "The International Date Line",
+        "B": "The Tropic of Capricorn only",
+        "C": "The Equator",
+        "D": "The Prime Meridian"
+      },
+      "correctAnswer": "C",
+      "explanation": "Latitude is measured from the Equator.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-018",
+      "subjectId": "geography",
+      "topic": "Geomorphology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of geomorphology, a candidate is asked: Which process wears away and transports surface material?",
+      "options": {
+        "A": "Magnetism",
+        "B": "Erosion",
+        "C": "Condensation",
+        "D": "Conduction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Erosion removes and transports soil or rock by agents such as water and wind.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-019",
+      "subjectId": "geography",
+      "topic": "Weather",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of weather, a candidate is asked: Which instrument measures rainfall?",
+      "options": {
+        "A": "Rain gauge",
+        "B": "Barometer",
+        "C": "Anemometer",
+        "D": "Wind vane"
+      },
+      "correctAnswer": "A",
+      "explanation": "A rain gauge records precipitation depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-020",
+      "subjectId": "geography",
+      "topic": "Rivers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of rivers, a candidate is asked: A delta commonly forms where a river does what?",
+      "options": {
+        "A": "Begins to evaporate underground",
+        "B": "Crosses the Equator only",
+        "C": "Turns entirely into groundwater",
+        "D": "Deposits sediment near its mouth"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sediment can accumulate where a river enters still water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-021",
+      "subjectId": "geography",
+      "topic": "Maps",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of maps, a candidate is asked: Contour lines on a topographic map join points of equal what?",
+      "options": {
+        "A": "Rainfall",
+        "B": "Population",
+        "C": "Elevation",
+        "D": "Temperature"
+      },
+      "correctAnswer": "C",
+      "explanation": "Contours represent equal height above a reference level.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-022",
+      "subjectId": "geography",
+      "topic": "Climate",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of climate, a candidate is asked: Climate describes the usual pattern of weather over what?",
+      "options": {
+        "A": "One isolated thunderstorm",
+        "B": "A long period",
+        "C": "A single second",
+        "D": "Only one afternoon"
+      },
+      "correctAnswer": "B",
+      "explanation": "Climate is assessed from long-term weather statistics.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-023",
+      "subjectId": "geography",
+      "topic": "Vegetation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of vegetation, a candidate is asked: Tropical rainforests generally support which characteristic?",
+      "options": {
+        "A": "Dense vegetation with high biodiversity",
+        "B": "Permanent polar ice",
+        "C": "Only short grasses in all areas",
+        "D": "No decomposers"
+      },
+      "correctAnswer": "A",
+      "explanation": "Warm wet conditions support dense, diverse vegetation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-024",
+      "subjectId": "geography",
+      "topic": "Longitude",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of longitude, a candidate is asked: Longitude measures angular distance east or west of which line?",
+      "options": {
+        "A": "Equator",
+        "B": "Tropic of Cancer",
+        "C": "Arctic Circle",
+        "D": "Prime Meridian"
+      },
+      "correctAnswer": "D",
+      "explanation": "Longitude is measured east or west from the Prime Meridian.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-025",
+      "subjectId": "geography",
+      "topic": "Plate tectonics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of plate tectonics, a candidate is asked: Most earthquakes occur near which features?",
+      "options": {
+        "A": "All river deltas only",
+        "B": "Areas with no crustal stress",
+        "C": "Active faults and tectonic plate boundaries",
+        "D": "The centre of every desert only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Stress release along faults produces many earthquakes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-026",
+      "subjectId": "geography",
+      "topic": "Map scale",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of map scale, a candidate is asked: A map scale relates map distance to what?",
+      "options": {
+        "A": "Latitude to longitude only",
+        "B": "Corresponding ground distance",
+        "C": "Altitude to temperature",
+        "D": "Population to rainfall"
+      },
+      "correctAnswer": "B",
+      "explanation": "Scale expresses the relationship between map and real distances.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-027",
+      "subjectId": "geography",
+      "topic": "Settlement",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of settlement, a candidate is asked: A settlement located where routes meet often grows because of what?",
+      "options": {
+        "A": "Accessibility and exchange opportunities",
+        "B": "Permanent lack of transport",
+        "C": "No water supply",
+        "D": "Total absence of services"
+      },
+      "correctAnswer": "A",
+      "explanation": "Junctions support movement, trade and services.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-028",
+      "subjectId": "geography",
+      "topic": "Population",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of population, a candidate is asked: Population density is commonly calculated as population divided by what?",
+      "options": {
+        "A": "Annual rainfall",
+        "B": "Birth rate",
+        "C": "Number of rivers",
+        "D": "Land area"
+      },
+      "correctAnswer": "D",
+      "explanation": "Density expresses people per unit area.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-029",
+      "subjectId": "geography",
+      "topic": "Weather instruments",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of weather instruments, a candidate is asked: Which instrument records atmospheric pressure?",
+      "options": {
+        "A": "Rain gauge",
+        "B": "Hygrometer only",
+        "C": "Barometer",
+        "D": "Thermometer"
+      },
+      "correctAnswer": "C",
+      "explanation": "A barometer measures air pressure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-030",
+      "subjectId": "geography",
+      "topic": "Soils",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of soils, a candidate is asked: Leaching is the removal of soluble substances from soil by what?",
+      "options": {
+        "A": "Solar radiation alone",
+        "B": "Percolating water",
+        "C": "Wind alone",
+        "D": "Earthquakes"
+      },
+      "correctAnswer": "B",
+      "explanation": "Water moving through soil can carry dissolved minerals downward.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-031",
+      "subjectId": "geography",
+      "topic": "Earth movements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about earth movements: The Earth’s revolution around the Sun takes approximately how long?",
+      "options": {
+        "A": "One day",
+        "B": "One month",
+        "C": "One hour",
+        "D": "One year"
+      },
+      "correctAnswer": "D",
+      "explanation": "Earth completes one revolution in about 365¼ days.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-032",
+      "subjectId": "geography",
+      "topic": "Coordinates",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about coordinates: Latitude measures angular distance north or south of which line?",
+      "options": {
+        "A": "The International Date Line",
+        "B": "The Tropic of Capricorn only",
+        "C": "The Equator",
+        "D": "The Prime Meridian"
+      },
+      "correctAnswer": "C",
+      "explanation": "Latitude is measured from the Equator.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-033",
+      "subjectId": "geography",
+      "topic": "Geomorphology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about geomorphology: Which process wears away and transports surface material?",
+      "options": {
+        "A": "Magnetism",
+        "B": "Erosion",
+        "C": "Condensation",
+        "D": "Conduction"
+      },
+      "correctAnswer": "B",
+      "explanation": "Erosion removes and transports soil or rock by agents such as water and wind.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-034",
+      "subjectId": "geography",
+      "topic": "Weather",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about weather: Which instrument measures rainfall?",
+      "options": {
+        "A": "Rain gauge",
+        "B": "Barometer",
+        "C": "Anemometer",
+        "D": "Wind vane"
+      },
+      "correctAnswer": "A",
+      "explanation": "A rain gauge records precipitation depth.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "geography-r2g-035",
+      "subjectId": "geography",
+      "topic": "Rivers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about rivers: A delta commonly forms where a river does what?",
+      "options": {
+        "A": "Begins to evaporate underground",
+        "B": "Crosses the Equator only",
+        "C": "Turns entirely into groundwater",
+        "D": "Deposits sediment near its mouth"
+      },
+      "correctAnswer": "D",
+      "explanation": "Sediment can accumulate where a river enters still water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

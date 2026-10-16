@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "government",
   "subjectName": "Government",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "gove-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "B",
       "explanation": "Obeying the law is a common civic responsibility.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "government-r2g-001",
+      "subjectId": "government",
+      "topic": "Constitution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A constitution primarily sets out what?",
+      "options": {
+        "A": "Only the prices of goods",
+        "B": "A list of private school pupils",
+        "C": "Weather patterns",
+        "D": "Fundamental rules and structures of government"
+      },
+      "correctAnswer": "D",
+      "explanation": "A constitution establishes institutions, powers and rights.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-002",
+      "subjectId": "government",
+      "topic": "Separation of powers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The separation of powers aims to do what?",
+      "options": {
+        "A": "Remove the judiciary",
+        "B": "Stop elections permanently",
+        "C": "Distribute state functions among different branches",
+        "D": "Place every function in one office"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dividing legislative, executive and judicial powers limits concentration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-003",
+      "subjectId": "government",
+      "topic": "Rule of law",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Rule of law means that public power should be exercised according to what?",
+      "options": {
+        "A": "Military rank alone",
+        "B": "Established law applied fairly",
+        "C": "Personal wishes alone",
+        "D": "Secret family instructions"
+      },
+      "correctAnswer": "B",
+      "explanation": "The rule of law requires lawful authority and legal accountability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-004",
+      "subjectId": "government",
+      "topic": "Democracy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A defining feature of representative democracy is what?",
+      "options": {
+        "A": "Citizens choose representatives through elections",
+        "B": "Only one family can govern forever",
+        "C": "No public participation",
+        "D": "All courts are abolished"
+      },
+      "correctAnswer": "A",
+      "explanation": "Elections allow citizens to select representatives.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-005",
+      "subjectId": "government",
+      "topic": "Legislature",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The primary law-making body at the federal level in Nigeria is what?",
+      "options": {
+        "A": "Federal Executive Council",
+        "B": "Supreme Court",
+        "C": "Central Bank",
+        "D": "National Assembly"
+      },
+      "correctAnswer": "D",
+      "explanation": "The National Assembly is Nigeria’s federal legislature.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-006",
+      "subjectId": "government",
+      "topic": "Executive",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The executive branch primarily does what?",
+      "options": {
+        "A": "Writes all court judgments",
+        "B": "Counts every private business stock",
+        "C": "Implements and administers laws and policy",
+        "D": "Conducts every trial"
+      },
+      "correctAnswer": "C",
+      "explanation": "The executive administers government and implements policy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-007",
+      "subjectId": "government",
+      "topic": "Judiciary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The judiciary’s core role is to do what?",
+      "options": {
+        "A": "Manage every ministry",
+        "B": "Interpret and apply the law in disputes",
+        "C": "Print all currency",
+        "D": "Run every political party"
+      },
+      "correctAnswer": "B",
+      "explanation": "Courts interpret law and resolve legal disputes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-008",
+      "subjectId": "government",
+      "topic": "Federalism",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Federalism divides constitutional authority between what?",
+      "options": {
+        "A": "National and constituent levels of government",
+        "B": "Only two political parties",
+        "C": "The courts and all private firms",
+        "D": "Teachers and students"
+      },
+      "correctAnswer": "A",
+      "explanation": "Federal systems divide powers between levels of government.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-009",
+      "subjectId": "government",
+      "topic": "Political parties",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A political party mainly seeks to do what?",
+      "options": {
+        "A": "Operate as a court of law",
+        "B": "Replace every civil servant with a judge",
+        "C": "Issue all passports privately",
+        "D": "Win political power and implement its programme"
+      },
+      "correctAnswer": "D",
+      "explanation": "Parties contest elections and organise political interests.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-010",
+      "subjectId": "government",
+      "topic": "Sovereignty",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Sovereignty refers broadly to what?",
+      "options": {
+        "A": "A local school timetable",
+        "B": "A household shopping list",
+        "C": "Supreme authority of a state",
+        "D": "The annual rainfall of a country"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sovereignty concerns ultimate governing authority and independence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-011",
+      "subjectId": "government",
+      "topic": "Elections",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "An election is the process by which voters do what?",
+      "options": {
+        "A": "Conduct a census every time",
+        "B": "Choose among candidates or options under voting rules",
+        "C": "Pay a customs duty only",
+        "D": "Write a court ruling"
+      },
+      "correctAnswer": "B",
+      "explanation": "Elections provide a formal means of selecting representatives.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-012",
+      "subjectId": "government",
+      "topic": "Civil society",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Civil society organisations typically operate outside which sphere?",
+      "options": {
+        "A": "Direct state government and for-profit business",
+        "B": "Every community",
+        "C": "All voluntary action",
+        "D": "The law in every case"
+      },
+      "correctAnswer": "A",
+      "explanation": "Civil society includes voluntary non-state groups pursuing public interests.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-013",
+      "subjectId": "government",
+      "topic": "Public opinion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Public opinion refers to what?",
+      "options": {
+        "A": "Only the opinion of one judge",
+        "B": "The text of every law",
+        "C": "The result of a laboratory test",
+        "D": "Attitudes and views held by people on public issues"
+      },
+      "correctAnswer": "D",
+      "explanation": "Public opinion captures citizens’ views on issues.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-014",
+      "subjectId": "government",
+      "topic": "Local government",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Local government is primarily designed to bring administration closer to whom?",
+      "options": {
+        "A": "Only multinational corporations",
+        "B": "The United Nations alone",
+        "C": "Communities at the local level",
+        "D": "Foreign governments"
+      },
+      "correctAnswer": "C",
+      "explanation": "Local government provides public administration and services near communities.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-015",
+      "subjectId": "government",
+      "topic": "Referendum",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A referendum lets citizens vote directly on what?",
+      "options": {
+        "A": "The weather forecast",
+        "B": "A specific public question or proposal",
+        "C": "Every civil-service promotion",
+        "D": "A private company’s daily stock"
+      },
+      "correctAnswer": "B",
+      "explanation": "Referenda are direct votes on specific questions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-016",
+      "subjectId": "government",
+      "topic": "Constitution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of constitution, a candidate is asked: A constitution primarily sets out what?",
+      "options": {
+        "A": "Only the prices of goods",
+        "B": "A list of private school pupils",
+        "C": "Weather patterns",
+        "D": "Fundamental rules and structures of government"
+      },
+      "correctAnswer": "D",
+      "explanation": "A constitution establishes institutions, powers and rights.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-017",
+      "subjectId": "government",
+      "topic": "Separation of powers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of separation of powers, a candidate is asked: The separation of powers aims to do what?",
+      "options": {
+        "A": "Remove the judiciary",
+        "B": "Stop elections permanently",
+        "C": "Distribute state functions among different branches",
+        "D": "Place every function in one office"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dividing legislative, executive and judicial powers limits concentration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-018",
+      "subjectId": "government",
+      "topic": "Rule of law",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of rule of law, a candidate is asked: Rule of law means that public power should be exercised according to what?",
+      "options": {
+        "A": "Military rank alone",
+        "B": "Established law applied fairly",
+        "C": "Personal wishes alone",
+        "D": "Secret family instructions"
+      },
+      "correctAnswer": "B",
+      "explanation": "The rule of law requires lawful authority and legal accountability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-019",
+      "subjectId": "government",
+      "topic": "Democracy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of democracy, a candidate is asked: A defining feature of representative democracy is what?",
+      "options": {
+        "A": "Citizens choose representatives through elections",
+        "B": "Only one family can govern forever",
+        "C": "No public participation",
+        "D": "All courts are abolished"
+      },
+      "correctAnswer": "A",
+      "explanation": "Elections allow citizens to select representatives.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-020",
+      "subjectId": "government",
+      "topic": "Legislature",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of legislature, a candidate is asked: The primary law-making body at the federal level in Nigeria is what?",
+      "options": {
+        "A": "Federal Executive Council",
+        "B": "Supreme Court",
+        "C": "Central Bank",
+        "D": "National Assembly"
+      },
+      "correctAnswer": "D",
+      "explanation": "The National Assembly is Nigeria’s federal legislature.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-021",
+      "subjectId": "government",
+      "topic": "Executive",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of executive, a candidate is asked: The executive branch primarily does what?",
+      "options": {
+        "A": "Writes all court judgments",
+        "B": "Counts every private business stock",
+        "C": "Implements and administers laws and policy",
+        "D": "Conducts every trial"
+      },
+      "correctAnswer": "C",
+      "explanation": "The executive administers government and implements policy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-022",
+      "subjectId": "government",
+      "topic": "Judiciary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of judiciary, a candidate is asked: The judiciary’s core role is to do what?",
+      "options": {
+        "A": "Manage every ministry",
+        "B": "Interpret and apply the law in disputes",
+        "C": "Print all currency",
+        "D": "Run every political party"
+      },
+      "correctAnswer": "B",
+      "explanation": "Courts interpret law and resolve legal disputes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-023",
+      "subjectId": "government",
+      "topic": "Federalism",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of federalism, a candidate is asked: Federalism divides constitutional authority between what?",
+      "options": {
+        "A": "National and constituent levels of government",
+        "B": "Only two political parties",
+        "C": "The courts and all private firms",
+        "D": "Teachers and students"
+      },
+      "correctAnswer": "A",
+      "explanation": "Federal systems divide powers between levels of government.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-024",
+      "subjectId": "government",
+      "topic": "Political parties",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of political parties, a candidate is asked: A political party mainly seeks to do what?",
+      "options": {
+        "A": "Operate as a court of law",
+        "B": "Replace every civil servant with a judge",
+        "C": "Issue all passports privately",
+        "D": "Win political power and implement its programme"
+      },
+      "correctAnswer": "D",
+      "explanation": "Parties contest elections and organise political interests.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-025",
+      "subjectId": "government",
+      "topic": "Sovereignty",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of sovereignty, a candidate is asked: Sovereignty refers broadly to what?",
+      "options": {
+        "A": "A local school timetable",
+        "B": "A household shopping list",
+        "C": "Supreme authority of a state",
+        "D": "The annual rainfall of a country"
+      },
+      "correctAnswer": "C",
+      "explanation": "Sovereignty concerns ultimate governing authority and independence.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-026",
+      "subjectId": "government",
+      "topic": "Elections",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of elections, a candidate is asked: An election is the process by which voters do what?",
+      "options": {
+        "A": "Conduct a census every time",
+        "B": "Choose among candidates or options under voting rules",
+        "C": "Pay a customs duty only",
+        "D": "Write a court ruling"
+      },
+      "correctAnswer": "B",
+      "explanation": "Elections provide a formal means of selecting representatives.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-027",
+      "subjectId": "government",
+      "topic": "Civil society",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of civil society, a candidate is asked: Civil society organisations typically operate outside which sphere?",
+      "options": {
+        "A": "Direct state government and for-profit business",
+        "B": "Every community",
+        "C": "All voluntary action",
+        "D": "The law in every case"
+      },
+      "correctAnswer": "A",
+      "explanation": "Civil society includes voluntary non-state groups pursuing public interests.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-028",
+      "subjectId": "government",
+      "topic": "Public opinion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of public opinion, a candidate is asked: Public opinion refers to what?",
+      "options": {
+        "A": "Only the opinion of one judge",
+        "B": "The text of every law",
+        "C": "The result of a laboratory test",
+        "D": "Attitudes and views held by people on public issues"
+      },
+      "correctAnswer": "D",
+      "explanation": "Public opinion captures citizens’ views on issues.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-029",
+      "subjectId": "government",
+      "topic": "Local government",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of local government, a candidate is asked: Local government is primarily designed to bring administration closer to whom?",
+      "options": {
+        "A": "Only multinational corporations",
+        "B": "The United Nations alone",
+        "C": "Communities at the local level",
+        "D": "Foreign governments"
+      },
+      "correctAnswer": "C",
+      "explanation": "Local government provides public administration and services near communities.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-030",
+      "subjectId": "government",
+      "topic": "Referendum",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of referendum, a candidate is asked: A referendum lets citizens vote directly on what?",
+      "options": {
+        "A": "The weather forecast",
+        "B": "A specific public question or proposal",
+        "C": "Every civil-service promotion",
+        "D": "A private company’s daily stock"
+      },
+      "correctAnswer": "B",
+      "explanation": "Referenda are direct votes on specific questions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-031",
+      "subjectId": "government",
+      "topic": "Constitution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about constitution: A constitution primarily sets out what?",
+      "options": {
+        "A": "Only the prices of goods",
+        "B": "A list of private school pupils",
+        "C": "Weather patterns",
+        "D": "Fundamental rules and structures of government"
+      },
+      "correctAnswer": "D",
+      "explanation": "A constitution establishes institutions, powers and rights.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-032",
+      "subjectId": "government",
+      "topic": "Separation of powers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about separation of powers: The separation of powers aims to do what?",
+      "options": {
+        "A": "Remove the judiciary",
+        "B": "Stop elections permanently",
+        "C": "Distribute state functions among different branches",
+        "D": "Place every function in one office"
+      },
+      "correctAnswer": "C",
+      "explanation": "Dividing legislative, executive and judicial powers limits concentration.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-033",
+      "subjectId": "government",
+      "topic": "Rule of law",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about rule of law: Rule of law means that public power should be exercised according to what?",
+      "options": {
+        "A": "Military rank alone",
+        "B": "Established law applied fairly",
+        "C": "Personal wishes alone",
+        "D": "Secret family instructions"
+      },
+      "correctAnswer": "B",
+      "explanation": "The rule of law requires lawful authority and legal accountability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-034",
+      "subjectId": "government",
+      "topic": "Democracy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about democracy: A defining feature of representative democracy is what?",
+      "options": {
+        "A": "Citizens choose representatives through elections",
+        "B": "Only one family can govern forever",
+        "C": "No public participation",
+        "D": "All courts are abolished"
+      },
+      "correctAnswer": "A",
+      "explanation": "Elections allow citizens to select representatives.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "government-r2g-035",
+      "subjectId": "government",
+      "topic": "Legislature",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about legislature: The primary law-making body at the federal level in Nigeria is what?",
+      "options": {
+        "A": "Federal Executive Council",
+        "B": "Supreme Court",
+        "C": "Central Bank",
+        "D": "National Assembly"
+      },
+      "correctAnswer": "D",
+      "explanation": "The National Assembly is Nigeria’s federal legislature.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

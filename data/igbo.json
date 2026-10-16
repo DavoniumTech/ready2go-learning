@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "igbo",
+  "subjectName": "Igbo",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "igbo-r2g-001",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does “Ndewo” commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "Water",
+        "C": "School fees",
+        "D": "Hello / greetings"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ndewo is a common Igbo greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-002",
+      "subjectId": "igbo",
+      "topic": "Igbo courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Daalụ” is commonly used to express what?",
+      "options": {
+        "A": "Tomorrow",
+        "B": "I am hungry",
+        "C": "Thank you",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daalụ means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-003",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which Igbo word means “water”?",
+      "options": {
+        "A": "Ego",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Ụlọ"
+      },
+      "correctAnswer": "B",
+      "explanation": "Mmiri means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-004",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word can mean “house” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ụlọ means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-005",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Akwụkwọ” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Sun",
+        "C": "Road",
+        "D": "Book / paper"
+      },
+      "correctAnswer": "D",
+      "explanation": "Akwụkwọ refers to book or paper depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-006",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “food” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Oche",
+        "C": "Nri",
+        "D": "Mmiri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Nri means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-007",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Ego” commonly means what?",
+      "options": {
+        "A": "Teacher",
+        "B": "Money",
+        "C": "River",
+        "D": "Book"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ego means money.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-008",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “child” in Igbo?",
+      "options": {
+        "A": "Nwa",
+        "B": "Mmiri",
+        "C": "Ụzọ",
+        "D": "Akwụkwọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nwa means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-009",
+      "subjectId": "igbo",
+      "topic": "Igbo greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A polite greeting is used mainly to do what?",
+      "options": {
+        "A": "Count rainfall",
+        "B": "Calculate profit",
+        "C": "Measure distance",
+        "D": "Acknowledge another person respectfully"
+      },
+      "correctAnswer": "D",
+      "explanation": "Greetings support courteous social interaction.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-010",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “road / way” in Igbo?",
+      "options": {
+        "A": "Mmiri",
+        "B": "Oche",
+        "C": "Ụzọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ụzọ means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-011",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “chair” in Igbo?",
+      "options": {
+        "A": "Mmiri",
+        "B": "Oche",
+        "C": "Akwụkwọ",
+        "D": "Ego"
+      },
+      "correctAnswer": "B",
+      "explanation": "Oche means chair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-012",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Ụtụtụ” refers to which part of the day?",
+      "options": {
+        "A": "Morning",
+        "B": "Midnight only",
+        "C": "Late evening only",
+        "D": "Next year"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ụtụtụ means morning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-013",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "“Echi” commonly means what?",
+      "options": {
+        "A": "Yesterday only",
+        "B": "Chair",
+        "C": "Market",
+        "D": "Tomorrow"
+      },
+      "correctAnswer": "D",
+      "explanation": "Echi means tomorrow.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-014",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “market” in Igbo?",
+      "options": {
+        "A": "Nwa",
+        "B": "Oche",
+        "C": "Ahịa",
+        "D": "Mmiri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ahịa means market or trade.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-015",
+      "subjectId": "igbo",
+      "topic": "Igbo courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Biko” is commonly used to mean what?",
+      "options": {
+        "A": "Book",
+        "B": "Please",
+        "C": "Goodbye forever",
+        "D": "Water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Biko is a polite word meaning please.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-016",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of igbo vocabulary, a candidate is asked: What does “Ndewo” commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "Water",
+        "C": "School fees",
+        "D": "Hello / greetings"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ndewo is a common Igbo greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-017",
+      "subjectId": "igbo",
+      "topic": "Igbo courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of igbo courtesy, a candidate is asked: “Daalụ” is commonly used to express what?",
+      "options": {
+        "A": "Tomorrow",
+        "B": "I am hungry",
+        "C": "Thank you",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daalụ means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-018",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which Igbo word means “water”?",
+      "options": {
+        "A": "Ego",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Ụlọ"
+      },
+      "correctAnswer": "B",
+      "explanation": "Mmiri means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-019",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word can mean “house” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ụlọ means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-020",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of igbo vocabulary, a candidate is asked: “Akwụkwọ” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Sun",
+        "C": "Road",
+        "D": "Book / paper"
+      },
+      "correctAnswer": "D",
+      "explanation": "Akwụkwọ refers to book or paper depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-021",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word means “food” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Oche",
+        "C": "Nri",
+        "D": "Mmiri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Nri means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-022",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of igbo vocabulary, a candidate is asked: “Ego” commonly means what?",
+      "options": {
+        "A": "Teacher",
+        "B": "Money",
+        "C": "River",
+        "D": "Book"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ego means money.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-023",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word means “child” in Igbo?",
+      "options": {
+        "A": "Nwa",
+        "B": "Mmiri",
+        "C": "Ụzọ",
+        "D": "Akwụkwọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nwa means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-024",
+      "subjectId": "igbo",
+      "topic": "Igbo greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of igbo greetings, a candidate is asked: A polite greeting is used mainly to do what?",
+      "options": {
+        "A": "Count rainfall",
+        "B": "Calculate profit",
+        "C": "Measure distance",
+        "D": "Acknowledge another person respectfully"
+      },
+      "correctAnswer": "D",
+      "explanation": "Greetings support courteous social interaction.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-025",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word means “road / way” in Igbo?",
+      "options": {
+        "A": "Mmiri",
+        "B": "Oche",
+        "C": "Ụzọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ụzọ means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-026",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word means “chair” in Igbo?",
+      "options": {
+        "A": "Mmiri",
+        "B": "Oche",
+        "C": "Akwụkwọ",
+        "D": "Ego"
+      },
+      "correctAnswer": "B",
+      "explanation": "Oche means chair.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-027",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of igbo vocabulary, a candidate is asked: “Ụtụtụ” refers to which part of the day?",
+      "options": {
+        "A": "Morning",
+        "B": "Midnight only",
+        "C": "Late evening only",
+        "D": "Next year"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ụtụtụ means morning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-028",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of igbo vocabulary, a candidate is asked: “Echi” commonly means what?",
+      "options": {
+        "A": "Yesterday only",
+        "B": "Chair",
+        "C": "Market",
+        "D": "Tomorrow"
+      },
+      "correctAnswer": "D",
+      "explanation": "Echi means tomorrow.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-029",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of igbo vocabulary, a candidate is asked: Which word means “market” in Igbo?",
+      "options": {
+        "A": "Nwa",
+        "B": "Oche",
+        "C": "Ahịa",
+        "D": "Mmiri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ahịa means market or trade.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-030",
+      "subjectId": "igbo",
+      "topic": "Igbo courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of igbo courtesy, a candidate is asked: “Biko” is commonly used to mean what?",
+      "options": {
+        "A": "Book",
+        "B": "Please",
+        "C": "Goodbye forever",
+        "D": "Water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Biko is a polite word meaning please.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-031",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: What does “Ndewo” commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "Water",
+        "C": "School fees",
+        "D": "Hello / greetings"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ndewo is a common Igbo greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-032",
+      "subjectId": "igbo",
+      "topic": "Igbo courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about igbo courtesy: “Daalụ” is commonly used to express what?",
+      "options": {
+        "A": "Tomorrow",
+        "B": "I am hungry",
+        "C": "Thank you",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "Daalụ means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-033",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: Which Igbo word means “water”?",
+      "options": {
+        "A": "Ego",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Ụlọ"
+      },
+      "correctAnswer": "B",
+      "explanation": "Mmiri means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-034",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: Which word can mean “house” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Mmiri",
+        "C": "Akwụkwọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ụlọ means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-035",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: “Akwụkwọ” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Sun",
+        "C": "Road",
+        "D": "Book / paper"
+      },
+      "correctAnswer": "D",
+      "explanation": "Akwụkwọ refers to book or paper depending on context.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-036",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: Which word means “food” in Igbo?",
+      "options": {
+        "A": "Ụlọ",
+        "B": "Oche",
+        "C": "Nri",
+        "D": "Mmiri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Nri means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-037",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: “Ego” commonly means what?",
+      "options": {
+        "A": "Teacher",
+        "B": "Money",
+        "C": "River",
+        "D": "Book"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ego means money.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-038",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: Which word means “child” in Igbo?",
+      "options": {
+        "A": "Nwa",
+        "B": "Mmiri",
+        "C": "Ụzọ",
+        "D": "Akwụkwọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nwa means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-039",
+      "subjectId": "igbo",
+      "topic": "Igbo greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about igbo greetings: A polite greeting is used mainly to do what?",
+      "options": {
+        "A": "Count rainfall",
+        "B": "Calculate profit",
+        "C": "Measure distance",
+        "D": "Acknowledge another person respectfully"
+      },
+      "correctAnswer": "D",
+      "explanation": "Greetings support courteous social interaction.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "igbo-r2g-040",
+      "subjectId": "igbo",
+      "topic": "Igbo vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about igbo vocabulary: Which word means “road / way” in Igbo?",
+      "options": {
+        "A": "Mmiri",
+        "B": "Oche",
+        "C": "Ụzọ",
+        "D": "Nri"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ụzọ means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

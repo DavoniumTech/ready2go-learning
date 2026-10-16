@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "christian-religious-knowledge",
+  "subjectName": "Christian Religious Studies",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "christian-religious-knowledge-r2g-001",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "According to the Bible, who led the Israelites out of Egypt?",
+      "options": {
+        "A": "David",
+        "B": "Solomon",
+        "C": "Elijah",
+        "D": "Moses"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Exodus narrative presents Moses as the leader of the Israelites.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-002",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The Ten Commandments are associated with which mountain in the biblical narrative?",
+      "options": {
+        "A": "Mount Zion only",
+        "B": "Mount Kilimanjaro",
+        "C": "Mount Sinai",
+        "D": "Mount Carmel"
+      },
+      "correctAnswer": "C",
+      "explanation": "The biblical tradition associates the commandments with Sinai.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-003",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Who told the parable of the Good Samaritan?",
+      "options": {
+        "A": "Isaiah",
+        "B": "Jesus",
+        "C": "Paul",
+        "D": "Moses"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jesus tells the parable in Luke 10.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-004",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which apostle is associated with a conversion experience on the road to Damascus?",
+      "options": {
+        "A": "Paul",
+        "B": "Peter only",
+        "C": "John the Baptist",
+        "D": "Judas Iscariot"
+      },
+      "correctAnswer": "A",
+      "explanation": "Acts describes Saul’s encounter on the road to Damascus.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-005",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The Beatitudes appear in which teaching of Jesus?",
+      "options": {
+        "A": "Noah’s flood account",
+        "B": "The Exodus only",
+        "C": "The building of Babel",
+        "D": "Sermon on the Mount"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Beatitudes are part of the Sermon on the Mount in Matthew.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-006",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian calendar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Easter celebrates which central Christian belief?",
+      "options": {
+        "A": "The crossing of the Jordan by Joshua",
+        "B": "The building of the temple only",
+        "C": "The resurrection of Jesus",
+        "D": "The birth of Moses"
+      },
+      "correctAnswer": "C",
+      "explanation": "Easter commemorates Jesus’ resurrection.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-007",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which book opens the Bible?",
+      "options": {
+        "A": "Malachi",
+        "B": "Genesis",
+        "C": "Exodus",
+        "D": "Psalms"
+      },
+      "correctAnswer": "B",
+      "explanation": "Genesis is the first book of the Bible.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-008",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Who defeated Goliath in the biblical account?",
+      "options": {
+        "A": "David",
+        "B": "Saul",
+        "C": "Solomon",
+        "D": "Samson"
+      },
+      "correctAnswer": "A",
+      "explanation": "David defeats Goliath in 1 Samuel 17.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-009",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Early church",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Pentecost in Acts is associated with what event?",
+      "options": {
+        "A": "The birth of Abraham",
+        "B": "The fall of Jericho",
+        "C": "The flood of Noah",
+        "D": "The coming of the Holy Spirit upon the disciples"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acts 2 describes the Holy Spirit coming upon the disciples.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-010",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian ethics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The command to love one’s neighbour emphasises what?",
+      "options": {
+        "A": "Refusal to help anyone",
+        "B": "Winning every argument",
+        "C": "Care and responsibility toward other people",
+        "D": "Only private wealth"
+      },
+      "correctAnswer": "C",
+      "explanation": "The teaching calls for practical concern for others.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-011",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which Gospel begins with a genealogy and an infancy narrative emphasising Jesus’ birth?",
+      "options": {
+        "A": "Leviticus",
+        "B": "Matthew",
+        "C": "Obadiah",
+        "D": "Nahum"
+      },
+      "correctAnswer": "B",
+      "explanation": "Matthew opens with a genealogy and birth narrative.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-012",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Who was known as the king who asked God for wisdom?",
+      "options": {
+        "A": "Solomon",
+        "B": "Ahab",
+        "C": "Pharaoh",
+        "D": "Cyrus only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Solomon’s request for wisdom is described in 1 Kings 3.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-013",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The Lord’s Prayer is a model of what?",
+      "options": {
+        "A": "Agricultural taxation",
+        "B": "Temple construction",
+        "C": "Roman census",
+        "D": "Prayer"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jesus teaches the prayer as a model for disciples.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-014",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which leader succeeded Moses and led Israel into Canaan in the biblical account?",
+      "options": {
+        "A": "Jeremiah",
+        "B": "Nehemiah",
+        "C": "Joshua",
+        "D": "Samuel"
+      },
+      "correctAnswer": "C",
+      "explanation": "Joshua is presented as Moses’ successor.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-015",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which book describes the journeys and early growth of the Christian church after Jesus’ ascension?",
+      "options": {
+        "A": "Proverbs",
+        "B": "Acts of the Apostles",
+        "C": "Genesis",
+        "D": "Ruth"
+      },
+      "correctAnswer": "B",
+      "explanation": "Acts narrates the early church and missionary journeys.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-016",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of old testament, a candidate is asked: According to the Bible, who led the Israelites out of Egypt?",
+      "options": {
+        "A": "David",
+        "B": "Solomon",
+        "C": "Elijah",
+        "D": "Moses"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Exodus narrative presents Moses as the leader of the Israelites.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-017",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of old testament, a candidate is asked: The Ten Commandments are associated with which mountain in the biblical narrative?",
+      "options": {
+        "A": "Mount Zion only",
+        "B": "Mount Kilimanjaro",
+        "C": "Mount Sinai",
+        "D": "Mount Carmel"
+      },
+      "correctAnswer": "C",
+      "explanation": "The biblical tradition associates the commandments with Sinai.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-018",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of new testament, a candidate is asked: Who told the parable of the Good Samaritan?",
+      "options": {
+        "A": "Isaiah",
+        "B": "Jesus",
+        "C": "Paul",
+        "D": "Moses"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jesus tells the parable in Luke 10.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-019",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of new testament, a candidate is asked: Which apostle is associated with a conversion experience on the road to Damascus?",
+      "options": {
+        "A": "Paul",
+        "B": "Peter only",
+        "C": "John the Baptist",
+        "D": "Judas Iscariot"
+      },
+      "correctAnswer": "A",
+      "explanation": "Acts describes Saul’s encounter on the road to Damascus.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-020",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of new testament, a candidate is asked: The Beatitudes appear in which teaching of Jesus?",
+      "options": {
+        "A": "Noah’s flood account",
+        "B": "The Exodus only",
+        "C": "The building of Babel",
+        "D": "Sermon on the Mount"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Beatitudes are part of the Sermon on the Mount in Matthew.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-021",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian calendar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of christian calendar, a candidate is asked: Easter celebrates which central Christian belief?",
+      "options": {
+        "A": "The crossing of the Jordan by Joshua",
+        "B": "The building of the temple only",
+        "C": "The resurrection of Jesus",
+        "D": "The birth of Moses"
+      },
+      "correctAnswer": "C",
+      "explanation": "Easter commemorates Jesus’ resurrection.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-022",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of old testament, a candidate is asked: Which book opens the Bible?",
+      "options": {
+        "A": "Malachi",
+        "B": "Genesis",
+        "C": "Exodus",
+        "D": "Psalms"
+      },
+      "correctAnswer": "B",
+      "explanation": "Genesis is the first book of the Bible.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-023",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of old testament, a candidate is asked: Who defeated Goliath in the biblical account?",
+      "options": {
+        "A": "David",
+        "B": "Saul",
+        "C": "Solomon",
+        "D": "Samson"
+      },
+      "correctAnswer": "A",
+      "explanation": "David defeats Goliath in 1 Samuel 17.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-024",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Early church",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of early church, a candidate is asked: Pentecost in Acts is associated with what event?",
+      "options": {
+        "A": "The birth of Abraham",
+        "B": "The fall of Jericho",
+        "C": "The flood of Noah",
+        "D": "The coming of the Holy Spirit upon the disciples"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acts 2 describes the Holy Spirit coming upon the disciples.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-025",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian ethics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of christian ethics, a candidate is asked: The command to love one’s neighbour emphasises what?",
+      "options": {
+        "A": "Refusal to help anyone",
+        "B": "Winning every argument",
+        "C": "Care and responsibility toward other people",
+        "D": "Only private wealth"
+      },
+      "correctAnswer": "C",
+      "explanation": "The teaching calls for practical concern for others.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-026",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of new testament, a candidate is asked: Which Gospel begins with a genealogy and an infancy narrative emphasising Jesus’ birth?",
+      "options": {
+        "A": "Leviticus",
+        "B": "Matthew",
+        "C": "Obadiah",
+        "D": "Nahum"
+      },
+      "correctAnswer": "B",
+      "explanation": "Matthew opens with a genealogy and birth narrative.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-027",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of old testament, a candidate is asked: Who was known as the king who asked God for wisdom?",
+      "options": {
+        "A": "Solomon",
+        "B": "Ahab",
+        "C": "Pharaoh",
+        "D": "Cyrus only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Solomon’s request for wisdom is described in 1 Kings 3.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-028",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of new testament, a candidate is asked: The Lord’s Prayer is a model of what?",
+      "options": {
+        "A": "Agricultural taxation",
+        "B": "Temple construction",
+        "C": "Roman census",
+        "D": "Prayer"
+      },
+      "correctAnswer": "D",
+      "explanation": "Jesus teaches the prayer as a model for disciples.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-029",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of old testament, a candidate is asked: Which leader succeeded Moses and led Israel into Canaan in the biblical account?",
+      "options": {
+        "A": "Jeremiah",
+        "B": "Nehemiah",
+        "C": "Joshua",
+        "D": "Samuel"
+      },
+      "correctAnswer": "C",
+      "explanation": "Joshua is presented as Moses’ successor.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-030",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of new testament, a candidate is asked: Which book describes the journeys and early growth of the Christian church after Jesus’ ascension?",
+      "options": {
+        "A": "Proverbs",
+        "B": "Acts of the Apostles",
+        "C": "Genesis",
+        "D": "Ruth"
+      },
+      "correctAnswer": "B",
+      "explanation": "Acts narrates the early church and missionary journeys.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-031",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about old testament: According to the Bible, who led the Israelites out of Egypt?",
+      "options": {
+        "A": "David",
+        "B": "Solomon",
+        "C": "Elijah",
+        "D": "Moses"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Exodus narrative presents Moses as the leader of the Israelites.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-032",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about old testament: The Ten Commandments are associated with which mountain in the biblical narrative?",
+      "options": {
+        "A": "Mount Zion only",
+        "B": "Mount Kilimanjaro",
+        "C": "Mount Sinai",
+        "D": "Mount Carmel"
+      },
+      "correctAnswer": "C",
+      "explanation": "The biblical tradition associates the commandments with Sinai.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-033",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about new testament: Who told the parable of the Good Samaritan?",
+      "options": {
+        "A": "Isaiah",
+        "B": "Jesus",
+        "C": "Paul",
+        "D": "Moses"
+      },
+      "correctAnswer": "B",
+      "explanation": "Jesus tells the parable in Luke 10.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-034",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about new testament: Which apostle is associated with a conversion experience on the road to Damascus?",
+      "options": {
+        "A": "Paul",
+        "B": "Peter only",
+        "C": "John the Baptist",
+        "D": "Judas Iscariot"
+      },
+      "correctAnswer": "A",
+      "explanation": "Acts describes Saul’s encounter on the road to Damascus.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-035",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "New Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about new testament: The Beatitudes appear in which teaching of Jesus?",
+      "options": {
+        "A": "Noah’s flood account",
+        "B": "The Exodus only",
+        "C": "The building of Babel",
+        "D": "Sermon on the Mount"
+      },
+      "correctAnswer": "D",
+      "explanation": "The Beatitudes are part of the Sermon on the Mount in Matthew.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-036",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian calendar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about christian calendar: Easter celebrates which central Christian belief?",
+      "options": {
+        "A": "The crossing of the Jordan by Joshua",
+        "B": "The building of the temple only",
+        "C": "The resurrection of Jesus",
+        "D": "The birth of Moses"
+      },
+      "correctAnswer": "C",
+      "explanation": "Easter commemorates Jesus’ resurrection.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-037",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about old testament: Which book opens the Bible?",
+      "options": {
+        "A": "Malachi",
+        "B": "Genesis",
+        "C": "Exodus",
+        "D": "Psalms"
+      },
+      "correctAnswer": "B",
+      "explanation": "Genesis is the first book of the Bible.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-038",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Old Testament",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about old testament: Who defeated Goliath in the biblical account?",
+      "options": {
+        "A": "David",
+        "B": "Saul",
+        "C": "Solomon",
+        "D": "Samson"
+      },
+      "correctAnswer": "A",
+      "explanation": "David defeats Goliath in 1 Samuel 17.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-039",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Early church",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about early church: Pentecost in Acts is associated with what event?",
+      "options": {
+        "A": "The birth of Abraham",
+        "B": "The fall of Jericho",
+        "C": "The flood of Noah",
+        "D": "The coming of the Holy Spirit upon the disciples"
+      },
+      "correctAnswer": "D",
+      "explanation": "Acts 2 describes the Holy Spirit coming upon the disciples.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "christian-religious-knowledge-r2g-040",
+      "subjectId": "christian-religious-knowledge",
+      "topic": "Christian ethics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about christian ethics: The command to love one’s neighbour emphasises what?",
+      "options": {
+        "A": "Refusal to help anyone",
+        "B": "Winning every argument",
+        "C": "Care and responsibility toward other people",
+        "D": "Only private wealth"
+      },
+      "correctAnswer": "C",
+      "explanation": "The teaching calls for practical concern for others.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

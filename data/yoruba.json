@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "yoruba",
+  "subjectName": "Yoruba",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "yoruba-r2g-001",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does “Ẹ káàrọ̀” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "Thank you",
+        "C": "Where is the road?",
+        "D": "Good morning"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ẹ káàrọ̀ is a respectful morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-002",
+      "subjectId": "yoruba",
+      "topic": "Yoruba courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Ẹ ṣé” is commonly used to mean what?",
+      "options": {
+        "A": "Water",
+        "B": "School",
+        "C": "Thank you",
+        "D": "Goodbye forever"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ẹ ṣé means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-003",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “book” in Yoruba?",
+      "options": {
+        "A": "Ọjà",
+        "B": "Ìwé",
+        "C": "Omi",
+        "D": "Ilé"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ìwé means book or paper.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-004",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “water”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ìwé",
+        "C": "Ilé",
+        "D": "Ọmọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Omi means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-005",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “house”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ọjà",
+        "C": "Ọ̀nà",
+        "D": "Ilé"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ilé means house or home.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-006",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “child”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọ̀run",
+        "C": "Ọmọ",
+        "D": "Omi"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ọmọ means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-007",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “market”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọjà",
+        "C": "Ilé",
+        "D": "Omi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ọjà means market.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-008",
+      "subjectId": "yoruba",
+      "topic": "Yoruba greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Ẹ kú alẹ́” is a greeting associated with what time?",
+      "options": {
+        "A": "Evening / night",
+        "B": "Early morning only",
+        "C": "Noon only",
+        "D": "Next week"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ẹ kú alẹ́ is an evening greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-009",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Ọ̀nà” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Food",
+        "C": "Book",
+        "D": "Road / way"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ọ̀nà means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-010",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “food” in Yoruba?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Omi",
+        "C": "Oúnjẹ",
+        "D": "Ilé"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oúnjẹ means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-011",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Bàbá” commonly means what?",
+      "options": {
+        "A": "Market",
+        "B": "Father / elder man",
+        "C": "Water",
+        "D": "Book"
+      },
+      "correctAnswer": "B",
+      "explanation": "Bàbá is a respectful term for father or an older man.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-012",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Ìyá” commonly means what?",
+      "options": {
+        "A": "Mother",
+        "B": "Road",
+        "C": "Sun",
+        "D": "Teacher only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ìyá means mother.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-013",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “sun” in Yoruba?",
+      "options": {
+        "A": "Omi",
+        "B": "Ìwé",
+        "C": "Ọjà",
+        "D": "Oòrùn"
+      },
+      "correctAnswer": "D",
+      "explanation": "Oòrùn means sun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-014",
+      "subjectId": "yoruba",
+      "topic": "Yoruba courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "“Ẹ jọ̀ọ́” commonly means what?",
+      "options": {
+        "A": "Good night",
+        "B": "Water",
+        "C": "Please",
+        "D": "Thank you"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ẹ jọ̀ọ́ is a polite expression meaning please.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-015",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "“Ọrẹ́” means what?",
+      "options": {
+        "A": "Road",
+        "B": "Friend",
+        "C": "House",
+        "D": "Rain"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ọrẹ́ means friend.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-016",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: What does “Ẹ káàrọ̀” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "Thank you",
+        "C": "Where is the road?",
+        "D": "Good morning"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ẹ káàrọ̀ is a respectful morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-017",
+      "subjectId": "yoruba",
+      "topic": "Yoruba courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of yoruba courtesy, a candidate is asked: “Ẹ ṣé” is commonly used to mean what?",
+      "options": {
+        "A": "Water",
+        "B": "School",
+        "C": "Thank you",
+        "D": "Goodbye forever"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ẹ ṣé means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-018",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “book” in Yoruba?",
+      "options": {
+        "A": "Ọjà",
+        "B": "Ìwé",
+        "C": "Omi",
+        "D": "Ilé"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ìwé means book or paper.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-019",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “water”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ìwé",
+        "C": "Ilé",
+        "D": "Ọmọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Omi means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-020",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “house”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ọjà",
+        "C": "Ọ̀nà",
+        "D": "Ilé"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ilé means house or home.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-021",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “child”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọ̀run",
+        "C": "Ọmọ",
+        "D": "Omi"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ọmọ means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-022",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “market”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọjà",
+        "C": "Ilé",
+        "D": "Omi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ọjà means market.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-023",
+      "subjectId": "yoruba",
+      "topic": "Yoruba greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of yoruba greetings, a candidate is asked: “Ẹ kú alẹ́” is a greeting associated with what time?",
+      "options": {
+        "A": "Evening / night",
+        "B": "Early morning only",
+        "C": "Noon only",
+        "D": "Next week"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ẹ kú alẹ́ is an evening greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-024",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: “Ọ̀nà” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Food",
+        "C": "Book",
+        "D": "Road / way"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ọ̀nà means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-025",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “food” in Yoruba?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Omi",
+        "C": "Oúnjẹ",
+        "D": "Ilé"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oúnjẹ means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-026",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: “Bàbá” commonly means what?",
+      "options": {
+        "A": "Market",
+        "B": "Father / elder man",
+        "C": "Water",
+        "D": "Book"
+      },
+      "correctAnswer": "B",
+      "explanation": "Bàbá is a respectful term for father or an older man.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-027",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: “Ìyá” commonly means what?",
+      "options": {
+        "A": "Mother",
+        "B": "Road",
+        "C": "Sun",
+        "D": "Teacher only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ìyá means mother.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-028",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: Which word means “sun” in Yoruba?",
+      "options": {
+        "A": "Omi",
+        "B": "Ìwé",
+        "C": "Ọjà",
+        "D": "Oòrùn"
+      },
+      "correctAnswer": "D",
+      "explanation": "Oòrùn means sun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-029",
+      "subjectId": "yoruba",
+      "topic": "Yoruba courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of yoruba courtesy, a candidate is asked: “Ẹ jọ̀ọ́” commonly means what?",
+      "options": {
+        "A": "Good night",
+        "B": "Water",
+        "C": "Please",
+        "D": "Thank you"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ẹ jọ̀ọ́ is a polite expression meaning please.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-030",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of yoruba vocabulary, a candidate is asked: “Ọrẹ́” means what?",
+      "options": {
+        "A": "Road",
+        "B": "Friend",
+        "C": "House",
+        "D": "Rain"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ọrẹ́ means friend.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-031",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: What does “Ẹ káàrọ̀” mean?",
+      "options": {
+        "A": "Good night",
+        "B": "Thank you",
+        "C": "Where is the road?",
+        "D": "Good morning"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ẹ káàrọ̀ is a respectful morning greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-032",
+      "subjectId": "yoruba",
+      "topic": "Yoruba courtesy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about yoruba courtesy: “Ẹ ṣé” is commonly used to mean what?",
+      "options": {
+        "A": "Water",
+        "B": "School",
+        "C": "Thank you",
+        "D": "Goodbye forever"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ẹ ṣé means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-033",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “book” in Yoruba?",
+      "options": {
+        "A": "Ọjà",
+        "B": "Ìwé",
+        "C": "Omi",
+        "D": "Ilé"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ìwé means book or paper.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-034",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “water”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ìwé",
+        "C": "Ilé",
+        "D": "Ọmọ"
+      },
+      "correctAnswer": "A",
+      "explanation": "Omi means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-035",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “house”?",
+      "options": {
+        "A": "Omi",
+        "B": "Ọjà",
+        "C": "Ọ̀nà",
+        "D": "Ilé"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ilé means house or home.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-036",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “child”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọ̀run",
+        "C": "Ọmọ",
+        "D": "Omi"
+      },
+      "correctAnswer": "C",
+      "explanation": "Ọmọ means child.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-037",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “market”?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Ọjà",
+        "C": "Ilé",
+        "D": "Omi"
+      },
+      "correctAnswer": "B",
+      "explanation": "Ọjà means market.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-038",
+      "subjectId": "yoruba",
+      "topic": "Yoruba greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about yoruba greetings: “Ẹ kú alẹ́” is a greeting associated with what time?",
+      "options": {
+        "A": "Evening / night",
+        "B": "Early morning only",
+        "C": "Noon only",
+        "D": "Next week"
+      },
+      "correctAnswer": "A",
+      "explanation": "Ẹ kú alẹ́ is an evening greeting.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-039",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: “Ọ̀nà” commonly means what?",
+      "options": {
+        "A": "Water",
+        "B": "Food",
+        "C": "Book",
+        "D": "Road / way"
+      },
+      "correctAnswer": "D",
+      "explanation": "Ọ̀nà means road or way.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "yoruba-r2g-040",
+      "subjectId": "yoruba",
+      "topic": "Yoruba vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about yoruba vocabulary: Which word means “food” in Yoruba?",
+      "options": {
+        "A": "Ìwé",
+        "B": "Omi",
+        "C": "Oúnjẹ",
+        "D": "Ilé"
+      },
+      "correctAnswer": "C",
+      "explanation": "Oúnjẹ means food.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

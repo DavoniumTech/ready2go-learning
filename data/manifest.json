@@ -1,19 +1,47 @@
 {
-  "schemaVersion": 1,
-  "appVersion": "0.3.0",
+  "schemaVersion": 2,
+  "appVersion": "0.4.1",
   "generatedFor": "Ready2Go Learning",
   "generatedAt": "2026-10-16",
-  "contentNotice": "Question counts include original prototype and draft items. Every pack carries provenance/review status. No official 2020 question bank is bundled.",
-  "subjectCatalogSource": "https://eligibility.jamb.gov.ng/",
+  "contentNotice": "This release contains 40 original draft questions per subject pack (60 for Mathematics), not 100. These are not official JAMB past questions and require qualified human review and answer-key verification before public release. Do not treat draft packs as validated exam preparation content.",
+  "subjectCatalogSource": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
   "lastChecked": "2026-10-16",
+  "minimumQuestionsPerSubject": 40,
   "packs": [
+    {
+      "id": "use-of-english",
+      "subjectId": "use-of-english",
+      "subjectName": "Use of English",
+      "file": "use-of-english.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
     {
       "id": "agricultural-science",
       "subjectId": "agricultural-science",
       "subjectName": "Agriculture",
       "file": "agricultural-science.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "arabic",
+      "subjectId": "arabic",
+      "subjectName": "Arabic",
+      "file": "arabic.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "fine-art",
+      "subjectId": "fine-art",
+      "subjectName": "Art",
+      "file": "fine-art.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -21,8 +49,8 @@
       "subjectId": "biology",
       "subjectName": "Biology",
       "file": "biology.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -30,8 +58,17 @@
       "subjectId": "chemistry",
       "subjectName": "Chemistry",
       "file": "chemistry.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "christian-religious-knowledge",
+      "subjectId": "christian-religious-knowledge",
+      "subjectName": "Christian Religious Studies",
+      "file": "christian-religious-knowledge.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -39,8 +76,8 @@
       "subjectId": "commerce",
       "subjectName": "Commerce",
       "file": "commerce.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -48,8 +85,17 @@
       "subjectId": "economics",
       "subjectName": "Economics",
       "file": "economics.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "french",
+      "subjectId": "french",
+      "subjectName": "French",
+      "file": "french.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -57,8 +103,8 @@
       "subjectId": "geography",
       "subjectName": "Geography",
       "file": "geography.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -66,8 +112,62 @@
       "subjectId": "government",
       "subjectName": "Government",
       "file": "government.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "hausa",
+      "subjectId": "hausa",
+      "subjectName": "Hausa",
+      "file": "hausa.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "history",
+      "subjectId": "history",
+      "subjectName": "History",
+      "file": "history.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "home-economics",
+      "subjectId": "home-economics",
+      "subjectName": "Home Economics",
+      "file": "home-economics.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "igbo",
+      "subjectId": "igbo",
+      "subjectName": "Igbo",
+      "file": "igbo.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "islamic-studies",
+      "subjectId": "islamic-studies",
+      "subjectName": "Islamic Studies",
+      "file": "islamic-studies.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "literature-in-english",
+      "subjectId": "literature-in-english",
+      "subjectName": "Literature in English",
+      "file": "literature-in-english.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -75,8 +175,17 @@
       "subjectId": "mathematics",
       "subjectName": "Mathematics",
       "file": "mathematics.json",
-      "version": "0.2.0-draft",
+      "version": "0.4.1-draft",
       "questionCount": 60,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "music",
+      "subjectId": "music",
+      "subjectName": "Music",
+      "file": "music.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -84,27 +193,47 @@
       "subjectId": "physics",
       "subjectName": "Physics",
       "file": "physics.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
       "id": "principles-of-accounts",
       "subjectId": "principles-of-accounts",
-      "subjectName": "Principles of Accounts",
+      "subjectName": "Principles of Account",
       "file": "principles-of-accounts.json",
-      "version": "0.1.0-draft",
-      "questionCount": 5,
+      "version": "0.4.1-draft",
+      "questionCount": 40,
       "status": "development_seed_needs_human_review"
     },
     {
-      "id": "use-of-english",
-      "subjectId": "use-of-english",
-      "subjectName": "Use of English",
-      "file": "use-of-english.json",
-      "version": "0.2.0-draft",
+      "id": "yoruba",
+      "subjectId": "yoruba",
+      "subjectName": "Yoruba",
+      "file": "yoruba.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "computer-studies",
+      "subjectId": "computer-studies",
+      "subjectName": "Computer Studies",
+      "file": "computer-studies.json",
+      "version": "0.4.1-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "physical-health-education",
+      "subjectId": "physical-health-education",
+      "subjectName": "Physical and Health Education",
+      "file": "physical-health-education.json",
+      "version": "0.4.1-draft",
       "questionCount": 40,
       "status": "development_seed_needs_human_review"
     }
-  ]
+  ],
+  "r2PublishingPolicy": "All packs remain blocked by the Worker until status is exactly published and every question is approved with source/rights review.",
+  "targetQuestionsPerSubject": 100
 }

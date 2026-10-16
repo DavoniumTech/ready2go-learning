@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "physical-health-education",
+  "subjectName": "Physical and Health Education",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "physical-health-education-r2g-001",
+      "subjectId": "physical-health-education",
+      "topic": "Physical fitness",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Why is a warm-up performed before vigorous exercise?",
+      "options": {
+        "A": "To replace all exercise",
+        "B": "To cause immediate fatigue",
+        "C": "To stop the heart from beating faster",
+        "D": "To prepare the body gradually for activity"
+      },
+      "correctAnswer": "D",
+      "explanation": "A warm-up raises activity gradually and prepares movement.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-002",
+      "subjectId": "physical-health-education",
+      "topic": "Exercise physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Aerobic exercise relies substantially on which process?",
+      "options": {
+        "A": "Only digestion in the stomach",
+        "B": "Only bone growth",
+        "C": "Energy production using oxygen",
+        "D": "No energy production"
+      },
+      "correctAnswer": "C",
+      "explanation": "Aerobic metabolism uses oxygen to support sustained activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-003",
+      "subjectId": "physical-health-education",
+      "topic": "Hydration",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Why is drinking water important during physical activity?",
+      "options": {
+        "A": "It replaces every nutrient",
+        "B": "It helps replace fluid lost through sweating",
+        "C": "It removes the need for rest",
+        "D": "It guarantees no injury"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hydration supports temperature regulation and circulation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-004",
+      "subjectId": "physical-health-education",
+      "topic": "Health measures",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "BMI is calculated using weight divided by what?",
+      "options": {
+        "A": "Height squared",
+        "B": "Age squared",
+        "C": "Pulse rate",
+        "D": "Waist width only"
+      },
+      "correctAnswer": "A",
+      "explanation": "BMI equals mass in kilograms divided by height in metres squared.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-005",
+      "subjectId": "physical-health-education",
+      "topic": "First aid",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "For an unresponsive person who is not breathing normally, what is the priority?",
+      "options": {
+        "A": "Give food and water",
+        "B": "Leave the person alone",
+        "C": "Make the person stand",
+        "D": "Call emergency help and start CPR if trained"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rapid emergency response and CPR are priorities.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-006",
+      "subjectId": "physical-health-education",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which nutrient is especially important for bone mineralisation?",
+      "options": {
+        "A": "Alcohol",
+        "B": "Artificial colour only",
+        "C": "Calcium",
+        "D": "Caffeine"
+      },
+      "correctAnswer": "C",
+      "explanation": "Calcium is important for bone structure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-007",
+      "subjectId": "physical-health-education",
+      "topic": "Team sports",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "In a team sport, sportsmanship means what?",
+      "options": {
+        "A": "Injuring opponents deliberately",
+        "B": "Respecting rules, opponents and officials",
+        "C": "Winning by any means",
+        "D": "Ignoring referee decisions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sportsmanship includes fair play and respect.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-008",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Flexibility refers to the ability to do what?",
+      "options": {
+        "A": "Move joints through an appropriate range of motion",
+        "B": "Run the fastest 100 metres only",
+        "C": "Hold the heaviest object only",
+        "D": "Sleep for many hours"
+      },
+      "correctAnswer": "A",
+      "explanation": "Flexibility concerns range of motion at joints.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-009",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Cardiorespiratory endurance concerns the ability of which systems to support sustained activity?",
+      "options": {
+        "A": "Only hair and nails",
+        "B": "Only vision",
+        "C": "Only digestion",
+        "D": "Heart, lungs and circulation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Endurance depends on oxygen delivery and use during prolonged activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-010",
+      "subjectId": "physical-health-education",
+      "topic": "Personal hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Handwashing helps reduce the spread of what?",
+      "options": {
+        "A": "Vitamin absorption",
+        "B": "Muscle flexibility",
+        "C": "Infectious agents",
+        "D": "Healthy bone tissue"
+      },
+      "correctAnswer": "C",
+      "explanation": "Hand hygiene lowers transfer of pathogens.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-011",
+      "subjectId": "physical-health-education",
+      "topic": "Sports injuries",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "The acronym RICE has commonly referred to rest, ice, compression and what?",
+      "options": {
+        "A": "Exposure to heat",
+        "B": "Elevation",
+        "C": "Examination only",
+        "D": "Exercise immediately"
+      },
+      "correctAnswer": "B",
+      "explanation": "RICE is a traditional basic approach for some acute soft-tissue injuries; serious injuries need assessment.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-012",
+      "subjectId": "physical-health-education",
+      "topic": "Body systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The pulse is a measure related to what?",
+      "options": {
+        "A": "Heartbeats per minute",
+        "B": "The number of bones",
+        "C": "Lung volume in litres only",
+        "D": "Blood group"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pulse rate reflects the frequency of arterial pressure waves from heartbeats.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-013",
+      "subjectId": "physical-health-education",
+      "topic": "Exercise safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which approach is safest when beginning a new fitness programme?",
+      "options": {
+        "A": "Immediately train at maximum intensity every day",
+        "B": "Ignore chest pain",
+        "C": "Avoid all warm-ups",
+        "D": "Progress gradually and consider current health"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gradual progression helps reduce overload and injury risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-014",
+      "subjectId": "physical-health-education",
+      "topic": "Mental health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Regular physical activity can support wellbeing by contributing to what?",
+      "options": {
+        "A": "Instant permanent happiness",
+        "B": "Replacement for every treatment",
+        "C": "Mood and stress management",
+        "D": "Guaranteed freedom from all illness"
+      },
+      "correctAnswer": "C",
+      "explanation": "Activity can support wellbeing but is not a guaranteed cure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-015",
+      "subjectId": "physical-health-education",
+      "topic": "Public health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Immunisation helps protect people by doing what?",
+      "options": {
+        "A": "Making every infection impossible",
+        "B": "Preparing the immune system to recognise a pathogen",
+        "C": "Removing all microorganisms from the environment",
+        "D": "Replacing clean water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Vaccines train immune responses and reduce disease risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-016",
+      "subjectId": "physical-health-education",
+      "topic": "Physical fitness",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of physical fitness, a candidate is asked: Why is a warm-up performed before vigorous exercise?",
+      "options": {
+        "A": "To replace all exercise",
+        "B": "To cause immediate fatigue",
+        "C": "To stop the heart from beating faster",
+        "D": "To prepare the body gradually for activity"
+      },
+      "correctAnswer": "D",
+      "explanation": "A warm-up raises activity gradually and prepares movement.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-017",
+      "subjectId": "physical-health-education",
+      "topic": "Exercise physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of exercise physiology, a candidate is asked: Aerobic exercise relies substantially on which process?",
+      "options": {
+        "A": "Only digestion in the stomach",
+        "B": "Only bone growth",
+        "C": "Energy production using oxygen",
+        "D": "No energy production"
+      },
+      "correctAnswer": "C",
+      "explanation": "Aerobic metabolism uses oxygen to support sustained activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-018",
+      "subjectId": "physical-health-education",
+      "topic": "Hydration",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of hydration, a candidate is asked: Why is drinking water important during physical activity?",
+      "options": {
+        "A": "It replaces every nutrient",
+        "B": "It helps replace fluid lost through sweating",
+        "C": "It removes the need for rest",
+        "D": "It guarantees no injury"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hydration supports temperature regulation and circulation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-019",
+      "subjectId": "physical-health-education",
+      "topic": "Health measures",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of health measures, a candidate is asked: BMI is calculated using weight divided by what?",
+      "options": {
+        "A": "Height squared",
+        "B": "Age squared",
+        "C": "Pulse rate",
+        "D": "Waist width only"
+      },
+      "correctAnswer": "A",
+      "explanation": "BMI equals mass in kilograms divided by height in metres squared.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-020",
+      "subjectId": "physical-health-education",
+      "topic": "First aid",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of first aid, a candidate is asked: For an unresponsive person who is not breathing normally, what is the priority?",
+      "options": {
+        "A": "Give food and water",
+        "B": "Leave the person alone",
+        "C": "Make the person stand",
+        "D": "Call emergency help and start CPR if trained"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rapid emergency response and CPR are priorities.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-021",
+      "subjectId": "physical-health-education",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of nutrition, a candidate is asked: Which nutrient is especially important for bone mineralisation?",
+      "options": {
+        "A": "Alcohol",
+        "B": "Artificial colour only",
+        "C": "Calcium",
+        "D": "Caffeine"
+      },
+      "correctAnswer": "C",
+      "explanation": "Calcium is important for bone structure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-022",
+      "subjectId": "physical-health-education",
+      "topic": "Team sports",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of team sports, a candidate is asked: In a team sport, sportsmanship means what?",
+      "options": {
+        "A": "Injuring opponents deliberately",
+        "B": "Respecting rules, opponents and officials",
+        "C": "Winning by any means",
+        "D": "Ignoring referee decisions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sportsmanship includes fair play and respect.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-023",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of fitness components, a candidate is asked: Flexibility refers to the ability to do what?",
+      "options": {
+        "A": "Move joints through an appropriate range of motion",
+        "B": "Run the fastest 100 metres only",
+        "C": "Hold the heaviest object only",
+        "D": "Sleep for many hours"
+      },
+      "correctAnswer": "A",
+      "explanation": "Flexibility concerns range of motion at joints.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-024",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of fitness components, a candidate is asked: Cardiorespiratory endurance concerns the ability of which systems to support sustained activity?",
+      "options": {
+        "A": "Only hair and nails",
+        "B": "Only vision",
+        "C": "Only digestion",
+        "D": "Heart, lungs and circulation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Endurance depends on oxygen delivery and use during prolonged activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-025",
+      "subjectId": "physical-health-education",
+      "topic": "Personal hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of personal hygiene, a candidate is asked: Handwashing helps reduce the spread of what?",
+      "options": {
+        "A": "Vitamin absorption",
+        "B": "Muscle flexibility",
+        "C": "Infectious agents",
+        "D": "Healthy bone tissue"
+      },
+      "correctAnswer": "C",
+      "explanation": "Hand hygiene lowers transfer of pathogens.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-026",
+      "subjectId": "physical-health-education",
+      "topic": "Sports injuries",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of sports injuries, a candidate is asked: The acronym RICE has commonly referred to rest, ice, compression and what?",
+      "options": {
+        "A": "Exposure to heat",
+        "B": "Elevation",
+        "C": "Examination only",
+        "D": "Exercise immediately"
+      },
+      "correctAnswer": "B",
+      "explanation": "RICE is a traditional basic approach for some acute soft-tissue injuries; serious injuries need assessment.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-027",
+      "subjectId": "physical-health-education",
+      "topic": "Body systems",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of body systems, a candidate is asked: The pulse is a measure related to what?",
+      "options": {
+        "A": "Heartbeats per minute",
+        "B": "The number of bones",
+        "C": "Lung volume in litres only",
+        "D": "Blood group"
+      },
+      "correctAnswer": "A",
+      "explanation": "Pulse rate reflects the frequency of arterial pressure waves from heartbeats.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-028",
+      "subjectId": "physical-health-education",
+      "topic": "Exercise safety",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of exercise safety, a candidate is asked: Which approach is safest when beginning a new fitness programme?",
+      "options": {
+        "A": "Immediately train at maximum intensity every day",
+        "B": "Ignore chest pain",
+        "C": "Avoid all warm-ups",
+        "D": "Progress gradually and consider current health"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gradual progression helps reduce overload and injury risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-029",
+      "subjectId": "physical-health-education",
+      "topic": "Mental health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of mental health, a candidate is asked: Regular physical activity can support wellbeing by contributing to what?",
+      "options": {
+        "A": "Instant permanent happiness",
+        "B": "Replacement for every treatment",
+        "C": "Mood and stress management",
+        "D": "Guaranteed freedom from all illness"
+      },
+      "correctAnswer": "C",
+      "explanation": "Activity can support wellbeing but is not a guaranteed cure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-030",
+      "subjectId": "physical-health-education",
+      "topic": "Public health",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of public health, a candidate is asked: Immunisation helps protect people by doing what?",
+      "options": {
+        "A": "Making every infection impossible",
+        "B": "Preparing the immune system to recognise a pathogen",
+        "C": "Removing all microorganisms from the environment",
+        "D": "Replacing clean water"
+      },
+      "correctAnswer": "B",
+      "explanation": "Vaccines train immune responses and reduce disease risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-031",
+      "subjectId": "physical-health-education",
+      "topic": "Physical fitness",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about physical fitness: Why is a warm-up performed before vigorous exercise?",
+      "options": {
+        "A": "To replace all exercise",
+        "B": "To cause immediate fatigue",
+        "C": "To stop the heart from beating faster",
+        "D": "To prepare the body gradually for activity"
+      },
+      "correctAnswer": "D",
+      "explanation": "A warm-up raises activity gradually and prepares movement.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-032",
+      "subjectId": "physical-health-education",
+      "topic": "Exercise physiology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about exercise physiology: Aerobic exercise relies substantially on which process?",
+      "options": {
+        "A": "Only digestion in the stomach",
+        "B": "Only bone growth",
+        "C": "Energy production using oxygen",
+        "D": "No energy production"
+      },
+      "correctAnswer": "C",
+      "explanation": "Aerobic metabolism uses oxygen to support sustained activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-033",
+      "subjectId": "physical-health-education",
+      "topic": "Hydration",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about hydration: Why is drinking water important during physical activity?",
+      "options": {
+        "A": "It replaces every nutrient",
+        "B": "It helps replace fluid lost through sweating",
+        "C": "It removes the need for rest",
+        "D": "It guarantees no injury"
+      },
+      "correctAnswer": "B",
+      "explanation": "Hydration supports temperature regulation and circulation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-034",
+      "subjectId": "physical-health-education",
+      "topic": "Health measures",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about health measures: BMI is calculated using weight divided by what?",
+      "options": {
+        "A": "Height squared",
+        "B": "Age squared",
+        "C": "Pulse rate",
+        "D": "Waist width only"
+      },
+      "correctAnswer": "A",
+      "explanation": "BMI equals mass in kilograms divided by height in metres squared.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-035",
+      "subjectId": "physical-health-education",
+      "topic": "First aid",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about first aid: For an unresponsive person who is not breathing normally, what is the priority?",
+      "options": {
+        "A": "Give food and water",
+        "B": "Leave the person alone",
+        "C": "Make the person stand",
+        "D": "Call emergency help and start CPR if trained"
+      },
+      "correctAnswer": "D",
+      "explanation": "Rapid emergency response and CPR are priorities.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-036",
+      "subjectId": "physical-health-education",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about nutrition: Which nutrient is especially important for bone mineralisation?",
+      "options": {
+        "A": "Alcohol",
+        "B": "Artificial colour only",
+        "C": "Calcium",
+        "D": "Caffeine"
+      },
+      "correctAnswer": "C",
+      "explanation": "Calcium is important for bone structure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-037",
+      "subjectId": "physical-health-education",
+      "topic": "Team sports",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about team sports: In a team sport, sportsmanship means what?",
+      "options": {
+        "A": "Injuring opponents deliberately",
+        "B": "Respecting rules, opponents and officials",
+        "C": "Winning by any means",
+        "D": "Ignoring referee decisions"
+      },
+      "correctAnswer": "B",
+      "explanation": "Sportsmanship includes fair play and respect.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-038",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about fitness components: Flexibility refers to the ability to do what?",
+      "options": {
+        "A": "Move joints through an appropriate range of motion",
+        "B": "Run the fastest 100 metres only",
+        "C": "Hold the heaviest object only",
+        "D": "Sleep for many hours"
+      },
+      "correctAnswer": "A",
+      "explanation": "Flexibility concerns range of motion at joints.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-039",
+      "subjectId": "physical-health-education",
+      "topic": "Fitness components",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about fitness components: Cardiorespiratory endurance concerns the ability of which systems to support sustained activity?",
+      "options": {
+        "A": "Only hair and nails",
+        "B": "Only vision",
+        "C": "Only digestion",
+        "D": "Heart, lungs and circulation"
+      },
+      "correctAnswer": "D",
+      "explanation": "Endurance depends on oxygen delivery and use during prolonged activity.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "physical-health-education-r2g-040",
+      "subjectId": "physical-health-education",
+      "topic": "Personal hygiene",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about personal hygiene: Handwashing helps reduce the spread of what?",
+      "options": {
+        "A": "Vitamin absorption",
+        "B": "Muscle flexibility",
+        "C": "Infectious agents",
+        "D": "Healthy bone tissue"
+      },
+      "correctAnswer": "C",
+      "explanation": "Hand hygiene lowers transfer of pathogens.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

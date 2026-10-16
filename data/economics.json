@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "economics",
   "subjectName": "Economics",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "econ-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "C",
       "explanation": "Personal income tax is a direct tax because it is levied directly on income.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "economics-r2g-001",
+      "subjectId": "economics",
+      "topic": "Basic concepts",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Scarcity exists because resources are limited relative to what?",
+      "options": {
+        "A": "The number of days in a week",
+        "B": "The mass of the Earth",
+        "C": "The alphabet",
+        "D": "Human wants"
+      },
+      "correctAnswer": "D",
+      "explanation": "Limited resources cannot satisfy every want.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-002",
+      "subjectId": "economics",
+      "topic": "Opportunity cost",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Opportunity cost is the value of what?",
+      "options": {
+        "A": "Only money already spent",
+        "B": "A government tax rate",
+        "C": "The next best alternative forgone",
+        "D": "Every option added together"
+      },
+      "correctAnswer": "C",
+      "explanation": "Choosing one option means giving up the next best alternative.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-003",
+      "subjectId": "economics",
+      "topic": "Demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "The law of demand states that, other things equal, quantity demanded usually falls when what rises?",
+      "options": {
+        "A": "Taste for the good",
+        "B": "Price",
+        "C": "Household income in all cases",
+        "D": "Number of buyers in all cases"
+      },
+      "correctAnswer": "B",
+      "explanation": "A higher price usually reduces quantity demanded, all else equal.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-004",
+      "subjectId": "economics",
+      "topic": "Supply",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "The law of supply usually predicts that a higher market price leads to what?",
+      "options": {
+        "A": "A higher quantity supplied, other things equal",
+        "B": "Zero production in every market",
+        "C": "No response from any producer",
+        "D": "Automatic lower cost of inputs"
+      },
+      "correctAnswer": "A",
+      "explanation": "Higher prices tend to encourage producers to offer more.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-005",
+      "subjectId": "economics",
+      "topic": "Inflation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Inflation is a sustained increase in what?",
+      "options": {
+        "A": "The physical size of all goods",
+        "B": "The population of one village only",
+        "C": "The exchange rate in every case",
+        "D": "The general price level"
+      },
+      "correctAnswer": "D",
+      "explanation": "Inflation measures persistent increases in the overall price level.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-006",
+      "subjectId": "economics",
+      "topic": "National income",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Gross domestic product measures the value of final goods and services produced where?",
+      "options": {
+        "A": "Only by the government",
+        "B": "Only in agriculture",
+        "C": "Within a country during a specified period",
+        "D": "Only by citizens living abroad"
+      },
+      "correctAnswer": "C",
+      "explanation": "GDP covers final production within a geographic economy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-007",
+      "subjectId": "economics",
+      "topic": "Monetary policy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Monetary policy in Nigeria is primarily conducted by which institution?",
+      "options": {
+        "A": "A private supermarket",
+        "B": "Central Bank of Nigeria",
+        "C": "National Universities Commission",
+        "D": "Federal Road Safety Corps"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Central Bank of Nigeria conducts monetary policy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-008",
+      "subjectId": "economics",
+      "topic": "Fiscal policy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Government taxation and spending are central tools of what?",
+      "options": {
+        "A": "Fiscal policy",
+        "B": "Biology",
+        "C": "Monetary policy only",
+        "D": "Price labelling"
+      },
+      "correctAnswer": "A",
+      "explanation": "Fiscal policy uses taxes and public expenditure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-009",
+      "subjectId": "economics",
+      "topic": "Markets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "A market with many sellers offering similar products and easy entry is closest to which model?",
+      "options": {
+        "A": "Pure monopoly",
+        "B": "Bilateral monopoly only",
+        "C": "Single-buyer monopsony in all cases",
+        "D": "Perfect competition"
+      },
+      "correctAnswer": "D",
+      "explanation": "Perfect competition assumes many buyers and sellers and low entry barriers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-010",
+      "subjectId": "economics",
+      "topic": "Elasticity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Price elasticity of demand measures responsiveness of quantity demanded to a change in what?",
+      "options": {
+        "A": "Weather only",
+        "B": "Accounting period",
+        "C": "Price",
+        "D": "Population density only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Price elasticity compares percentage change in quantity demanded with percentage change in price.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-011",
+      "subjectId": "economics",
+      "topic": "Unemployment",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "A person without a job who is actively seeking and available for work is generally classified as what?",
+      "options": {
+        "A": "A consumer-price index",
+        "B": "Unemployed",
+        "C": "Retired by definition",
+        "D": "A full-time employer"
+      },
+      "correctAnswer": "B",
+      "explanation": "Standard labour statistics require no job, availability and active search.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-012",
+      "subjectId": "economics",
+      "topic": "International trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Comparative advantage depends on having a lower what?",
+      "options": {
+        "A": "Opportunity cost",
+        "B": "Absolute population",
+        "C": "Tax rate in every case",
+        "D": "Distance from the equator"
+      },
+      "correctAnswer": "A",
+      "explanation": "Comparative advantage is based on lower opportunity cost.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-013",
+      "subjectId": "economics",
+      "topic": "Public finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "A progressive tax takes a larger percentage of income as what rises?",
+      "options": {
+        "A": "Rainfall",
+        "B": "Number of schools only",
+        "C": "The age of a building",
+        "D": "Taxable income"
+      },
+      "correctAnswer": "D",
+      "explanation": "Progressive tax rates increase with taxable income.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-014",
+      "subjectId": "economics",
+      "topic": "Money",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which function of money makes it possible to compare the prices of different goods?",
+      "options": {
+        "A": "Physical capital",
+        "B": "Production quota",
+        "C": "Unit of account",
+        "D": "Weather forecast"
+      },
+      "correctAnswer": "C",
+      "explanation": "Money provides a common unit for stating value and prices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-015",
+      "subjectId": "economics",
+      "topic": "Development",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Human development considers income alongside health and what?",
+      "options": {
+        "A": "The number of banks only",
+        "B": "Education",
+        "C": "Exports only",
+        "D": "Population size only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Human development frameworks commonly include health, education and living standards.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-016",
+      "subjectId": "economics",
+      "topic": "Basic concepts",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of basic concepts, a candidate is asked: Scarcity exists because resources are limited relative to what?",
+      "options": {
+        "A": "The number of days in a week",
+        "B": "The mass of the Earth",
+        "C": "The alphabet",
+        "D": "Human wants"
+      },
+      "correctAnswer": "D",
+      "explanation": "Limited resources cannot satisfy every want.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-017",
+      "subjectId": "economics",
+      "topic": "Opportunity cost",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of opportunity cost, a candidate is asked: Opportunity cost is the value of what?",
+      "options": {
+        "A": "Only money already spent",
+        "B": "A government tax rate",
+        "C": "The next best alternative forgone",
+        "D": "Every option added together"
+      },
+      "correctAnswer": "C",
+      "explanation": "Choosing one option means giving up the next best alternative.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-018",
+      "subjectId": "economics",
+      "topic": "Demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of demand, a candidate is asked: The law of demand states that, other things equal, quantity demanded usually falls when what rises?",
+      "options": {
+        "A": "Taste for the good",
+        "B": "Price",
+        "C": "Household income in all cases",
+        "D": "Number of buyers in all cases"
+      },
+      "correctAnswer": "B",
+      "explanation": "A higher price usually reduces quantity demanded, all else equal.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-019",
+      "subjectId": "economics",
+      "topic": "Supply",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of supply, a candidate is asked: The law of supply usually predicts that a higher market price leads to what?",
+      "options": {
+        "A": "A higher quantity supplied, other things equal",
+        "B": "Zero production in every market",
+        "C": "No response from any producer",
+        "D": "Automatic lower cost of inputs"
+      },
+      "correctAnswer": "A",
+      "explanation": "Higher prices tend to encourage producers to offer more.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-020",
+      "subjectId": "economics",
+      "topic": "Inflation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of inflation, a candidate is asked: Inflation is a sustained increase in what?",
+      "options": {
+        "A": "The physical size of all goods",
+        "B": "The population of one village only",
+        "C": "The exchange rate in every case",
+        "D": "The general price level"
+      },
+      "correctAnswer": "D",
+      "explanation": "Inflation measures persistent increases in the overall price level.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-021",
+      "subjectId": "economics",
+      "topic": "National income",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of national income, a candidate is asked: Gross domestic product measures the value of final goods and services produced where?",
+      "options": {
+        "A": "Only by the government",
+        "B": "Only in agriculture",
+        "C": "Within a country during a specified period",
+        "D": "Only by citizens living abroad"
+      },
+      "correctAnswer": "C",
+      "explanation": "GDP covers final production within a geographic economy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-022",
+      "subjectId": "economics",
+      "topic": "Monetary policy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of monetary policy, a candidate is asked: Monetary policy in Nigeria is primarily conducted by which institution?",
+      "options": {
+        "A": "A private supermarket",
+        "B": "Central Bank of Nigeria",
+        "C": "National Universities Commission",
+        "D": "Federal Road Safety Corps"
+      },
+      "correctAnswer": "B",
+      "explanation": "The Central Bank of Nigeria conducts monetary policy.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-023",
+      "subjectId": "economics",
+      "topic": "Fiscal policy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of fiscal policy, a candidate is asked: Government taxation and spending are central tools of what?",
+      "options": {
+        "A": "Fiscal policy",
+        "B": "Biology",
+        "C": "Monetary policy only",
+        "D": "Price labelling"
+      },
+      "correctAnswer": "A",
+      "explanation": "Fiscal policy uses taxes and public expenditure.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-024",
+      "subjectId": "economics",
+      "topic": "Markets",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of markets, a candidate is asked: A market with many sellers offering similar products and easy entry is closest to which model?",
+      "options": {
+        "A": "Pure monopoly",
+        "B": "Bilateral monopoly only",
+        "C": "Single-buyer monopsony in all cases",
+        "D": "Perfect competition"
+      },
+      "correctAnswer": "D",
+      "explanation": "Perfect competition assumes many buyers and sellers and low entry barriers.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-025",
+      "subjectId": "economics",
+      "topic": "Elasticity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of elasticity, a candidate is asked: Price elasticity of demand measures responsiveness of quantity demanded to a change in what?",
+      "options": {
+        "A": "Weather only",
+        "B": "Accounting period",
+        "C": "Price",
+        "D": "Population density only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Price elasticity compares percentage change in quantity demanded with percentage change in price.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-026",
+      "subjectId": "economics",
+      "topic": "Unemployment",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of unemployment, a candidate is asked: A person without a job who is actively seeking and available for work is generally classified as what?",
+      "options": {
+        "A": "A consumer-price index",
+        "B": "Unemployed",
+        "C": "Retired by definition",
+        "D": "A full-time employer"
+      },
+      "correctAnswer": "B",
+      "explanation": "Standard labour statistics require no job, availability and active search.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-027",
+      "subjectId": "economics",
+      "topic": "International trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of international trade, a candidate is asked: Comparative advantage depends on having a lower what?",
+      "options": {
+        "A": "Opportunity cost",
+        "B": "Absolute population",
+        "C": "Tax rate in every case",
+        "D": "Distance from the equator"
+      },
+      "correctAnswer": "A",
+      "explanation": "Comparative advantage is based on lower opportunity cost.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-028",
+      "subjectId": "economics",
+      "topic": "Public finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of public finance, a candidate is asked: A progressive tax takes a larger percentage of income as what rises?",
+      "options": {
+        "A": "Rainfall",
+        "B": "Number of schools only",
+        "C": "The age of a building",
+        "D": "Taxable income"
+      },
+      "correctAnswer": "D",
+      "explanation": "Progressive tax rates increase with taxable income.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-029",
+      "subjectId": "economics",
+      "topic": "Money",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of money, a candidate is asked: Which function of money makes it possible to compare the prices of different goods?",
+      "options": {
+        "A": "Physical capital",
+        "B": "Production quota",
+        "C": "Unit of account",
+        "D": "Weather forecast"
+      },
+      "correctAnswer": "C",
+      "explanation": "Money provides a common unit for stating value and prices.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-030",
+      "subjectId": "economics",
+      "topic": "Development",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of development, a candidate is asked: Human development considers income alongside health and what?",
+      "options": {
+        "A": "The number of banks only",
+        "B": "Education",
+        "C": "Exports only",
+        "D": "Population size only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Human development frameworks commonly include health, education and living standards.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-031",
+      "subjectId": "economics",
+      "topic": "Basic concepts",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about basic concepts: Scarcity exists because resources are limited relative to what?",
+      "options": {
+        "A": "The number of days in a week",
+        "B": "The mass of the Earth",
+        "C": "The alphabet",
+        "D": "Human wants"
+      },
+      "correctAnswer": "D",
+      "explanation": "Limited resources cannot satisfy every want.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-032",
+      "subjectId": "economics",
+      "topic": "Opportunity cost",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about opportunity cost: Opportunity cost is the value of what?",
+      "options": {
+        "A": "Only money already spent",
+        "B": "A government tax rate",
+        "C": "The next best alternative forgone",
+        "D": "Every option added together"
+      },
+      "correctAnswer": "C",
+      "explanation": "Choosing one option means giving up the next best alternative.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-033",
+      "subjectId": "economics",
+      "topic": "Demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about demand: The law of demand states that, other things equal, quantity demanded usually falls when what rises?",
+      "options": {
+        "A": "Taste for the good",
+        "B": "Price",
+        "C": "Household income in all cases",
+        "D": "Number of buyers in all cases"
+      },
+      "correctAnswer": "B",
+      "explanation": "A higher price usually reduces quantity demanded, all else equal.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-034",
+      "subjectId": "economics",
+      "topic": "Supply",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about supply: The law of supply usually predicts that a higher market price leads to what?",
+      "options": {
+        "A": "A higher quantity supplied, other things equal",
+        "B": "Zero production in every market",
+        "C": "No response from any producer",
+        "D": "Automatic lower cost of inputs"
+      },
+      "correctAnswer": "A",
+      "explanation": "Higher prices tend to encourage producers to offer more.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "economics-r2g-035",
+      "subjectId": "economics",
+      "topic": "Inflation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about inflation: Inflation is a sustained increase in what?",
+      "options": {
+        "A": "The physical size of all goods",
+        "B": "The population of one village only",
+        "C": "The exchange rate in every case",
+        "D": "The general price level"
+      },
+      "correctAnswer": "D",
+      "explanation": "Inflation measures persistent increases in the overall price level.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }

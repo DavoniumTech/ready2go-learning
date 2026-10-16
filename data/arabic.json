@@ -1,0 +1,813 @@
+{
+  "schemaVersion": 2,
+  "subjectId": "arabic",
+  "subjectName": "Arabic",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
+  "questions": [
+    {
+      "id": "arabic-r2g-001",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does السلام عليكم commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "I am hungry",
+        "C": "Where is the market?",
+        "D": "Peace be upon you"
+      },
+      "correctAnswer": "D",
+      "explanation": "السلام عليكم is a common greeting meaning peace be upon you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-002",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which Arabic word means “thank you”?",
+      "options": {
+        "A": "باب",
+        "B": "قلم",
+        "C": "شكراً",
+        "D": "كتاب"
+      },
+      "correctAnswer": "C",
+      "explanation": "شكراً means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-003",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “book”?",
+      "options": {
+        "A": "بيت",
+        "B": "كتاب",
+        "C": "مدرسة",
+        "D": "طالب"
+      },
+      "correctAnswer": "B",
+      "explanation": "كتاب means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-004",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “pen”?",
+      "options": {
+        "A": "قلم",
+        "B": "ماء",
+        "C": "شمس",
+        "D": "قمر"
+      },
+      "correctAnswer": "A",
+      "explanation": "قلم means pen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-005",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which Arabic word means “school”?",
+      "options": {
+        "A": "نافذة",
+        "B": "طعام",
+        "C": "طريق",
+        "D": "مدرسة"
+      },
+      "correctAnswer": "D",
+      "explanation": "مدرسة means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-006",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "What does نعم mean?",
+      "options": {
+        "A": "Please",
+        "B": "Tomorrow",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "نعم means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-007",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What does لا mean?",
+      "options": {
+        "A": "Teacher",
+        "B": "No",
+        "C": "Yes",
+        "D": "Thanks"
+      },
+      "correctAnswer": "B",
+      "explanation": "لا means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-008",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “water”?",
+      "options": {
+        "A": "ماء",
+        "B": "بيت",
+        "C": "قلم",
+        "D": "كتاب"
+      },
+      "correctAnswer": "A",
+      "explanation": "ماء means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-009",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which Arabic word means “house”?",
+      "options": {
+        "A": "مدرسة",
+        "B": "طعام",
+        "C": "طالب",
+        "D": "بيت"
+      },
+      "correctAnswer": "D",
+      "explanation": "بيت means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-010",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “teacher”?",
+      "options": {
+        "A": "باب",
+        "B": "بحر",
+        "C": "معلم",
+        "D": "طبيب"
+      },
+      "correctAnswer": "C",
+      "explanation": "معلم means a male teacher.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-011",
+      "subjectId": "arabic",
+      "topic": "Arabic greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "صباح الخير is a greeting meaning what?",
+      "options": {
+        "A": "Thank you",
+        "B": "Good morning",
+        "C": "Good evening",
+        "D": "Goodbye"
+      },
+      "correctAnswer": "B",
+      "explanation": "صباح الخير means good morning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-012",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which word means “student”?",
+      "options": {
+        "A": "طالب",
+        "B": "مفتاح",
+        "C": "مدينة",
+        "D": "شجرة"
+      },
+      "correctAnswer": "A",
+      "explanation": "طالب means a male student.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-013",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which word means “sun”?",
+      "options": {
+        "A": "قمر",
+        "B": "ليل",
+        "C": "كتاب",
+        "D": "شمس"
+      },
+      "correctAnswer": "D",
+      "explanation": "شمس means sun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-014",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which word means “moon”?",
+      "options": {
+        "A": "باب",
+        "B": "ماء",
+        "C": "قمر",
+        "D": "شمس"
+      },
+      "correctAnswer": "C",
+      "explanation": "قمر means moon.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-015",
+      "subjectId": "arabic",
+      "topic": "Arabic greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "مع السلامة is commonly used to mean what?",
+      "options": {
+        "A": "I agree",
+        "B": "Goodbye / go in peace",
+        "C": "Good morning",
+        "D": "Welcome home only"
+      },
+      "correctAnswer": "B",
+      "explanation": "مع السلامة is a common farewell.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-016",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of arabic vocabulary, a candidate is asked: What does السلام عليكم commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "I am hungry",
+        "C": "Where is the market?",
+        "D": "Peace be upon you"
+      },
+      "correctAnswer": "D",
+      "explanation": "السلام عليكم is a common greeting meaning peace be upon you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-017",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which Arabic word means “thank you”?",
+      "options": {
+        "A": "باب",
+        "B": "قلم",
+        "C": "شكراً",
+        "D": "كتاب"
+      },
+      "correctAnswer": "C",
+      "explanation": "شكراً means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-018",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “book”?",
+      "options": {
+        "A": "بيت",
+        "B": "كتاب",
+        "C": "مدرسة",
+        "D": "طالب"
+      },
+      "correctAnswer": "B",
+      "explanation": "كتاب means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-019",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “pen”?",
+      "options": {
+        "A": "قلم",
+        "B": "ماء",
+        "C": "شمس",
+        "D": "قمر"
+      },
+      "correctAnswer": "A",
+      "explanation": "قلم means pen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-020",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which Arabic word means “school”?",
+      "options": {
+        "A": "نافذة",
+        "B": "طعام",
+        "C": "طريق",
+        "D": "مدرسة"
+      },
+      "correctAnswer": "D",
+      "explanation": "مدرسة means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-021",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of arabic vocabulary, a candidate is asked: What does نعم mean?",
+      "options": {
+        "A": "Please",
+        "B": "Tomorrow",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "نعم means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-022",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of arabic vocabulary, a candidate is asked: What does لا mean?",
+      "options": {
+        "A": "Teacher",
+        "B": "No",
+        "C": "Yes",
+        "D": "Thanks"
+      },
+      "correctAnswer": "B",
+      "explanation": "لا means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-023",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “water”?",
+      "options": {
+        "A": "ماء",
+        "B": "بيت",
+        "C": "قلم",
+        "D": "كتاب"
+      },
+      "correctAnswer": "A",
+      "explanation": "ماء means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-024",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which Arabic word means “house”?",
+      "options": {
+        "A": "مدرسة",
+        "B": "طعام",
+        "C": "طالب",
+        "D": "بيت"
+      },
+      "correctAnswer": "D",
+      "explanation": "بيت means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-025",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “teacher”?",
+      "options": {
+        "A": "باب",
+        "B": "بحر",
+        "C": "معلم",
+        "D": "طبيب"
+      },
+      "correctAnswer": "C",
+      "explanation": "معلم means a male teacher.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-026",
+      "subjectId": "arabic",
+      "topic": "Arabic greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of arabic greetings, a candidate is asked: صباح الخير is a greeting meaning what?",
+      "options": {
+        "A": "Thank you",
+        "B": "Good morning",
+        "C": "Good evening",
+        "D": "Goodbye"
+      },
+      "correctAnswer": "B",
+      "explanation": "صباح الخير means good morning.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-027",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “student”?",
+      "options": {
+        "A": "طالب",
+        "B": "مفتاح",
+        "C": "مدينة",
+        "D": "شجرة"
+      },
+      "correctAnswer": "A",
+      "explanation": "طالب means a male student.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-028",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “sun”?",
+      "options": {
+        "A": "قمر",
+        "B": "ليل",
+        "C": "كتاب",
+        "D": "شمس"
+      },
+      "correctAnswer": "D",
+      "explanation": "شمس means sun.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-029",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of arabic vocabulary, a candidate is asked: Which word means “moon”?",
+      "options": {
+        "A": "باب",
+        "B": "ماء",
+        "C": "قمر",
+        "D": "شمس"
+      },
+      "correctAnswer": "C",
+      "explanation": "قمر means moon.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-030",
+      "subjectId": "arabic",
+      "topic": "Arabic greetings",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of arabic greetings, a candidate is asked: مع السلامة is commonly used to mean what?",
+      "options": {
+        "A": "I agree",
+        "B": "Goodbye / go in peace",
+        "C": "Good morning",
+        "D": "Welcome home only"
+      },
+      "correctAnswer": "B",
+      "explanation": "مع السلامة is a common farewell.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-031",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: What does السلام عليكم commonly mean?",
+      "options": {
+        "A": "Good night only",
+        "B": "I am hungry",
+        "C": "Where is the market?",
+        "D": "Peace be upon you"
+      },
+      "correctAnswer": "D",
+      "explanation": "السلام عليكم is a common greeting meaning peace be upon you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-032",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which Arabic word means “thank you”?",
+      "options": {
+        "A": "باب",
+        "B": "قلم",
+        "C": "شكراً",
+        "D": "كتاب"
+      },
+      "correctAnswer": "C",
+      "explanation": "شكراً means thank you.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-033",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which word means “book”?",
+      "options": {
+        "A": "بيت",
+        "B": "كتاب",
+        "C": "مدرسة",
+        "D": "طالب"
+      },
+      "correctAnswer": "B",
+      "explanation": "كتاب means book.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-034",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which word means “pen”?",
+      "options": {
+        "A": "قلم",
+        "B": "ماء",
+        "C": "شمس",
+        "D": "قمر"
+      },
+      "correctAnswer": "A",
+      "explanation": "قلم means pen.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-035",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which Arabic word means “school”?",
+      "options": {
+        "A": "نافذة",
+        "B": "طعام",
+        "C": "طريق",
+        "D": "مدرسة"
+      },
+      "correctAnswer": "D",
+      "explanation": "مدرسة means school.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-036",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: What does نعم mean?",
+      "options": {
+        "A": "Please",
+        "B": "Tomorrow",
+        "C": "Yes",
+        "D": "No"
+      },
+      "correctAnswer": "C",
+      "explanation": "نعم means yes.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-037",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: What does لا mean?",
+      "options": {
+        "A": "Teacher",
+        "B": "No",
+        "C": "Yes",
+        "D": "Thanks"
+      },
+      "correctAnswer": "B",
+      "explanation": "لا means no.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-038",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which word means “water”?",
+      "options": {
+        "A": "ماء",
+        "B": "بيت",
+        "C": "قلم",
+        "D": "كتاب"
+      },
+      "correctAnswer": "A",
+      "explanation": "ماء means water.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-039",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which Arabic word means “house”?",
+      "options": {
+        "A": "مدرسة",
+        "B": "طعام",
+        "C": "طالب",
+        "D": "بيت"
+      },
+      "correctAnswer": "D",
+      "explanation": "بيت means house.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "arabic-r2g-040",
+      "subjectId": "arabic",
+      "topic": "Arabic vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about arabic vocabulary: Which word means “teacher”?",
+      "options": {
+        "A": "باب",
+        "B": "بحر",
+        "C": "معلم",
+        "D": "طبيب"
+      },
+      "correctAnswer": "C",
+      "explanation": "معلم means a male teacher.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    }
+  ]
+}

@@ -1,11 +1,13 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "subjectId": "agricultural-science",
   "subjectName": "Agriculture",
-  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
-  "packVersion": "0.1.0-draft",
+  "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
+  "packVersion": "0.4.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 5,
+  "questionCount": 40,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "agri-seed-001",
@@ -101,6 +103,706 @@
       "correctAnswer": "A",
       "explanation": "Vaccination helps stimulate immunity against specified infectious diseases.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "agricultural-science-r2g-001",
+      "subjectId": "agricultural-science",
+      "topic": "Soil science",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which soil property most directly affects how quickly water drains through soil?",
+      "options": {
+        "A": "Soil colour",
+        "B": "Farm gate price",
+        "C": "Seed shape",
+        "D": "Soil texture"
+      },
+      "correctAnswer": "D",
+      "explanation": "Soil texture and structure affect pore spaces and drainage.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-002",
+      "subjectId": "agricultural-science",
+      "topic": "Crop production",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "What is the main purpose of crop rotation?",
+      "options": {
+        "A": "To remove all soil organisms",
+        "B": "To prevent rainfall",
+        "C": "To reduce pest build-up and maintain soil fertility",
+        "D": "To grow the same crop repeatedly"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rotating crops can interrupt pest cycles and vary nutrient demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-003",
+      "subjectId": "agricultural-science",
+      "topic": "Farm tools",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for human review",
+      "difficulty": "easy",
+      "question": "Which farm implement is most suitable for pruning a small woody branch?",
+      "options": {
+        "A": "Watering can",
+        "B": "Secateurs",
+        "C": "Sack",
+        "D": "Milking pail"
+      },
+      "correctAnswer": "B",
+      "explanation": "Secateurs are hand tools used for cutting and pruning small stems and branches.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft revised to avoid duplicate wording; requires qualified subject and answer-key review."
+    },
+    {
+      "id": "agricultural-science-r2g-004",
+      "subjectId": "agricultural-science",
+      "topic": "Plant nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which nutrient is especially associated with leafy vegetative growth?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Sodium chloride",
+        "C": "Helium",
+        "D": "Silver"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nitrogen is a key component of proteins and chlorophyll.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-005",
+      "subjectId": "agricultural-science",
+      "topic": "Soil conservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Which practice helps reduce soil erosion on sloping farmland?",
+      "options": {
+        "A": "Burning all crop residues",
+        "B": "Ploughing straight downhill",
+        "C": "Removing all ground cover",
+        "D": "Contour farming"
+      },
+      "correctAnswer": "D",
+      "explanation": "Contour farming slows runoff across a slope.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-006",
+      "subjectId": "agricultural-science",
+      "topic": "Animal husbandry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which animal is a ruminant?",
+      "options": {
+        "A": "Pig",
+        "B": "Rabbit",
+        "C": "Goat",
+        "D": "Chicken"
+      },
+      "correctAnswer": "C",
+      "explanation": "Goats have a multi-compartment stomach and regurgitate cud.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-007",
+      "subjectId": "agricultural-science",
+      "topic": "Poultry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "What is the main purpose of vaccinating poultry?",
+      "options": {
+        "A": "To replace clean water",
+        "B": "To help protect birds against specific infectious diseases",
+        "C": "To make feed unnecessary",
+        "D": "To increase daylight hours"
+      },
+      "correctAnswer": "B",
+      "explanation": "Vaccination primes immune protection against targeted pathogens.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-008",
+      "subjectId": "agricultural-science",
+      "topic": "Irrigation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Irrigation is best defined as what?",
+      "options": {
+        "A": "Artificial application of water to crops",
+        "B": "Removal of harvested grain",
+        "C": "Mechanical harvesting of roots",
+        "D": "Adding seeds to soil"
+      },
+      "correctAnswer": "A",
+      "explanation": "Irrigation supplies water when rainfall is insufficient.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-009",
+      "subjectId": "agricultural-science",
+      "topic": "Farm management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Gross margin is generally calculated as what?",
+      "options": {
+        "A": "Fixed costs minus rainfall",
+        "B": "Assets plus liabilities",
+        "C": "Sales divided by farm area only",
+        "D": "Total revenue minus variable costs"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gross margin compares enterprise revenue with its variable costs.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-010",
+      "subjectId": "agricultural-science",
+      "topic": "Photosynthesis",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Which gas do green plants absorb for photosynthesis?",
+      "options": {
+        "A": "Hydrogen sulphide",
+        "B": "Neon",
+        "C": "Carbon dioxide",
+        "D": "Oxygen only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Carbon dioxide provides the carbon used to make sugars.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-011",
+      "subjectId": "agricultural-science",
+      "topic": "Seed handling",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Why should viable seeds be stored in cool, dry conditions?",
+      "options": {
+        "A": "To remove their embryos",
+        "B": "To slow deterioration and reduce fungal growth",
+        "C": "To make them germinate inside the bag",
+        "D": "To increase moisture indefinitely"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cool, dry storage helps maintain seed viability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-012",
+      "subjectId": "agricultural-science",
+      "topic": "Animal nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Which feed component is most directly needed for tissue growth and repair?",
+      "options": {
+        "A": "Protein",
+        "B": "Water vapour",
+        "C": "Chlorophyll",
+        "D": "Sand"
+      },
+      "correctAnswer": "A",
+      "explanation": "Proteins supply amino acids for building and repairing tissues.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-013",
+      "subjectId": "agricultural-science",
+      "topic": "Pest management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Integrated pest management combines which approach?",
+      "options": {
+        "A": "Using the strongest pesticide every day",
+        "B": "Ignoring pest populations",
+        "C": "Destroying all beneficial insects",
+        "D": "Monitoring with suitable cultural, biological and chemical controls"
+      },
+      "correctAnswer": "D",
+      "explanation": "IPM uses multiple controls based on monitoring and risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-014",
+      "subjectId": "agricultural-science",
+      "topic": "Farm records",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Why should a farmer keep accurate farm records?",
+      "options": {
+        "A": "To change the weather",
+        "B": "To eliminate market demand",
+        "C": "To assess costs, output and profitability",
+        "D": "To prevent seeds from germinating"
+      },
+      "correctAnswer": "C",
+      "explanation": "Records support planning and financial decisions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-015",
+      "subjectId": "agricultural-science",
+      "topic": "Aquaculture",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Aquaculture refers to the rearing of which organisms?",
+      "options": {
+        "A": "Only cereal crops",
+        "B": "Aquatic organisms such as fish",
+        "C": "Only cattle",
+        "D": "Only forest trees"
+      },
+      "correctAnswer": "B",
+      "explanation": "Aquaculture is the controlled cultivation of aquatic organisms.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-016",
+      "subjectId": "agricultural-science",
+      "topic": "Soil science",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of soil science, a candidate is asked: Which soil property most directly affects how quickly water drains through soil?",
+      "options": {
+        "A": "Soil colour",
+        "B": "Farm gate price",
+        "C": "Seed shape",
+        "D": "Soil texture"
+      },
+      "correctAnswer": "D",
+      "explanation": "Soil texture and structure affect pore spaces and drainage.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-017",
+      "subjectId": "agricultural-science",
+      "topic": "Crop production",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of crop production, a candidate is asked: What is the main purpose of crop rotation?",
+      "options": {
+        "A": "To remove all soil organisms",
+        "B": "To prevent rainfall",
+        "C": "To reduce pest build-up and maintain soil fertility",
+        "D": "To grow the same crop repeatedly"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rotating crops can interrupt pest cycles and vary nutrient demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-018",
+      "subjectId": "agricultural-science",
+      "topic": "Farm tools",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of farm tools, a candidate is asked: Which tool is commonly used for loosening soil around growing plants?",
+      "options": {
+        "A": "Wheelbarrow only",
+        "B": "Hoe",
+        "C": "Sickle only",
+        "D": "Watering can"
+      },
+      "correctAnswer": "B",
+      "explanation": "A hoe is used for weeding and shallow soil cultivation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-019",
+      "subjectId": "agricultural-science",
+      "topic": "Plant nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of plant nutrition, a candidate is asked: Which nutrient is especially associated with leafy vegetative growth?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Sodium chloride",
+        "C": "Helium",
+        "D": "Silver"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nitrogen is a key component of proteins and chlorophyll.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-020",
+      "subjectId": "agricultural-science",
+      "topic": "Soil conservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of soil conservation, a candidate is asked: Which practice helps reduce soil erosion on sloping farmland?",
+      "options": {
+        "A": "Burning all crop residues",
+        "B": "Ploughing straight downhill",
+        "C": "Removing all ground cover",
+        "D": "Contour farming"
+      },
+      "correctAnswer": "D",
+      "explanation": "Contour farming slows runoff across a slope.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-021",
+      "subjectId": "agricultural-science",
+      "topic": "Animal husbandry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of animal husbandry, a candidate is asked: Which animal is a ruminant?",
+      "options": {
+        "A": "Pig",
+        "B": "Rabbit",
+        "C": "Goat",
+        "D": "Chicken"
+      },
+      "correctAnswer": "C",
+      "explanation": "Goats have a multi-compartment stomach and regurgitate cud.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-022",
+      "subjectId": "agricultural-science",
+      "topic": "Poultry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of poultry, a candidate is asked: What is the main purpose of vaccinating poultry?",
+      "options": {
+        "A": "To replace clean water",
+        "B": "To help protect birds against specific infectious diseases",
+        "C": "To make feed unnecessary",
+        "D": "To increase daylight hours"
+      },
+      "correctAnswer": "B",
+      "explanation": "Vaccination primes immune protection against targeted pathogens.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-023",
+      "subjectId": "agricultural-science",
+      "topic": "Irrigation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of irrigation, a candidate is asked: Irrigation is best defined as what?",
+      "options": {
+        "A": "Artificial application of water to crops",
+        "B": "Removal of harvested grain",
+        "C": "Mechanical harvesting of roots",
+        "D": "Adding seeds to soil"
+      },
+      "correctAnswer": "A",
+      "explanation": "Irrigation supplies water when rainfall is insufficient.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-024",
+      "subjectId": "agricultural-science",
+      "topic": "Farm management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of farm management, a candidate is asked: Gross margin is generally calculated as what?",
+      "options": {
+        "A": "Fixed costs minus rainfall",
+        "B": "Assets plus liabilities",
+        "C": "Sales divided by farm area only",
+        "D": "Total revenue minus variable costs"
+      },
+      "correctAnswer": "D",
+      "explanation": "Gross margin compares enterprise revenue with its variable costs.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-025",
+      "subjectId": "agricultural-science",
+      "topic": "Photosynthesis",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of photosynthesis, a candidate is asked: Which gas do green plants absorb for photosynthesis?",
+      "options": {
+        "A": "Hydrogen sulphide",
+        "B": "Neon",
+        "C": "Carbon dioxide",
+        "D": "Oxygen only"
+      },
+      "correctAnswer": "C",
+      "explanation": "Carbon dioxide provides the carbon used to make sugars.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-026",
+      "subjectId": "agricultural-science",
+      "topic": "Seed handling",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of seed handling, a candidate is asked: Why should viable seeds be stored in cool, dry conditions?",
+      "options": {
+        "A": "To remove their embryos",
+        "B": "To slow deterioration and reduce fungal growth",
+        "C": "To make them germinate inside the bag",
+        "D": "To increase moisture indefinitely"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cool, dry storage helps maintain seed viability.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-027",
+      "subjectId": "agricultural-science",
+      "topic": "Animal nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of animal nutrition, a candidate is asked: Which feed component is most directly needed for tissue growth and repair?",
+      "options": {
+        "A": "Protein",
+        "B": "Water vapour",
+        "C": "Chlorophyll",
+        "D": "Sand"
+      },
+      "correctAnswer": "A",
+      "explanation": "Proteins supply amino acids for building and repairing tissues.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-028",
+      "subjectId": "agricultural-science",
+      "topic": "Pest management",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "During revision of pest management, a candidate is asked: Integrated pest management combines which approach?",
+      "options": {
+        "A": "Using the strongest pesticide every day",
+        "B": "Ignoring pest populations",
+        "C": "Destroying all beneficial insects",
+        "D": "Monitoring with suitable cultural, biological and chemical controls"
+      },
+      "correctAnswer": "D",
+      "explanation": "IPM uses multiple controls based on monitoring and risk.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-029",
+      "subjectId": "agricultural-science",
+      "topic": "Farm records",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "During revision of farm records, a candidate is asked: Why should a farmer keep accurate farm records?",
+      "options": {
+        "A": "To change the weather",
+        "B": "To eliminate market demand",
+        "C": "To assess costs, output and profitability",
+        "D": "To prevent seeds from germinating"
+      },
+      "correctAnswer": "C",
+      "explanation": "Records support planning and financial decisions.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-030",
+      "subjectId": "agricultural-science",
+      "topic": "Aquaculture",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "During revision of aquaculture, a candidate is asked: Aquaculture refers to the rearing of which organisms?",
+      "options": {
+        "A": "Only cereal crops",
+        "B": "Aquatic organisms such as fish",
+        "C": "Only cattle",
+        "D": "Only forest trees"
+      },
+      "correctAnswer": "B",
+      "explanation": "Aquaculture is the controlled cultivation of aquatic organisms.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-031",
+      "subjectId": "agricultural-science",
+      "topic": "Soil science",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about soil science: Which soil property most directly affects how quickly water drains through soil?",
+      "options": {
+        "A": "Soil colour",
+        "B": "Farm gate price",
+        "C": "Seed shape",
+        "D": "Soil texture"
+      },
+      "correctAnswer": "D",
+      "explanation": "Soil texture and structure affect pore spaces and drainage.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-032",
+      "subjectId": "agricultural-science",
+      "topic": "Crop production",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about crop production: What is the main purpose of crop rotation?",
+      "options": {
+        "A": "To remove all soil organisms",
+        "B": "To prevent rainfall",
+        "C": "To reduce pest build-up and maintain soil fertility",
+        "D": "To grow the same crop repeatedly"
+      },
+      "correctAnswer": "C",
+      "explanation": "Rotating crops can interrupt pest cycles and vary nutrient demand.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-033",
+      "subjectId": "agricultural-science",
+      "topic": "Farm tools",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "easy",
+      "question": "Choose the best answer to this practice item about farm tools: Which tool is commonly used for loosening soil around growing plants?",
+      "options": {
+        "A": "Wheelbarrow only",
+        "B": "Hoe",
+        "C": "Sickle only",
+        "D": "Watering can"
+      },
+      "correctAnswer": "B",
+      "explanation": "A hoe is used for weeding and shallow soil cultivation.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-034",
+      "subjectId": "agricultural-science",
+      "topic": "Plant nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "medium",
+      "question": "Choose the best answer to this practice item about plant nutrition: Which nutrient is especially associated with leafy vegetative growth?",
+      "options": {
+        "A": "Nitrogen",
+        "B": "Sodium chloride",
+        "C": "Helium",
+        "D": "Silver"
+      },
+      "correctAnswer": "A",
+      "explanation": "Nitrogen is a key component of proteins and chlorophyll.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "agricultural-science-r2g-035",
+      "subjectId": "agricultural-science",
+      "topic": "Soil conservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original — draft",
+      "difficulty": "challenging",
+      "question": "Choose the best answer to this practice item about soil conservation: Which practice helps reduce soil erosion on sloping farmland?",
+      "options": {
+        "A": "Burning all crop residues",
+        "B": "Ploughing straight downhill",
+        "C": "Removing all ground cover",
+        "D": "Contour farming"
+      },
+      "correctAnswer": "D",
+      "explanation": "Contour farming slows runoff across a slope.",
+      "reviewStatus": "needs_human_review",
+      "authoringNote": "Original draft created for product testing; requires qualified subject review."
     }
   ]
 }
