@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "principles-of-accounts",
+  "subjectName": "Principles of Accounts",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "prin-seed-001",
+      "subjectId": "principles-of-accounts",
+      "topic": "Accounting equation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "If assets are ₦80,000 and liabilities are ₦25,000, owner’s equity is…",
+      "options": {
+        "A": "₦25,000",
+        "B": "₦55,000",
+        "C": "₦80,000",
+        "D": "₦105,000"
+      },
+      "correctAnswer": "B",
+      "explanation": "Equity = assets − liabilities = ₦80,000 − ₦25,000 = ₦55,000.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "prin-seed-002",
+      "subjectId": "principles-of-accounts",
+      "topic": "Books of account",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Credit sales are first recorded in the…",
+      "options": {
+        "A": "sales day book",
+        "B": "purchases day book",
+        "C": "cash book only",
+        "D": "returns outward book"
+      },
+      "correctAnswer": "A",
+      "explanation": "The sales day book records credit sales of goods in the normal course of business.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "prin-seed-003",
+      "subjectId": "principles-of-accounts",
+      "topic": "Double entry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "When cash is received from a debtor, the cash account is generally…",
+      "options": {
+        "A": "credited",
+        "B": "debited",
+        "C": "closed without entry",
+        "D": "written off automatically"
+      },
+      "correctAnswer": "B",
+      "explanation": "Cash increases with a debit; the debtor’s account is credited to reduce the receivable.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "prin-seed-004",
+      "subjectId": "principles-of-accounts",
+      "topic": "Financial statements",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A statement showing assets, liabilities and capital at a date is a…",
+      "options": {
+        "A": "trial balance",
+        "B": "statement of financial position",
+        "C": "sales invoice",
+        "D": "bank paying-in slip"
+      },
+      "correctAnswer": "B",
+      "explanation": "The statement of financial position reports assets, liabilities and equity at a particular date.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "prin-seed-005",
+      "subjectId": "principles-of-accounts",
+      "topic": "Depreciation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Depreciation is the systematic allocation of a tangible asset’s depreciable amount over its…",
+      "options": {
+        "A": "useful life",
+        "B": "purchase invoice number",
+        "C": "insurance premium only",
+        "D": "bank account"
+      },
+      "correctAnswer": "A",
+      "explanation": "Depreciation allocates an asset’s depreciable amount across its useful life.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

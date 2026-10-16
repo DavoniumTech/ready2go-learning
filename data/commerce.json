@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "commerce",
+  "subjectName": "Commerce",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "comm-seed-001",
+      "subjectId": "commerce",
+      "topic": "Trade",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A wholesaler mainly buys goods in bulk from producers and sells them to…",
+      "options": {
+        "A": "final consumers only in every case",
+        "B": "retailers",
+        "C": "central banks",
+        "D": "tax authorities"
+      },
+      "correctAnswer": "B",
+      "explanation": "Wholesalers commonly sell bulk goods to retailers and other businesses.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "comm-seed-002",
+      "subjectId": "commerce",
+      "topic": "Insurance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "The principle of indemnity is intended to…",
+      "options": {
+        "A": "allow profit from every loss",
+        "B": "restore the insured to a similar financial position, subject to the policy",
+        "C": "remove all risk",
+        "D": "guarantee a dividend"
+      },
+      "correctAnswer": "B",
+      "explanation": "Indemnity aims to compensate an insured loss within policy terms, not create profit.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "comm-seed-003",
+      "subjectId": "commerce",
+      "topic": "Banking",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A cheque is an instruction to a bank to…",
+      "options": {
+        "A": "print currency",
+        "B": "pay a specified amount from an account, subject to conditions",
+        "C": "grant every loan automatically",
+        "D": "insure cargo"
+      },
+      "correctAnswer": "B",
+      "explanation": "A cheque is a payment order drawn on a bank account, subject to valid presentation.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "comm-seed-004",
+      "subjectId": "commerce",
+      "topic": "Advertising",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "One major function of advertising is to…",
+      "options": {
+        "A": "hide product information always",
+        "B": "inform and persuade potential customers",
+        "C": "eliminate all competition by law",
+        "D": "set tax rates"
+      },
+      "correctAnswer": "B",
+      "explanation": "Advertising informs audiences about products and can attempt to persuade them.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "comm-seed-005",
+      "subjectId": "commerce",
+      "topic": "Documents",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A document acknowledging receipt of goods or payment is commonly a…",
+      "options": {
+        "A": "receipt",
+        "B": "balance sheet",
+        "C": "prospectus",
+        "D": "bill of exchange only"
+      },
+      "correctAnswer": "A",
+      "explanation": "A receipt records that goods or payment have been received.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

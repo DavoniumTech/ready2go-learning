@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "note": "Preliminary subject catalogue based on JAMB-published subject-list material; re-verify against the current official JAMB brochure/syllabus before public launch. This is not course-combination advice.",
+  "note": "Subject picker seeded from the options visible in JAMB IBASS Eligibility Checker on 2026-10-16. Re-check live IBASS before launch or registration; the chooser is not a substitute for eligibility verification.",
   "categories": [
     {
       "id": "science",
@@ -21,15 +21,16 @@
       "name": "Use of English",
       "category": "compulsory",
       "compulsory": true,
-      "available": false,
-      "note": "Question pack in preparation"
+      "available": true,
+      "note": "Original pilot questions; review and verification required before public launch."
     },
     {
       "id": "agricultural-science",
-      "name": "Agricultural Science",
+      "name": "Agriculture",
       "category": "science",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "arabic",
@@ -40,7 +41,7 @@
     },
     {
       "id": "fine-art",
-      "name": "Art (Fine Art)",
+      "name": "Art",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false
@@ -50,18 +51,20 @@
       "name": "Biology",
       "category": "science",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "chemistry",
       "name": "Chemistry",
       "category": "science",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "christian-religious-knowledge",
-      "name": "Christian Religious Knowledge",
+      "name": "Christian Religious Studies",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false
@@ -71,21 +74,16 @@
       "name": "Commerce",
       "category": "commerce",
       "compulsory": false,
-      "available": false
-    },
-    {
-      "id": "computer-studies",
-      "name": "Computer Studies",
-      "category": "science",
-      "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "economics",
       "name": "Economics",
       "category": "commerce",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "french",
@@ -99,18 +97,20 @@
       "name": "Geography",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "government",
       "name": "Government",
       "category": "humanities-arts",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "hausa",
-      "name": "Hausa",
+      "name": "Hausa Language",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false
@@ -131,14 +131,14 @@
     },
     {
       "id": "igbo",
-      "name": "Igbo",
+      "name": "Igbo Language",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false
     },
     {
       "id": "islamic-studies",
-      "name": "Islamic Studies",
+      "name": "Islamic Religious Studies",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false
@@ -155,7 +155,8 @@
       "name": "Mathematics",
       "category": "science",
       "compulsory": false,
-      "available": true
+      "available": true,
+      "note": "Original pilot questions; review and verification required before public launch."
     },
     {
       "id": "music",
@@ -165,29 +166,24 @@
       "available": false
     },
     {
-      "id": "physical-health-education",
-      "name": "Physical and Health Education",
-      "category": "science",
-      "compulsory": false,
-      "available": false
-    },
-    {
       "id": "physics",
       "name": "Physics",
       "category": "science",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "principles-of-accounts",
       "name": "Principles of Accounts",
       "category": "commerce",
       "compulsory": false,
-      "available": false
+      "available": true,
+      "note": "Original draft question pack; human review required before public launch."
     },
     {
       "id": "yoruba",
-      "name": "Yoruba",
+      "name": "Yoruba Language",
       "category": "humanities-arts",
       "compulsory": false,
       "available": false

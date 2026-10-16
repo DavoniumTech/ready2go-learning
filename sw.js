@@ -1,9 +1,9 @@
-const CACHE_NAME = "ready2go-shell-v0.2.0";
+const CACHE_NAME = "ready2go-shell-v0.3.0";
 const APP_SHELL = [
   "./", "./index.html", "./styles.css", "./manifest.webmanifest", "./assets/r2g-app-icon.svg",
   "./assets/r2g-app-icon-192.png", "./assets/r2g-app-icon-512.png", "./js/app.js", "./js/store.js",
-  "./js/firebase.js", "./js/firebase-config.js", "./data/subjects.json", "./data/manifest.json",
-  "./data/mathematics.json", "./data/use-of-english.json", "./privacy.html", "./terms.html"
+  "./js/firebase.js", "./js/firebase-config.js", "./js/content-config.js", "./data/subjects.json", "./data/manifest.json",
+  "./data/mathematics.json", "./data/use-of-english.json", "./data/institutions.json", "./data/courses.json", "./data/cutoff-marks.json", "./data/question-archive.json", "./data/biology.json", "./data/chemistry.json", "./data/physics.json", "./data/economics.json", "./data/government.json", "./data/geography.json", "./data/commerce.json", "./data/agricultural-science.json", "./data/principles-of-accounts.json", "./privacy.html", "./terms.html", "./content-policy.html", "./teacher-partner-terms.html"
 ];
 self.addEventListener("install", event => { event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(()=>self.skipWaiting())); });
 self.addEventListener("activate", event => { event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith("ready2go-shell-")&&key!==CACHE_NAME).map(key=>caches.delete(key)))).then(()=>self.clients.claim())); });

@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "chemistry",
+  "subjectName": "Chemistry",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "chem-seed-001",
+      "subjectId": "chemistry",
+      "topic": "Atomic structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The atomic number of an element equals the number of…",
+      "options": {
+        "A": "neutrons only",
+        "B": "protons",
+        "C": "protons plus neutrons",
+        "D": "electron shells"
+      },
+      "correctAnswer": "B",
+      "explanation": "Atomic number is the number of protons in the nucleus.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-seed-002",
+      "subjectId": "chemistry",
+      "topic": "Acids and bases",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "At approximately 25°C, a solution with pH 3 is…",
+      "options": {
+        "A": "acidic",
+        "B": "neutral",
+        "C": "alkaline",
+        "D": "always a salt"
+      },
+      "correctAnswer": "A",
+      "explanation": "A pH below 7 indicates an acidic solution at about 25°C.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-seed-003",
+      "subjectId": "chemistry",
+      "topic": "Chemical bonding",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which type of bond forms when atoms share a pair of electrons?",
+      "options": {
+        "A": "Ionic",
+        "B": "Metallic",
+        "C": "Covalent",
+        "D": "Hydrogen"
+      },
+      "correctAnswer": "C",
+      "explanation": "A covalent bond involves shared electron pairs between atoms.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-seed-004",
+      "subjectId": "chemistry",
+      "topic": "Separation techniques",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which method is most suitable for separating an insoluble solid from a liquid?",
+      "options": {
+        "A": "Filtration",
+        "B": "Distillation",
+        "C": "Fractional crystallisation",
+        "D": "Chromatography"
+      },
+      "correctAnswer": "A",
+      "explanation": "Filtration retains the insoluble solid while the liquid passes through.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-seed-005",
+      "subjectId": "chemistry",
+      "topic": "Mole concept",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "How many moles are present in 18 g of water? (H₂O = 18 g mol⁻¹)",
+      "options": {
+        "A": "0.5",
+        "B": "1",
+        "C": "2",
+        "D": "18"
+      },
+      "correctAnswer": "B",
+      "explanation": "Moles = mass ÷ molar mass = 18 ÷ 18 = 1 mol.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Ready2Go Learning",
   "short_name": "Ready2Go",
-  "description": "Original UTME practice, explanations and offline learning.",
+  "description": "An installable, offline-first UTME learning companion with practice, explanations and study planning.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",

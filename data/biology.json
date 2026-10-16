@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "biology",
+  "subjectName": "Biology",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "biol-seed-001",
+      "subjectId": "biology",
+      "topic": "Cell biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which cell structure primarily controls the movement of substances into and out of a cell?",
+      "options": {
+        "A": "Nucleus",
+        "B": "Cell membrane",
+        "C": "Ribosome",
+        "D": "Golgi apparatus"
+      },
+      "correctAnswer": "B",
+      "explanation": "The cell membrane is selectively permeable and regulates movement into and out of the cell.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "biol-seed-002",
+      "subjectId": "biology",
+      "topic": "Nutrition",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which pigment absorbs light energy for photosynthesis in green plants?",
+      "options": {
+        "A": "Haemoglobin",
+        "B": "Melanin",
+        "C": "Chlorophyll",
+        "D": "Keratin"
+      },
+      "correctAnswer": "C",
+      "explanation": "Chlorophyll in chloroplasts absorbs light energy used in photosynthesis.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "biol-seed-003",
+      "subjectId": "biology",
+      "topic": "Transport",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which plant tissue transports water and dissolved mineral salts from roots?",
+      "options": {
+        "A": "Phloem",
+        "B": "Epidermis",
+        "C": "Xylem",
+        "D": "Cortex"
+      },
+      "correctAnswer": "C",
+      "explanation": "Xylem conducts water and minerals mainly from roots towards the shoot.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "biol-seed-004",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "A section of DNA that carries information for a particular inherited characteristic is called a…",
+      "options": {
+        "A": "gene",
+        "B": "tissue",
+        "C": "gamete",
+        "D": "vacuole"
+      },
+      "correctAnswer": "A",
+      "explanation": "A gene is a DNA sequence associated with a functional product and inherited trait.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "biol-seed-005",
+      "subjectId": "biology",
+      "topic": "Ecology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Organisms that make their own food from inorganic substances are called…",
+      "options": {
+        "A": "consumers",
+        "B": "decomposers",
+        "C": "parasites",
+        "D": "producers"
+      },
+      "correctAnswer": "D",
+      "explanation": "Producers, such as green plants, form the base of many food chains.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

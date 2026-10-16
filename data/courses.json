@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-16",
+  "sourceUrl": "https://eligibility.jamb.gov.ng/",
+  "status": "starter_course_search_catalogue_not_verified_against_every_institution",
+  "courses": [
+    {
+      "id": "course-001",
+      "name": "Accounting",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-002",
+      "name": "Actuarial Science",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-003",
+      "name": "Agricultural Economics",
+      "field": "agriculture",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-004",
+      "name": "Agricultural Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-005",
+      "name": "Agriculture",
+      "field": "agriculture",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-006",
+      "name": "Anatomy",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-007",
+      "name": "Architecture",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-008",
+      "name": "Banking and Finance",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-009",
+      "name": "Biochemistry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-010",
+      "name": "Biology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-011",
+      "name": "Botany",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-012",
+      "name": "Building Technology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-013",
+      "name": "Business Administration",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-014",
+      "name": "Chemical Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-015",
+      "name": "Chemistry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-016",
+      "name": "Civil Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-017",
+      "name": "Computer Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-018",
+      "name": "Computer Science",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-019",
+      "name": "Criminology and Security Studies",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-020",
+      "name": "Dentistry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-021",
+      "name": "Economics",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-022",
+      "name": "Education",
+      "field": "education",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-023",
+      "name": "Electrical/Electronics Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-024",
+      "name": "English Language",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-025",
+      "name": "Estate Management",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-026",
+      "name": "Fisheries",
+      "field": "agriculture",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-027",
+      "name": "Food Science and Technology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-028",
+      "name": "Forestry and Wildlife",
+      "field": "agriculture",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-029",
+      "name": "Geography",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-030",
+      "name": "Geology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-031",
+      "name": "Guidance and Counselling",
+      "field": "education",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-032",
+      "name": "History and International Studies",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-033",
+      "name": "Industrial Chemistry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-034",
+      "name": "Law",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-035",
+      "name": "Linguistics",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-036",
+      "name": "Marketing",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-037",
+      "name": "Mass Communication",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-038",
+      "name": "Mathematics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-039",
+      "name": "Medical Laboratory Science",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-040",
+      "name": "Medicine and Surgery",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-041",
+      "name": "Microbiology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-042",
+      "name": "Nursing Science",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-043",
+      "name": "Pharmacy",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-044",
+      "name": "Physics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-045",
+      "name": "Physiology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-046",
+      "name": "Political Science",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-047",
+      "name": "Psychology",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-048",
+      "name": "Public Administration",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-049",
+      "name": "Quantity Surveying",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-050",
+      "name": "Radiography",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-051",
+      "name": "Sociology",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-052",
+      "name": "Statistics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-053",
+      "name": "Surveying and Geoinformatics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-054",
+      "name": "Theatre Arts",
+      "field": "humanities",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-055",
+      "name": "Veterinary Medicine",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-056",
+      "name": "Zoology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    }
+  ],
+  "note": "Course presence here does not mean that every institution offers it or that the student is eligible."
+}

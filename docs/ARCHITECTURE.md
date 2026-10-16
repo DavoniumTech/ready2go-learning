@@ -1,36 +1,40 @@
-# Ready2Go Learning architecture — v0.1.0
+# Ready2Go Learning — architecture v0.3.0
 
-## Implemented in the prototype
+## Product layers
 
-- Static PWA: HTML, CSS and vanilla JavaScript ES modules; no npm, Node.js, React or Vite required for this build.
-- App shell: overview, subject catalogue, practice setup, CBT-like question screen, question navigator, flag-for-review, answer scoring, explanations and progress history.
-- Themes: light and dark, stored locally.
-- Onboarding/preferences: exactly three categories — Science, Humanities & Arts, Commerce. Student subject selection is editable offline.
-- Local storage: IndexedDB for profile, theme and completed sessions, with localStorage fallback.
-- Optional Firebase Authentication (Email/Password and Google) via browser-module CDN imports, loaded when online. Authentication profile stores account identity/email/display name. Desktop Google sign-in uses a popup; mobile Google sign-in uses redirect. No Firestore syncing yet.
-- Service worker and install manifest for app-shell caching.
-- Starter question packs: 30 original Mathematics questions and 20 original Use of English questions for internal testing only.
+1. **PWA shell** — `index.html`, `styles.css`, `manifest.webmanifest`, `sw.js`. Responsible for responsive app UI, theme, installation help and shell cache.
+2. **Learning engine** — `js/app.js`. Renders subject, course guide, syllabus, question library, study plan, CBT session, results and local progress views. Question selection/scoring are independent from Firebase.
+3. **Local data** — `js/store.js` and IndexedDB `records`. Local profile, theme, session history and downloaded R2 pack copies live in the browser. Clearing browser site data may erase them.
+4. **Content pipeline** — `data/manifest.json`, `data/*.json`, and the private R2 bucket `ready2go-question-packs`. R2 published content is served only via an allow-listed Worker route; browser code contains no credentials.
+5. **Identity and optional cloud sync** — Firebase Authentication and callable Cloud Functions (`saveLearnerProfile`, `recordPracticeSummary`). Cloud writes go through trusted functions; browser Firestore writes are denied by rules. Session scores are still client-reported because offline answer keys are in downloaded packs.
+6. **Partner and payment foundation** — server-only teacher code and attribution collections are scaffolded. Verified payment, commission generation and payout are deliberately not active. They must be added with an actual server-side payment integration and idempotent event handling.
 
-## Not implemented yet
+## Content model
 
-- R2 remote downloads, versioned pack updater or Cloudflare Worker.
-- Cloud Firestore profile/progress sync, teacher referral records, server-side commission ledger or payout logic.
-- Payments, premium entitlements, Paystack or payment verification.
-- Passwordless auth, email verification enforcement, account deletion UI, moderation, analytics or crash reporting.
-- Full reviewed question banks across every UTME subject.
+Every multiple-choice question has `id`, `subjectId`, `topic`, `type`, `sourceType`, `sourceLabel`, `difficulty`, `question`, A-D `options`, `correctAnswer`, `explanation`, and `reviewStatus`. A public pack must have unique question IDs and a clearly described provenance. Do not publish `needs_human_review` packs as verified final content.
 
-## Key data separation
+`data/question-archive.json` is only a tracking register for requested past-question sources. It contains no full 2020 JAMB corpus or full novel text. `data/cutoff-marks.json` has no records by design. No cutoff should be displayed until an official source and admission year are recorded.
 
-- Question packs: public-publishable JSON files served from Cloudflare, after quality and rights review.
-- Account identity: Firebase Authentication.
-- Local preferences and practice history: IndexedDB on the student's device.
-- Future cloud sync and business data: Firestore only after schemas and rules are designed.
-- Future trusted operations: Cloudflare Worker or Firebase Functions; secrets are server-side only.
+## Onboarding and admission guidance
 
-## Security principles
+The first-visit local profile asks whether the learner is preparing for JAMB, broad study area, state/FCT, institution type, institution and intended programme. The subject list is editable offline. Course names and institution names are discovery helpers only. Exact eligibility must be checked with JAMB IBASS for the intended admission year. Course availability differs by institution. The local institution list is a curated seed and must be expanded/verified against the live NUC directory and IBASS data.
 
-- Never put a service-account key, R2 secret, Cloudflare API token or payment secret in frontend files.
-- Firebase web config is a public client identifier, not an authorization mechanism. Configure Firebase Authentication authorized domains and appropriate security controls.
-- Keep the R2 bucket private until the public delivery architecture is chosen. If it is made public, store only files that are intended to be publicly downloadable.
-- Prototype legal pages are drafts and require review before launch.
-- Use HTTPS for deployment and localhost/HTTPS for service worker testing. Do not open `index.html` directly via `file://`.
+## Offline contract
+
+- The app shell and local starter packs are cached for returning access.
+- Profile, theme, bookmarks if added, and practice history are local-first.
+- R2 pack downloads require connection once; validated packs are saved into IndexedDB for offline sessions.
+- Signup, Google auth, Cloud Functions, course eligibility checking and content downloads require internet.
+- No website can force the browser's native PWA install prompt. Android/desktop browsers may emit `beforeinstallprompt`; iOS users usually use Share → Add to Home Screen in Safari.
+
+## Teacher referral contract
+
+An active code is assigned server-side to a teacher. First-touch attribution is sticky and self-referrals are rejected. Attribution is not a commission. A future commission may be created only after a trusted backend verifies an eligible successful payment, with idempotency, refunds and chargebacks handled. Do not present the commission UI as live until a full payout process and final partner agreement exist.
+
+## Security boundaries
+
+- Never ship R2 secrets or service account keys in client files.
+- Keep R2 Public Access disabled; the Worker publishes only whitelisted manifest/catalogue/pack keys.
+- Firestore client writes are denied for profile, referral, teacher and commission data. Callable functions validate fields and derive UID from verified Firebase Auth context.
+- The prototype still has a public sign-up UI and is not access-restricted merely because the GitHub repository is private.
+- Use Firebase App Check, rate-limit/abuse monitoring, Emulator Suite tests, and Cloudflare/Firebase spend alerts before public launch.

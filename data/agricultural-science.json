@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "agricultural-science",
+  "subjectName": "Agriculture",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "agri-seed-001",
+      "subjectId": "agricultural-science",
+      "topic": "Soil science",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which soil component is mainly formed from decayed plant and animal material?",
+      "options": {
+        "A": "Humus",
+        "B": "Gravel",
+        "C": "Bedrock",
+        "D": "Clay minerals only"
+      },
+      "correctAnswer": "A",
+      "explanation": "Humus is organic matter produced by decomposition.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "agri-seed-002",
+      "subjectId": "agricultural-science",
+      "topic": "Crop production",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Leguminous crops can improve soil nitrogen mainly through association with…",
+      "options": {
+        "A": "nitrifying plastic",
+        "B": "nitrogen-fixing bacteria",
+        "C": "earthworms only",
+        "D": "fungicides"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rhizobium and related bacteria fix atmospheric nitrogen in legume root nodules.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "agri-seed-003",
+      "subjectId": "agricultural-science",
+      "topic": "Farm tools",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which tool is commonly used for loosening soil around growing plants?",
+      "options": {
+        "A": "Sickle only",
+        "B": "Hoe",
+        "C": "Milking pail",
+        "D": "Secateurs only"
+      },
+      "correctAnswer": "B",
+      "explanation": "A hoe loosens soil and can help with weeding around crops.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "agri-seed-004",
+      "subjectId": "agricultural-science",
+      "topic": "Conservation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Contour ridging on slopes helps reduce…",
+      "options": {
+        "A": "soil erosion",
+        "B": "seed germination",
+        "C": "soil depth",
+        "D": "organic matter"
+      },
+      "correctAnswer": "A",
+      "explanation": "Contour structures slow downslope runoff and can reduce erosion.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "agri-seed-005",
+      "subjectId": "agricultural-science",
+      "topic": "Animal husbandry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The main purpose of vaccination in livestock is to…",
+      "options": {
+        "A": "increase disease resistance",
+        "B": "replace clean water",
+        "C": "eliminate all feed costs",
+        "D": "guarantee rapid weight gain"
+      },
+      "correctAnswer": "A",
+      "explanation": "Vaccination helps stimulate immunity against specified infectious diseases.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

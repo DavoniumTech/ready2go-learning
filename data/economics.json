@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "economics",
+  "subjectName": "Economics",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "econ-seed-001",
+      "subjectId": "economics",
+      "topic": "Basic concepts",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The value of the next best alternative forgone when a choice is made is called…",
+      "options": {
+        "A": "scarcity",
+        "B": "opportunity cost",
+        "C": "utility",
+        "D": "capital formation"
+      },
+      "correctAnswer": "B",
+      "explanation": "Opportunity cost is the next best alternative given up.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "econ-seed-002",
+      "subjectId": "economics",
+      "topic": "Demand",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Other things being equal, a rise in the price of a normal good usually causes quantity demanded to…",
+      "options": {
+        "A": "rise",
+        "B": "fall",
+        "C": "remain unlimited",
+        "D": "equal supply"
+      },
+      "correctAnswer": "B",
+      "explanation": "The law of demand describes an inverse relationship between price and quantity demanded, other things equal.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "econ-seed-003",
+      "subjectId": "economics",
+      "topic": "Inflation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A sustained general rise in the price level is known as…",
+      "options": {
+        "A": "deflation",
+        "B": "devaluation",
+        "C": "inflation",
+        "D": "recession"
+      },
+      "correctAnswer": "C",
+      "explanation": "Inflation is a sustained rise in the general price level.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "econ-seed-004",
+      "subjectId": "economics",
+      "topic": "Production",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which factor of production receives wages as its usual reward?",
+      "options": {
+        "A": "Land",
+        "B": "Labour",
+        "C": "Capital",
+        "D": "Entrepreneurship"
+      },
+      "correctAnswer": "B",
+      "explanation": "Labour is commonly rewarded with wages or salaries.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "econ-seed-005",
+      "subjectId": "economics",
+      "topic": "Public finance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "A tax charged directly on a person’s income is a…",
+      "options": {
+        "A": "customs duty",
+        "B": "value-added tax",
+        "C": "direct tax",
+        "D": "excise duty"
+      },
+      "correctAnswer": "C",
+      "explanation": "Personal income tax is a direct tax because it is levied directly on income.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

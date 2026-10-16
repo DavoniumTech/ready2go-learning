@@ -11,3 +11,47 @@
 
 /* Google identity option: quiet, accessible, and consistent with the product UI. */
 .button-google{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--surface);color:var(--text);border:1px solid var(--border);box-shadow:none;margin:20px 0 0}.button-google:hover{background:var(--surface-2);border-color:var(--primary)}.button-google:disabled{opacity:.65;cursor:wait}.auth-divider{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:10px;margin:16px 0 2px}.auth-divider::before,.auth-divider::after{content:"";height:1px;flex:1;background:var(--border)}
+
+/* Ready2Go v0.3: polygon accents and responsive app-level navigation */
+.sidebar{overflow-y:auto;overscroll-behavior:contain}
+.sidebar-scrim{display:none}
+.nav-item{min-height:42px}
+.brand-icon img{object-fit:contain}
+.feature-card,.metric-card,.subject-card,.form-card,.setup-aside,.recent-card,.guidance-alert,.install-banner,.guide-steps article{clip-path:none;position:relative}
+.feature-card::after,.setup-banner::after{content:"";position:absolute;right:-18px;top:-18px;width:100px;height:100px;pointer-events:none;opacity:.2;background:linear-gradient(135deg,var(--primary),var(--coral));clip-path:polygon(50% 0,100% 28%,85% 82%,30% 100%,0 45%)}
+.feature-card>* ,.setup-banner>*{position:relative;z-index:1}
+.polygon-aside .aside-mark,.support-mark,.banner-mark,.install-symbol{clip-path:polygon(18% 0,82% 0,100% 28%,86% 82%,50% 100%,8% 78%,0 28%);border-radius:0}
+.install-banner{display:flex;align-items:center;gap:14px;padding:14px 16px;margin:0 0 25px;border-radius:16px;border:1px solid var(--border);background:linear-gradient(110deg,var(--primary-soft),var(--surface));box-shadow:var(--shadow)}
+.install-symbol{flex:0 0 42px;height:42px;display:grid;place-items:center;background:var(--primary);color:white;font-family:'Manrope',sans-serif;font-size:10px;font-weight:800}
+.install-symbol:not(.polygon){font-size:18px}
+.install-copy{flex:1;min-width:0}
+.install-copy strong,.install-copy span{display:block}
+.install-copy strong{font-family:'Manrope',sans-serif;font-size:12px;margin-bottom:4px}
+.install-copy span{font-size:10px;color:var(--muted);line-height:1.5}
+.install-banner.installed{background:var(--success-soft);border-color:transparent}
+.install-banner.installed .install-symbol{background:var(--success)}
+.onboarding-divider{display:flex;align-items:center;gap:12px;margin:28px 0 18px;color:var(--muted);font-size:9px;font-weight:800;letter-spacing:1.5px}
+.onboarding-divider::before,.onboarding-divider::after{content:"";height:1px;flex:1;background:var(--border)}
+.onboarding-card .field{margin-bottom:18px}
+.guidance-alert{margin:24px 0;padding:18px 19px;border:1px solid var(--border);border-left:4px solid var(--coral);border-radius:14px;background:var(--surface);box-shadow:var(--shadow)}
+.guidance-alert strong{font-family:'Manrope',sans-serif;font-size:13px}
+.guidance-alert p{color:var(--muted);font-size:12px;line-height:1.65;margin:8px 0}
+.guidance-alert a{font-size:11px;font-weight:800}
+.guide-grid{margin-bottom:24px}
+.guide-steps{display:grid;gap:10px;margin:18px 0 24px}
+.guide-steps article{display:flex;gap:14px;align-items:flex-start;padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:14px}
+.guide-steps article>span{flex:0 0 34px;height:34px;display:grid;place-items:center;clip-path:polygon(18% 0,82% 0,100% 28%,86% 82%,50% 100%,8% 78%,0 28%);background:var(--primary-soft);color:var(--primary);font-weight:800;font-size:11px}
+.guide-steps h3{font-size:13px;margin:2px 0 5px}
+.guide-steps p{font-size:11px;line-height:1.6;margin:0;color:var(--muted)}
+.syllabus-hero{max-width:720px;min-height:0}
+@media(max-width:820px){
+ .sidebar{z-index:50}
+ .sidebar-scrim.active{display:block;position:fixed;inset:0;background:rgba(20,12,31,.48);backdrop-filter:blur(2px);z-index:40}
+ .mobile-menu{z-index:55;position:relative;min-width:38px;min-height:38px}
+ .sidebar .brand{margin-bottom:25px}
+ .sidebar .lower-caption{margin-top:23px}
+ .install-banner{align-items:flex-start;flex-wrap:wrap}
+ .install-copy{padding-top:2px}
+ .install-banner .button{width:100%}
+}
+@media(max-width:480px){.guide-steps article{padding:13px}.guidance-alert{padding:15px}.onboarding-card{padding:16px}.install-copy{flex-basis:calc(100% - 60px)}}

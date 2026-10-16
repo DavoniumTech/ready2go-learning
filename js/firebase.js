@@ -10,9 +10,11 @@ async function getFirebase() {
       const version = "13.0.0";
       const appSdk = await import(`https://www.gstatic.com/firebasejs/${version}/firebase-app.js`);
       const authSdk = await import(`https://www.gstatic.com/firebasejs/${version}/firebase-auth.js`);
+      const functionsSdk = await import(`https://www.gstatic.com/firebasejs/${version}/firebase-functions.js`);
       const app = appSdk.initializeApp(firebaseConfig);
       const auth = authSdk.getAuth(app);
-      return { app, auth, ...authSdk };
+      const functions = functionsSdk.getFunctions(app, "us-central1");
+      return { app, auth, functions, ...authSdk, ...functionsSdk };
     })().catch((error) => { firebasePromise = undefined; throw error; });
   }
   return firebasePromise;
@@ -84,4 +86,22 @@ export function friendlyAuthError(error) {
     "auth/unauthorized-domain": "This domain is not authorised in Firebase yet. Add localhost for local testing or the Ready2Go domain before production."
   };
   return messages[error?.code] || error?.message || "Something went wrong. Please try again.";
+}
+
+// Cloud sync is optional until the Firebase Functions package has been deployed.
+// Local-first practice still works when this endpoint is unavailable.
+async function callReady2GoFunction(name, data) {
+  const sdk = await getFirebase();
+  const callable = sdk.httpsCallable(sdk.functions, name);
+  const result = await callable(data);
+  return result.data;
+}
+export async function saveLearnerProfileRemote(profile) {
+  return callReady2GoFunction("saveLearnerProfile", { profile });
+}
+export async function recordPracticeSummaryRemote(summary) {
+  return callReady2GoFunction("recordPracticeSummary", { summary });
+}
+export async function attributeTeacherReferralRemote(code) {
+  return callReady2GoFunction("attributeTeacherReferral", { code });
 }

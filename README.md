@@ -1,43 +1,46 @@
-# Ready2Go Learning — GitHub-connected prototype v0.2.0
+# Ready2Go Learning — v0.3.0 production starter
 
-A clean, installable PWA prototype for UTME practice by Davonium Technologies. Built with plain HTML, CSS and JavaScript ES modules. No React, Vite, npm or Node.js build is required.
+Ready2Go Learning is an installable, offline-first UTME preparation app by Davonium Technologies. This release upgrades the uploaded prototype without using React, Vite or a frontend build system. It preserves the R2G logo and the violet/coral visual identity, and adds a more structured onboarding and content pipeline.
 
-## What is included
+## Included in this starter
 
-- Light/dark themes and R2G icon assets.
-- Onboarding categories exactly: Science, Humanities & Arts, Commerce.
-- Editable subject preferences stored locally.
-- Preliminary subject catalogue.
-- Original pilot packs: 30 Mathematics questions and 20 Use of English questions (internal prototype content only).
-- Topic practice, question-count/difficulty filtering, no duplicate question IDs within a session, optional timer, CBT navigator, scoring and explanations.
-- IndexedDB local profile/session storage with fallback.
-- Firebase Authentication through browser-module CDN imports: Email/Password and Google. Google sign-in uses popup on desktop and redirect on mobile.
-- PWA manifest/service worker, draft privacy and terms pages.
-- GitHub + Cloudflare Pages setup guide: `docs/GITHUB-CLOUDFLARE-DEPLOYMENT.md`.
+- Responsive PWA shell with light/dark modes, app icon, install-help banner and mobile sidebar scrim that closes on navigation/outside tap/Escape.
+- Google/email Firebase Authentication UI using the existing `ready2go-learning` Firebase web configuration. Do not rotate or replace it casually; verify Authentication → Authorized domains for the exact HTTPS host.
+- First-visit study-plan onboarding, with Science / Humanities & Arts / Commerce, a state/FCT selector, institution-type selector, curated institution starter directory, programme-name catalogue and editable subjects.
+- Official JAMB IBASS course eligibility and syllabus links, plus an explicit policy not to guess cut-off marks or definitive subject combinations.
+- CBT-style practice flow, question count 10/20/40/all, topic and difficulty filters, no duplicate IDs within a session, scoring, explanations, local session history and export.
+- 145 original questions across 11 local packs: Mathematics (60), Use of English (40), and nine additional subjects with five each. 95 items are explicitly marked `needs_human_review`; every question needs subject-matter and rights review before public release. Additional packs are marked draft/review-needed where applicable; none is labelled as a JAMB 2020 item.
+- IndexedDB storage and service-worker app-shell caching; optional on-demand pack delivery through a configurable Cloudflare Worker.
+- Draft Privacy, Terms, Content & Corrections and Teacher Partner pages.
 
-## Important: status and limits
+## This is a production *starter*, not a certified final product
 
-This is a working prototype, not the completed production product. The included question banks are small internal pilots; most catalogue subjects do not yet have question packs. R2 remote pack delivery, synced cloud progress, teacher referral/commission processing, payment verification, premium access and payout processing are not yet implemented. Legal pages are drafts that require review before public launch. Never label original items as official JAMB questions. Do not redistribute a large past-question corpus without permission or another valid legal basis.
+The uploaded prototype has not been deployed or modified in your Cloudflare/Firebase accounts by this package. It must first be extracted, reviewed, pushed, and configured as explained in `docs/DEPLOYMENT-RUNBOOK.md`.
 
-## Before testing Google sign-in
+Not included or not activated yet: complete/synchronised account-profile loading across devices, account deletion workflow, offline sync conflict resolution, payment and premium entitlement, payment webhooks, real teacher commission creation/payouts, monitoring/alerts, analytics, full official course/programme data, and a licensed JAMB 2020 question bank. These are separate work items that need implementation and testing.
 
-1. In Firebase Console, make sure Authentication → Sign-in method has **Google** and **Email/Password** enabled.
-2. In Authentication → Settings → Authorized domains, add the exact hostname of your test site when it exists, for example `ready2go-learning.pages.dev` and later `ready2go.davoniumtech.com` (only if those are the actual hostnames assigned).
-3. Use HTTPS for the deployed test and never share your password or service-account key.
-4. For mobile, Google sign-in redirects to Google and then returns to the app. For desktop, a popup opens.
+### Questions and rights
 
-## GitHub and Cloudflare
+The 145 bundled items are Ready2Go originals: 50 inherited prototype questions tagged `internal_pilot` and 95 new draft questions tagged `needs_human_review`. All 145 require documented subject-matter verification before public release. The 2020 source archive records which packs need verification; it does not contain reproduced JAMB papers. The full text of *The Lekki Headmaster* is not included. We must get appropriate rights or use content with a valid legal basis, and accurately label every source.
 
-Follow `docs/GITHUB-CLOUDFLARE-DEPLOYMENT.md`. Recommended hosting path is GitHub repository → Cloudflare Pages Git integration → Cloudflare custom domain. Do not set the Ready2Go custom domain in GitHub Pages if Cloudflare Pages will host it. Keep the existing `davoniumtech-website` repository separate and unchanged.
+### Admission guidance
 
-## Data and security
+The institution directory is a curated starter list for the 36 states and FCT, not a complete list of all universities, approved programmes, colleges or polytechnics. It is not proof that a specific course is available at a university. Use the official [JAMB IBASS Eligibility Checker](https://eligibility.jamb.gov.ng/) for exact entry mode, institution, course, O'Level requirements and UTME subject combination. Cut-off data is intentionally empty until a source, programme, institution, admission year and verification date are recorded. The [NUC Nigerian University System directory](https://enuc.nuc.edu.ng/nus) is a starting point for the institution catalogue.
 
-- Firebase Authentication stores the account identity and profile display name.
-- Preferences, theme and practice history are local to each browser/device in this version; no cloud sync exists yet.
-- Question packs currently load from the app's static `data/` directory; R2 integration is not active yet.
-- Never place R2 access keys, Cloudflare API tokens, Firebase service-account JSON, or payment secrets in the front end.
-- Anyone who can reach a public deployment can view its static files. If you need a test URL restricted to only your email, protect the app with Cloudflare Access. Firebase sign-in by itself does not restrict registration to only one person.
+### Cloud delivery
 
-## Local test option (if needed)
+Set `js/content-config.js` to your Worker origin only after deploying `r2-content/worker.js` and uploading the `public/` directory to the existing private bucket `ready2go-question-packs`. Do not put an R2 API key, Cloudflare token, Firebase service-account key or payment secret in browser JS or GitHub.
 
-Extract the ZIP, open a Command Prompt in this folder, run `py -m http.server 8000`, then open `http://localhost:8000`. If Firebase reports `auth/unauthorized-domain`, add `localhost` to Firebase Authentication → Settings → Authorized domains.
+### Local test
+
+Serve the extracted folder over HTTP rather than opening `index.html` from `file://`:
+
+```bat
+py -m http.server 8000
+```
+
+Open `http://localhost:8000`. PWA install and Google sign-in require a valid web origin; the Google sign-in hostname must be listed under Firebase Authentication → Settings → Authorized domains.
+
+### Production gate
+
+Before public advertising, review all 145 questions (50 `internal_pilot` and 95 `needs_human_review`), manually test onboarding and navigation on Android/desktop/tablet/iOS, test offline mode after a successful first visit, test authentication and cloud sync in a separate test session, complete legal review, validate all data sources, and confirm Cloudflare/Firebase spending alerts.

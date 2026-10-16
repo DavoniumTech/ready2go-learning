@@ -1,21 +1,110 @@
 {
   "schemaVersion": 1,
-  "appVersion": "0.1.0",
+  "appVersion": "0.3.0",
   "generatedFor": "Ready2Go Learning",
+  "generatedAt": "2026-10-16",
+  "contentNotice": "Question counts include original prototype and draft items. Every pack carries provenance/review status. No official 2020 question bank is bundled.",
+  "subjectCatalogSource": "https://eligibility.jamb.gov.ng/",
+  "lastChecked": "2026-10-16",
   "packs": [
     {
-      "subjectId": "mathematics",
-      "file": "mathematics.json",
-      "version": "0.1.0",
-      "questionCount": 30,
-      "status": "internal_pilot"
+      "id": "agricultural-science",
+      "subjectId": "agricultural-science",
+      "subjectName": "Agriculture",
+      "file": "agricultural-science.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
     },
     {
+      "id": "biology",
+      "subjectId": "biology",
+      "subjectName": "Biology",
+      "file": "biology.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "chemistry",
+      "subjectId": "chemistry",
+      "subjectName": "Chemistry",
+      "file": "chemistry.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "commerce",
+      "subjectId": "commerce",
+      "subjectName": "Commerce",
+      "file": "commerce.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "economics",
+      "subjectId": "economics",
+      "subjectName": "Economics",
+      "file": "economics.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "geography",
+      "subjectId": "geography",
+      "subjectName": "Geography",
+      "file": "geography.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "government",
+      "subjectId": "government",
+      "subjectName": "Government",
+      "file": "government.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "mathematics",
+      "subjectId": "mathematics",
+      "subjectName": "Mathematics",
+      "file": "mathematics.json",
+      "version": "0.2.0-draft",
+      "questionCount": 60,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "physics",
+      "subjectId": "physics",
+      "subjectName": "Physics",
+      "file": "physics.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "principles-of-accounts",
+      "subjectId": "principles-of-accounts",
+      "subjectName": "Principles of Accounts",
+      "file": "principles-of-accounts.json",
+      "version": "0.1.0-draft",
+      "questionCount": 5,
+      "status": "development_seed_needs_human_review"
+    },
+    {
+      "id": "use-of-english",
       "subjectId": "use-of-english",
+      "subjectName": "Use of English",
       "file": "use-of-english.json",
-      "version": "0.1.0",
-      "questionCount": 20,
-      "status": "internal_pilot"
+      "version": "0.2.0-draft",
+      "questionCount": 40,
+      "status": "development_seed_needs_human_review"
     }
   ]
 }

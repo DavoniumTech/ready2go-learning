@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "government",
+  "subjectName": "Government",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "gove-seed-001",
+      "subjectId": "government",
+      "topic": "Constitution",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A constitution primarily sets out…",
+      "options": {
+        "A": "only election results",
+        "B": "rules and principles for governing a state",
+        "C": "market prices",
+        "D": "private family records"
+      },
+      "correctAnswer": "B",
+      "explanation": "A constitution establishes the framework, powers and limits of government.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "gove-seed-002",
+      "subjectId": "government",
+      "topic": "Separation of powers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The primary function of the legislature is to…",
+      "options": {
+        "A": "interpret laws",
+        "B": "make laws",
+        "C": "enforce court judgements",
+        "D": "conduct foreign trade"
+      },
+      "correctAnswer": "B",
+      "explanation": "Legislatures debate and enact laws, subject to constitutional arrangements.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "gove-seed-003",
+      "subjectId": "government",
+      "topic": "Rule of law",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The principle that everyone, including public officials, is subject to the law is…",
+      "options": {
+        "A": "arbitrary rule",
+        "B": "rule of law",
+        "C": "military decree",
+        "D": "patronage"
+      },
+      "correctAnswer": "B",
+      "explanation": "Rule of law requires public power to operate under the law.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "gove-seed-004",
+      "subjectId": "government",
+      "topic": "Democracy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "In a representative democracy, citizens ordinarily choose representatives through…",
+      "options": {
+        "A": "elections",
+        "B": "inheritance",
+        "C": "lottery only",
+        "D": "appointments by judges"
+      },
+      "correctAnswer": "A",
+      "explanation": "Periodic elections allow citizens to select representatives.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "gove-seed-005",
+      "subjectId": "government",
+      "topic": "Citizenship",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which is a common civic responsibility of citizens?",
+      "options": {
+        "A": "Ignoring all laws",
+        "B": "Obeying lawful rules",
+        "C": "Preventing all elections",
+        "D": "Replacing courts by force"
+      },
+      "correctAnswer": "B",
+      "explanation": "Obeying the law is a common civic responsibility.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

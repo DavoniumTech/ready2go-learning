@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "subjectId": "use-of-english",
   "subjectName": "Use of English",
-  "sourcePolicy": "All questions in this pilot pack are original Ready2Go questions, not official JAMB past questions.",
-  "packVersion": "0.1.0",
-  "status": "internal_pilot",
-  "questionCount": 20,
+  "sourcePolicy": "All questions in this pack are Ready2Go original practice items, not official JAMB past questions. New items require human subject-matter review before public release.",
+  "packVersion": "0.2.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 40,
   "questions": [
     {
       "id": "eng-001",
@@ -386,6 +386,386 @@
       "correctAnswer": "C",
       "explanation": "“Despite” is followed by a noun or gerund phrase; “arriving” is correct.",
       "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-021",
+      "subjectId": "use-of-english",
+      "topic": "Tenses",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "By the time we arrived, the film ___.",
+      "options": {
+        "A": "starts",
+        "B": "has started",
+        "C": "had started",
+        "D": "will start"
+      },
+      "correctAnswer": "C",
+      "explanation": "The past perfect marks an event completed before another past event.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-022",
+      "subjectId": "use-of-english",
+      "topic": "Subject-verb agreement",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Neither the teacher nor the students ___ present at the meeting.",
+      "options": {
+        "A": "was",
+        "B": "is",
+        "C": "were",
+        "D": "has been"
+      },
+      "correctAnswer": "C",
+      "explanation": "With “neither…nor”, the verb generally agrees with the nearer subject; “students” is plural.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-023",
+      "subjectId": "use-of-english",
+      "topic": "Prepositions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "She insisted ___ paying the bill.",
+      "options": {
+        "A": "at",
+        "B": "on",
+        "C": "for",
+        "D": "with"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard expression is “insist on” doing something.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-024",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Choose the word closest in meaning to “diligent”.",
+      "options": {
+        "A": "Careless",
+        "B": "Hardworking",
+        "C": "Impatient",
+        "D": "Confused"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Diligent” means careful and persistent in one’s work.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-025",
+      "subjectId": "use-of-english",
+      "topic": "Antonyms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Choose the word opposite in meaning to “scarce”.",
+      "options": {
+        "A": "Rare",
+        "B": "Limited",
+        "C": "Abundant",
+        "D": "Insufficient"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Abundant” means plentiful and is the opposite of “scarce”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-026",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Choose the grammatically correct sentence.",
+      "options": {
+        "A": "Each of the candidates have a card.",
+        "B": "Each of the candidates has a card.",
+        "C": "Each candidates has a card.",
+        "D": "Each of candidates have card."
+      },
+      "correctAnswer": "B",
+      "explanation": "“Each” is singular in this construction and takes “has”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-027",
+      "subjectId": "use-of-english",
+      "topic": "Subject-verb agreement",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "The committee ___ reached its decision.",
+      "options": {
+        "A": "have",
+        "B": "are",
+        "C": "has",
+        "D": "were"
+      },
+      "correctAnswer": "C",
+      "explanation": "In this sentence the committee is treated as one body, so “has” is appropriate.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-028",
+      "subjectId": "use-of-english",
+      "topic": "Reported speech",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Choose the correct report of: He said, “I am tired.”",
+      "options": {
+        "A": "He said that I am tired.",
+        "B": "He said that he was tired.",
+        "C": "He says that he was tired.",
+        "D": "He said he is tire."
+      },
+      "correctAnswer": "B",
+      "explanation": "Backshift changes “am” to “was” and “I” to “he” in reported speech here.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-029",
+      "subjectId": "use-of-english",
+      "topic": "Voice",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Choose the passive form of: “They completed the bridge.”",
+      "options": {
+        "A": "The bridge completed them.",
+        "B": "The bridge is completing.",
+        "C": "The bridge was completed by them.",
+        "D": "They were completed by the bridge."
+      },
+      "correctAnswer": "C",
+      "explanation": "The simple past passive uses “was/were + past participle”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-030",
+      "subjectId": "use-of-english",
+      "topic": "Conjunctions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "No sooner had he arrived ___ it began to rain.",
+      "options": {
+        "A": "when",
+        "B": "then",
+        "C": "than",
+        "D": "while"
+      },
+      "correctAnswer": "C",
+      "explanation": "The paired construction is “no sooner…than”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-031",
+      "subjectId": "use-of-english",
+      "topic": "Prepositions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The accused was acquitted ___ the charge.",
+      "options": {
+        "A": "from",
+        "B": "of",
+        "C": "with",
+        "D": "at"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard expression is “acquitted of a charge”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-032",
+      "subjectId": "use-of-english",
+      "topic": "Conjunctions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Hardly had I sat down ___ the phone rang.",
+      "options": {
+        "A": "than",
+        "B": "when",
+        "C": "because",
+        "D": "although"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard pair is “hardly…when”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-033",
+      "subjectId": "use-of-english",
+      "topic": "Subject-verb agreement",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The news ___ surprising.",
+      "options": {
+        "A": "were",
+        "B": "are",
+        "C": "was",
+        "D": "have been"
+      },
+      "correctAnswer": "C",
+      "explanation": "“News” is grammatically singular in standard English.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-034",
+      "subjectId": "use-of-english",
+      "topic": "Question tags",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "You have finished your assignment, ___?",
+      "options": {
+        "A": "have you",
+        "B": "haven’t you",
+        "C": "didn’t you",
+        "D": "aren’t you"
+      },
+      "correctAnswer": "B",
+      "explanation": "A positive statement with “have” takes the negative tag “haven’t you”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-035",
+      "subjectId": "use-of-english",
+      "topic": "Plural forms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "What is the correct plural of “criterion”?",
+      "options": {
+        "A": "criterions",
+        "B": "criteriones",
+        "C": "criteria",
+        "D": "criterias"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Criteria” is the standard plural of “criterion”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-036",
+      "subjectId": "use-of-english",
+      "topic": "Prepositions",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "She is senior ___ me in the department.",
+      "options": {
+        "A": "than",
+        "B": "to",
+        "C": "from",
+        "D": "with"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Senior” is followed by “to”, not “than”, in standard usage.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-037",
+      "subjectId": "use-of-english",
+      "topic": "Conditional sentences",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "If I ___ known about the problem, I would have helped.",
+      "options": {
+        "A": "have",
+        "B": "would have",
+        "C": "had",
+        "D": "was"
+      },
+      "correctAnswer": "C",
+      "explanation": "The third conditional uses “if + past perfect” with “would have + past participle”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-038",
+      "subjectId": "use-of-english",
+      "topic": "Comparatives",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "He speaks English more fluently ___ his brother.",
+      "options": {
+        "A": "as",
+        "B": "then",
+        "C": "than",
+        "D": "from"
+      },
+      "correctAnswer": "C",
+      "explanation": "“More…than” is the standard comparative construction.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-039",
+      "subjectId": "use-of-english",
+      "topic": "Verb forms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "challenging",
+      "question": "The manager requested that the report ___ submitted immediately.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "be",
+        "D": "has been"
+      },
+      "correctAnswer": "C",
+      "explanation": "In formal standard English, the mandative subjunctive uses the base form “be”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-040",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Choose the word closest in meaning to “mitigate”.",
+      "options": {
+        "A": "Worsen",
+        "B": "Lessen",
+        "C": "Ignore",
+        "D": "Measure"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Mitigate” means to make something less severe or harmful.",
+      "reviewStatus": "needs_human_review"
     }
   ]
 }

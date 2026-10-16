@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "geography",
+  "subjectName": "Geography",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "geog-seed-001",
+      "subjectId": "geography",
+      "topic": "Map work",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "A map scale of 1:50,000 means 1 cm on the map represents…",
+      "options": {
+        "A": "50 m on the ground",
+        "B": "500 m on the ground",
+        "C": "5 km on the ground",
+        "D": "50 km on the ground"
+      },
+      "correctAnswer": "B",
+      "explanation": "50,000 cm is 500 m, so 1 cm represents 500 m.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "geog-seed-002",
+      "subjectId": "geography",
+      "topic": "Weather and climate",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Weather differs from climate mainly because weather describes…",
+      "options": {
+        "A": "long-term averages only",
+        "B": "short-term atmospheric conditions",
+        "C": "rock structure",
+        "D": "population distribution"
+      },
+      "correctAnswer": "B",
+      "explanation": "Weather describes atmospheric conditions over short periods; climate describes long-term patterns.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "geog-seed-003",
+      "subjectId": "geography",
+      "topic": "Erosion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which action most directly reduces soil erosion on a bare slope?",
+      "options": {
+        "A": "Removing all vegetation",
+        "B": "Planting ground cover",
+        "C": "Increasing runoff",
+        "D": "Burning crop residues every day"
+      },
+      "correctAnswer": "B",
+      "explanation": "Vegetative cover reduces raindrop impact and slows runoff.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "geog-seed-004",
+      "subjectId": "geography",
+      "topic": "Earth structure",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The outermost solid layer of Earth is the…",
+      "options": {
+        "A": "inner core",
+        "B": "outer core",
+        "C": "mantle",
+        "D": "crust"
+      },
+      "correctAnswer": "D",
+      "explanation": "The crust is Earth’s outermost solid layer.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "geog-seed-005",
+      "subjectId": "geography",
+      "topic": "Population",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Population density is calculated by dividing population by…",
+      "options": {
+        "A": "birth rate",
+        "B": "land area",
+        "C": "annual rainfall",
+        "D": "life expectancy"
+      },
+      "correctAnswer": "B",
+      "explanation": "Population density is population per unit of land area.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}

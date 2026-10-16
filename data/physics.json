@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "subjectId": "physics",
+  "subjectName": "Physics",
+  "sourcePolicy": "Original Ready2Go draft questions. These are not official JAMB past questions and require human subject-matter review before public release.",
+  "packVersion": "0.1.0-draft",
+  "status": "development_seed_needs_human_review",
+  "questionCount": 5,
+  "questions": [
+    {
+      "id": "phys-seed-001",
+      "subjectId": "physics",
+      "topic": "Motion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A car travels 120 m in 6 s at constant speed. What is its speed?",
+      "options": {
+        "A": "12 m/s",
+        "B": "20 m/s",
+        "C": "30 m/s",
+        "D": "720 m/s"
+      },
+      "correctAnswer": "B",
+      "explanation": "Speed = distance ÷ time = 120 ÷ 6 = 20 m/s.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phys-seed-002",
+      "subjectId": "physics",
+      "topic": "Electricity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "Which instrument is connected in series to measure electric current?",
+      "options": {
+        "A": "Voltmeter",
+        "B": "Ammeter",
+        "C": "Barometer",
+        "D": "Thermometer"
+      },
+      "correctAnswer": "B",
+      "explanation": "An ammeter is connected in series so the circuit current flows through it.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phys-seed-003",
+      "subjectId": "physics",
+      "topic": "Waves",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "The SI unit of frequency is…",
+      "options": {
+        "A": "newton",
+        "B": "joule",
+        "C": "hertz",
+        "D": "watt"
+      },
+      "correctAnswer": "C",
+      "explanation": "Frequency is measured in hertz (Hz), equivalent to cycles per second.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phys-seed-004",
+      "subjectId": "physics",
+      "topic": "Energy",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "medium",
+      "question": "Which expression gives kinetic energy for a mass m moving at speed v?",
+      "options": {
+        "A": "mv",
+        "B": "mv²",
+        "C": "½mv²",
+        "D": "mgh"
+      },
+      "correctAnswer": "C",
+      "explanation": "Kinetic energy is one-half times mass times the square of speed.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phys-seed-005",
+      "subjectId": "physics",
+      "topic": "Ohm law",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original · draft for review",
+      "difficulty": "easy",
+      "question": "A 6 Ω resistor carries a current of 2 A. What is the potential difference?",
+      "options": {
+        "A": "3 V",
+        "B": "8 V",
+        "C": "12 V",
+        "D": "24 V"
+      },
+      "correctAnswer": "C",
+      "explanation": "From V = IR, V = 2 × 6 = 12 V.",
+      "reviewStatus": "needs_human_review"
+    }
+  ]
+}
