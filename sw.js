@@ -1,4 +1,4 @@
-const CACHE_NAME = "ready2go-shell-v1.0.1";
+const CACHE_NAME = "ready2go-shell-v1.1.0";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -7,9 +7,8 @@ const APP_SHELL = [
   "./assets/r2g-app-icon.svg",
   "./assets/r2g-app-icon-192.png",
   "./assets/r2g-app-icon-512.png",
-  "./assets/r2g-study-hero.png",
-  "./assets/r2g-approved-logo-concept.png",
   "./assets/study-pattern.svg",
+  "./assets/study-buddies.webp",
   "./js/app.js",
   "./js/store.js",
   "./js/firebase.js",
@@ -59,10 +58,13 @@ self.addEventListener("install", event => {
       if (!response.ok) throw new Error(`Precache failed: ${path} (${response.status})`);
       await cache.put(path, response);
     }));
-    const required = ["./", "./index.html", "./styles.css", "./js/app.js", "./js/store.js", "./manifest.webmanifest", "./data/subjects.json", "./data/manifest.json"];
     const failed = results.map((r, i) => r.status === "rejected" ? APP_SHELL[i] : null).filter(Boolean);
-    const missingRequired = required.filter(path => failed.includes(path));
-    if (missingRequired.length) throw new Error(`Ready2Go offline core could not be cached: ${missingRequired.join(", ")}`);
+    // Do not label the PWA offline-ready if even one bundled subject pack is missing.
+    // A subsequent visit while online will retry installation after a failed cache pass.
+    if (failed.length) {
+      throw new Error(`Ready2Go complete offline cache failed for: ${failed.join(", ")}`);
+    }
+    await cache.put("./__ready2go_cache_complete__.json", new Response(JSON.stringify({ version: CACHE_NAME, cachedAt: new Date().toISOString(), assets: APP_SHELL.length }), { headers: { "content-type": "application/json" } }));
     await self.skipWaiting();
   })());
 });

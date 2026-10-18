@@ -3,14 +3,18 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#176534">
+  <meta name="theme-color" content="#F7F5FB">
   <meta name="color-scheme" content="light dark">
-  <meta name="description" content="Ready2Go Learning is an installable, offline-first UTME study app with CBT practice, question review and progress tracking.">
+  <meta name="description" content="Ready2Go Learning by Davonium Technologies: focused UTME CBT practice, clear answer review and personal progress analytics.">
+  <meta name="application-name" content="Ready2Go Learning">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://ready2go.davoniumtech.com/">
   <title>Ready2Go Learning — Practice today, progress tomorrow</title>
   <link rel="icon" href="./assets/r2g-app-icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./assets/r2g-app-icon-192.png">
   <link rel="manifest" href="./manifest.webmanifest">
   <link rel="preload" href="./assets/study-pattern.svg" as="image" type="image/svg+xml">
+  <link rel="preload" href="./assets/study-buddies.webp" as="image" type="image/webp">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -23,7 +27,7 @@
         <button class="nav-item" data-page="subjects"><span class="nav-glyph">▦</span><span>My subjects</span></button>
         <button class="nav-item" data-page="practice-setup"><span class="nav-glyph">↗</span><span>Practice session</span></button>
         <button class="nav-item" data-page="progress"><span class="nav-glyph">▥</span><span>Progress &amp; analysis</span></button>
-        <button class="nav-item" data-page="study-coach"><span class="nav-glyph">✦</span><span>Ready2Go Coach</span></button>
+        <button class="nav-item" data-page="study-coach"><span class="nav-glyph">✦</span><span>Study Boost</span></button>
         <button class="nav-item" data-page="course-guide"><span class="nav-glyph">⌖</span><span>Course guide</span></button>
         <button class="nav-item" data-page="syllabus"><span class="nav-glyph">▤</span><span>Syllabus planner</span></button>
         <button class="nav-item" data-page="question-library"><span class="nav-glyph">◫</span><span>Question library</span></button>
@@ -33,7 +37,7 @@
         <button class="nav-item" data-page="profile"><span class="nav-glyph">◎</span><span>Study plan &amp; account</span></button>
       </nav>
       <div class="sidebar-bottom"><div class="support-mark">R2G</div><div><strong>Ready for your next step?</strong><span>Practice today, progress tomorrow.</span></div></div>
-      <div class="sidebar-credit">A Davonium Technologies product</div>
+      <a class="sidebar-credit company-credit" href="https://www.davoniumtech.com/" target="_blank" rel="noopener noreferrer"><span>DAVONIUM TECHNOLOGIES</span><strong>Visit company website ↗</strong></a>
     </aside>
     <div id="sidebarScrim" class="sidebar-scrim" aria-hidden="true"></div>
     <main class="main-area">
@@ -48,7 +52,16 @@
     <button data-page="subjects"><span>▦</span><small>Subjects</small></button>
     <button data-page="progress"><span>▥</span><small>Progress</small></button>
   </nav>
-  <div id="authModal" class="modal hidden" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="authModeLabel"><div class="modal-backdrop" id="authBackdrop"></div><section class="modal-card"><button id="authClose" class="modal-close" type="button" aria-label="Close">×</button><div class="modal-brand"><img src="./assets/r2g-app-icon.svg" alt=""/><span>Ready2Go</span></div><p class="eyebrow">YOUR LEARNING ACCOUNT</p><h2 id="authModeLabel">Create your account</h2><p class="muted small">Your account personalises your learning space. Downloaded questions and recent practice remain available on this device.</p><button id="googleSignIn" class="button button-google button-wide" type="button"><svg aria-hidden="true" viewBox="0 0 48 48" width="19" height="19"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.76 7.18l7.73 6C44.42 37.98 46.98 31.89 46.98 24.55z"/><path fill="#FBBC05" d="M10.53 28.59A14.43 14.43 0 0 1 9.75 24c0-1.59.27-3.13.76-4.59l-7.98-6.19A23.9 23.9 0 0 0 0 24c0 3.87.93 7.52 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.91-5.8l-7.73-6c-2.14 1.44-4.89 2.3-8.18 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg><span>Continue with Google</span></button><div id="googleAuthDivider" class="auth-divider"><span>or use email</span></div><form id="authForm"><input type="hidden" id="authMode" value="signup"><div id="authNameField"><label for="authName">Your name</label><input id="authName" name="name" class="field" autocomplete="name" placeholder="Enter your name" required maxlength="80"></div><label for="authEmail">Email address</label><input id="authEmail" name="email" class="field" autocomplete="email" type="email" placeholder="you@example.com" required><label for="authPassword">Password</label><input id="authPassword" name="password" class="field" autocomplete="current-password" type="password" minlength="6" placeholder="At least 6 characters" required><p id="authMessage" class="form-message" role="status"></p><button id="authSubmit" class="button button-primary button-wide" type="submit">Create account</button><div class="auth-links"><button id="resetPassword" class="text-button" type="button">Forgot password?</button><button id="authSwitch" class="text-button" type="button">Already have an account? Sign in</button></div></form><p class="legal-note">By creating an account, you agree to the <a href="./terms.html">Terms</a> and acknowledge the <a href="./privacy.html">Privacy Notice</a>. </p></section></div>
+  <div id="authModal" class="modal hidden auth-modal-pro" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="authModeLabel">
+    <div class="modal-backdrop" id="authBackdrop"></div>
+    <section class="modal-card auth-layout">
+      <aside class="auth-visual"><img src="./assets/study-buddies.webp" alt="Students studying together"/><div class="auth-visual-shade"></div><a class="auth-brand-lockup" href="./" aria-label="Ready2Go home"><img src="./assets/r2g-app-icon.svg" alt=""/><span><strong>Ready2Go</strong><small>LEARN WITH PURPOSE</small></span></a><div class="auth-photo-copy"><span class="auth-kicker">YOUR NEXT CHAPTER STARTS HERE</span><h2>Make effort<br/>a daily habit.</h2><p>Practice with purpose. Find your gaps. Come back stronger.</p><div class="auth-trust-pills"><span>✓ Local practice</span><span>✓ Clear corrections</span><span>✓ Light &amp; dark mode</span></div></div><a class="auth-company-link" href="https://www.davoniumtech.com/" target="_blank" rel="noopener noreferrer">A Davonium Technologies product ↗</a></aside>
+      <div class="auth-form-panel"><button id="authClose" class="modal-close auth-close-pro" type="button" aria-label="Close account dialog">×</button><div class="auth-form-inner"><div class="modal-brand auth-mobile-brand"><img src="./assets/r2g-app-icon.svg" alt=""/><span>Ready2Go</span></div><p class="eyebrow">YOUR LEARNING ACCOUNT</p><h2 id="authModeLabel">Create your account</h2><p class="muted auth-description">Save your study plan and connect your progress across sessions. You can still begin local practice without signing in.</p>
+        <button id="googleSignIn" class="button button-google button-wide" type="button"><svg aria-hidden="true" viewBox="0 0 48 48" width="19" height="19"><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"/><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.76 7.18l7.73 6C44.42 37.98 46.98 31.89 46.98 24.55z"/><path fill="#FBBC05" d="M10.53 28.59A14.43 14.43 0 0 1 9.75 24c0-1.59.27-3.13.76-4.59l-7.98-6.19A23.9 23.9 0 0 0 0 24c0 3.87.93 7.52 2.56 10.78l7.97-6.19z"/><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.91-5.8l-7.73-6c-2.14 1.44-4.89 2.3-8.18 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"/></svg><span>Continue with Google</span></button>
+        <div id="googleAuthDivider" class="auth-divider"><span>or continue with email</span></div>
+        <form id="authForm"><input type="hidden" id="authMode" value="signup"><div id="authNameField"><label for="authName">Your name</label><input id="authName" name="name" class="field" autocomplete="name" placeholder="What should we call you?" required maxlength="80"></div><label for="authEmail">Email address</label><input id="authEmail" name="email" class="field" autocomplete="email" type="email" placeholder="you@example.com" required><label for="authPassword">Password</label><input id="authPassword" name="password" class="field" autocomplete="current-password" type="password" minlength="6" placeholder="At least 6 characters" required><p id="authMessage" class="form-message" role="status" aria-live="polite"></p><button id="authSubmit" class="button button-primary button-wide auth-submit" type="submit">Create account</button><div class="auth-links"><button id="resetPassword" class="text-button" type="button">Forgot password?</button><button id="authSwitch" class="text-button" type="button">Already have an account? Sign in</button></div></form><p class="legal-note">By creating an account, you agree to the <a href="./terms.html">Terms</a> and acknowledge the <a href="./privacy.html">Privacy Notice</a>.</p><p class="auth-offline-note"><span>⌁</span> Your downloaded practice content stays available on this device after the app has cached it.</p></div></div>
+    </section>
+  </div>
   <script>document.getElementById('year').textContent=new Date().getFullYear();</script>
   <script type="module" src="./js/app.js"></script>
 </body>

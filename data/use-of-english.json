@@ -3,7 +3,7 @@
   "subjectId": "use-of-english",
   "subjectName": "Use of English",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "1.0.1-draft",
+  "packVersion": "1.1.0-draft",
   "status": "development_seed_needs_human_review",
   "questionCount": 60,
   "minimumTarget": 60,

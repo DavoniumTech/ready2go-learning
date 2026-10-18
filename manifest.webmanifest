@@ -2,13 +2,13 @@
   "id": "./",
   "name": "Ready2Go Learning",
   "short_name": "Ready2Go",
-  "description": "Installable, offline-first UTME practice with local question packs, CBT sessions and progress history.",
+  "description": "Installable, offline-first UTME practice with a redesigned CBT workspace, clear answer review and personal progress analytics.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "any",
-  "background_color": "#f0f7ee",
-  "theme_color": "#176534",
+  "background_color": "#F7F5FB",
+  "theme_color": "#F7F5FB",
   "icons": [
     {
       "src": "./assets/r2g-app-icon-192.png",
@@ -29,5 +29,5 @@
       "purpose": "any"
     }
   ],
-  "version": "1.0.1"
+  "version": "1.1.0"
 }
