@@ -1,4 +1,4 @@
-const CACHE_NAME = "ready2go-shell-v0.4.1";
+const CACHE_NAME = "ready2go-shell-v1.0.0";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -9,6 +9,7 @@ const APP_SHELL = [
   "./assets/r2g-app-icon-512.png",
   "./assets/r2g-study-hero.png",
   "./assets/r2g-approved-logo-concept.png",
+  "./assets/study-pattern.svg",
   "./js/app.js",
   "./js/store.js",
   "./js/firebase.js",
@@ -53,6 +54,7 @@ const APP_SHELL = [
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
 });
+self.addEventListener("message", event => { if (event.data?.type === "SKIP_WAITING") self.skipWaiting(); });
 self.addEventListener("activate", event => {
   event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key.startsWith("ready2go-shell-") && key !== CACHE_NAME).map(key => caches.delete(key)))).then(() => self.clients.claim()));
 });

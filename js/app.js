@@ -27,6 +27,7 @@ let authUnsubscribe = null;
 let authWatchStarted = false;
 let onboardingStep = 0;
 let installNudgeTimer = null;
+let coachMessages = [];
 
 async function loadContent() {
   const [subjectData, localManifest, institutionData, courseData, archiveData] = await Promise.all([
@@ -106,6 +107,7 @@ async function loadPackIfNeeded(subjectId) {
 }
 
 async function boot() {
+  if (!isStandalone()) { try { installNudgeTimer = window.setTimeout(showTimedInstallNudge, 180); } catch {} }
   try { await loadContent(); }
   catch (error) { console.error(error); toast("Some learning content could not be loaded. Reload while connected to the internet."); }
   profile = { ...profile, ...(await readRecord("profile", profile) || {}) };
@@ -115,13 +117,15 @@ async function boot() {
   if (!profile.selectedSubjects.includes("use-of-english")) profile.selectedSubjects = ["use-of-english", ...profile.selectedSubjects].slice(0,4);
   profile.admissionYear = String(profile.admissionYear || "2026");
   onboardingStep = 0;
-  page = "profile";
+  page = profile.onboardingCompleted ? "home" : "welcome";
   await render();
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
-    navigator.serviceWorker.register("./sw.js").catch(err => console.warn("Offline worker registration failed", err));
+    navigator.serviceWorker.register("./sw.js", { updateViaCache: "none" }).then(reg => {
+      // Ask an active worker to refresh its precache after a deployment, without interrupting a session.
+      if (reg.waiting) reg.waiting.postMessage({ type: "SKIP_WAITING" });
+    }).catch(err => console.warn("Offline worker registration failed", err));
   }
-  // Offer an optional install reminder after 60 seconds. The browser and learner control installation.
-  installNudgeTimer = window.setTimeout(showTimedInstallNudge, 60000);
+  updateConnectivityChip();
 }
 function setTheme(theme, rerender=true) {
   const next = theme === "dark" ? "dark" : "light";
@@ -145,18 +149,20 @@ function getSessions() { return readRecord("sessions", []); }
 function fmtDate(value) { try { return new Intl.DateTimeFormat(undefined,{dateStyle:"medium"}).format(new Date(value)); } catch { return "Recent"; } }
 async function render() {
   const view = $("#view");
-  $("#userLabel").textContent = authUser?.displayName || profile.displayName || "Learner";
+  const userLabel = $("#userLabel"); if (userLabel) userLabel.textContent = authUser?.displayName || profile.displayName || "Learner";
   $$("[data-page]").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
-  const labels={home:"Learning home",subjects:"My subjects","practice-setup":"Practice session",practice:"CBT practice",results:"Session results",progress:"Progress",profile:"Preferences & account","course-guide":"Course & institution guide",syllabus:"Syllabus planner","question-library":"Question library"};
+  const labels={welcome:"Welcome",home:"Learning home",subjects:"My subjects","practice-setup":"Practice session",practice:"CBT practice",results:"Session results",progress:"Progress & analysis",profile:"Study plan & preferences","course-guide":"Course & institution guide",syllabus:"Syllabus planner","question-library":"Question library","study-coach":"Ready2Go Coach"};
   const sectionLabel=$("#currentSection"); if(sectionLabel) sectionLabel.textContent=labels[page]||"Overview";
   const avatar=$(".avatar-button"); if(avatar) avatar.textContent=(authUser?.displayName||profile.displayName||"R").trim().charAt(0).toUpperCase()||"R";
-  if (page === "home") view.innerHTML = await homeView();
+  if (page === "welcome") view.innerHTML = welcomeView();
+  else if (page === "home") view.innerHTML = await homeView();
   else if (page === "subjects") view.innerHTML = await subjectsView();
   else if (page === "practice-setup") view.innerHTML = setupView();
   else if (page === "practice") view.innerHTML = practiceView();
   else if (page === "results") view.innerHTML = resultsView();
   else if (page === "progress") view.innerHTML = await progressView();
-  else if (page === "profile") view.innerHTML = !authUser ? welcomeView() : (profile.onboardingCompleted ? await profileView() : await profileView());
+  else if (page === "profile") view.innerHTML = await profileView();
+  else if (page === "study-coach") view.innerHTML = studyCoachView();
   else if (page === "course-guide") view.innerHTML = courseGuideView();
   else if (page === "syllabus") view.innerHTML = syllabusView();
   else if (page === "question-library") view.innerHTML = questionLibraryView();
@@ -165,7 +171,7 @@ async function render() {
   if (page === "practice-setup") { refreshTopics(); syncSetupMode(); }
 }
 function welcomeView() {
- return `<section class="welcome-screen"><div class="welcome-copy"><span class="welcome-mark">R2G</span><p class="eyebrow">A DAVONIUM TECHNOLOGIES PRODUCT</p><h1>Your next chapter starts with one question.</h1><p class="muted lead">A focused study space for UTME preparation, subject practice, timed CBT sessions and progress you can learn from.</p><div class="welcome-benefits"><span>✓ Practise one subject at a time</span><span>✓ Save your learning history on this device</span><span>✓ Continue with downloaded content offline</span></div><button class="button button-primary button-wide" data-action="open-auth">Create account or sign in <span>→</span></button><p class="small-note">Your four-subject plan comes after account setup. You can edit your subjects later.</p></div><div class="welcome-visual" aria-hidden="true"><div class="scene-orbit orbit-one"></div><div class="scene-orbit orbit-two"></div><div class="scene-card scene-card-book"><span>✎</span><strong>Study notes</strong><small>One step at a time</small></div><div class="scene-student"><div class="scene-hair"></div><div class="scene-head"></div><div class="scene-body"></div><div class="scene-arm"></div><div class="scene-laptop"><span>R2G</span><i></i></div></div><div class="scene-card scene-card-check"><span>✓</span><strong>Progress saved</strong></div><div class="scene-ground"></div></div></section>`;
+ return `<section class="welcome-screen r2g-welcome-screen"><div class="welcome-copy"><span class="welcome-mark"><img src="./assets/r2g-app-icon.svg" alt="Ready2Go R2G icon"></span><p class="eyebrow">A DAVONIUM TECHNOLOGIES PRODUCT</p><h1>Practice today.<br><em>Progress tomorrow.</em></h1><p class="muted lead">A focused UTME study app with CBT practice, clear answer explanations, subject planning and learning history—all in one app-like space.</p><div class="welcome-benefits"><span>✓ Works offline after this app shell and content have been cached</span><span>✓ No account or payment required to begin local practice</span><span>✓ Your study plan and results stay on this device unless you choose account sync</span></div><div class="welcome-cta-row"><button class="button button-primary" data-action="start-onboarding">Set up my study space <span>→</span></button><button class="button button-outline" data-action="open-auth">Sign in / create account</button></div><p class="small-note">Questions in this release are Ready2Go Original draft practice items, not official JAMB past questions. They need subject-expert and answer-key review before they can be advertised as validated past-paper content.</p></div><div class="welcome-visual r2g-school-scene" aria-label="Illustrated study desk with books, pencils and learning tools"><div class="school-note note-one"><span>✎</span><strong>One question</strong><small>at a time</small></div><div class="school-note note-two"><span>✓</span><strong>Progress saved</strong><small>on this device</small></div><div class="supply-pencil pencil-a"></div><div class="supply-pencil pencil-b"></div><div class="supply-book book-a"><i></i><b></b></div><div class="supply-book book-b"><i></i><b></b></div><div class="supply-ruler"></div><div class="supply-apple"><i></i><b></b></div><div class="supply-laptop"><div class="laptop-screen"><span>R2G</span><small>READY TO LEARN</small></div><i></i></div><div class="scene-floor"></div><span class="school-sticker sticker-atom">⚛</span><span class="school-sticker sticker-book">▤</span></div></section>`;
 }
 
 async function homeView() {
@@ -173,27 +179,49 @@ async function homeView() {
   const attempts = sessions.reduce((n,s)=>n+(s.answered ?? s.total),0);
   const correct = sessions.reduce((n,s)=>n+s.score,0);
   const accuracy = attempts ? Math.round(correct/attempts*100) : 0;
-  const categoryName = CATEGORY_NAMES[profile.category] || "Choose your study area";
+  const chosenSubjects = (profile.selectedSubjects||[]).slice(0,4).map(id=>subjects.find(s=>s.id===id)).filter(Boolean);
+  const totalLocalQuestions = Object.values(packs).reduce((n,p)=>n+p.length,0);
   const recent = sessions[0];
-  const chosen = (profile.selectedSubjects||[]).slice(0,4).map(id=>subjects.find(s=>s.id===id)?.name).filter(Boolean);
-  return `<section class="study-hero">
-    <div class="study-hero-copy"><p class="eyebrow hero-eyebrow"><span class="hero-sparkle">✦</span> YOUR UTME JOURNEY</p>
-      <h1>${profile.displayName ? `Welcome back, ${esc(profile.displayName.split(/\s+/)[0])}.` : "Your next chapter starts here."}</h1>
-      <p class="hero-lead">Build confidence one question at a time. Practise your subjects, learn from explanations, and make every study session count.</p>
-      <div class="hero-actions"><button class="button button-primary" data-page="practice-setup">Start a practice session <span>→</span></button><button class="button button-hero-quiet" data-page="course-guide">Plan my course ↗</button></div>
-      <div class="hero-trust"><span>✦ Offline-ready</span><span>◈ 25 subject choices</span><span>✓ Progress saved on this device</span></div>
-    </div>
-    <div class="study-hero-art"><span class="art-floating art-book">✦ Study smarter</span><span class="art-floating art-check">✓</span><span class="art-floating art-score">A+ <small>Keep going</small></span><div class="learning-scene scene-home" role="img" aria-label="Illustration of a student practising on a laptop"><div class="scene-orbit orbit-one"></div><div class="scene-card scene-card-book"><span>✎</span><strong>Study notes</strong><small>One step at a time</small></div><div class="scene-student"><div class="scene-hair"></div><div class="scene-head"></div><div class="scene-body"></div><div class="scene-arm"></div><div class="scene-laptop"><span>R2G</span><i></i></div></div><div class="scene-card scene-card-check"><span>✓</span><strong>Progress saved</strong></div><div class="scene-ground"></div></div></div>
-    <div class="hero-polygon hero-polygon-one" aria-hidden="true"></div><div class="hero-polygon hero-polygon-two" aria-hidden="true"></div>
-  </section>
-  <section class="quick-stats-grid"><article class="quick-stat"><span class="quick-stat-icon violet">▦</span><div><strong>${attempts}</strong><span>Questions answered</span></div></article><article class="quick-stat"><span class="quick-stat-icon coral">◎</span><div><strong>${accuracy}%</strong><span>Practice accuracy</span></div></article><article class="quick-stat"><span class="quick-stat-icon mint">✦</span><div><strong>${esc(categoryName)}</strong><span>Your study direction</span></div></article></section>
-  ${!profile.onboardingCompleted?`<section class="setup-banner"><div class="banner-mark">R2G</div><div class="banner-copy"><h2>Personalise your learning</h2><p>Tell us what you want to study. Your four-subject plan is editable later, even offline.</p></div><button class="button button-primary" data-action="open-profile">Finish onboarding</button></section>`:""}
-  <section class="section-head"><div><p class="eyebrow">YOUR PERSONAL STUDY SET</p><h2>Four subjects, one clear plan</h2><p class="muted small">${chosen.length?esc(chosen.join(" · ")):"Complete onboarding to choose your subjects"}</p></div><button class="text-button" data-action="open-profile">Edit plan →</button></section>
-  <div class="home-action-grid"><article class="home-action-card home-action-practice"><div class="home-action-icon">◈</div><div class="home-action-copy"><p class="eyebrow">CBT PRACTICE</p><h3>Try a mixed four-subject session</h3><p>Move between your selected subjects in one session, just like a focused revision set.</p><div class="home-action-meta"><span>${chosen.length||4} subjects in your plan</span><span>•</span><span>10–100 requested · availability varies</span></div></div><button class="circle-arrow" data-action="start-mixed-practice" aria-label="Start mixed subject practice">↗</button></article><article class="home-action-card home-action-course"><div class="home-action-icon">⌖</div><div class="home-action-copy"><p class="eyebrow">COURSE PLANNER</p><h3>Choose a university and course</h3><p>Explore the Nigerian university directory, then verify your actual UTME combination in IBASS.</p><div class="home-action-meta"><span>2026 benchmark guidance</span><span>•</span><span>Official source links</span></div></div><button class="circle-arrow" data-page="course-guide" aria-label="Open course and institution guide">↗</button></article></div>
-  <section class="section-head spaced"><div><p class="eyebrow">PICK UP WHERE YOU LEFT OFF</p><h2>Recent activity</h2></div><button class="text-button" data-page="progress">View progress →</button></section>
-  ${recent ? `<article class="recent-card"><div class="recent-icon">✓</div><div class="recent-copy"><strong>${esc(recent.subjectName)}</strong><span>${fmtDate(recent.completedAt)} · ${recent.total} questions</span></div><div class="recent-score"><strong>${recent.score}/${recent.total}</strong><span>${Math.round(recent.score/Math.max(1,recent.total)*100)}% correct</span></div></article>` : `<div class="empty-state compact"><div class="empty-symbol">✦</div><strong>Your practice story starts here</strong><p>Complete a short practice session to see your score, explanations and next steps.</p><button class="button button-primary" data-page="practice-setup">Start my first session</button></div>`}
-  <section class="homepage-footnote"><span class="footnote-icon">i</span><p>Ready2Go Original questions are draft practice content until subject experts verify the answer keys. Admission guidance is labelled by year and linked to official sources.</p></section>`;
+  const greetingName = (profile.displayName || authUser?.displayName || "Learner").trim().split(/\s+/)[0];
+  const subjectTiles = chosenSubjects.map(s=>`<button class="mini-subject-tile" data-action="start-subject" data-subject="${esc(s.id)}"><span class="mini-subject-icon">${esc(subjectIcon(s))}</span><span><strong>${esc(s.name)}</strong><small>${(packs[s.id]||[]).length} local questions</small></span><b>›</b></button>`).join("");
+  const cards = [
+    {title:"CBT Practice",sub:"Timed or untimed exam-style sessions",glyph:"▣",tone:"mint",page:"practice-setup"},
+    {title:"My Subjects",sub:"Edit subject choices and start by topic",glyph:"▦",tone:"lilac",page:"subjects"},
+    {title:"Progress & Analysis",sub:"Scores, accuracy and weak topics",glyph:"↗",tone:"peach",page:"progress"},
+    {title:"Ready2Go Coach",sub:"Study hints and question explanations",glyph:"✦",tone:"sky",page:"study-coach"},
+    {title:"Question Library",sub:"Browse the local question catalogue",glyph:"▤",tone:"sand",page:"question-library"},
+    {title:"Course & Institution Guide",sub:"Explore options; verify entry rules",glyph:"⌖",tone:"mint",page:"course-guide"}
+  ];
+  return `<section class="r2g-dashboard"><div class="dashboard-head"><div><p class="eyebrow"><span class="live-dot"></span> YOUR READY2GO STUDY SPACE</p><h1>Hello, ${esc(greetingName)} <span class="hello-sparkle">✦</span></h1><p>Learn with focus. Practise with purpose. Keep your next step in view.</p></div><div class="dashboard-head-actions"><span class="offline-pill" id="dashboardOfflinePill"><i></i>${navigator.onLine?'Online · offline-ready':'Offline · local practice ready'}</span><button class="button button-primary" data-page="practice-setup">Start practice <span>→</span></button></div></div>
+  <div class="dashboard-metrics"><article class="dash-metric"><span class="dash-metric-icon mint">▣</span><div><strong>${attempts}</strong><small>Questions answered</small></div></article><article class="dash-metric"><span class="dash-metric-icon lilac">◎</span><div><strong>${accuracy}%</strong><small>Practice accuracy</small></div></article><article class="dash-metric"><span class="dash-metric-icon peach">▤</span><div><strong>${totalLocalQuestions.toLocaleString()}</strong><small>Local draft questions</small></div></article><article class="dash-metric"><span class="dash-metric-icon sky">▦</span><div><strong>${chosenSubjects.length}/4</strong><small>Your study subjects</small></div></article></div>
+  <div class="dashboard-content"><section class="dashboard-main-panel"><div class="dashboard-section-title"><div><p class="eyebrow">YOUR LEARNING TOOLS</p><h2>Where would you like to begin?</h2></div><span class="compact-tag">APP MODE</span></div><div class="dashboard-launch-grid">${cards.map(c=>`<button class="launch-tile tone-${c.tone}" data-page="${c.page}"><span class="launch-glyph">${c.glyph}</span><span class="launch-copy"><strong>${c.title}</strong><small>${c.sub}</small></span><span class="launch-arrow">↗</span></button>`).join("")}</div>
+  <div class="dashboard-section-title selected-subject-heading"><div><p class="eyebrow">YOUR STUDY SET</p><h2>Quick subject access</h2></div><button class="text-button" data-action="open-profile">Edit plan ↗</button></div><div class="mini-subject-list">${subjectTiles||`<button class="mini-subject-tile" data-action="open-profile"><span class="mini-subject-icon">＋</span><span><strong>Choose subjects</strong><small>Complete your short onboarding</small></span><b>›</b></button>`}</div></section>
+  <aside class="dashboard-side-panel"><div class="dashboard-illustration-card"><div class="illustration-heading"><span class="illustration-kicker">SMALL STEPS. BIG GOALS.</span><span class="illustration-scribble">✦</span></div><div class="mini-school-scene"><div class="mini-pencil pencil-a"></div><div class="mini-pencil pencil-b"></div><div class="mini-book book-one"></div><div class="mini-book book-two"></div><div class="mini-apple"></div><div class="mini-plant"></div><div class="mini-laptop"><span>R2G</span></div></div><h3>Ready when you are.</h3><p>Every session saves locally. Your practice content stays on this device once it has been cached.</p><div class="offline-readiness"><span class="readiness-check">✓</span><span><strong>Offline practice pack</strong><small>${totalLocalQuestions.toLocaleString()} local draft questions across ${Object.keys(packs).length} subjects</small></span></div></div>
+  <div class="recent-mini-card"><div class="recent-mini-top"><span class="eyebrow">LAST SESSION</span><button class="text-button" data-page="progress">History ↗</button></div>${recent?`<div class="recent-mini-result"><span class="recent-mini-mark">✓</span><div><strong>${esc(recent.subjectName)}</strong><small>${fmtDate(recent.completedAt)} · ${recent.total} questions</small></div><b>${recent.score}/${recent.total}</b></div>`:`<div class="recent-mini-empty"><span>▣</span><strong>Your first session is waiting</strong><small>Start with 5 questions and learn from every answer.</small><button class="button button-outline button-wide" data-page="practice-setup">Start a 5-question drill</button></div>`}</div>
+  <p class="dashboard-content-note">Content note: original draft questions are included for pilot practice. They are not labelled as official JAMB past questions. Subject experts must verify answer keys before public marketing as validated exam content.</p></aside></div></section>`;
 }
+
+function studyCoachView() {
+ const examples = ["Explain the last question I missed", "Give me a 20-minute revision plan", "How do I improve my exam timing?", "Help me understand a difficult topic"];
+ return `<section class="coach-shell"><div class="coach-header"><div class="coach-emblem">✦</div><div><p class="eyebrow">READY2GO LEARNING SUPPORT</p><h1>Ready2Go Coach</h1><p class="muted">A small, offline-first study helper for revision guidance and question explanations.</p></div><span class="offline-pill"><i></i> Works offline</span></div><div class="coach-truth-note"><strong>What this version can do</strong><p>It can look up your local question explanations and give built-in study guidance without internet. It is not a generative AI chat service in this release; no external AI API is configured.</p></div><div class="coach-chat-card"><div class="coach-chat-history" id="coachHistory">${coachMessages.map(m=>`<div class="coach-message ${m.role==='user'?'coach-user':'coach-assistant'}"><span>${m.role==='user'?'You':'Coach'}</span><p>${esc(m.text).replace(/\n/g,'<br>')}</p></div>`).join('')||`<div class="coach-welcome"><span>✎</span><h2>Let's make your next study session count.</h2><p>Ask about a question, a subject, or your study routine. For question-specific explanations, use the wording or topic from your local pack.</p></div>`}</div><div class="coach-prompts">${examples.map((e,i)=>`<button class="coach-prompt" data-action="coach-fill" data-prompt="${esc(e)}">${esc(e)}</button>`).join('')}</div><form id="coachForm" class="coach-input-row"><label class="visually-hidden" for="coachInput">Ask Ready2Go Coach</label><textarea id="coachInput" name="prompt" rows="2" maxlength="500" placeholder="Ask a study question…" required></textarea><button class="button button-primary" type="submit">Ask <span>↗</span></button></form></div><p class="small-note">Your prompt is processed inside this app and is not sent to an external AI service in this version.</p></section>`;
+}
+
+function offlineCoachReply(prompt) {
+ const text=String(prompt||'').trim();
+ const low=text.toLowerCase();
+ const all=Object.entries(packs).flatMap(([sid,qs])=>qs.map(q=>({...q,subjectId:sid,subjectName:subjects.find(s=>s.id===sid)?.name||sid})));
+ const tokens=low.split(/[^a-z0-9]+/).filter(t=>t.length>3 && !['question','explain','please','help','what','last','missed','with','from','give','understand','difficult','topic'].includes(t));
+ let match=null;
+ if(tokens.length) match=all.find(q=>tokens.some(t=>(q.question+' '+q.topic+' '+q.subjectName+' '+Object.values(q.options||{}).join(' ')).toLowerCase().includes(t)));
+ if(match){return `From the local ${match.subjectName} pack (${match.topic}):\n\n${match.question}\n\nCorrect option: ${match.correctAnswer}. ${match.options?.[match.correctAnswer]||''}\n\nExplanation: ${match.explanation}\n\nThis is a Ready2Go Original draft item, not a verified official JAMB past question.`;}
+ if(/tim(e|ing)|speed|exam/.test(low)) return 'Try a short timed drill first: 5 questions, then review each explanation. Move on if you are stuck, mark the question for review, and return before you submit. Use this app timer as a practice aid—not as a claim about official JAMB timing.';
+ if(/plan|revision|study|routine|schedule/.test(low)) return 'A simple 20-minute routine: 2 minutes to choose one topic; 12 minutes for focused questions; 4 minutes to read explanations and note mistakes; 2 minutes to choose what to revise next. Repeat this regularly and let your saved results guide the topic.';
+ if(/weak|mistake|wrong|improve|score/.test(low)) return 'Open Progress & Analysis after a practice session. Revisit any topic where your accuracy is low, read the explanation, and try a fresh short session. Your saved accuracy is a local practice metric—not a prediction of your official JAMB score.';
+ const topic=all.find(q=>tokens.some(t=>(q.topic+' '+q.subjectName).toLowerCase().includes(t)));
+ if(topic) return `For ${topic.subjectName} / ${topic.topic}, start with the related practice question and read its explanation after answering. This offline helper is rule-based in this release; it can't yet reason about arbitrary questions like a connected generative AI tutor.`;
+ return 'I can help with local question explanations, a short revision routine, or practice strategy. Try a question from the Question Library, or ask for a 20-minute revision plan. This release does not connect to a generative AI model.';
+}
+
 function subjectIcon(subject) { const icons={"Mathematics":"∑","Use of English":"Aa","Physics":"ϕ","Biology":"⌘","Chemistry":"⚗","Computer Studies":"⌘","Arabic":"ع","French":"Fr","Music":"♫","Art":"✧","History":"◷","Agriculture":"♧"};return icons[subject.name]||"✦"; }
 async function subjectsView() {
   const grouped = {science:[],"humanities-arts":[],commerce:[]};
@@ -220,7 +248,7 @@ function setupView() {
     <div class="setup-mode-grid"><label class="setup-mode-card ${defaultCombined?'':'selected'}"><input type="radio" name="mode" value="single" ${defaultCombined?'':'checked'}><span class="setup-mode-icon">◈</span><strong>One subject</strong><small>Go deep on a topic or subject.</small></label><label class="setup-mode-card ${defaultCombined?'selected':''}"><input type="radio" name="mode" value="combined" ${defaultCombined?'checked':''}><span class="setup-mode-icon coral">✦</span><strong>Four-subject mix</strong><small>Practise across your UTME plan.</small></label></div>
     <div id="singleSubjectGroup" class="single-subject-group ${defaultCombined?'hidden':''}"><label for="subjectSelect">Subject</label><select id="subjectSelect" name="subject" class="field">${subjectOptions}</select><label for="topicSelect">Topic</label><select id="topicSelect" name="topic" class="field"><option value="all">All available topics</option></select></div>
     <div id="mixedSubjectsGroup" class="mixed-subjects-group ${defaultCombined?'':'hidden'}"><div class="field-section-heading"><div><h3>Your four-subject selection</h3><p>Use of English is kept in the set. Select up to three more.</p></div><span class="count-pill" id="mixCount">${mixIds.length}/4 selected</span></div><div class="subject-check-grid mix-subject-grid">${mixOptions}</div></div>
-    <label>Number of questions</label><div class="choice-row"><label class="choice"><input type="radio" name="count" value="10" checked><span>10</span></label><label class="choice"><input type="radio" name="count" value="20"><span>20</span></label><label class="choice"><input type="radio" name="count" value="40"><span>40</span></label><label class="choice"><input type="radio" name="count" value="80"><span>80</span></label><label class="choice"><input type="radio" name="count" value="100"><span>100</span></label><label class="choice"><input type="radio" name="count" value="all"><span>All available</span></label></div>
+    <label>Number of questions</label><div class="choice-row"><label class="choice"><input type="radio" name="count" value="5" checked><span>5</span></label><label class="choice"><input type="radio" name="count" value="10"><span>10</span></label><label class="choice"><input type="radio" name="count" value="20"><span>20</span></label><label class="choice"><input type="radio" name="count" value="40"><span>40</span></label><label class="choice"><input type="radio" name="count" value="80"><span>80</span></label><label class="choice"><input type="radio" name="count" value="100"><span>100</span></label><label class="choice"><input type="radio" name="count" value="all"><span>All available</span></label></div>
     <label>Difficulty</label><div class="choice-row"><label class="choice"><input type="radio" name="difficulty" value="all" checked><span>Mixed</span></label><label class="choice"><input type="radio" name="difficulty" value="easy"><span>Easy</span></label><label class="choice"><input type="radio" name="difficulty" value="medium"><span>Medium</span></label><label class="choice"><input type="radio" name="difficulty" value="challenging"><span>Challenging</span></label></div>
     <label class="check-row"><input type="checkbox" name="timed" checked><span><strong>Timed practice</strong><small>One minute per question as an app timer setting—not an official JAMB timing rule.</small></span></label>
     <button type="submit" class="button button-primary button-wide">Begin practice <span>→</span></button>
@@ -371,7 +399,7 @@ function courseGuideView() {
  const count=(coursesData.courses||[]).length;
  const benchmarks=(JSON.parse(JSON.stringify({universities:150,nursing:150,polytechnic:100}))); 
  return `<section class="page-intro"><p class="eyebrow">PLAN YOUR NEXT STEP</p><h1>Course &amp; institution guide</h1><p class="muted lead">Explore the national university directory, choose a programme, then verify the exact subject combination and admission criteria in JAMB IBASS.</p></section>
- <div class="course-guide-hero"><div><span class="course-guide-kicker">ADMISSION GUIDE · 2026</span><h2>Choose with confidence.<br>Verify before you apply.</h2><p>Search the university directory and use the official checker for the programme-specific requirements. A familiar course name does not guarantee the same requirements at every institution.</p><button class="button button-light" data-action="open-ibass">Open JAMB IBASS ↗</button></div><div class="guide-hero-stats"><div><strong>${inst}</strong><span>directory entries</span></div><div><strong>${state}</strong><span>states + FCT</span></div><div><strong>${count}</strong><span>common programme searches</span></div></div></div>
+ <div class="course-guide-hero"><div><span class="course-guide-kicker">ADMISSION GUIDE · 2026</span><h2>Choose with confidence.<br>Verify before you apply.</h2><p>Search the university directory and use the official checker for the programme-specific requirements. A familiar course name does not guarantee the same requirements at every institution.</p><div class="course-guide-note">Check current programme requirements against official admissions guidance before applying.</div></div><div class="guide-hero-stats"><div><strong>${inst}</strong><span>directory entries</span></div><div><strong>${state}</strong><span>states + FCT</span></div><div><strong>${count}</strong><span>common programme searches</span></div></div></div>
  <section class="section-head spaced"><div><p class="eyebrow">2026 BENCHMARKS</p><h2>National minimum admissible scores</h2></div><span class="count-pill">Admission year 2026 only</span></section>
  <div class="benchmark-grid"><article class="benchmark-card benchmark-violet"><span>University</span><strong>${benchmarks.universities}</strong><small>out of 400 · national minimum</small></article><article class="benchmark-card benchmark-coral"><span>College of Nursing</span><strong>${benchmarks.nursing}</strong><small>out of 400 · national minimum</small></article><article class="benchmark-card benchmark-mint"><span>Polytechnic / Monotechnic / eligible colleges</span><strong>${benchmarks.polytechnic}</strong><small>out of 400 · national minimum</small></article></div>
  <div class="guidance-alert"><strong>Important: these are not departmental cut-off marks</strong><p>JAMB’s 2026 policy meeting set national minimum admissible scores. Institutions may set higher requirements, and admission may depend on programme-specific subject combinations, O’Level grades, screening and other criteria. Ready2Go will not invent a specific university-course cut-off without a reliable source for the exact year.</p><span>Admission guidance shown here is informational and should be confirmed through current official materials.</span></div>
@@ -416,7 +444,7 @@ function openAuth() {
   else {$("#authEmail").disabled=false;$("#authPassword").classList.remove("hidden");$("#authPassword").required=true;$("#authName").required=true;}
   setTimeout(()=>$("#authEmail").focus(),50);
 }
-function closeAuth() { if(!authUser&&!profile.onboardingCompleted){toast("Create an account or sign in to continue.");return;} const modal=$("#authModal"); modal.classList.add("hidden");modal.setAttribute("aria-hidden","true");$("#authEmail").disabled=false;$("#authPassword").classList.remove("hidden");$("#authPassword").required=true;$("#authName").required=true; }
+function closeAuth() { const modal=$("#authModal"); modal.classList.add("hidden");modal.setAttribute("aria-hidden","true");$("#authEmail").disabled=false;$("#authPassword").classList.remove("hidden");$("#authPassword").required=true;$("#authName").required=true; }
 function switchAuthMode() {
  const mode=$("#authMode").value==="signup"?"signin":"signup";$("#authMode").value=mode;$("#authNameField").classList.toggle("hidden",mode==="signin");$("#authName").required=mode==="signup";$("#authSubmit").textContent=mode==="signup"?"Create account":"Sign in";$("#authModeLabel").textContent=mode==="signup"?"Create your account":"Welcome back";$("#authSwitch").textContent=mode==="signup"?"Already have an account? Sign in":"New to Ready2Go? Create an account";$("#authMessage").textContent="";
 }
@@ -463,10 +491,14 @@ async function handleAction(button) {
  else if(action==="start-english"){page="practice-setup";practice={subjectId:"use-of-english"};await render();if($("#subjectSelect"))$("#subjectSelect").value="use-of-english";refreshTopics();}
  else if(action==="start-subject"){const id=button.dataset.subject;await loadPackIfNeeded(id);if(packs[id]?.length){page="practice-setup";practice={subjectId:id};await render();if($("#subjectSelect"))$("#subjectSelect").value=id;refreshTopics();const single=$('input[name="mode"][value="single"]');if(single){single.checked=true;syncSetupMode();}}else toast("This subject has no questions in the current build.");}
  else if(action==="start-mixed-practice"){page="practice-setup";practice={subjectIds:(profile.selectedSubjects||[]).slice(0,4),mode:"combined"};await render();const mixed=$('input[name="mode"][value="combined"]');if(mixed)mixed.checked=true;syncSetupMode();}
- else if(action==="open-profile"){page="profile";onboardingStep=0;closeMobileSidebar();await render();refreshInstitutionOptions();}
+ else if(action==="open-profile"){page="profile";onboardingStep=profile.onboardingCompleted?2:0;closeMobileSidebar();await render();refreshInstitutionOptions();}
+ else if(action==="start-onboarding"){page="profile";onboardingStep=0;closeMobileSidebar();await render();refreshInstitutionOptions();}
+ else if(action==="coach-fill"){const input=$("#coachInput");if(input){input.value=button.dataset.prompt||"";input.focus();input.closest("form")?.requestSubmit();}}
  else if(action==="onboarding-next")await saveOnboardingStep();
  else if(action==="onboarding-back"){onboardingStep=Math.max(0,onboardingStep-1);await render();refreshInstitutionOptions();}
- else if(action==="dismiss-install-nudge"){sessionStorage.setItem("r2gInstallDismissed","1");$("#installNudge")?.remove();if(!authUser)openAuth();}
+ else if(action==="dismiss-install-nudge"){const n=$("#installNudge");if(n?._autoDismissTimer)clearTimeout(n._autoDismissTimer);safeSessionSet("r2gInstallDismissed","1");n?.classList.remove("visible");window.setTimeout(()=>n?.remove(),220);}
+ else if(action==="install-help-close"){$("#installHelpModal")?.remove();}
+ else if(action==="skip-welcome"){page="home";await render();}
  else if(action==="choose-institution"){const id=button.dataset.institutionId;const inst=(institutionsData.institutions||[]).find(x=>x.id===id);if(inst){profile.state=inst.state;profile.institutionType=inst.ownership;profile.institutionId=inst.id;profile.institutionName=inst.name;await writeRecord("profile",profile);page="profile";onboardingStep=1;await render();refreshInstitutionOptions();toast("Institution added to your study plan. Continue onboarding to choose a programme and subjects.");}}
  else if(action==="open-auth")openAuth();
  
@@ -485,6 +517,8 @@ async function handleAction(button) {
  else if(action==="clear-history"){if(confirm("Delete the saved practice history from this browser? This cannot be undone.")){await deleteRecord("sessions");await render();toast("Local practice history cleared.");}}
 }
 
+function safeSessionGet(key) { try { return sessionStorage.getItem(key); } catch { return null; } }
+function safeSessionSet(key,value) { try { sessionStorage.setItem(key,value); } catch {} }
 function isStandalone() {
  return window.matchMedia?.("(display-mode: standalone)").matches || window.navigator.standalone === true;
 }
@@ -499,23 +533,41 @@ function installBannerView() {
 }
 async function installApp() {
  if (!deferredInstallPrompt) { showInstallInstructions(); return; }
- deferredInstallPrompt.prompt();
+ const promptEvent = deferredInstallPrompt;
  try {
-  const choice=await deferredInstallPrompt.userChoice;
-  if (choice?.outcome === "accepted") toast("Installation started. Follow your browser's confirmation.");
-  else toast("No problem. You can install Ready2Go later.");
+  promptEvent.prompt();
+  const choice=await promptEvent.userChoice;
+  if (choice?.outcome === "accepted") toast("Installation confirmed. The browser will finish adding Ready2Go.");
+  else toast("Installation was not completed. You can install Ready2Go from your browser menu later.");
  } catch { toast("Open your browser's install option to add Ready2Go."); }
  deferredInstallPrompt=null;
- if(page==='home') render();
+ const n=$("#installNudge");if(n?._autoDismissTimer)clearTimeout(n._autoDismissTimer);safeSessionSet("r2gInstallDismissed","1");n?.classList.remove("visible");window.setTimeout(()=>n?.remove(),220);
 }
 function showInstallInstructions() {
- const message = isIosSafari()
-  ? "On iPhone or iPad: open Ready2Go in Safari, tap Share, then choose Add to Home Screen. iOS does not allow a website to force this prompt."
-  : "In Chrome or Edge, use the browser's Install app option if available. The browser controls the native prompt; Ready2Go cannot force-install without your confirmation. If the option is missing, check HTTPS and the PWA install requirements. On desktop, look for the install icon in the address bar or menu.";
- toast(message);
+ const prior=$("#installHelpModal"); if(prior){prior.remove();return;}
+ const isIOS=isIosSafari();
+ const isAndroid=/android/i.test(navigator.userAgent);
+ const title=isIOS?"Add Ready2Go to your iPhone or iPad":isAndroid?"Install Ready2Go on Android":"Install Ready2Go on your computer";
+ const steps=isIOS?[
+   "Open this page in Safari (not an in-app browser).",
+   "Tap the Share button.",
+   "Choose Add to Home Screen, then tap Add."
+ ]:isAndroid?[
+   "Open this page in Chrome or a supported browser.",
+   "Tap the browser menu (⋮).",
+   "Choose Install app or Add to Home screen, then confirm."
+ ]:[
+   "Open this page in Chrome or Microsoft Edge.",
+   "Choose the Install icon in the address bar, or open the browser menu.",
+   "Choose Install Ready2Go Learning and confirm."
+ ];
+ const modal=document.createElement("div"); modal.id="installHelpModal"; modal.className="install-help-overlay"; modal.innerHTML=`<section class="install-help-card" role="dialog" aria-modal="true" aria-labelledby="installHelpTitle"><button class="install-nudge-close" data-action="install-help-close" aria-label="Close installation steps">×</button><div class="install-help-logo"><img src="./assets/r2g-app-icon-512.png" alt="Ready2Go app icon"></div><p class="eyebrow">ONE-TAP STUDY SPACE</p><h2 id="installHelpTitle">${title}</h2><p class="muted">The device/browser has to approve installation. Ready2Go cannot silently install itself.</p><ol>${steps.map(s=>`<li>${esc(s)}</li>`).join("")}</ol><div class="install-help-benefits"><span>✓ Full-screen app layout</span><span>✓ Local practice after content has cached</span><span>✓ Home-screen shortcut</span></div><button class="button button-primary button-wide" data-action="install-help-close">Got it</button></section>`; document.body.append(modal);
+}
+function updateConnectivityChip(){
+ const online=Boolean(navigator.onLine);const node=$("#connectivityChip");if(node){node.classList.toggle("is-offline",!online);node.querySelector("span").textContent=online?"Online · offline-ready":"Offline · local content";}
+ const pill=$("#dashboardOfflinePill");if(pill){pill.classList.toggle("is-offline",!online);pill.innerHTML=`<i></i>${online?'Online · offline-ready':'Offline · local practice ready'}`;}
 }
 async function saveOnboardingStep() {
- if(!authUser){openAuth();toast("Create your Ready2Go account before setting up your study plan.");return;}
  const form=$("#profileForm"); if(!form)return;
  const fd=new FormData(form);
  if(onboardingStep===0){
@@ -542,10 +594,12 @@ function syncSetupMode(){
 }
 function updateMixCount(){const n=$$("input[name=\'mixSubjects\']:checked").length;const el=$("#mixCount");if(el)el.textContent=`${Math.min(4,n)}/4 selected`;}
 function showTimedInstallNudge(){
- if(isStandalone()||sessionStorage.getItem("r2gInstallDismissed")==="1"||$("#installNudge"))return;
- const n=document.createElement("aside");n.id="installNudge";n.className="install-nudge";n.setAttribute("role","dialog");n.setAttribute("aria-label","Install Ready2Go Learning");
- n.innerHTML=`<button class="install-nudge-close" data-action="dismiss-install-nudge" aria-label="Dismiss install reminder">×</button><div class="install-nudge-art"><img src="./assets/r2g-app-icon-192.png" alt="Ready2Go icon"></div><div class="install-nudge-copy"><span class="install-nudge-kicker">YOUR STUDY SPACE, ONE TAP AWAY</span><strong>Install Ready2Go Learning</strong><p>Add Ready2Go to your home screen for a more app-like launch. You can skip this and continue in your browser.</p><div class="install-nudge-actions"><button class="button button-primary" data-action="install-nudge-go">${deferredInstallPrompt?'Install app':'Install / add to home screen'}</button><button class="text-button" data-action="install-help">How it works</button></div></div>`;
+ if(isStandalone()||safeSessionGet("r2gInstallDismissed")==="1"||$("#installNudge"))return;
+ const n=document.createElement("div");n.id="installNudge";n.className="install-nudge";n.setAttribute("role","dialog");n.setAttribute("aria-modal","true");n.setAttribute("aria-label","Install Ready2Go Learning");
+ n.innerHTML=`<section class="install-nudge-card"><button class="install-nudge-close" data-action="dismiss-install-nudge" aria-label="Continue in browser">×</button><div class="install-nudge-visual"><img src="./assets/r2g-app-icon-512.png" alt="Ready2Go app icon"><div class="install-nudge-spark spark-one">✦</div><div class="install-nudge-spark spark-two">✎</div></div><div class="install-nudge-copy"><span class="install-nudge-kicker">READY2GO LEARNING · APP INSTALL</span><h2>Make your study space an app.</h2><p>Install Ready2Go on your home screen for a focused, full-screen experience. Your local study content can then be available offline after it is cached.</p><div class="install-benefit-grid"><span><b>✓</b> CBT practice</span><span><b>✓</b> Study anywhere</span><span><b>✓</b> Local progress</span><span><b>✓</b> Light &amp; dark themes</span></div><div class="install-nudge-actions"><button class="button button-primary install-main-cta" data-action="install-nudge-go">${deferredInstallPrompt?'Install Ready2Go':'Show install steps'} <span>→</span></button><button class="button button-outline" data-action="dismiss-install-nudge">Continue in browser</button></div><p class="small-note">Installation requires your confirmation in the browser. Ready2Go does not force-install an app.</p></div></section>`;
  document.body.append(n);requestAnimationFrame(()=>n.classList.add("visible"));
+ // Show the first-visit install invitation immediately, then get out of the learner's way after one minute.
+ n._autoDismissTimer=window.setTimeout(()=>{if(!n.isConnected)return;safeSessionSet("r2gInstallDismissed","1");n.classList.remove("visible");window.setTimeout(()=>n.remove(),240);},60000);
 }
 function closeMobileSidebar() {
  const sidebar=$("#sidebar"), scrim=$("#sidebarScrim");
@@ -555,7 +609,7 @@ function closeMobileSidebar() {
 }
 
 document.addEventListener("click",async e=>{
- const nav=e.target.closest("[data-page]"); if(nav){const next=nav.dataset.page; if(!authUser){openAuth();toast("Create an account or sign in before using your study space.");return;} if(!profile.onboardingCompleted&&next!=="profile"){page="profile";await render();toast("Finish your study plan to open your learning dashboard.");return;}if(next==="practice-setup"&&page==="practice"&&!practice?.submitted){if(!confirm("Leave this practice session? Unsaved answers will be lost."))return;clearInterval(timerInterval);}page=next;if(page==="practice-setup")practice=null;closeMobileSidebar();await render();if(page==="practice-setup")refreshTopics();if(page==="profile")refreshInstitutionOptions();return;}
+ const nav=e.target.closest("[data-page]"); if(nav){if(nav.tagName==="A")e.preventDefault();const next=nav.dataset.page; if(!profile.onboardingCompleted && !["profile","welcome"].includes(next)){page="profile";await render();toast("Finish your study plan to open the learning dashboard.");return;}if(next==="practice-setup"&&page==="practice"&&!practice?.submitted){if(!confirm("Leave this practice session? Unsaved answers will be lost."))return;clearInterval(timerInterval);}page=next;if(page==="practice-setup")practice=null;closeMobileSidebar();await render();if(page==="practice-setup")refreshTopics();if(page==="profile")refreshInstitutionOptions();return;}
  const button=e.target.closest("[data-action]");if(button){await handleAction(button);return;}
  if(e.target.closest("#themeToggle")){const next=document.documentElement.dataset.theme==="dark"?"light":"dark";setTheme(next);await writeRecord("theme",next);}
 });
@@ -575,6 +629,12 @@ document.addEventListener("change",async e=>{
  }
 });
 document.addEventListener("submit",async e=>{
+ if(e.target.id==="coachForm"){
+   e.preventDefault(); const input=$("#coachInput"); const prompt=String(input?.value||"").trim(); if(!prompt)return;
+   coachMessages.push({role:"user",text:prompt}); coachMessages.push({role:"assistant",text:offlineCoachReply(prompt)});
+   if(coachMessages.length>20) coachMessages=coachMessages.slice(-20);
+   await render(); const history=$("#coachHistory"); if(history)history.scrollTop=history.scrollHeight;
+ }
  if(e.target.id==="setupForm"){e.preventDefault();await startPractice(e.target);}
  if(e.target.id==="profileForm"){
    e.preventDefault();const fd=new FormData(e.target);const checked=fd.getAll("selectedSubjects").map(String).slice(0,3);if(checked.length!==3){toast("Choose exactly three additional subjects. Use of English is included automatically, making four subjects.");return;}
@@ -597,10 +657,10 @@ $("#authBackdrop")?.addEventListener("click",closeAuth);
 $("#authSwitch")?.addEventListener("click",e=>{e.preventDefault();switchAuthMode();});
 $("#resetPassword")?.addEventListener("click",e=>{e.preventDefault();resetPassword();});
 $("#googleSignIn")?.addEventListener("click",()=>submitGoogleAuth());
-window.addEventListener("online",()=>toast("You're back online. Account services are available."));
-window.addEventListener("offline",()=>toast("You're offline. Downloaded practice content remains available."));
-window.addEventListener("beforeinstallprompt", event => { event.preventDefault(); deferredInstallPrompt=event; const nudge=$("#installNudge");if(nudge){const cta=nudge.querySelector('[data-action="install-nudge-go"]');if(cta)cta.textContent="Install app";} });
-window.addEventListener("appinstalled", () => { deferredInstallPrompt=null; $("#installNudge")?.remove();sessionStorage.setItem("r2gInstallDismissed","1");toast("Ready2Go is installed on this device.");if(!authUser)openAuth(); });
+window.addEventListener("online",()=>{updateConnectivityChip();toast("You're back online. Cloud account features are available.");});
+window.addEventListener("offline",()=>{updateConnectivityChip();toast("You're offline. Cached practice content and local history remain available.");});
+window.addEventListener("beforeinstallprompt", event => { event.preventDefault(); deferredInstallPrompt=event; const nudge=$("#installNudge");if(nudge){const cta=nudge.querySelector('[data-action="install-nudge-go"]');if(cta)cta.innerHTML="Install Ready2Go <span>→</span>";} });
+window.addEventListener("appinstalled", () => { deferredInstallPrompt=null; $("#installNudge")?.remove();safeSessionSet("r2gInstallDismissed","1");toast("Ready2Go is installed on this device."); });
 $("#mobileMenu")?.addEventListener("click",()=>{const sidebar=$("#sidebar"), scrim=$("#sidebarScrim");const open=!sidebar?.classList.contains("mobile-open");sidebar?.classList.toggle("mobile-open",open);scrim?.classList.toggle("active",open);$("#mobileMenu")?.setAttribute("aria-expanded",String(open));});
 $("#sidebarScrim")?.addEventListener("click",closeMobileSidebar);
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeMobileSidebar();if(!$("#authModal")?.classList.contains("hidden"))closeAuth();}});

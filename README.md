@@ -1,4 +1,4 @@
-# Ready2Go Learning v0.4.0
+# Ready2Go Learning v1.0.0
 
 Ready2Go Learning is an installable, offline-first UTME preparation PWA from Davonium Technologies. It uses vanilla HTML, CSS and JavaScript modules. The updated interface has first-visit guided onboarding, separate learning pages, responsive navigation, animated study artwork, light/dark modes, a dismissible install reminder after 60 seconds, editable four-subject plans, CBT-style practice and a Nigerian university guide.
 
@@ -32,9 +32,9 @@ Open `http://localhost:8000`. Google sign-in requires the deployment hostname to
 This is a production-oriented test release candidate, not a guarantee of completed browser/device, subject-matter, legal or security certification. Review the release audit and deployment quickstart in the complete bundle before public launch.
 
 
-## v0.4.1 mobile and learning refinements
+## v1.0.0 mobile and learning refinements
 
-- Installation reminder delay is 60 seconds and remains dismissible; the browser controls actual installation.
+- Installation invitation appears immediately, auto-dismisses after 60 seconds if ignored, and remains dismissible; the browser controls actual installation.
 - New learners see the account entry screen before onboarding; study-plan completion is required before navigating to learning pages.
 - Mobile CBT uses a compact, scrollable question navigator and sticky previous/next controls.
 - Added 80- and 100-question request options; the engine only selects existing unique questions and reports the actual available count.

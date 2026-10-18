@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "appVersion": "0.4.1",
+  "appVersion": "1.0.0",
   "generatedFor": "Ready2Go Learning",
-  "generatedAt": "2026-10-16",
-  "contentNotice": "This release contains 40 original draft questions per subject pack (60 for Mathematics), not 100. These are not official JAMB past questions and require qualified human review and answer-key verification before public release. Do not treat draft packs as validated exam preparation content.",
+  "generatedAt": "2026-10-18",
+  "contentNotice": "This release includes local Ready2Go Original draft practice questions (1,020 across 25 subject packs). These are not official JAMB past questions. Answer keys and content require subject-expert review before publication or marketing as validated examination material.",
   "subjectCatalogSource": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
   "lastChecked": "2026-10-16",
   "minimumQuestionsPerSubject": 40,
