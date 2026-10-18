@@ -1,4 +1,4 @@
-const CACHE_NAME = "ready2go-shell-v1.0.0";
+const CACHE_NAME = "ready2go-shell-v1.0.1";
 const APP_SHELL = [
   "./",
   "./index.html",
@@ -52,7 +52,19 @@ const APP_SHELL = [
 ];
 
 self.addEventListener("install", event => {
-  event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL)).then(() => self.skipWaiting()));
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE_NAME);
+    const results = await Promise.allSettled(APP_SHELL.map(async path => {
+      const response = await fetch(path, { cache: "reload" });
+      if (!response.ok) throw new Error(`Precache failed: ${path} (${response.status})`);
+      await cache.put(path, response);
+    }));
+    const required = ["./", "./index.html", "./styles.css", "./js/app.js", "./js/store.js", "./manifest.webmanifest", "./data/subjects.json", "./data/manifest.json"];
+    const failed = results.map((r, i) => r.status === "rejected" ? APP_SHELL[i] : null).filter(Boolean);
+    const missingRequired = required.filter(path => failed.includes(path));
+    if (missingRequired.length) throw new Error(`Ready2Go offline core could not be cached: ${missingRequired.join(", ")}`);
+    await self.skipWaiting();
+  })());
 });
 self.addEventListener("message", event => { if (event.data?.type === "SKIP_WAITING") self.skipWaiting(); });
 self.addEventListener("activate", event => {

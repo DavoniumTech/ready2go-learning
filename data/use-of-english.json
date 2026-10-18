@@ -3,11 +3,11 @@
   "subjectId": "use-of-english",
   "subjectName": "Use of English",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "0.4.1-draft",
+  "packVersion": "1.0.1-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 40,
-  "minimumTarget": 40,
-  "contentStatus": "needs_human_review",
+  "questionCount": 60,
+  "minimumTarget": 60,
+  "contentStatus": "development_seed_needs_human_review",
   "questions": [
     {
       "id": "eng-001",
@@ -769,6 +769,386 @@
       "correctAnswer": "B",
       "explanation": "“Mitigate” means to make something less severe or harmful.",
       "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-041",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word nearest in meaning to “meticulous”.",
+      "options": {
+        "A": "Careless",
+        "B": "Thorough",
+        "C": "Impatient",
+        "D": "Confused"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Meticulous” means showing great attention to detail.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-042",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to “scarce”.",
+      "options": {
+        "A": "Rare",
+        "B": "Limited",
+        "C": "Abundant",
+        "D": "Insufficient"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Scarce” means not enough or difficult to find; “abundant” means plentiful.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-043",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Neither the principal nor the teachers ___ available for the meeting.",
+      "options": {
+        "A": "was",
+        "B": "is",
+        "C": "were",
+        "D": "has been"
+      },
+      "correctAnswer": "C",
+      "explanation": "With “neither…nor”, the verb commonly agrees with the nearer subject; “teachers” is plural.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-044",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "If I ___ about the change, I would have arrived earlier.",
+      "options": {
+        "A": "know",
+        "B": "knew",
+        "C": "had known",
+        "D": "have known"
+      },
+      "correctAnswer": "C",
+      "explanation": "The third conditional uses “if + past perfect” for an unreal past condition.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-045",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "The committee has submitted ___ report.",
+      "options": {
+        "A": "their",
+        "B": "its",
+        "C": "them",
+        "D": "it’s"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Committee” is treated as a single body here, so the possessive pronoun is “its”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-046",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correctly punctuated sentence.",
+      "options": {
+        "A": "“Where are you going”? she asked.",
+        "B": "“Where are you going?” she asked.",
+        "C": "“Where are you going,”? she asked.",
+        "D": "“Where are you going”? She asked"
+      },
+      "correctAnswer": "B",
+      "explanation": "The question mark belongs inside the quotation marks because the quoted words form a question.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-047",
+      "subjectId": "use-of-english",
+      "topic": "Word classes",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "In “She spoke remarkably clearly”, the word “remarkably” modifies the ___.",
+      "options": {
+        "A": "noun",
+        "B": "pronoun",
+        "C": "adverb",
+        "D": "preposition"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Remarkably” modifies the adverb “clearly”, so it functions as an adverb.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-048",
+      "subjectId": "use-of-english",
+      "topic": "Idioms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "To “keep someone at arm’s length” means to ___.",
+      "options": {
+        "A": "protect them physically",
+        "B": "avoid becoming too close to them",
+        "C": "help them carry something",
+        "D": "challenge them openly"
+      },
+      "correctAnswer": "B",
+      "explanation": "The idiom means to maintain emotional or social distance.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-049",
+      "subjectId": "use-of-english",
+      "topic": "Idioms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "When a person “spills the beans”, the person ___.",
+      "options": {
+        "A": "wastes food",
+        "B": "reveals a secret",
+        "C": "makes a mistake in cooking",
+        "D": "avoids a question"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Spill the beans” means to disclose secret information.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-050",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "The news ___ encouraging, despite the delay.",
+      "options": {
+        "A": "are",
+        "B": "were",
+        "C": "is",
+        "D": "have been"
+      },
+      "correctAnswer": "C",
+      "explanation": "“News” is grammatically singular in standard English.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-051",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correct completion: She prefers reading ___ watching television.",
+      "options": {
+        "A": "than",
+        "B": "to",
+        "C": "from",
+        "D": "over than"
+      },
+      "correctAnswer": "B",
+      "explanation": "The standard pattern is “prefer X to Y”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-052",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word nearest in meaning to “reluctant”.",
+      "options": {
+        "A": "Unwilling",
+        "B": "Delighted",
+        "C": "Certain",
+        "D": "Careless"
+      },
+      "correctAnswer": "A",
+      "explanation": "“Reluctant” means hesitant or unwilling to do something.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-053",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word opposite in meaning to “transparent”.",
+      "options": {
+        "A": "Clear",
+        "B": "Obvious",
+        "C": "Opaque",
+        "D": "Visible"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Opaque” means not allowing light through; it is the opposite of transparent.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-054",
+      "subjectId": "use-of-english",
+      "topic": "Comprehension",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "A passage states that a school planted trees to reduce heat around classrooms. The main purpose of the trees is to ___.",
+      "options": {
+        "A": "increase noise",
+        "B": "provide shade and cool the area",
+        "C": "block every entrance",
+        "D": "replace classroom lessons"
+      },
+      "correctAnswer": "B",
+      "explanation": "The statement directly links tree planting with reducing heat, mainly through shade and cooling.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-055",
+      "subjectId": "use-of-english",
+      "topic": "Comprehension",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "A writer gives several examples before stating a general conclusion. The examples mainly serve to ___.",
+      "options": {
+        "A": "support the conclusion",
+        "B": "change the topic",
+        "C": "hide the writer’s position",
+        "D": "contradict every claim"
+      },
+      "correctAnswer": "A",
+      "explanation": "Examples are commonly used as evidence to support a general point.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-056",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "The students, together with their teacher, ___ visiting the museum tomorrow.",
+      "options": {
+        "A": "is",
+        "B": "was",
+        "C": "are",
+        "D": "has"
+      },
+      "correctAnswer": "C",
+      "explanation": "The main subject is “students”; the phrase “together with their teacher” does not make it singular.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-057",
+      "subjectId": "use-of-english",
+      "topic": "Oral English",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Which word has the same vowel sound as the vowel in “seat”?",
+      "options": {
+        "A": "Sit",
+        "B": "Set",
+        "C": "Beat",
+        "D": "Sat"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Seat” and “beat” share the long /iː/ vowel sound.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-058",
+      "subjectId": "use-of-english",
+      "topic": "Oral English",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Which word begins with the same consonant sound as “judge”?",
+      "options": {
+        "A": "Church",
+        "B": "Gem",
+        "C": "Game",
+        "D": "Young"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Judge” and “gem” begin with the voiced affricate /dʒ/ sound.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-059",
+      "subjectId": "use-of-english",
+      "topic": "Grammar",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "easy",
+      "question": "Choose the correct sentence.",
+      "options": {
+        "A": "Each of the players have a jersey.",
+        "B": "Each of the players has a jersey.",
+        "C": "Each of the players are having a jersey.",
+        "D": "Each players has a jersey."
+      },
+      "correctAnswer": "B",
+      "explanation": "“Each” is singular and takes the singular verb “has”.",
+      "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-060",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original",
+      "difficulty": "medium",
+      "question": "Choose the word nearest in meaning to “impartial”.",
+      "options": {
+        "A": "Biased",
+        "B": "Unfair",
+        "C": "Neutral",
+        "D": "Angered"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Impartial” means fair and not favouring one side.",
+      "reviewStatus": "internal_pilot"
     }
   ]
 }

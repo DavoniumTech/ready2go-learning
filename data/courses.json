@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-16",
+  "generatedAt": "2026-10-18",
   "sourceUrl": "https://eligibility.jamb.gov.ng/",
   "status": "starter_course_search_catalogue_not_verified_against_every_institution",
   "courses": [
@@ -507,7 +507,583 @@
       "subjectCombination": null,
       "cutoffMark": null,
       "note": "Use JAMB IBASS for the selected institution, course and admission year. This catalogue only helps search; it does not determine eligibility."
+    },
+    {
+      "id": "course-057",
+      "name": "Business Education",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-058",
+      "name": "Cooperative Economics and Management",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-059",
+      "name": "Entrepreneurship",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-060",
+      "name": "Finance",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-061",
+      "name": "Human Resource Management",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-062",
+      "name": "Insurance",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-063",
+      "name": "International Business",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-064",
+      "name": "Purchasing and Supply",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-065",
+      "name": "Taxation",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-066",
+      "name": "Transport Management",
+      "field": "commerce",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-067",
+      "name": "Animal Science",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-068",
+      "name": "Applied Biology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-069",
+      "name": "Applied Chemistry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-070",
+      "name": "Biomedical Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-071",
+      "name": "Cybersecurity",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-072",
+      "name": "Electrical Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-073",
+      "name": "Environmental Biology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-074",
+      "name": "Environmental Health Science",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-075",
+      "name": "Forestry and Wildlife Management",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-076",
+      "name": "Information Systems",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-077",
+      "name": "Information Technology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-078",
+      "name": "Marine Biology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-079",
+      "name": "Materials and Metallurgical Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-080",
+      "name": "Mechanical Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-081",
+      "name": "Optometry",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-082",
+      "name": "Public Health",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-083",
+      "name": "Software Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-084",
+      "name": "African Languages",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-085",
+      "name": "Archaeology",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-086",
+      "name": "Chinese Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-087",
+      "name": "Communication and Language Arts",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-088",
+      "name": "Drama and Theatre Arts",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-089",
+      "name": "Film and Multimedia Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-090",
+      "name": "Fine and Applied Arts",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-091",
+      "name": "French Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-092",
+      "name": "Gender Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-093",
+      "name": "International Relations",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-094",
+      "name": "Peace Studies and Conflict Resolution",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-095",
+      "name": "Philosophy",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-096",
+      "name": "Religious Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-097",
+      "name": "Social Work",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-098",
+      "name": "Tourism Studies",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-099",
+      "name": "Urban and Regional Planning",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify in the official JAMB IBASS brochure and the institution’s current admissions information."
+    },
+    {
+      "id": "course-100",
+      "name": "Aerospace Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-101",
+      "name": "Audiology",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-102",
+      "name": "Broadcasting",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-103",
+      "name": "Dentistry and Dental Surgery",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-104",
+      "name": "Education and Biology",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-105",
+      "name": "Education and Chemistry",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-106",
+      "name": "Education and Mathematics",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-107",
+      "name": "Education and Physics",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-108",
+      "name": "Environmental Management",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-109",
+      "name": "Fisheries and Aquaculture",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-110",
+      "name": "Geophysics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-111",
+      "name": "Human Anatomy",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-112",
+      "name": "Human Nutrition and Dietetics",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-113",
+      "name": "Industrial Design",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-114",
+      "name": "Library and Information Science",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-115",
+      "name": "Medical Rehabilitation",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-116",
+      "name": "Petroleum Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-117",
+      "name": "Physiotherapy",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-118",
+      "name": "Telecommunication Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-119",
+      "name": "Textile Design",
+      "field": "humanities-arts",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
+    },
+    {
+      "id": "course-120",
+      "name": "Water Resources and Environmental Engineering",
+      "field": "science",
+      "requirementsStatus": "not_authoritative_suggestion_only",
+      "subjectCombination": null,
+      "cutoffMark": null,
+      "note": "Catalogue discovery entry only. Availability and subject requirements vary by institution and admission year; verify the exact course in official JAMB IBASS and current institution admissions information."
     }
   ],
-  "note": "Course presence here does not mean that every institution offers it or that the student is eligible."
+  "note": "Expanded discovery catalogue for course search. Course availability, UTME subject combinations and cut-off marks are not guaranteed by this catalogue; verify the exact course/institution/year in official JAMB IBASS and institution admissions materials."
 }

@@ -42,7 +42,7 @@ This is a desk review of publicly available app listings and product pages, not 
 
 ## Important implementation limits in v0.4.1
 
-- The question-count selector can request 80 or 100, but the current packs do **not** contain 100 questions per subject. Current local packs contain 40 per subject except Mathematics, which contains 60 (1,020 total draft records across 25 subjects). The engine intentionally caps a session at available unique questions and informs the learner.
+- The question-count selector can request 80 or 100, but the current packs do **not** contain 100 questions per subject. Current local packs contain 40 per subject except Use of English and Mathematics, which contain 60 each (1,040 total draft records across 25 subjects). The engine intentionally caps a session at available unique questions and informs the learner.
 - All local question packs remain Ready2Go Original draft/internal-pilot content and need expert subject review and answer-key verification. They are not official JAMB past questions.
 - “Practice by year” cannot honestly be enabled for these packs because they do not have verified past-paper year provenance. Add it when licensed/authorised year-labelled content is ready.
 - The official UTME score is not calculated by simply scaling an arbitrary practice percentage to 400. This build reports actual practice results and per-subject accuracy; an official-style score should only be added after its exact scoring rules are verified.

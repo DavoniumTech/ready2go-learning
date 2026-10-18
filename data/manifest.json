@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "appVersion": "1.0.0",
+  "appVersion": "1.0.1",
   "generatedFor": "Ready2Go Learning",
   "generatedAt": "2026-10-18",
-  "contentNotice": "This release includes local Ready2Go Original draft practice questions (1,020 across 25 subject packs). These are not official JAMB past questions. Answer keys and content require subject-expert review before publication or marketing as validated examination material.",
+  "contentNotice": "This release includes 1,040 Ready2Go Original practice questions across 25 subject packs. These are independent practice materials, not official JAMB past-question reproductions. Expert content and answer-key review is required before publication.",
   "subjectCatalogSource": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
   "lastChecked": "2026-10-16",
   "minimumQuestionsPerSubject": 40,
@@ -13,8 +13,8 @@
       "subjectId": "use-of-english",
       "subjectName": "Use of English",
       "file": "use-of-english.json",
-      "version": "0.4.1-draft",
-      "questionCount": 40,
+      "version": "1.0.1-draft",
+      "questionCount": 60,
       "status": "development_seed_needs_human_review"
     },
     {
