@@ -40,7 +40,7 @@ This is a desk review of publicly available app listings and product pages, not 
 9. **Responsive, native-feeling interface:** safe-area-aware layouts, touch targets, sticky question controls, reduced-motion support and small code-drawn study illustrations.
 10. **Trust and data transparency:** label original questions as original, label verified past questions with the correct year and source, clearly date admission guidance, and avoid presenting a practice estimate as an official JAMB score.
 
-## Current v2.0.0 implementation and known limits
+## Current v2.1.0 implementation and known limits
 
 - The question-count selector can request 80 or 100, but the current packs do **not** contain 100 questions per subject. Current local packs contain 40 per subject in 20 packs; Use of English and Mathematics contain 70 each; Physics, Chemistry and Biology contain 50 each (1,090 original practice records across 25 subjects). The engine intentionally caps a session at available unique questions and informs the learner.
 - All local question packs remain Ready2Go Original draft/internal-pilot content and need expert subject review and answer-key verification. They are not official JAMB past questions.
