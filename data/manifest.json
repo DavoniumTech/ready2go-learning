@@ -1,9 +1,9 @@
 {
   "schemaVersion": 2,
-  "appVersion": "1.1.0",
+  "appVersion": "2.0.0",
   "generatedFor": "Ready2Go Learning",
   "generatedAt": "2026-10-18",
-  "contentNotice": "This release includes 1,040 Ready2Go Original practice questions across 25 subject packs. These are independent practice materials, not official JAMB past-question reproductions. Expert content and answer-key review is required before publication.",
+  "contentNotice": "This release includes 1,090 Ready2Go Original practice questions across 25 subject packs. These are independent practice materials, not official JAMB past-question reproductions. Expert content and answer-key review is required before publication.",
   "subjectCatalogSource": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
   "lastChecked": "2026-10-16",
   "minimumQuestionsPerSubject": 40,
@@ -13,8 +13,8 @@
       "subjectId": "use-of-english",
       "subjectName": "Use of English",
       "file": "use-of-english.json",
-      "version": "1.1.0-draft",
-      "questionCount": 60,
+      "version": "2.0.0-challenge-draft",
+      "questionCount": 70,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -49,8 +49,8 @@
       "subjectId": "biology",
       "subjectName": "Biology",
       "file": "biology.json",
-      "version": "0.4.1-draft",
-      "questionCount": 40,
+      "version": "2.0.0-challenge-draft",
+      "questionCount": 50,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -58,8 +58,8 @@
       "subjectId": "chemistry",
       "subjectName": "Chemistry",
       "file": "chemistry.json",
-      "version": "0.4.1-draft",
-      "questionCount": 40,
+      "version": "2.0.0-challenge-draft",
+      "questionCount": 50,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -175,8 +175,8 @@
       "subjectId": "mathematics",
       "subjectName": "Mathematics",
       "file": "mathematics.json",
-      "version": "0.4.1-draft",
-      "questionCount": 60,
+      "version": "2.0.0-challenge-draft",
+      "questionCount": 70,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -193,8 +193,8 @@
       "subjectId": "physics",
       "subjectName": "Physics",
       "file": "physics.json",
-      "version": "0.4.1-draft",
-      "questionCount": 40,
+      "version": "2.0.0-challenge-draft",
+      "questionCount": 50,
       "status": "development_seed_needs_human_review"
     },
     {
@@ -235,5 +235,6 @@
     }
   ],
   "r2PublishingPolicy": "All packs remain blocked by the Worker until status is exactly published and every question is approved with source/rights review.",
-  "targetQuestionsPerSubject": 100
+  "targetQuestionsPerSubject": 100,
+  "questionCount": 1090
 }

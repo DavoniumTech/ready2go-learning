@@ -3,9 +3,9 @@
   "subjectId": "biology",
   "subjectName": "Biology",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "0.4.1-draft",
+  "packVersion": "2.0.0-challenge-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 40,
+  "questionCount": 50,
   "minimumTarget": 40,
   "contentStatus": "needs_human_review",
   "questions": [
@@ -803,6 +803,196 @@
       "explanation": "Mitosis supports growth and repair.",
       "reviewStatus": "needs_human_review",
       "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "bio-ch-001",
+      "subjectId": "biology",
+      "topic": "Genetics",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "In a monohybrid cross Aa × Aa with complete dominance, what fraction of the offspring is expected to have genotype aa?",
+      "options": {
+        "A": "0",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "3/4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Each heterozygous parent produces gametes A and a. The possible combinations are AA, Aa, aA and aa, each with equal probability. One of four is aa, giving 1/4.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-002",
+      "subjectId": "biology",
+      "topic": "Molecular biology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A coding DNA strand has the sequence 5′-ATG CCA TTT-3′. What is the corresponding mRNA sequence?",
+      "options": {
+        "A": "5′-UAC GGU AAA-3′",
+        "B": "5′-AUG CCA UUU-3′",
+        "C": "5′-TAC GGT AAA-3′",
+        "D": "5′-AUG GGU UUU-3′"
+      },
+      "correctAnswer": "B",
+      "explanation": "The mRNA sequence matches the coding strand in the 5′→3′ direction except that RNA uses uracil (U) instead of thymine (T). Thus ATG CCA TTT becomes AUG CCA UUU.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-003",
+      "subjectId": "biology",
+      "topic": "Excretion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Where does ultrafiltration of blood begin in the human nephron?",
+      "options": {
+        "A": "Loop of Henle",
+        "B": "Collecting duct",
+        "C": "Glomerulus into Bowman’s capsule",
+        "D": "Distal convoluted tubule"
+      },
+      "correctAnswer": "C",
+      "explanation": "Blood pressure drives water and small solutes from the glomerular capillaries into Bowman’s capsule. Blood cells and most plasma proteins remain in the blood.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-004",
+      "subjectId": "biology",
+      "topic": "Immunity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which cells differentiate into plasma cells that secrete antibodies?",
+      "options": {
+        "A": "Red blood cells",
+        "B": "B lymphocytes",
+        "C": "Platelets",
+        "D": "Neurons"
+      },
+      "correctAnswer": "B",
+      "explanation": "Activated B lymphocytes can differentiate into plasma cells. Plasma cells secrete antibodies that bind to specific antigens.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-005",
+      "subjectId": "biology",
+      "topic": "Ecology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "If producers contain 10,000 kJ of usable energy and about 10% is transferred at each trophic level, how much reaches secondary consumers?",
+      "options": {
+        "A": "10 kJ",
+        "B": "100 kJ",
+        "C": "1,000 kJ",
+        "D": "9,000 kJ"
+      },
+      "correctAnswer": "B",
+      "explanation": "Primary consumers receive approximately 10% of 10,000 kJ = 1,000 kJ. Secondary consumers receive approximately 10% of that, or 100 kJ. The 10% rule is an ecological approximation.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-006",
+      "subjectId": "biology",
+      "topic": "Endocrine system",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which pancreatic cells secrete insulin in response to elevated blood glucose?",
+      "options": {
+        "A": "Alpha cells",
+        "B": "Beta cells",
+        "C": "Red blood cells",
+        "D": "Acinar cells only"
+      },
+      "correctAnswer": "B",
+      "explanation": "Beta cells in the islets of Langerhans secrete insulin. Insulin promotes glucose uptake and storage, helping lower elevated blood glucose. Alpha cells mainly secrete glucagon.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-007",
+      "subjectId": "biology",
+      "topic": "Cell division",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Crossing-over between homologous chromosomes normally occurs during which stage of meiosis?",
+      "options": {
+        "A": "Prophase I",
+        "B": "Metaphase II",
+        "C": "Anaphase II",
+        "D": "Telophase I"
+      },
+      "correctAnswer": "A",
+      "explanation": "During prophase I, homologous chromosomes pair and non-sister chromatids may exchange corresponding DNA segments at chiasmata. This recombination increases genetic variation.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-008",
+      "subjectId": "biology",
+      "topic": "Population ecology",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which is an example of a density-dependent factor that can limit population growth?",
+      "options": {
+        "A": "A volcanic eruption affecting a region",
+        "B": "Competition for limited food",
+        "C": "A sudden change in daylight length",
+        "D": "A flood caused by extreme rainfall regardless of population size"
+      },
+      "correctAnswer": "B",
+      "explanation": "Competition becomes stronger as more individuals depend on limited resources, making it density-dependent. A disaster affecting organisms regardless of population density is density-independent.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-009",
+      "subjectId": "biology",
+      "topic": "Gas exchange",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which combination most effectively explains the efficiency of gas exchange in human alveoli?",
+      "options": {
+        "A": "Thick dry walls and little blood supply",
+        "B": "Large surface area, thin moist walls and rich capillary supply",
+        "C": "Small surface area and no ventilation",
+        "D": "Rigid walls and low concentration gradients"
+      },
+      "correctAnswer": "B",
+      "explanation": "Numerous alveoli provide a large surface area; their walls are thin and moist; and a dense capillary network maintains diffusion gradients. Together these features support rapid oxygen and carbon-dioxide exchange.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "bio-ch-010",
+      "subjectId": "biology",
+      "topic": "Sex-linked inheritance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A woman is a carrier of an X-linked recessive allele and the father is unaffected. Given that a child is a son, what is the probability that he inherits the affected allele?",
+      "options": {
+        "A": "0",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "1"
+      },
+      "correctAnswer": "C",
+      "explanation": "A son receives the Y chromosome from his father and his single X chromosome from his mother. A carrier mother passes the affected X with probability 1/2, so the probability conditional on the child being a son is 1/2.",
+      "reviewStatus": "needs_human_review"
     }
   ]
 }

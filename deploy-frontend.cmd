@@ -2,8 +2,8 @@
 setlocal EnableExtensions
 set "REPO_URL=https://github.com/DavoniumTech/ready2go-learning.git"
 set "BRANCH=main"
-set "RELEASE=1.1.0"
-set "WORK=C:\Ready2Go-Production-v110-publish-%RANDOM%-%RANDOM%"
+set "RELEASE=2.0.0"
+set "WORK=C:\Ready2Go-Production-v200-publish-%RANDOM%-%RANDOM%"
 if exist "%~dp0app\index.html" (for %%I in ("%~dp0app\.") do set "SOURCE=%%~fI") else (for %%I in ("%~dp0.") do set "SOURCE=%%~fI")
 if not exist "%SOURCE%\index.html" (echo ERROR: index.html not found in frontend source.& exit /b 1)
 where git >nul 2>&1 || (echo ERROR: Git is not installed or not in PATH.& exit /b 1)
@@ -16,7 +16,7 @@ echo A backup branch will be created before main is updated.
 echo.
 git clone --branch %BRANCH% "%REPO_URL%" "%WORK%"
 if errorlevel 1 (echo ERROR: Clone failed. Check GitHub access.& exit /b 1)
-set "BACKUP_BRANCH=backup-main-before-r2g-v110-%RANDOM%-%RANDOM%"
+set "BACKUP_BRANCH=backup-main-before-r2g-v200-%RANDOM%-%RANDOM%"
 git -C "%WORK%" push origin "origin/%BRANCH%:refs/heads/%BACKUP_BRANCH%"
 if errorlevel 1 (echo ERROR: Could not create backup branch. No app files have been committed.& exit /b 1)
 robocopy "%SOURCE%" "%WORK%" /E /COPY:DAT /DCOPY:DAT /R:2 /W:1

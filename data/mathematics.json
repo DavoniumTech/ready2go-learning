@@ -3,9 +3,9 @@
   "subjectId": "mathematics",
   "subjectName": "Mathematics",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "0.4.1-draft",
+  "packVersion": "2.0.0-challenge-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 60,
+  "questionCount": 70,
   "minimumTarget": 40,
   "contentStatus": "needs_human_review",
   "questions": [
@@ -1149,6 +1149,196 @@
       },
       "correctAnswer": "C",
       "explanation": "One notebook costs ₦1,250 ÷ 5 = ₦250; 8 cost 8 × ₦250 = ₦2,000.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-001",
+      "subjectId": "mathematics",
+      "topic": "Simultaneous equations",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "If 2x + 3y = 19 and x − y = 2, find x.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctAnswer": "C",
+      "explanation": "From x − y = 2, x = y + 2. Substitute into the first equation: 2(y + 2) + 3y = 19, so 5y + 4 = 19, y = 3 and x = 5.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-002",
+      "subjectId": "mathematics",
+      "topic": "Quadratic equations",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "The roots of x² − 5x + k = 0 are in the ratio 2:3. Find k.",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "8",
+        "D": "10"
+      },
+      "correctAnswer": "B",
+      "explanation": "Let the roots be 2t and 3t. Their sum is 5t = 5, so t = 1. Their product is k = (2t)(3t) = 6.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-003",
+      "subjectId": "mathematics",
+      "topic": "Probability",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A bag contains 5 red and 3 blue counters. Two counters are selected at random without replacement. What is the probability that both are red?",
+      "options": {
+        "A": "5/14",
+        "B": "5/8",
+        "C": "10/21",
+        "D": "25/64"
+      },
+      "correctAnswer": "A",
+      "explanation": "The probability of red on the first draw is 5/8. With one red removed, the probability of red on the second draw is 4/7. Multiply: (5/8)(4/7) = 20/56 = 5/14.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-004",
+      "subjectId": "mathematics",
+      "topic": "Sequences and series",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "An arithmetic progression has seventh term 23 and thirteenth term 41. Find the sum of its first 20 terms.",
+      "options": {
+        "A": "620",
+        "B": "650",
+        "C": "670",
+        "D": "710"
+      },
+      "correctAnswer": "C",
+      "explanation": "The common difference is (41 − 23)/(13 − 7) = 3. Since a + 6d = 23, the first term is a = 5. S20 = 20/2[2(5) + 19(3)] = 10(67) = 670.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-005",
+      "subjectId": "mathematics",
+      "topic": "Logarithms",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Solve log₂(x − 1) + log₂(x − 3) = 3.",
+      "options": {
+        "A": "x = 3",
+        "B": "x = 4",
+        "C": "x = 5",
+        "D": "x = 6"
+      },
+      "correctAnswer": "C",
+      "explanation": "The domain requires x > 3. Combine the logarithms: log₂[(x − 1)(x − 3)] = 3, so (x − 1)(x − 3) = 8. Expanding gives x² − 4x − 5 = 0, with roots 5 and −1. Only x = 5 satisfies the domain.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-006",
+      "subjectId": "mathematics",
+      "topic": "Trigonometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "If sin θ = 3/5 and θ is acute, evaluate tan θ.",
+      "options": {
+        "A": "3/4",
+        "B": "4/3",
+        "C": "3/5",
+        "D": "5/4"
+      },
+      "correctAnswer": "A",
+      "explanation": "For an acute angle, cosine is positive. Using sin²θ + cos²θ = 1 gives cos θ = 4/5. Therefore tan θ = sin θ/cos θ = (3/5)/(4/5) = 3/4.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-007",
+      "subjectId": "mathematics",
+      "topic": "Linear algebra",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Solve 2x + y = 7 and 5x + 3y = 18. What is x?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "C",
+      "explanation": "Multiply the first equation by 3: 6x + 3y = 21. Subtract 5x + 3y = 18 from it to obtain x = 3. Substitution gives y = 1, so the solution is consistent.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-008",
+      "subjectId": "mathematics",
+      "topic": "Coordinate geometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Find the radius of the circle x² + y² − 6x + 4y − 12 = 0.",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "correctAnswer": "C",
+      "explanation": "Complete the square: (x² − 6x) + (y² + 4y) = 12 becomes (x − 3)² − 9 + (y + 2)² − 4 = 12. Thus (x − 3)² + (y + 2)² = 25, so the radius is √25 = 5.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-009",
+      "subjectId": "mathematics",
+      "topic": "Simultaneous equations",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Given x + y + z = 6, 2x − y + z = 3 and x + 2y − z = 2, find y.",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "correctAnswer": "B",
+      "explanation": "Subtract the first equation from the second to get x − 2y = −3, hence x = 2y − 3. From the first equation, z = 6 − x − y. Substituting in the third gives 2x + 3y = 8. Replace x with 2y − 3: 7y = 14, so y = 2.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "math-ch-010",
+      "subjectId": "mathematics",
+      "topic": "Differentiation and optimisation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "For f(x) = x² − 6x + 11, what is the minimum value of f(x)?",
+      "options": {
+        "A": "−2",
+        "B": "1",
+        "C": "2",
+        "D": "3"
+      },
+      "correctAnswer": "C",
+      "explanation": "Differentiate: f′(x) = 2x − 6. Setting f′(x) = 0 gives x = 3. Since f″(x) = 2 > 0, this is a minimum. f(3) = 9 − 18 + 11 = 2.",
       "reviewStatus": "needs_human_review"
     }
   ]

@@ -1,4 +1,4 @@
-const CACHE_NAME = "ready2go-shell-v1.1.0";
+const CACHE_NAME = "ready2go-shell-v2.0.0";
 const APP_SHELL = [
   "./",
   "./index.html",

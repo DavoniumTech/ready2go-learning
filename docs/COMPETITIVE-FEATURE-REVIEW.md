@@ -40,9 +40,9 @@ This is a desk review of publicly available app listings and product pages, not 
 9. **Responsive, native-feeling interface:** safe-area-aware layouts, touch targets, sticky question controls, reduced-motion support and small code-drawn study illustrations.
 10. **Trust and data transparency:** label original questions as original, label verified past questions with the correct year and source, clearly date admission guidance, and avoid presenting a practice estimate as an official JAMB score.
 
-## Important implementation limits in v0.4.1
+## Current v2.0.0 implementation and known limits
 
-- The question-count selector can request 80 or 100, but the current packs do **not** contain 100 questions per subject. Current local packs contain 40 per subject except Use of English and Mathematics, which contain 60 each (1,040 total draft records across 25 subjects). The engine intentionally caps a session at available unique questions and informs the learner.
+- The question-count selector can request 80 or 100, but the current packs do **not** contain 100 questions per subject. Current local packs contain 40 per subject in 20 packs; Use of English and Mathematics contain 70 each; Physics, Chemistry and Biology contain 50 each (1,090 original practice records across 25 subjects). The engine intentionally caps a session at available unique questions and informs the learner.
 - All local question packs remain Ready2Go Original draft/internal-pilot content and need expert subject review and answer-key verification. They are not official JAMB past questions.
 - “Practice by year” cannot honestly be enabled for these packs because they do not have verified past-paper year provenance. Add it when licensed/authorised year-labelled content is ready.
 - The official UTME score is not calculated by simply scaling an arbitrary practice percentage to 400. This build reports actual practice results and per-subject accuracy; an official-style score should only be added after its exact scoring rules are verified.

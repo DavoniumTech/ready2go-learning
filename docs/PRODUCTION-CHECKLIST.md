@@ -4,7 +4,7 @@ This starter is not yet a public-launch certification. Complete the items below 
 
 ## Content quality
 
-- [ ] Review every question, answer and explanation with a qualified subject reviewer. Current release has 1,040 Ready2Go Original draft questions; 70 are tagged `internal_pilot` and 970 `needs_human_review`. All require review before remote publication.
+- [ ] Review every question, answer and explanation with a qualified subject reviewer. Current release has 1,090 Ready2Go Original practice questions; 70 are tagged `internal_pilot` and 970 `needs_human_review`. All require review before remote publication.
 - [ ] Verify rights and source attribution for all content; import no unlicensed official past-question corpus or book text.
 - [ ] Map every released topic to the current IBASS syllabus.
 - [ ] Validate institution/course/year requirements through official sources; keep the cutoff table empty until verified.

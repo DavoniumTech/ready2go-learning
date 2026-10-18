@@ -3,9 +3,9 @@
   "subjectId": "physics",
   "subjectName": "Physics",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "0.4.1-draft",
+  "packVersion": "2.0.0-challenge-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 40,
+  "questionCount": 50,
   "minimumTarget": 40,
   "contentStatus": "needs_human_review",
   "questions": [
@@ -803,6 +803,196 @@
       "explanation": "Frequency is measured in hertz, or cycles per second.",
       "reviewStatus": "needs_human_review",
       "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "phy-ch-001",
+      "subjectId": "physics",
+      "topic": "Projectile motion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A projectile is launched at 20 m s⁻¹ at 30° above the horizontal. Take g = 10 m s⁻² and neglect air resistance. What is its horizontal range?",
+      "options": {
+        "A": "20.0 m",
+        "B": "30.0 m",
+        "C": "34.6 m",
+        "D": "40.0 m"
+      },
+      "correctAnswer": "C",
+      "explanation": "The range is R = u² sin(2θ)/g. Substituting u = 20 and θ = 30° gives R = 400 sin 60°/10 = 40 × 0.866 ≈ 34.6 m.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-002",
+      "subjectId": "physics",
+      "topic": "Resistors",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A 6 Ω resistor and a 3 Ω resistor are connected in parallel, then connected in series with a 2 Ω resistor. Find the total resistance.",
+      "options": {
+        "A": "2 Ω",
+        "B": "3 Ω",
+        "C": "4 Ω",
+        "D": "11 Ω"
+      },
+      "correctAnswer": "C",
+      "explanation": "For the parallel part, 1/Rp = 1/6 + 1/3 = 3/6, hence Rp = 2 Ω. This is in series with 2 Ω, so the total is 2 + 2 = 4 Ω.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-003",
+      "subjectId": "physics",
+      "topic": "Potential difference",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A current of 0.5 A passes through a 8 Ω resistor. What is the potential difference across the resistor?",
+      "options": {
+        "A": "2 V",
+        "B": "4 V",
+        "C": "8 V",
+        "D": "16 V"
+      },
+      "correctAnswer": "B",
+      "explanation": "By Ohm’s law, V = IR. Therefore V = 0.5 × 8 = 4 V.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-004",
+      "subjectId": "physics",
+      "topic": "Thin lenses",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A converging lens has focal length 15 cm. An object is placed 30 cm from the lens. For a real image, how far from the lens is the image formed?",
+      "options": {
+        "A": "10 cm",
+        "B": "15 cm",
+        "C": "30 cm",
+        "D": "45 cm"
+      },
+      "correctAnswer": "C",
+      "explanation": "Using 1/f = 1/u + 1/v with f = 15 cm and u = 30 cm, 1/v = 1/15 − 1/30 = 1/30. Therefore v = 30 cm. The real image is inverted and the same size as the object.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-005",
+      "subjectId": "physics",
+      "topic": "Cell with internal resistance",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A cell has an emf of 12 V and an internal resistance of 1 Ω. It is connected to a 5 Ω external resistor. Find the terminal potential difference.",
+      "options": {
+        "A": "2 V",
+        "B": "5 V",
+        "C": "10 V",
+        "D": "12 V"
+      },
+      "correctAnswer": "C",
+      "explanation": "The total circuit resistance is 5 + 1 = 6 Ω, so I = 12/6 = 2 A. The terminal voltage across the external resistor is V = IR = 2 × 5 = 10 V (equivalently, emf minus internal drop = 12 − 2×1).",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-006",
+      "subjectId": "physics",
+      "topic": "Free fall",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A 2 kg object is released from rest 5 m above the ground. Neglect air resistance and take g = 10 m s⁻². What is its speed just before impact?",
+      "options": {
+        "A": "5 m s⁻¹",
+        "B": "10 m s⁻¹",
+        "C": "25 m s⁻¹",
+        "D": "50 m s⁻¹"
+      },
+      "correctAnswer": "B",
+      "explanation": "Use v² = u² + 2gh. With u = 0, v² = 2 × 10 × 5 = 100, so v = 10 m s⁻¹. Mass does not affect the speed in free fall when air resistance is ignored.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-007",
+      "subjectId": "physics",
+      "topic": "Specific heat capacity",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "How much energy is required to heat 0.20 kg of water from 20°C to 70°C? Use c = 4,200 J kg⁻¹ K⁻¹.",
+      "options": {
+        "A": "4,200 J",
+        "B": "21,000 J",
+        "C": "42,000 J",
+        "D": "84,000 J"
+      },
+      "correctAnswer": "C",
+      "explanation": "Use Q = mcΔT. The temperature change is 50 K, so Q = 0.20 × 4,200 × 50 = 42,000 J.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-008",
+      "subjectId": "physics",
+      "topic": "Wave motion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A wave has frequency 250 Hz and wavelength 1.2 m. Calculate its speed.",
+      "options": {
+        "A": "208 m s⁻¹",
+        "B": "250 m s⁻¹",
+        "C": "300 m s⁻¹",
+        "D": "360 m s⁻¹"
+      },
+      "correctAnswer": "C",
+      "explanation": "Wave speed v = fλ = 250 × 1.2 = 300 m s⁻¹.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-009",
+      "subjectId": "physics",
+      "topic": "Ideal transformer",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "An ideal transformer has 1,200 turns on its primary coil and 100 turns on its secondary coil. If the primary voltage is 240 V, what is the secondary voltage?",
+      "options": {
+        "A": "10 V",
+        "B": "20 V",
+        "C": "120 V",
+        "D": "2,880 V"
+      },
+      "correctAnswer": "B",
+      "explanation": "For an ideal transformer, Vs/Vp = Ns/Np. Thus Vs = 240 × 100/1,200 = 20 V. The device is a step-down transformer.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "phy-ch-010",
+      "subjectId": "physics",
+      "topic": "Momentum",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A 0.20 kg ball moving at 15 m s⁻¹ is brought to rest in 0.05 s. What is the magnitude of the average stopping force?",
+      "options": {
+        "A": "3 N",
+        "B": "15 N",
+        "C": "60 N",
+        "D": "300 N"
+      },
+      "correctAnswer": "C",
+      "explanation": "The change in momentum is Δp = m(0 − u), whose magnitude is 0.20 × 15 = 3 kg m s⁻¹. Average force magnitude = Δp/Δt = 3/0.05 = 60 N.",
+      "reviewStatus": "needs_human_review"
     }
   ]
 }

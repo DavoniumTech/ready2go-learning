@@ -1,8 +1,8 @@
 {
   "schemaVersion": 2,
-  "note": "Subject choices transcribed from JAMB 2026 Training Manual subject list. Current IBASS eligibility checker may display fewer options in its current programme workflow; confirm the exact subject combination for the selected programme in IBASS. Locally bundled questions are original Ready2Go drafts and need human subject-matter review.",
+  "note": "Subject list transcribed from official source data; verify the exact subject combination for the selected institution and programme in the current eligibility checker. Question packs are independent Ready2Go practice materials and do not reproduce official past papers.",
   "sourceUrl": "https://www.jamb.gov.ng/PDFs/2026/2026%20TRAINING%20MANUAL%20%20final.pdf",
-  "checkedAt": "2026-10-16",
+  "checkedAt": "2026-10-18",
   "categories": [
     {
       "id": "science",
@@ -25,7 +25,7 @@
       "compulsory": true,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "70 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "agricultural-science",
@@ -34,7 +34,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "arabic",
@@ -43,7 +43,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "fine-art",
@@ -52,7 +52,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "biology",
@@ -61,7 +61,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "50 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "chemistry",
@@ -70,7 +70,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "50 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "christian-religious-knowledge",
@@ -79,7 +79,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "commerce",
@@ -88,7 +88,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "economics",
@@ -97,7 +97,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "french",
@@ -106,7 +106,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "geography",
@@ -115,7 +115,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "government",
@@ -124,7 +124,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "hausa",
@@ -133,7 +133,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "history",
@@ -142,7 +142,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "home-economics",
@@ -151,7 +151,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "igbo",
@@ -160,7 +160,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "islamic-studies",
@@ -169,7 +169,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "literature-in-english",
@@ -178,7 +178,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "mathematics",
@@ -187,7 +187,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "60 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "70 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "music",
@@ -196,7 +196,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "physics",
@@ -205,7 +205,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "50 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "principles-of-accounts",
@@ -214,7 +214,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "yoruba",
@@ -223,7 +223,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "computer-studies",
@@ -232,7 +232,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     },
     {
       "id": "physical-health-education",
@@ -241,7 +241,7 @@
       "compulsory": false,
       "available": true,
       "contentStatus": "draft-needs-human-review",
-      "note": "40 locally bundled Ready2Go Original draft question records for development/testing; not official JAMB past questions and not yet approved for public release."
+      "note": "40 Ready2Go Original practice questions are included. Confirm topic coverage with the current official syllabus."
     }
   ]
 }

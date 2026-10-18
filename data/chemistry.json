@@ -3,9 +3,9 @@
   "subjectId": "chemistry",
   "subjectName": "Chemistry",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "0.4.1-draft",
+  "packVersion": "2.0.0-challenge-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 40,
+  "questionCount": 50,
   "minimumTarget": 40,
   "contentStatus": "needs_human_review",
   "questions": [
@@ -803,6 +803,196 @@
       "explanation": "Catalysts lower the activation-energy barrier.",
       "reviewStatus": "needs_human_review",
       "authoringNote": "Original draft created for product testing; requires qualified subject review."
+    },
+    {
+      "id": "chem-ch-001",
+      "subjectId": "chemistry",
+      "topic": "Empirical formula",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A compound contains 40.0% carbon, 6.67% hydrogen and 53.33% oxygen by mass. What is its empirical formula?",
+      "options": {
+        "A": "CHO",
+        "B": "CH₂O",
+        "C": "C₂H₄O",
+        "D": "C₂H₂O₂"
+      },
+      "correctAnswer": "B",
+      "explanation": "Assume 100 g: C = 40/12 ≈ 3.33 mol, H = 6.67/1 ≈ 6.67 mol, O = 53.33/16 ≈ 3.33 mol. Divide by 3.33 to obtain the simplest ratio C:H:O = 1:2:1, giving CH₂O.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-002",
+      "subjectId": "chemistry",
+      "topic": "Stoichiometry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "In 2Al + 3Cl₂ → 2AlCl₃, 5.4 g Al reacts with 10.65 g Cl₂. What mass of AlCl₃ can form? (Al = 27, Cl = 35.5.)",
+      "options": {
+        "A": "6.68 g",
+        "B": "13.35 g",
+        "C": "26.70 g",
+        "D": "40.05 g"
+      },
+      "correctAnswer": "B",
+      "explanation": "Al moles = 5.4/27 = 0.20 mol. Cl₂ moles = 10.65/71 = 0.15 mol. The available chlorine is exactly enough for 0.10 mol AlCl₃ because 3 mol Cl₂ make 2 mol AlCl₃. Mr(AlCl₃) = 27 + 3(35.5) = 133.5; mass = 0.10 × 133.5 = 13.35 g.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-003",
+      "subjectId": "chemistry",
+      "topic": "Chemical equilibrium",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "For an endothermic forward reaction at equilibrium, what happens when temperature is increased, all else unchanged?",
+      "options": {
+        "A": "Equilibrium shifts to reactants.",
+        "B": "Equilibrium shifts to products.",
+        "C": "The equilibrium constant must become zero.",
+        "D": "The catalyst is consumed."
+      },
+      "correctAnswer": "B",
+      "explanation": "Adding heat favours the endothermic direction because that direction absorbs heat. Therefore equilibrium shifts towards products. A catalyst affects the rate of reaching equilibrium, not the equilibrium position.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-004",
+      "subjectId": "chemistry",
+      "topic": "Acids and pH",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "What is the approximate pH of 1.0 × 10⁻³ mol dm⁻³ HCl at 25°C, assuming complete dissociation?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "11"
+      },
+      "correctAnswer": "C",
+      "explanation": "HCl is a strong acid and is assumed to dissociate completely, so [H⁺] = 10⁻³ mol dm⁻³. pH = −log₁₀[H⁺] = 3.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-005",
+      "subjectId": "chemistry",
+      "topic": "Oxidation numbers",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "What is the oxidation number of manganese in KMnO₄?",
+      "options": {
+        "A": "+2",
+        "B": "+4",
+        "C": "+6",
+        "D": "+7"
+      },
+      "correctAnswer": "D",
+      "explanation": "Potassium is +1 and each oxygen is −2. For the neutral compound, +1 + x + 4(−2) = 0, so x = +7.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-006",
+      "subjectId": "chemistry",
+      "topic": "Electrochemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "During a galvanic-cell reaction, in which direction do electrons travel through the external circuit?",
+      "options": {
+        "A": "From cathode to anode",
+        "B": "From anode to cathode",
+        "C": "From salt bridge to cathode",
+        "D": "They do not move through the circuit"
+      },
+      "correctAnswer": "B",
+      "explanation": "Oxidation occurs at the anode and releases electrons. Reduction occurs at the cathode and consumes them, so electrons flow through the external circuit from anode to cathode.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-007",
+      "subjectId": "chemistry",
+      "topic": "Catalysts",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which statement correctly describes a catalyst in a reversible reaction?",
+      "options": {
+        "A": "It increases the equilibrium constant.",
+        "B": "It changes the final equilibrium composition.",
+        "C": "It lowers activation energy for forward and reverse reactions.",
+        "D": "It increases the enthalpy change."
+      },
+      "correctAnswer": "C",
+      "explanation": "A catalyst provides an alternative pathway with lower activation energy for both directions. It speeds up the approach to equilibrium but does not change the equilibrium constant or final equilibrium composition.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-008",
+      "subjectId": "chemistry",
+      "topic": "Concentration",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "What is the concentration, in mol dm⁻³, of a solution containing 0.50 mol NaOH in 250 cm³ of solution?",
+      "options": {
+        "A": "0.5",
+        "B": "1.0",
+        "C": "2.0",
+        "D": "4.0"
+      },
+      "correctAnswer": "C",
+      "explanation": "Convert 250 cm³ to 0.250 dm³. Concentration = moles/volume = 0.50/0.250 = 2.0 mol dm⁻³.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-009",
+      "subjectId": "chemistry",
+      "topic": "Organic chemistry",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Which observation best indicates that propene has reacted with bromine water by addition?",
+      "options": {
+        "A": "Bromine water turns from orange to colourless.",
+        "B": "A blue precipitate forms.",
+        "C": "A silver mirror forms.",
+        "D": "A pungent gas is produced in every case."
+      },
+      "correctAnswer": "A",
+      "explanation": "Propene contains a carbon–carbon double bond. Bromine adds across the double bond, so bromine water is decolourised from orange/brown to colourless under suitable conditions.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "chem-ch-010",
+      "subjectId": "chemistry",
+      "topic": "Isotopes and relative atomic mass",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "An element consists of 75% of an isotope of mass 35 and 25% of an isotope of mass 37. Calculate its relative atomic mass.",
+      "options": {
+        "A": "35.0",
+        "B": "35.5",
+        "C": "36.0",
+        "D": "36.5"
+      },
+      "correctAnswer": "B",
+      "explanation": "Use the weighted mean: (0.75 × 35) + (0.25 × 37) = 26.25 + 9.25 = 35.5.",
+      "reviewStatus": "needs_human_review"
     }
   ]
 }

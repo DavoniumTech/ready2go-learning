@@ -3,11 +3,11 @@
   "subjectId": "use-of-english",
   "subjectName": "Use of English",
   "sourcePolicy": "All questions in this pack are Ready2Go original draft practice items unless an individual record states otherwise. No official JAMB past-question corpus is included. Human subject-matter and answer-key review is required before public release.",
-  "packVersion": "1.1.0-draft",
+  "packVersion": "2.0.0-challenge-draft",
   "status": "development_seed_needs_human_review",
-  "questionCount": 60,
-  "minimumTarget": 60,
-  "contentStatus": "development_seed_needs_human_review",
+  "questionCount": 70,
+  "minimumTarget": 40,
+  "contentStatus": "needs_human_review",
   "questions": [
     {
       "id": "eng-001",
@@ -1149,6 +1149,196 @@
       "correctAnswer": "C",
       "explanation": "“Impartial” means fair and not favouring one side.",
       "reviewStatus": "internal_pilot"
+    },
+    {
+      "id": "eng-ch-001",
+      "subjectId": "use-of-english",
+      "topic": "Grammar and inversion",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Rarely ____ a candidate explained a difficult answer with such clarity.",
+      "options": {
+        "A": "has",
+        "B": "have",
+        "C": "did",
+        "D": "was"
+      },
+      "correctAnswer": "A",
+      "explanation": "The adverb “rarely” at the beginning of the sentence triggers subject–auxiliary inversion. The subject “a candidate” is singular, and the present perfect fits the experience being described: “Rarely has a candidate explained…”. “Have” would need a plural subject; “did” changes the tense and construction.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-002",
+      "subjectId": "use-of-english",
+      "topic": "Concord",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Neither the principal nor the teachers ____ willing to postpone the assessment.",
+      "options": {
+        "A": "was",
+        "B": "were",
+        "C": "is",
+        "D": "has been"
+      },
+      "correctAnswer": "B",
+      "explanation": "With “neither…nor”, the verb generally agrees with the nearer subject in standard examination concord questions. The nearer subject is “teachers”, which is plural, so “were” is correct.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-003",
+      "subjectId": "use-of-english",
+      "topic": "Vocabulary in context",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "The new measures are intended to mitigate the impact of rising transport costs. “Mitigate” most nearly means to ____ the impact.",
+      "options": {
+        "A": "intensify",
+        "B": "conceal",
+        "C": "reduce",
+        "D": "predict"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Mitigate” means to make something less severe or harmful. The measures aim to reduce the impact, not intensify or merely hide it.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-004",
+      "subjectId": "use-of-english",
+      "topic": "Idiomatic expression",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Although the bus arrived late, Amina reached the examination hall by the skin of her teeth. This means she arrived ____.",
+      "options": {
+        "A": "well before time",
+        "B": "by a very narrow margin",
+        "C": "without permission",
+        "D": "after the examination ended"
+      },
+      "correctAnswer": "B",
+      "explanation": "“By the skin of one’s teeth” means to escape or succeed narrowly. In this context, Amina arrived just in time.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-005",
+      "subjectId": "use-of-english",
+      "topic": "Word choice",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "The committee’s report was so ____ that readers could not determine what action it recommended.",
+      "options": {
+        "A": "unequivocal",
+        "B": "ambiguous",
+        "C": "concise",
+        "D": "meticulous"
+      },
+      "correctAnswer": "B",
+      "explanation": "“Ambiguous” means open to more than one interpretation or unclear. An ambiguous report would fail to communicate a clear recommendation. “Unequivocal” means unambiguous.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-006",
+      "subjectId": "use-of-english",
+      "topic": "Sentence interpretation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "If the school had published the timetable earlier, fewer students would have missed their papers. The sentence suggests that the school ____.",
+      "options": {
+        "A": "published the timetable early",
+        "B": "published the timetable too late",
+        "C": "cancelled all the papers",
+        "D": "warned every student in advance"
+      },
+      "correctAnswer": "B",
+      "explanation": "This is a third-conditional construction describing an unreal past condition and its result. The implication is that the timetable was not published early enough, and some students consequently missed papers.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-007",
+      "subjectId": "use-of-english",
+      "topic": "Punctuation",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Choose the correctly punctuated sentence.",
+      "options": {
+        "A": "The candidates who revised consistently, performed better.",
+        "B": "The candidates, who revised consistently performed better.",
+        "C": "The candidates who revised consistently performed better.",
+        "D": "The candidates who revised, consistently performed better."
+      },
+      "correctAnswer": "C",
+      "explanation": "The defining clause “who revised consistently” identifies which candidates are meant, so it is not separated from the subject by a comma. “Consistently” modifies “revised”.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-008",
+      "subjectId": "use-of-english",
+      "topic": "Register and meaning",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "The witness gave a candid account of the incident. “Candid” means that the account was ____.",
+      "options": {
+        "A": "frank and honest",
+        "B": "carelessly invented",
+        "C": "overly technical",
+        "D": "deliberately confusing"
+      },
+      "correctAnswer": "A",
+      "explanation": "A candid account is frank, truthful and direct. It does not necessarily imply technical language or confusion.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-009",
+      "subjectId": "use-of-english",
+      "topic": "Comprehension and inference",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "A school introduced weekly ten-minute quizzes. After a term, teachers noticed that learners remembered formulas better, although the quizzes did not cover every formula. Which conclusion is best supported?",
+      "options": {
+        "A": "The quizzes proved every learner had mastered mathematics.",
+        "B": "Short, repeated retrieval practice may have helped learners retain formulas.",
+        "C": "The learners no longer needed lessons.",
+        "D": "The teachers stopped assessing understanding."
+      },
+      "correctAnswer": "B",
+      "explanation": "The passage reports improved recall after repeated short quizzes. It supports the cautious inference that regular retrieval practice may help retention, but it does not establish total mastery or show that lessons are unnecessary.",
+      "reviewStatus": "needs_human_review"
+    },
+    {
+      "id": "eng-ch-010",
+      "subjectId": "use-of-english",
+      "topic": "Meaning contrast",
+      "type": "multiple_choice",
+      "sourceType": "ready2go_original",
+      "sourceLabel": "Ready2Go Original Challenge Set",
+      "difficulty": "challenging",
+      "question": "Choose the word most nearly opposite in meaning to “sporadic” as used in “sporadic attendance”.",
+      "options": {
+        "A": "occasional",
+        "B": "irregular",
+        "C": "consistent",
+        "D": "infrequent"
+      },
+      "correctAnswer": "C",
+      "explanation": "“Sporadic” means occurring occasionally or irregularly. “Consistent” is the clearest opposite because it describes attendance that occurs regularly.",
+      "reviewStatus": "needs_human_review"
     }
   ]
 }

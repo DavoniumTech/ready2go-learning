@@ -2,7 +2,7 @@
   "id": "./",
   "name": "Ready2Go Learning",
   "short_name": "Ready2Go",
-  "description": "Installable, offline-first UTME practice with a redesigned CBT workspace, clear answer review and personal progress analytics.",
+  "description": "Focused exam practice, clear corrections and personal learning progress.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
@@ -29,5 +29,5 @@
       "purpose": "any"
     }
   ],
-  "version": "1.1.0"
+  "version": "2.0.0"
 }
